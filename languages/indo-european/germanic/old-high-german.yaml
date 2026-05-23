@@ -1,0 +1,13 @@
+id: old-high-german
+name: Old High German
+iso639_3: goh
+parents: [proto-west-germanic]
+period:
+  start: 750
+  end: 1050
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_High_German
+notes: |
+  Characterized by the Second (High German) Consonant Shift, distinguishing
+  High German from Low Germanic varieties.

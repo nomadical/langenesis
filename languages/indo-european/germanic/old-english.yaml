@@ -1,0 +1,13 @@
+id: old-english
+name: Old English
+iso639_3: ang
+parents: [proto-west-germanic]
+period:
+  start: 450
+  end: 1150
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_English
+notes: |
+  Anglo-Saxon. The language of Beowulf and the Anglo-Saxon Chronicle.
+  Transitioned to Middle English after the Norman Conquest (1066).

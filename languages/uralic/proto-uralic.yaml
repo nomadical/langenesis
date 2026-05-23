@@ -1,0 +1,14 @@
+id: proto-uralic
+name: Proto-Uralic
+parents: []
+period:
+  start: -4000
+  end: -2500
+  start_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Uralic_language
+notes: |
+  Reconstructed ancestor of the Uralic family — Finno-Ugric (Finnish, Estonian,
+  Hungarian, Sami) and Samoyedic. Likely homeland in the Ural mountains or
+  the western Siberian forest belt.

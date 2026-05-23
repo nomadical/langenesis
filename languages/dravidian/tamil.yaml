@@ -1,0 +1,16 @@
+id: tamil
+name: Tamil
+glottocode: tami1289
+iso639_3: tam
+parents: [old-tamil]
+period:
+  start: 700
+  end: present
+status: living
+speakers: 79000000
+sources:
+  - https://en.wikipedia.org/wiki/Tamil_language
+  - https://glottolog.org/resource/languoid/id/tami1289
+notes: |
+  Covers Middle Tamil (700–1600) and Modern Tamil (1600–present). One of the
+  longest continuously documented literary traditions of any living language.

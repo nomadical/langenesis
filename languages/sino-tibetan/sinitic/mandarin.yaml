@@ -1,0 +1,17 @@
+id: mandarin
+name: Mandarin Chinese
+glottocode: mand1415
+iso639_3: cmn
+parents: [middle-chinese]
+period:
+  start: 1300
+  end: present
+status: living
+speakers: 940000000
+sources:
+  - https://en.wikipedia.org/wiki/Mandarin_Chinese
+  - https://glottolog.org/resource/languoid/id/mand1415
+notes: |
+  Modern Standard Chinese (Putonghua) is based on the Beijing dialect of
+  Northern Mandarin. The Mandarin dialect group diverged from Middle Chinese
+  during the Yuan dynasty (13th–14th c.).

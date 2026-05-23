@@ -1,0 +1,14 @@
+id: classical-arabic
+name: Classical Arabic
+iso639_3: arb
+parents: [proto-semitic]
+period:
+  start: 500
+  end: 1500
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Arabic
+notes: |
+  The Quranic and post-classical literary register, codified in the early
+  Islamic period from the prestige Hijazi dialect. The basis for Modern
+  Standard Arabic.

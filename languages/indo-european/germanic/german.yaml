@@ -1,0 +1,16 @@
+id: german
+name: German
+glottocode: stan1295
+iso639_3: deu
+parents: [middle-high-german]
+period:
+  start: 1350
+  end: present
+status: living
+speakers: 135000000
+sources:
+  - https://en.wikipedia.org/wiki/German_language
+  - https://glottolog.org/resource/languoid/id/stan1295
+notes: |
+  Covers Early New High German (1350–1650) and Modern German (1650–present).
+  Luther's 1522 translation of the New Testament was pivotal in standardization.

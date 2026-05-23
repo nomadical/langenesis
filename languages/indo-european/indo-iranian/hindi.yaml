@@ -1,0 +1,17 @@
+id: hindi
+name: Hindi
+glottocode: hind1269
+iso639_3: hin
+parents: [sanskrit]
+period:
+  start: 1300
+  end: present
+status: living
+speakers: 345000000
+sources:
+  - https://en.wikipedia.org/wiki/Hindi
+  - https://glottolog.org/resource/languoid/id/hind1269
+notes: |
+  Modern Standard Hindi. Simplified descent — historically: Sanskrit → various
+  Prakrits → Apabhraṃśa → Old Hindi (Khariboli) → Modern Hindi. Intermediate
+  stages should be added as separate nodes.

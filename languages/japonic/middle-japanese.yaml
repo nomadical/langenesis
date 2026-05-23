@@ -1,0 +1,14 @@
+id: middle-japanese
+name: Middle Japanese
+parents: [old-japanese]
+period:
+  start: 800
+  end: 1600
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Early_Middle_Japanese
+  - https://en.wikipedia.org/wiki/Late_Middle_Japanese
+notes: |
+  Encompasses Early Middle Japanese (Heian, 794–1185) and Late Middle Japanese
+  (Kamakura through Azuchi-Momoyama, 1185–1600). The language of the Tale of
+  Genji and classical waka poetry.

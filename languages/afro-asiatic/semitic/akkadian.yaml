@@ -1,0 +1,16 @@
+id: akkadian
+name: Akkadian
+glottocode: akka1240
+iso639_3: akk
+parents: [proto-semitic]
+period:
+  start: -2500
+  end: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Akkadian_language
+  - https://glottolog.org/resource/languoid/id/akka1240
+notes: |
+  The East Semitic language of Mesopotamia, written in cuneiform. Encompasses
+  Old Akkadian, Babylonian, and Assyrian. The dominant lingua franca of the
+  ancient Near East for nearly two millennia.

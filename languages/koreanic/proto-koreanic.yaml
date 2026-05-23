@@ -1,0 +1,14 @@
+id: proto-koreanic
+name: Proto-Koreanic
+parents: []
+period:
+  start: -300
+  end: 0
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Koreanic_languages
+notes: |
+  Reconstructed ancestor of the Koreanic family — Korean plus the (now
+  near-extinct) Jeju language. Modern scholarship treats Koreanic as a
+  distinct family, not part of an "Altaic" macro-family with Japonic.

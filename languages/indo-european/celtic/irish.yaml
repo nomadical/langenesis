@@ -1,0 +1,17 @@
+id: irish
+name: Irish
+glottocode: iris1253
+iso639_3: gle
+parents: [old-irish]
+period:
+  start: 1600
+  end: present
+status: living
+speakers: 1700000
+sources:
+  - https://en.wikipedia.org/wiki/Irish_language
+  - https://glottolog.org/resource/languoid/id/iris1253
+notes: |
+  Modern Irish (Gaeilge). Simplified descent — historically: Old Irish (600–
+  900) → Middle Irish (900–1200) → Classical / Early Modern Irish (1200–1600)
+  → Modern Irish. Intermediate stages are not tracked as separate nodes.

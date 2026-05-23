@@ -1,0 +1,17 @@
+id: modern-hebrew
+name: Modern Hebrew
+glottocode: hebr1245
+iso639_3: heb
+parents: [biblical-hebrew]
+period:
+  start: 1880
+  end: present
+status: living
+speakers: 9000000
+sources:
+  - https://en.wikipedia.org/wiki/Modern_Hebrew
+  - https://glottolog.org/resource/languoid/id/hebr1245
+notes: |
+  Revived as a spoken language in the late 19th and early 20th century, led by
+  Eliezer Ben-Yehuda. The ~1700-year gap between Biblical Hebrew and Modern
+  Hebrew shows in the radial tree as a long edge with no intermediate node.

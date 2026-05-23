@@ -1,0 +1,14 @@
+id: old-turkic
+name: Old Turkic
+iso639_3: otk
+parents: [proto-turkic]
+period:
+  start: 550
+  end: 900
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Turkic
+notes: |
+  The earliest attested Turkic, recorded in the Orkhon inscriptions (8th c.)
+  using the Old Turkic script. Language of the First and Second Turkic
+  Khaganates.

@@ -1,0 +1,17 @@
+id: yoruba
+name: Yoruba
+glottocode: yoru1245
+iso639_3: yor
+parents: [proto-niger-congo]
+period:
+  start: 1000
+  end: present
+status: living
+speakers: 47000000
+sources:
+  - https://en.wikipedia.org/wiki/Yoruba_language
+  - https://glottolog.org/resource/languoid/id/yoru1245
+notes: |
+  Member of the Defoid / Yoruboid group within the Volta-Niger branch of
+  Niger-Congo. Simplified descent — intermediate proto-languages (Proto-
+  Volta-Niger, Proto-Yoruboid) not yet tracked separately.

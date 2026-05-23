@@ -1,0 +1,17 @@
+id: swahili
+name: Swahili
+glottocode: swah1253
+iso639_3: swh
+parents: [proto-bantu]
+period:
+  start: 800
+  end: present
+status: living
+speakers: 200000000
+sources:
+  - https://en.wikipedia.org/wiki/Swahili_language
+  - https://glottolog.org/resource/languoid/id/swah1253
+notes: |
+  Bantu language of the East African coast, with substantial Arabic-derived
+  vocabulary from centuries of Indian Ocean trade. Lingua franca across East
+  Africa; speaker count includes both L1 and L2.

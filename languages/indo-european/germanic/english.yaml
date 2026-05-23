@@ -1,0 +1,15 @@
+id: english
+name: English
+glottocode: stan1293
+iso639_3: eng
+parents: [middle-english]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 1500000000
+sources:
+  - https://en.wikipedia.org/wiki/English_language
+  - https://glottolog.org/resource/languoid/id/stan1293
+notes: |
+  Covers Early Modern English (1500–1700) and Modern English (1700–present).

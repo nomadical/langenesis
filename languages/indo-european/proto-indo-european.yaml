@@ -1,0 +1,17 @@
+id: proto-indo-european
+name: Proto-Indo-European
+glottocode: indo1319
+parents: []
+period:
+  start: -4500
+  end: -2500
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Indo-European_language
+  - https://glottolog.org/resource/languoid/id/indo1319
+notes: |
+  Reconstructed common ancestor of the Indo-European family. Dating is contested:
+  Kurgan hypothesis places it ~4500–2500 BCE on the Pontic-Caspian steppe; the
+  Anatolian hypothesis pushes it earlier (~7000 BCE) into Anatolia.

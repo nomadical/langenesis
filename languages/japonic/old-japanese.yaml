@@ -1,0 +1,16 @@
+id: old-japanese
+name: Old Japanese
+glottocode: oldj1239
+iso639_3: ojp
+parents: [proto-japonic]
+period:
+  start: 700
+  end: 800
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Japanese
+  - https://glottolog.org/resource/languoid/id/oldj1239
+notes: |
+  The language of the Nara period (710–794). Attested in the Kojiki, Nihon
+  Shoki, and the Man'yōshū poetry anthology, written in man'yōgana (Chinese
+  characters used phonetically).

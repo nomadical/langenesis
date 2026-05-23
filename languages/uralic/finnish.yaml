@@ -1,0 +1,17 @@
+id: finnish
+name: Finnish
+glottocode: finn1318
+iso639_3: fin
+parents: [proto-uralic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 5400000
+sources:
+  - https://en.wikipedia.org/wiki/Finnish_language
+  - https://glottolog.org/resource/languoid/id/finn1318
+notes: |
+  Member of the Finnic branch (with Estonian, Karelian, etc.). Standardisation
+  began with Mikael Agricola's 1548 New Testament translation. Simplified
+  descent — Proto-Finnic intermediate not yet tracked separately.

@@ -1,0 +1,12 @@
+id: proto-west-germanic
+name: Proto-West-Germanic
+parents: [proto-germanic]
+period:
+  start: 200
+  end: 700
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-West-Germanic_language
+notes: |
+  Reconstructed common ancestor of the West Germanic languages, including
+  English, Frisian, Dutch, and German.

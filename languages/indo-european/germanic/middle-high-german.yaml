@@ -1,0 +1,12 @@
+id: middle-high-german
+name: Middle High German
+iso639_3: gmh
+parents: [old-high-german]
+period:
+  start: 1050
+  end: 1350
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_High_German
+notes: |
+  The language of the Nibelungenlied and courtly Minnesang poetry.

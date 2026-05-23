@@ -1,0 +1,17 @@
+id: korean
+name: Korean
+glottocode: kore1280
+iso639_3: kor
+parents: [middle-korean]
+period:
+  start: 1600
+  end: present
+status: living
+speakers: 81000000
+sources:
+  - https://en.wikipedia.org/wiki/Korean_language
+  - https://glottolog.org/resource/languoid/id/kore1280
+notes: |
+  Covers Early Modern Korean (1600–1900) and Modern Korean (1900–present).
+  North and South Korean standards have diverged somewhat in vocabulary and
+  pronunciation since 1945 but remain mutually intelligible.

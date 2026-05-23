@@ -1,0 +1,13 @@
+id: proto-hellenic
+name: Proto-Hellenic
+parents: [proto-indo-european]
+period:
+  start: -2200
+  end: -1500
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Hellenic_language
+notes: |
+  Reconstructed ancestor of all Hellenic varieties. Distinct from PIE by the
+  early-mid Bronze Age, prior to the Mycenaean Greek period.

@@ -1,0 +1,13 @@
+id: modern-greek
+name: Modern Greek
+glottocode: mode1248
+iso639_3: ell
+parents: [medieval-greek]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 13500000
+sources:
+  - https://en.wikipedia.org/wiki/Modern_Greek
+  - https://glottolog.org/resource/languoid/id/mode1248

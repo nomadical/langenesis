@@ -1,0 +1,12 @@
+id: old-spanish
+name: Old Spanish
+parents: [vulgar-latin]
+period:
+  start: 800
+  end: 1500
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Spanish
+notes: |
+  Old Castilian / medieval Spanish, attested from the 10th century. Transitioned
+  into Early Modern Spanish around the late 15th century.

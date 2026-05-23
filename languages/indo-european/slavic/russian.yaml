@@ -1,0 +1,13 @@
+id: russian
+name: Russian
+glottocode: russ1263
+iso639_3: rus
+parents: [old-east-slavic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 258000000
+sources:
+  - https://en.wikipedia.org/wiki/Russian_language
+  - https://glottolog.org/resource/languoid/id/russ1263

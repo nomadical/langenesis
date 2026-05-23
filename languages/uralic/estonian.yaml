@@ -1,0 +1,16 @@
+id: estonian
+name: Estonian
+glottocode: esto1258
+iso639_3: ekk
+parents: [proto-uralic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 1100000
+sources:
+  - https://en.wikipedia.org/wiki/Estonian_language
+  - https://glottolog.org/resource/languoid/id/esto1258
+notes: |
+  Finnic branch. Closely related to Finnish but mutually only partially
+  intelligible. Standardised through religious texts from the 16th c. onwards.

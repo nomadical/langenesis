@@ -1,0 +1,68 @@
+name: Add a language
+description: Propose a new language node — modern language, historical stage, or proto-language
+title: "Add: [language name]"
+labels: ["data", "add-language"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Language name
+      placeholder: e.g. Catalan, Old Norse, Proto-Mongolic
+    validations:
+      required: true
+
+  - type: input
+    id: family
+    attributes:
+      label: Family
+      description: Top-level family this belongs to (must exist already, or open a separate issue to add it).
+      placeholder: indo-european / sino-tibetan / ...
+    validations:
+      required: true
+
+  - type: input
+    id: parent
+    attributes:
+      label: Parent node id
+      description: The existing node this should descend from (slug from an existing YAML).
+      placeholder: vulgar-latin
+    validations:
+      required: true
+
+  - type: input
+    id: period
+    attributes:
+      label: Period (years)
+      description: Start year — end year. Negative for BCE. Use "present" for living languages.
+      placeholder: "1200 – present"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - living
+        - classical
+        - extinct
+        - reconstructed
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: At least one URL is required. Wikipedia + Glottolog is a good default.
+      placeholder: |
+        https://en.wikipedia.org/wiki/...
+        https://glottolog.org/resource/languoid/id/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Anything contested? Why these dates? Are there historical stages we should add too?

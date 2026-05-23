@@ -1,0 +1,17 @@
+id: italian
+name: Italian
+glottocode: ital1282
+iso639_3: ita
+parents: [vulgar-latin]
+period:
+  start: 1300
+  end: present
+status: living
+speakers: 67000000
+sources:
+  - https://en.wikipedia.org/wiki/Italian_language
+  - https://glottolog.org/resource/languoid/id/ital1282
+notes: |
+  The Tuscan dialect of Old Italian, elevated by Dante, Petrarch, and Boccaccio
+  in the 14th century, became the basis of standard Italian after unification
+  in 1861.

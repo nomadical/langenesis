@@ -1,0 +1,13 @@
+id: middle-english
+name: Middle English
+iso639_3: enm
+parents: [old-english]
+period:
+  start: 1150
+  end: 1500
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_English
+notes: |
+  The language of Chaucer. Heavy Norman French and Latin influence; loss of
+  inflectional endings. Transitioned to Early Modern English around 1500.

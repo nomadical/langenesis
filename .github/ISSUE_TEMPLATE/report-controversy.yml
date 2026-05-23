@@ -1,0 +1,33 @@
+name: Report a controversy
+description: Flag a node whose classification or dating is academically disputed and isn't yet noted
+title: "Controversy: [node]"
+labels: ["data", "controversy"]
+body:
+  - type: input
+    id: node
+    attributes:
+      label: Node id
+    validations:
+      required: true
+
+  - type: textarea
+    id: dispute
+    attributes:
+      label: What's disputed
+      description: Multiple competing dates? Disputed parent? Disputed family membership?
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources representing the competing views
+      description: Try to cite both/all sides.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested handling
+      description: How should we represent this in the YAML? (Usually — pick the most-cited estimate, increase `start_uncertainty`, and document the alternatives in `notes:`.)

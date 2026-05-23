@@ -1,0 +1,12 @@
+id: medieval-greek
+name: Medieval Greek
+parents: [koine-greek]
+period:
+  start: 600
+  end: 1500
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Medieval_Greek
+notes: |
+  Byzantine Greek. Continuous evolution from Koine, with major sound changes
+  (iotacism) and grammatical simplification.

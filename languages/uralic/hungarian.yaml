@@ -1,0 +1,17 @@
+id: hungarian
+name: Hungarian
+glottocode: hung1274
+iso639_3: hun
+parents: [proto-uralic]
+period:
+  start: 900
+  end: present
+status: living
+speakers: 14000000
+sources:
+  - https://en.wikipedia.org/wiki/Hungarian_language
+  - https://glottolog.org/resource/languoid/id/hung1274
+notes: |
+  Ugric branch — distantly related to Khanty and Mansi in western Siberia.
+  Carried into the Carpathian Basin by Magyar migration ~895 CE. Earliest
+  records ~1100 CE.

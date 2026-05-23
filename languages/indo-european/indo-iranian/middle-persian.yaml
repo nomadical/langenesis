@@ -1,0 +1,15 @@
+id: middle-persian
+name: Middle Persian
+glottocode: pahl1241
+iso639_3: pal
+parents: [old-persian]
+period:
+  start: -300
+  end: 900
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Persian
+  - https://glottolog.org/resource/languoid/id/pahl1241
+notes: |
+  Also known as Pahlavi. Official language of the Sasanian Empire (224–651 CE);
+  the language of much Zoroastrian religious literature.

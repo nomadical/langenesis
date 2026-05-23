@@ -1,0 +1,15 @@
+id: ancient-greek
+name: Ancient Greek
+glottocode: anci1242
+iso639_3: grc
+parents: [proto-hellenic]
+period:
+  start: -1500
+  end: -300
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Ancient_Greek
+  - https://glottolog.org/resource/languoid/id/anci1242
+notes: |
+  Encompasses Mycenaean (~1500–1100 BCE), the Dark Age, Archaic, and Classical
+  periods. Multiple dialects: Attic, Ionic, Doric, Aeolic.

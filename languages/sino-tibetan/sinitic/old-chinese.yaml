@@ -1,0 +1,15 @@
+id: old-chinese
+name: Old Chinese
+glottocode: oldc1244
+iso639_3: och
+parents: [proto-sinitic]
+period:
+  start: -1250
+  end: 25
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Chinese
+  - https://glottolog.org/resource/languoid/id/oldc1244
+notes: |
+  Spanning Shang oracle bones through the end of the Han dynasty. Includes
+  Early Old Chinese (Shang-Western Zhou) and Late Old Chinese (Eastern Zhou-Han).

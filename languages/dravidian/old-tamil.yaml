@@ -1,0 +1,14 @@
+id: old-tamil
+name: Old Tamil
+iso639_3: oty
+parents: [proto-dravidian]
+period:
+  start: -300
+  end: 700
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Tamil_language
+notes: |
+  Earliest attested Dravidian language. The Sangam literature corpus
+  (~300 BCE – 300 CE) provides the largest body of evidence. Tamil-Brahmi
+  inscriptions go back to ~300 BCE.

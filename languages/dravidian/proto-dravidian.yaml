@@ -1,0 +1,14 @@
+id: proto-dravidian
+name: Proto-Dravidian
+parents: []
+period:
+  start: -4000
+  end: -2500
+  start_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Dravidian_language
+notes: |
+  Reconstructed ancestor of the Dravidian family, spoken across South Asia.
+  Possible link to the Indus Valley Civilisation is debated. Modern Dravidian
+  has four main branches: South, South-Central, Central, North.

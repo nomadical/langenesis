@@ -1,0 +1,17 @@
+id: polish
+name: Polish
+glottocode: poli1260
+iso639_3: pol
+parents: [proto-slavic]
+period:
+  start: 1100
+  end: present
+status: living
+speakers: 41000000
+sources:
+  - https://en.wikipedia.org/wiki/Polish_language
+  - https://glottolog.org/resource/languoid/id/poli1260
+notes: |
+  Member of the West Slavic branch (Lechitic sub-group). Earliest written
+  records ~12th c. (Bull of Gniezno). Standardised by the 16th c. with the
+  rise of vernacular literature.

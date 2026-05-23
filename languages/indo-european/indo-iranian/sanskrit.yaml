@@ -1,0 +1,15 @@
+id: sanskrit
+name: Sanskrit
+glottocode: sans1269
+iso639_3: san
+parents: [proto-indo-iranian]
+period:
+  start: -1500
+  end: 600
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Sanskrit
+  - https://glottolog.org/resource/languoid/id/sans1269
+notes: |
+  Encompasses Vedic Sanskrit (~1500–500 BCE) and Classical Sanskrit (~500 BCE
+  onward, codified by Pāṇini's Aṣṭādhyāyī around 400 BCE). Still used liturgically.

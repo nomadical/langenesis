@@ -1,0 +1,13 @@
+id: proto-italic
+name: Proto-Italic
+parents: [proto-indo-european]
+period:
+  start: -1500
+  end: -700
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Italic_language
+notes: |
+  Reconstructed common ancestor of the Italic languages, including the
+  Latino-Faliscan and Osco-Umbrian branches.

@@ -1,0 +1,17 @@
+id: persian
+name: Persian
+glottocode: fars1254
+iso639_3: pes
+parents: [middle-persian]
+period:
+  start: 900
+  end: present
+status: living
+speakers: 80000000
+sources:
+  - https://en.wikipedia.org/wiki/Persian_language
+  - https://glottolog.org/resource/languoid/id/fars1254
+notes: |
+  New Persian (Fārsi). Covers Early New Persian (9th–13th c., language of
+  Ferdowsi's Shahnameh and Rumi) and Modern Persian. Three modern standards:
+  Iranian Persian (Farsi), Afghan Persian (Dari), Tajik Persian (Tajiki).

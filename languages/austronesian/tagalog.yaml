@@ -1,0 +1,17 @@
+id: tagalog
+name: Tagalog
+glottocode: taga1280
+iso639_3: tgl
+parents: [proto-malayo-polynesian]
+period:
+  start: 900
+  end: present
+status: living
+speakers: 82000000
+sources:
+  - https://en.wikipedia.org/wiki/Tagalog_language
+  - https://glottolog.org/resource/languoid/id/taga1280
+notes: |
+  The basis of Filipino, the national language of the Philippines. Earliest
+  attestation is the Laguna Copperplate Inscription (~900 CE). Speaker count
+  includes Filipino L2 speakers.

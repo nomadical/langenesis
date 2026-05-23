@@ -1,0 +1,16 @@
+id: uzbek
+name: Uzbek
+glottocode: nort2690
+iso639_3: uzn
+parents: [old-turkic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 34000000
+sources:
+  - https://en.wikipedia.org/wiki/Uzbek_language
+  - https://glottolog.org/resource/languoid/id/nort2690
+notes: |
+  Member of the Karluk (southeastern) branch. Descended from Chagatai, the
+  literary Turkic language of Central Asia.

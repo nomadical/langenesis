@@ -1,0 +1,14 @@
+id: proto-germanic
+name: Proto-Germanic
+parents: [proto-indo-european]
+period:
+  start: -500
+  end: 500
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Germanic_language
+notes: |
+  Reconstructed ancestor of the Germanic languages, after the operation of
+  Grimm's Law. Diversification into West, North, and East Germanic is dated to
+  roughly the early centuries CE.

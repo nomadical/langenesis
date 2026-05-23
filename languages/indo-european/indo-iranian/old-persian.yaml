@@ -1,0 +1,16 @@
+id: old-persian
+name: Old Persian
+glottocode: oldp1254
+iso639_3: peo
+parents: [proto-iranian]
+period:
+  start: -550
+  end: -330
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Persian
+  - https://glottolog.org/resource/languoid/id/oldp1254
+notes: |
+  Recorded in the cuneiform inscriptions of the Achaemenid Empire (Darius I,
+  Xerxes), most famously at Behistun. Used alongside Elamite and Babylonian
+  as one of the three administrative languages.

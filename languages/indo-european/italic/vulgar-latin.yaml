@@ -1,0 +1,13 @@
+id: vulgar-latin
+name: Vulgar Latin
+parents: [latin]
+period:
+  start: 300
+  end: 800
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Vulgar_Latin
+notes: |
+  The colloquial sociolect of Latin spoken across the late Roman Empire,
+  ancestral to the Romance languages. Endpoint is conventional — the transition
+  to recognizable Old Romance varieties was gradual.

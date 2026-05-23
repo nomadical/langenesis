@@ -1,0 +1,17 @@
+id: tibetan
+name: Tibetan
+glottocode: tibe1272
+iso639_3: bod
+parents: [proto-tibeto-burman]
+period:
+  start: 700
+  end: present
+status: living
+speakers: 6000000
+sources:
+  - https://en.wikipedia.org/wiki/Standard_Tibetan
+  - https://glottolog.org/resource/languoid/id/tibe1272
+notes: |
+  Simplified descent — historically: Proto-Tibeto-Burman → Old Tibetan
+  (7th-9th c.) → Classical Tibetan (literary) → modern spoken dialects
+  (Standard / Lhasa Tibetan, Amdo, Khams).

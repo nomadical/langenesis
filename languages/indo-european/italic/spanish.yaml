@@ -1,0 +1,13 @@
+id: spanish
+name: Spanish
+glottocode: stan1288
+iso639_3: spa
+parents: [old-spanish]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 485000000
+sources:
+  - https://en.wikipedia.org/wiki/Spanish_language
+  - https://glottolog.org/resource/languoid/id/stan1288

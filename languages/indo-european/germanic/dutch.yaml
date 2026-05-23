@@ -1,0 +1,17 @@
+id: dutch
+name: Dutch
+glottocode: dutc1256
+iso639_3: nld
+parents: [proto-west-germanic]
+period:
+  start: 1150
+  end: present
+status: living
+speakers: 25000000
+sources:
+  - https://en.wikipedia.org/wiki/Dutch_language
+  - https://glottolog.org/resource/languoid/id/dutc1256
+notes: |
+  Simplified descent — historically: Proto-West-Germanic → Old Dutch (Old Low
+  Franconian, 500–1150) → Middle Dutch (1150–1500) → Modern Dutch. The
+  intermediate stages are not tracked as separate nodes.

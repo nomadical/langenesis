@@ -1,0 +1,17 @@
+id: hawaiian
+name: Hawaiian
+glottocode: hawa1245
+iso639_3: haw
+parents: [proto-malayo-polynesian]
+period:
+  start: 1200
+  end: present
+status: living
+speakers: 24000
+sources:
+  - https://en.wikipedia.org/wiki/Hawaiian_language
+  - https://glottolog.org/resource/languoid/id/hawa1245
+notes: |
+  Eastern Polynesian language brought to Hawaiʻi during Polynesian voyaging
+  expansion (~1000–1200 CE). Nearly extinct by the mid-20th century, now in
+  active revival.

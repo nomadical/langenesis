@@ -1,0 +1,16 @@
+id: proto-niger-congo
+name: Proto-Niger-Congo
+parents: []
+period:
+  start: -10000
+  end: -7000
+  start_uncertainty: 2000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages
+notes: |
+  Reconstructed ancestor of the Niger-Congo family — by some counts the world's
+  largest language family by number of languages (~1500). The grouping itself
+  and its dating are both contested; estimates of the proto-language range
+  from -12000 BCE down to -8000 BCE.

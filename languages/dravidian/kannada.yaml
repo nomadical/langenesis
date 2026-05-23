@@ -1,0 +1,17 @@
+id: kannada
+name: Kannada
+glottocode: nucl1305
+iso639_3: kan
+parents: [proto-dravidian]
+period:
+  start: 450
+  end: present
+status: living
+speakers: 44000000
+sources:
+  - https://en.wikipedia.org/wiki/Kannada
+  - https://glottolog.org/resource/languoid/id/nucl1305
+notes: |
+  Southern Dravidian. Earliest inscription is the Halmidi inscription
+  (~450 CE). Covers Old, Middle, and Modern Kannada — intermediate stages
+  not yet tracked separately.

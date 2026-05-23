@@ -1,0 +1,17 @@
+id: kazakh
+name: Kazakh
+glottocode: kaza1248
+iso639_3: kaz
+parents: [old-turkic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 13000000
+sources:
+  - https://en.wikipedia.org/wiki/Kazakh_language
+  - https://glottolog.org/resource/languoid/id/kaza1248
+notes: |
+  Member of the Kipchak (northwestern) branch. Standardised in the early
+  20th century. Switching from Cyrillic to a Latin-based script (planned
+  completion 2031).

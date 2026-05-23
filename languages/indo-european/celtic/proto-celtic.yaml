@@ -1,0 +1,14 @@
+id: proto-celtic
+name: Proto-Celtic
+parents: [proto-indo-european]
+period:
+  start: -1200
+  end: -800
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Celtic_language
+notes: |
+  Reconstructed ancestor of the Celtic branch — Continental Celtic (Gaulish,
+  Celtiberian, all extinct) and Insular Celtic (Goidelic: Irish, Scottish
+  Gaelic, Manx; Brittonic: Welsh, Breton, Cornish).

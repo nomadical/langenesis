@@ -1,0 +1,12 @@
+id: koine-greek
+name: Koine Greek
+parents: [ancient-greek]
+period:
+  start: -300
+  end: 600
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Koine_Greek
+notes: |
+  The "common" Greek of the Hellenistic and Roman periods, based on Attic. The
+  language of the New Testament and the Septuagint.

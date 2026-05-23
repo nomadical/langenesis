@@ -1,0 +1,18 @@
+id: arabic
+name: Arabic
+glottocode: stan1318
+iso639_3: arb
+parents: [classical-arabic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 400000000
+sources:
+  - https://en.wikipedia.org/wiki/Arabic
+  - https://glottolog.org/resource/languoid/id/stan1318
+notes: |
+  Modern Standard Arabic (MSA), the literary and formal register. Spoken
+  Arabic varieties (Egyptian, Levantine, Maghrebi, Gulf, etc.) are mutually
+  divergent and are sometimes treated as separate languages; they are not
+  tracked here as separate nodes.

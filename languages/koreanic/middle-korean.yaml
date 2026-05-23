@@ -1,0 +1,16 @@
+id: middle-korean
+name: Middle Korean
+glottocode: midd1372
+iso639_3: okm
+parents: [proto-koreanic]
+period:
+  start: 900
+  end: 1600
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Korean
+  - https://glottolog.org/resource/languoid/id/midd1372
+notes: |
+  Encompasses Early Middle Korean (Goryeo, 918–1392) and Late Middle Korean
+  (Joseon to ~1600). The invention of Hangul (1443) provides the first
+  phonetically faithful records of Korean.

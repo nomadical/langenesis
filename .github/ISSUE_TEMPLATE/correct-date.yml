@@ -1,0 +1,28 @@
+name: Correct a date or detail
+description: Point out a wrong period, wrong parent, missing glottocode, or other factual error
+title: "Fix: [language] — [what's wrong]"
+labels: ["data", "correction"]
+body:
+  - type: input
+    id: node
+    attributes:
+      label: Node id
+      description: The slug from the YAML file (e.g. `old-english`, `mandarin`).
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong
+      description: What does the current YAML say, and what should it say?
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources for the correction
+      description: At least one URL or citation.
+    validations:
+      required: true

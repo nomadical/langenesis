@@ -1,0 +1,16 @@
+id: proto-afro-asiatic
+name: Proto-Afro-Asiatic
+parents: []
+period:
+  start: -10000
+  end: -7000
+  start_uncertainty: 3000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Afroasiatic_language
+notes: |
+  Reconstructed common ancestor of Afro-Asiatic — Semitic, Egyptian, Berber,
+  Cushitic, Chadic, Omotic. Dating is highly disputed; estimates range from
+  -16000 BCE down to -8000 BCE. Urheimat is similarly contested (Levant vs.
+  Horn of Africa vs. Sahara).

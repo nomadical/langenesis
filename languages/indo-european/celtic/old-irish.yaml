@@ -1,0 +1,16 @@
+id: old-irish
+name: Old Irish
+glottocode: oldi1245
+iso639_3: sga
+parents: [proto-celtic]
+period:
+  start: 600
+  end: 900
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Irish
+  - https://glottolog.org/resource/languoid/id/oldi1245
+notes: |
+  The earliest fully attested Goidelic Celtic language, found in glosses,
+  legal texts, and saga literature. Predecessor of Middle Irish, Modern Irish,
+  Scottish Gaelic, and Manx.

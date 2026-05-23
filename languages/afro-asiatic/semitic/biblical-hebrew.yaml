@@ -1,0 +1,14 @@
+id: biblical-hebrew
+name: Biblical Hebrew
+iso639_3: hbo
+parents: [proto-semitic]
+period:
+  start: -1200
+  end: 200
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Biblical_Hebrew
+notes: |
+  The Canaanite language of the Hebrew Bible. Ceased to be a spoken everyday
+  language around 200 CE; survived as a liturgical/literary language until the
+  late-19th-century revival.

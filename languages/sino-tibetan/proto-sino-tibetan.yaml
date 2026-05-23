@@ -1,0 +1,15 @@
+id: proto-sino-tibetan
+name: Proto-Sino-Tibetan
+parents: []
+period:
+  start: -4000
+  end: -2500
+  start_uncertainty: 1500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Sino-Tibetan_language
+notes: |
+  Reconstructed common ancestor of the Sino-Tibetan (Trans-Himalayan) family.
+  Dating is contested: Sagart et al. (2019) propose ~4500 BCE in the upper-middle
+  Yellow River basin; other estimates push it back to ~7000 BCE.

@@ -1,0 +1,16 @@
+id: cantonese
+name: Cantonese
+glottocode: yuec1235
+iso639_3: yue
+parents: [middle-chinese]
+period:
+  start: 1000
+  end: present
+status: living
+speakers: 85000000
+sources:
+  - https://en.wikipedia.org/wiki/Cantonese
+  - https://glottolog.org/resource/languoid/id/yuec1235
+notes: |
+  Member of the Yue branch of Sinitic, traditionally said to preserve features
+  of Middle Chinese lost in Mandarin (e.g. final stops, more tones).

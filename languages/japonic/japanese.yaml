@@ -1,0 +1,17 @@
+id: japanese
+name: Japanese
+glottocode: nucl1643
+iso639_3: jpn
+parents: [middle-japanese]
+period:
+  start: 1600
+  end: present
+status: living
+speakers: 125000000
+sources:
+  - https://en.wikipedia.org/wiki/Japanese_language
+  - https://glottolog.org/resource/languoid/id/nucl1643
+notes: |
+  Covers Early Modern Japanese (Edo, 1600–1868) and Modern Japanese
+  (Meiji onwards), unified by the gembun-itchi movement of the late 19th c.
+  that brought the literary register closer to colloquial Tokyo speech.

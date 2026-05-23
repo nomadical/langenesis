@@ -1,0 +1,16 @@
+id: middle-chinese
+name: Middle Chinese
+glottocode: midd1344
+iso639_3: ltc
+parents: [old-chinese]
+period:
+  start: 25
+  end: 1000
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Chinese
+  - https://glottolog.org/resource/languoid/id/midd1344
+notes: |
+  Standard reconstructed form for the Sui-Tang-Song period. The Qieyun (601 CE)
+  rhyme dictionary anchors the reconstruction. Ancestral to all modern Sinitic
+  varieties.

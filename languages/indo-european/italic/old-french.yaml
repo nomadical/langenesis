@@ -1,0 +1,12 @@
+id: old-french
+name: Old French
+parents: [vulgar-latin]
+period:
+  start: 800
+  end: 1400
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_French
+notes: |
+  Gallo-Romance period bridging Vulgar Latin and Middle French. Earliest text
+  is the Oaths of Strasbourg (842 CE).

@@ -1,0 +1,16 @@
+id: zulu
+name: Zulu
+glottocode: zulu1248
+iso639_3: zul
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 28000000
+sources:
+  - https://en.wikipedia.org/wiki/Zulu_language
+  - https://glottolog.org/resource/languoid/id/zulu1248
+notes: |
+  Southern Bantu (Nguni group). Most-spoken home language in South Africa.
+  Speaker count includes L1 and L2.

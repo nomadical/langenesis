@@ -1,0 +1,15 @@
+id: proto-austronesian
+name: Proto-Austronesian
+parents: []
+period:
+  start: -3500
+  end: -2500
+  start_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Austronesian_language
+notes: |
+  Reconstructed ancestor of the Austronesian family — ~1250 languages spanning
+  Taiwan, Maritime Southeast Asia, Madagascar, and the Pacific. Standardly
+  placed in Taiwan ~3500 BCE (Bellwood / Blust) with the "Out of Taiwan"
+  expansion beginning ~3000 BCE.

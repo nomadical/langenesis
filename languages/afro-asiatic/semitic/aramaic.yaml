@@ -1,0 +1,14 @@
+id: aramaic
+name: Aramaic
+parents: [proto-semitic]
+period:
+  start: -900
+  end: 700
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Aramaic
+notes: |
+  Spans Old Aramaic, Imperial Aramaic (Achaemenid administrative lingua franca),
+  Middle Aramaic (incl. Jewish Palestinian and Syriac), and Late Aramaic. Modern
+  Neo-Aramaic varieties (~1M speakers) descend from Late Aramaic but are not
+  tracked here as a separate node.

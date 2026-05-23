@@ -1,0 +1,16 @@
+id: burmese
+name: Burmese
+glottocode: nucl1310
+iso639_3: mya
+parents: [proto-tibeto-burman]
+period:
+  start: 1100
+  end: present
+status: living
+speakers: 33000000
+sources:
+  - https://en.wikipedia.org/wiki/Burmese_language
+  - https://glottolog.org/resource/languoid/id/nucl1310
+notes: |
+  Simplified descent — historically: Proto-Tibeto-Burman → Proto-Lolo-Burmese
+  → Old Burmese (11th-16th c.) → Modern Burmese.

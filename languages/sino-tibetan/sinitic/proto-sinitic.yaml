@@ -1,0 +1,13 @@
+id: proto-sinitic
+name: Proto-Sinitic
+parents: [proto-sino-tibetan]
+period:
+  start: -1500
+  end: -1250
+  start_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Old_Chinese#Proto-Sinitic
+notes: |
+  Hypothesised ancestor of the Sinitic (Chinese) branch, immediately preceding
+  the earliest attested Old Chinese of the Shang dynasty oracle bones.

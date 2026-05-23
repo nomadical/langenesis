@@ -1,0 +1,18 @@
+id: maori
+name: Māori
+glottocode: maor1246
+iso639_3: mri
+parents: [proto-malayo-polynesian]
+period:
+  start: 1300
+  end: present
+status: living
+speakers: 185000
+sources:
+  - https://en.wikipedia.org/wiki/M%C4%81ori_language
+  - https://glottolog.org/resource/languoid/id/maor1246
+notes: |
+  Eastern Polynesian language brought to Aotearoa (New Zealand) by Polynesian
+  settlers around 1300 CE. Simplified descent — Proto-Malayo-Polynesian →
+  Proto-Oceanic → Proto-Polynesian → Eastern Polynesian → Māori. Intermediate
+  nodes not yet tracked.
