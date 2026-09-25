@@ -1,0 +1,15 @@
+id: oromo
+name: Oromo
+iso639_3: orm
+parents: [proto-east-cushitic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 37000000
+sources:
+  - https://en.wikipedia.org/wiki/Oromo_language
+notes: |
+  Lowland East Cushitic; the most widely spoken Cushitic language, in Ethiopia
+  and northern Kenya. A macrolanguage (orm) grouping several varieties.

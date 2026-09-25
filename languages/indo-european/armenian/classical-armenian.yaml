@@ -1,0 +1,14 @@
+id: classical-armenian
+name: Classical Armenian
+iso639_3: xcl
+parents: [proto-armenian]
+period:
+  start: 405
+  end: 1100
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Armenian
+notes: |
+  Grabar. Written from the creation of the Armenian alphabet by Mesrop Mashtots
+  (c. 405); still the liturgical language of the Armenian Church.

@@ -1,0 +1,15 @@
+id: palaic
+name: Palaic
+iso639_3: plq
+parents: [proto-anatolian]
+period:
+  start: -1600
+  end: -1200
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Palaic_language
+notes: |
+  Known only from ritual passages in Hittite archives; probably extinct before
+  the fall of the Hittite Empire.

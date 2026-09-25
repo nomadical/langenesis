@@ -1,0 +1,15 @@
+id: arrernte
+name: Arrernte
+parents: [proto-pama-nyungan]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 4000
+sources:
+  - https://en.wikipedia.org/wiki/Arrernte_language
+notes: |
+  Arandic dialect cluster around Alice Springs; Eastern/Central Arrernte (ISO
+  aer) is the largest variety. Start date is nominal; intermediate subgroups
+  are not tracked.

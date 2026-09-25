@@ -1,0 +1,14 @@
+id: proto-armenian
+name: Proto-Armenian
+parents: [proto-indo-european]
+period:
+  start: -1200
+  end: 400
+  start_uncertainty: 300
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Armenian_language
+notes: |
+  Reconstructed ancestor of Armenian; possibly closest to Greek (Graeco-Armenian
+  hypothesis, contested).

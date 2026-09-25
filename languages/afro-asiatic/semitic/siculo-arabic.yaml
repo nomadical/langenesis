@@ -1,0 +1,16 @@
+id: siculo-arabic
+name: Siculo-Arabic
+iso639_3: sqr
+parents: [classical-arabic]
+period:
+  start: 900
+  end: 1300
+  start_uncertainty: 50
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Siculo-Arabic
+notes: |
+  Arabic of Sicily and Malta under Muslim rule (from 831 CE), derived from
+  Ifriqiyan (Tunisian) Arabic. Died out in Sicily after the Norman conquest;
+  survives as Maltese.

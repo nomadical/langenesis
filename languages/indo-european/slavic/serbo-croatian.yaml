@@ -1,0 +1,18 @@
+id: serbo-croatian
+name: Serbo-Croatian
+glottocode: sout1528
+iso639_3: hbs
+parents: [proto-south-slavic]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 17000000
+sources:
+  - https://en.wikipedia.org/wiki/Serbo-Croatian
+  - https://glottolog.org/resource/languoid/id/sout1528
+notes: |
+  Western South Slavic pluricentric language with Serbian, Croatian, Bosnian and
+  Montenegrin standards, shown here as one node. Earliest vernacular monument is
+  the Baška tablet (c. 1100).

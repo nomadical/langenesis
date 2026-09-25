@@ -1,0 +1,16 @@
+id: welsh
+name: Welsh
+glottocode: wels1247
+iso639_3: cym
+parents: [middle-welsh]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 540000
+sources:
+  - https://en.wikipedia.org/wiki/Welsh_language
+  - https://glottolog.org/resource/languoid/id/wels1247
+notes: |
+  Modern Welsh; the 1588 Bible translation shaped the literary standard. Speaker
+  figure is the 2021 census count (age 3+).

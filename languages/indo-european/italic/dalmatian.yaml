@@ -1,0 +1,16 @@
+id: dalmatian
+name: Dalmatian
+glottocode: dalm1243
+iso639_3: dlm
+parents: [vulgar-latin]
+period:
+  start: 800
+  end: 1898
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Dalmatian_language
+  - https://glottolog.org/resource/languoid/id/dalm1243
+notes: |
+  Romance language of the Dalmatian coast. Its last speaker, Tuone Udaina
+  (Veglia dialect), died in 1898.

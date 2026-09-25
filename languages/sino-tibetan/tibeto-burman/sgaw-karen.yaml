@@ -1,0 +1,17 @@
+id: sgaw-karen
+name: Sgaw Karen
+glottocode: sgaw1245
+iso639_3: ksw
+parents: [proto-tibeto-burman]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/S%27gaw_Karen_language
+  - https://glottolog.org/resource/languoid/id/sgaw1245
+notes: |
+  Largest Karenic language, spoken in Myanmar and Thailand. Karenic has SVO
+  order, unusual in Tibeto-Burman; its position in the family is contested.

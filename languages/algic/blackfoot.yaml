@@ -1,0 +1,15 @@
+id: blackfoot
+name: Blackfoot
+glottocode: siks1238
+iso639_3: bla
+parents: [proto-algonquian]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Blackfoot_language
+  - https://glottolog.org/resource/languoid/id/siks1238
+notes: |
+  Spoken in Alberta and Montana. The most divergent Algonquian language; it is
+  usually treated as its own branch.

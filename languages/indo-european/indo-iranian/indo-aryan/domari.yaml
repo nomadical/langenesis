@@ -1,0 +1,15 @@
+id: domari
+name: Domari
+iso639_3: rmt
+parents: [shauraseni-prakrit]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Domari_language
+notes: |
+  Language of the Dom of the Middle East and North Africa. Once thought a sister of
+  Romani; now usually considered an independent Central Indo-Aryan migration.
+  Endangered.

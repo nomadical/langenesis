@@ -1,0 +1,14 @@
+id: parthian
+name: Parthian
+iso639_3: xpr
+parents: [proto-iranian]
+period:
+  start: -250
+  end: 500
+  start_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Parthian_language
+notes: |
+  Northwestern Middle Iranian of the Arsacid Empire; also a Manichaean literary
+  language. Descent from Median is plausible but unproven.

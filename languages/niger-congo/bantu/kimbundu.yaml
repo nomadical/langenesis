@@ -1,0 +1,15 @@
+id: kimbundu
+name: Kimbundu
+iso639_3: kmb
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1700000
+sources:
+  - https://en.wikipedia.org/wiki/Kimbundu_language
+notes: |
+  Western Bantu (Guthrie H21) language of northern Angola around Luanda, a major source
+  of Bantu loanwords in Brazilian Portuguese.

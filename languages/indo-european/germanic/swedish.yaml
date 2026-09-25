@@ -1,0 +1,16 @@
+id: swedish
+name: Swedish
+glottocode: swed1254
+iso639_3: swe
+parents: [old-swedish]
+period:
+  start: 1526
+  end: present
+status: living
+speakers: 10000000
+sources:
+  - https://en.wikipedia.org/wiki/Swedish_language
+  - https://glottolog.org/resource/languoid/id/swed1254
+notes: |
+  East Scandinavian. Modern standard traces back to the Gustav Vasa Bible
+  (1541).

@@ -1,0 +1,15 @@
+id: duala
+name: Duala
+iso639_3: dua
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 90000
+sources:
+  - https://en.wikipedia.org/wiki/Duala_language
+notes: |
+  Northwest Bantu (Guthrie A24) language of coastal Cameroon, close to the Bantu homeland;
+  historically a regional trade language.

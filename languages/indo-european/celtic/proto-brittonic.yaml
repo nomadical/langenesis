@@ -1,0 +1,14 @@
+id: proto-brittonic
+name: Common Brittonic
+parents: [proto-celtic]
+period:
+  start: -500
+  end: 550
+  start_uncertainty: 200
+  end_uncertainty: 50
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Common_Brittonic
+notes: |
+  Ancestor of Welsh, Cornish, Breton and Cumbric, spoken across most of Britain
+  before Anglo-Saxon settlement.

@@ -1,0 +1,16 @@
+id: mansi
+name: Mansi
+glottocode: mans1258
+iso639_3: mns
+parents: [proto-ugric]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1000
+sources:
+  - https://en.wikipedia.org/wiki/Mansi_language
+  - https://glottolog.org/resource/languoid/id/mans1258
+notes: |
+  Ob-Ugric language of western Siberia, critically endangered.

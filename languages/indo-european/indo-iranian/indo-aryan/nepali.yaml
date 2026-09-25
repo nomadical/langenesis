@@ -1,0 +1,18 @@
+id: nepali
+name: Nepali
+glottocode: nepa1254
+iso639_3: npi
+parents: [shauraseni-apabhramsha]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 19000000
+sources:
+  - https://en.wikipedia.org/wiki/Nepali_language
+  - https://glottolog.org/resource/languoid/id/nepa1254
+notes: |
+  Eastern Pahari (Northern Indo-Aryan), from the Khas language of western Nepal;
+  earliest inscriptions c. 13th c. Its Middle Indo-Aryan ancestry is debated;
+  parented here to Western Apabhraṃśa as a simplification.

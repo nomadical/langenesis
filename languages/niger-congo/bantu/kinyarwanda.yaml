@@ -1,0 +1,16 @@
+id: kinyarwanda
+name: Kinyarwanda
+glottocode: kiny1244
+iso639_3: kin
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 12000000
+sources:
+  - https://en.wikipedia.org/wiki/Kinyarwanda
+  - https://glottolog.org/resource/languoid/id/kiny1244
+notes: |
+  Great Lakes Bantu language of Rwanda, mutually intelligible with Kirundi.

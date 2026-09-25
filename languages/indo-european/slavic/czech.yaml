@@ -1,0 +1,16 @@
+id: czech
+name: Czech
+glottocode: czec1258
+iso639_3: ces
+parents: [old-czech]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 10700000
+sources:
+  - https://en.wikipedia.org/wiki/Czech_language
+  - https://glottolog.org/resource/languoid/id/czec1258
+notes: |
+  Includes Middle Czech (16th–18th c.) and the 19th-century National Revival
+  standard.

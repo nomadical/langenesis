@@ -2,9 +2,9 @@ id: portuguese
 name: Portuguese
 glottocode: port1283
 iso639_3: por
-parents: [vulgar-latin]
+parents: [galician-portuguese]
 period:
-  start: 1200
+  start: 1400
   end: present
 status: living
 speakers: 264000000
@@ -12,6 +12,6 @@ sources:
   - https://en.wikipedia.org/wiki/Portuguese_language
   - https://glottolog.org/resource/languoid/id/port1283
 notes: |
-  Covers Galician-Portuguese (12th–14th c., shared ancestor with Galician),
-  Middle Portuguese (15th–17th c.), and Modern Portuguese. European and
+  Covers Middle Portuguese (15th–17th c.) and Modern Portuguese; the shared
+  Galician-Portuguese stage is a separate node. European and
   Brazilian variants are not tracked as separate nodes.

@@ -1,0 +1,15 @@
+id: breton
+name: Breton
+glottocode: bret1244
+iso639_3: bre
+parents: [middle-breton]
+period:
+  start: 1650
+  end: present
+status: living
+speakers: 200000
+sources:
+  - https://en.wikipedia.org/wiki/Breton_language
+  - https://glottolog.org/resource/languoid/id/bret1244
+notes: |
+  Spoken in western Brittany; severely endangered, with most speakers elderly.

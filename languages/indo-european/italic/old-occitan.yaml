@@ -1,0 +1,14 @@
+id: old-occitan
+name: Old Occitan
+iso639_3: pro
+parents: [vulgar-latin]
+period:
+  start: 900
+  end: 1400
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Occitan
+notes: |
+  Also called Old Provençal; the language of the troubadours (11th–13th c.).

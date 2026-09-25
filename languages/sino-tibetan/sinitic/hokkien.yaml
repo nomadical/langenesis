@@ -1,0 +1,19 @@
+id: hokkien
+name: Hokkien
+glottocode: minn1241
+iso639_3: nan
+parents: [proto-min]
+period:
+  start: 900
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 28000000
+sources:
+  - https://en.wikipedia.org/wiki/Hokkien
+  - https://en.wikipedia.org/wiki/Taiwanese_Hokkien
+  - https://glottolog.org/resource/languoid/id/minn1241
+notes: |
+  Southern Min variety of southern Fujian, spoken across Southeast Asia and in
+  Taiwan, where Taiwanese Hokkien is the most widely spoken home language
+  after Mandarin.

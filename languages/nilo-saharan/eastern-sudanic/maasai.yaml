@@ -1,0 +1,16 @@
+id: maasai
+name: Maasai
+glottocode: masa1300
+iso639_3: mas
+parents: [proto-nilotic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Maasai_language
+  - https://glottolog.org/resource/languoid/id/masa1300
+notes: |
+  Eastern Nilotic language of southern Kenya and northern Tanzania;
+  intermediate Eastern Nilotic node not tracked.

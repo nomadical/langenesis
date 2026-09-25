@@ -1,0 +1,16 @@
+id: wakhi
+name: Wakhi
+iso639_3: wbl
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 60000
+sources:
+  - https://en.wikipedia.org/wiki/Wakhi_language
+notes: |
+  Pamir (Eastern Iranian) language of the Wakhan corridor and neighbouring areas of
+  Tajikistan, Pakistan and China. The unity of 'Pamir languages' is areal, not
+  necessarily genetic.

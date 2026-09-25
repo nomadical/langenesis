@@ -1,0 +1,15 @@
+id: tlingit
+name: Tlingit
+glottocode: tlin1245
+iso639_3: tli
+parents: [proto-na-dene]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Tlingit_language
+  - https://glottolog.org/resource/languoid/id/tlin1245
+notes: |
+  Spoken in southeast Alaska and adjacent Canada. The most distant member of Na-
+  Dene; severely endangered.

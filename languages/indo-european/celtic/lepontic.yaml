@@ -1,0 +1,15 @@
+id: lepontic
+name: Lepontic
+iso639_3: xlp
+parents: [proto-celtic]
+period:
+  start: -600
+  end: -100
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Lepontic_language
+notes: |
+  Continental Celtic language of the southern Alps; sometimes treated as an
+  early Gaulish dialect.

@@ -1,0 +1,18 @@
+id: basque
+name: Basque
+glottocode: basq1248
+iso639_3: eus
+parents: [aquitanian]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 800000
+sources:
+  - https://en.wikipedia.org/wiki/Basque_language
+  - https://glottolog.org/resource/languoid/id/basq1248
+notes: |
+  Covers Old Common Basque (~5th–6th century), from which the modern dialects
+  descend, through Modern Basque and the Batua standard (1968). Speaker count
+  includes L2 speakers.

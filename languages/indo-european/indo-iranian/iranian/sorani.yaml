@@ -1,0 +1,17 @@
+id: sorani
+name: Sorani
+glottocode: cent1972
+iso639_3: ckb
+parents: [proto-kurdish]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 6000000
+sources:
+  - https://en.wikipedia.org/wiki/Central_Kurdish
+  - https://glottolog.org/resource/languoid/id/cent1972
+notes: |
+  Central Kurdish of Iraqi and Iranian Kurdistan, written in Arabic script;
+  co-official in Iraq. Grammatically more innovative than Kurmanji.

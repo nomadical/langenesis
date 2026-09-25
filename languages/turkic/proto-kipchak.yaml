@@ -1,0 +1,15 @@
+id: proto-kipchak
+name: Proto-Kipchak
+parents: [old-turkic]
+period:
+  start: 800
+  end: 1200
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Kipchak_languages
+notes: |
+  Common ancestor of the Kipchak (Northwestern) Turkic languages of the
+  Pontic–Caspian steppe and Central Asia, spread by the Kipchak–Cuman
+  confederation.

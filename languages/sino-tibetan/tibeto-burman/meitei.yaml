@@ -1,0 +1,17 @@
+id: meitei
+name: Meitei
+glottocode: mani1292
+iso639_3: mni
+parents: [proto-tibeto-burman]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 1800000
+sources:
+  - https://en.wikipedia.org/wiki/Meitei_language
+  - https://glottolog.org/resource/languoid/id/mani1292
+notes: |
+  Official language of Manipur, India, with its own script (Meetei Mayek).
+  Subgrouping within Tibeto-Burman is debated.

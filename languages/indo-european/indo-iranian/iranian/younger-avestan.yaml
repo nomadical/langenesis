@@ -1,0 +1,13 @@
+id: younger-avestan
+name: Younger Avestan
+parents: [old-avestan]
+period:
+  start: -900
+  end: -400
+  start_uncertainty: 200
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Avestan
+notes: |
+  Language of most of the Avesta (Yashts, Vendidad). Not a direct continuation of
+  the Gathic dialect in every respect. Still recited in Zoroastrian liturgy.

@@ -1,0 +1,14 @@
+id: old-saxon
+name: Old Saxon
+iso639_3: osx
+parents: [proto-west-germanic]
+period:
+  start: 800
+  end: 1150
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Saxon
+notes: |
+  Earliest attested Low German, known chiefly from the Heliand.

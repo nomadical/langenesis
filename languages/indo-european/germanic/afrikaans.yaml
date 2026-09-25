@@ -1,0 +1,18 @@
+id: afrikaans
+name: Afrikaans
+glottocode: afri1274
+iso639_3: afr
+parents: [dutch]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 7200000
+sources:
+  - https://en.wikipedia.org/wiki/Afrikaans
+  - https://glottolog.org/resource/languoid/id/afri1274
+notes: |
+  Developed from 17th-century Dutch dialects in the Cape Colony, with Malay,
+  Portuguese, Khoekhoe and Bantu influence. Recognized as a separate language in
+  1925.

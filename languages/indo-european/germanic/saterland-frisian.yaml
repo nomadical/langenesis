@@ -1,0 +1,14 @@
+id: saterland-frisian
+name: Saterland Frisian
+iso639_3: stq
+parents: [old-frisian]
+period:
+  start: 1550
+  end: present
+status: living
+speakers: 2000
+sources:
+  - https://en.wikipedia.org/wiki/Saterland_Frisian
+notes: |
+  Last surviving form of East Frisian; spoken in Saterland, Lower Saxony.
+  Severely endangered.

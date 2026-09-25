@@ -1,0 +1,14 @@
+id: proto-mongolic
+name: Proto-Mongolic
+parents: []
+period:
+  start: 1000
+  end: 1200
+  start_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Mongolic_language
+notes: |
+  Reconstructed ancestor of the Mongolic languages, close in time to Middle
+  Mongol. Para-Mongolic Khitan attests earlier related varieties; inclusion in
+  "Altaic" is rejected by most specialists.

@@ -1,0 +1,16 @@
+id: proto-basque
+name: Proto-Basque
+parents: []
+period:
+  start: -1000
+  end: -100
+  start_uncertainty: 1000
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Basque_language
+notes: |
+  Reconstructed ancestor of Basque (Mitxelena, Trask; Lakarra for earlier
+  stages). Basque is Western Europe's only surviving pre-Indo-European
+  language; claimed external links (Iberian, Caucasian, Vasconic substrate)
+  are unaccepted.

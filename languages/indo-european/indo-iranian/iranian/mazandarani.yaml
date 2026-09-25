@@ -1,0 +1,15 @@
+id: mazandarani
+name: Mazandarani
+iso639_3: mzn
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2300000
+sources:
+  - https://en.wikipedia.org/wiki/Mazanderani_language
+notes: |
+  Caspian (Northwestern Iranian) language of Mazandaran, Iran; literary texts from
+  the 10th–15th c. Closely related to Gilaki.

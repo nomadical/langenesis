@@ -1,0 +1,18 @@
+id: amis
+name: Amis
+glottocode: amis1246
+iso639_3: ami
+parents: [proto-austronesian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Amis_language
+  - https://glottolog.org/resource/languoid/id/amis1246
+notes: |
+  East Formosan; the most widely spoken indigenous language of Taiwan, on the
+  east coast. Formosan languages form several primary branches of
+  Austronesian; no Formosan subgroup is assumed. Start date is nominal (no
+  pre-colonial written record).

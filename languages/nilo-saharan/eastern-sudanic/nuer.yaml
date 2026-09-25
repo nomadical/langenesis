@@ -1,0 +1,16 @@
+id: nuer
+name: Nuer
+glottocode: nuer1246
+iso639_3: nus
+parents: [proto-western-nilotic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Nuer_language
+  - https://glottolog.org/resource/languoid/id/nuer1246
+notes: |
+  Western Nilotic language of South Sudan and western Ethiopia, forming the
+  Dinka–Nuer subgroup with Dinka.

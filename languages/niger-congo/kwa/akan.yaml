@@ -1,0 +1,17 @@
+id: akan
+name: Akan (Twi-Fante)
+glottocode: akan1250
+iso639_3: aka
+parents: [proto-kwa]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 11000000
+sources:
+  - https://en.wikipedia.org/wiki/Akan_language
+  - https://glottolog.org/resource/languoid/id/akan1250
+notes: |
+  Central Tano language cluster including Asante and Akuapem Twi and Fante; the most
+  widely spoken language of Ghana.

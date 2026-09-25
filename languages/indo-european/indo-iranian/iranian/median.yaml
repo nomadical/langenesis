@@ -1,0 +1,14 @@
+id: median
+name: Median
+iso639_3: xme
+parents: [proto-iranian]
+period:
+  start: -900
+  end: -300
+  start_uncertainty: 200
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Median_language
+notes: |
+  Northwestern Old Iranian of the Medes, known only from loanwords and names in Old
+  Persian, Akkadian and Greek sources.

@@ -1,0 +1,15 @@
+id: classical-malay
+name: Classical Malay
+parents: [old-malay]
+period:
+  start: 1400
+  end: 1850
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Malay
+notes: |
+  Literary Malay of the Malacca Sultanate and later courts, written in Jawi.
+  Lingua franca of the archipelago's trade and the base of both modern
+  standards.

@@ -1,0 +1,17 @@
+id: faliscan
+name: Faliscan
+glottocode: fali1291
+iso639_3: xfa
+parents: [latino-faliscan]
+period:
+  start: -700
+  end: -150
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Faliscan_language
+  - https://glottolog.org/resource/languoid/id/fali1291
+notes: |
+  Spoken around Falerii Veteres north of Rome; closely related to Latin and
+  absorbed by it after the Roman conquest (241 BCE).

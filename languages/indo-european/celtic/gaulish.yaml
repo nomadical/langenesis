@@ -1,0 +1,14 @@
+id: gaulish
+name: Gaulish
+parents: [proto-celtic]
+period:
+  start: -600
+  end: 500
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Gaulish_language
+notes: |
+  Continental Celtic language of Gaul, attested in inscriptions from about the
+  6th century BCE. Extinction date is uncertain.

@@ -1,0 +1,13 @@
+id: old-italian
+name: Old Italian
+parents: [vulgar-latin]
+period:
+  start: 960
+  end: 1300
+  start_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Italian_language
+notes: |
+  Medieval Tuscan-based Italo-Romance. Earliest documents are the Placiti
+  Cassinesi (960–963).

@@ -1,0 +1,17 @@
+id: xiang-chinese
+name: Xiang Chinese
+glottocode: xian1251
+iso639_3: hsn
+parents: [middle-chinese]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 38000000
+sources:
+  - https://en.wikipedia.org/wiki/Xiang_Chinese
+  - https://glottolog.org/resource/languoid/id/xian1251
+notes: |
+  Sinitic group of Hunan. New Xiang has been heavily influenced by
+  Southwestern Mandarin; Old Xiang is more conservative.

@@ -1,0 +1,14 @@
+id: carian
+name: Carian
+iso639_3: xcr
+parents: [proto-anatolian]
+period:
+  start: -700
+  end: -200
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Carian_language
+notes: |
+  Luwic language of Caria, deciphered only in the late 20th century.

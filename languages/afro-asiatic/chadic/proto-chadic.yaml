@@ -1,0 +1,14 @@
+id: proto-chadic
+name: Proto-Chadic
+parents: [proto-afro-asiatic]
+period:
+  start: -5000
+  end: -3000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Chadic_languages
+notes: |
+  Reconstructed ancestor of the ~150 Chadic languages around Lake Chad. Dating
+  is speculative.

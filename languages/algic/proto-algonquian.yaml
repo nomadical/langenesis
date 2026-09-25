@@ -1,0 +1,16 @@
+id: proto-algonquian
+name: Proto-Algonquian
+parents: [proto-algic]
+period:
+  start: -1000
+  end: 0
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Algonquian_language
+notes: |
+  Reconstructed ancestor of Algonquian (Bloomfield's classic reconstruction).
+  Usually placed about 2500-3000 years ago, west of the Great Lakes. Of its
+  branches, only Eastern Algonquian is a proven genetic subgroup; 'Plains' and
+  'Central' are areal groupings.

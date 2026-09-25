@@ -1,0 +1,12 @@
+id: church-slavonic
+name: Church Slavonic
+parents: [old-church-slavonic]
+period:
+  start: 1100
+  end: present
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Church_Slavonic
+notes: |
+  Later recensions of Old Church Slavonic (Russian, Serbian, Bulgarian…) still
+  used as a liturgical language by Orthodox and Eastern Catholic churches.

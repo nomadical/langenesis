@@ -1,0 +1,16 @@
+id: mohawk
+name: Mohawk
+glottocode: moha1258
+iso639_3: moh
+parents: [proto-northern-iroquoian]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 3500
+sources:
+  - https://en.wikipedia.org/wiki/Mohawk_language
+  - https://glottolog.org/resource/languoid/id/moha1258
+notes: |
+  Five Nations Iroquoian, spoken in Quebec, Ontario and New York. Well-known
+  immersion revitalization programs.

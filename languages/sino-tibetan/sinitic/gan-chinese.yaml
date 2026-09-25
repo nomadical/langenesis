@@ -1,0 +1,17 @@
+id: gan-chinese
+name: Gan Chinese
+glottocode: ganc1239
+iso639_3: gan
+parents: [middle-chinese]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 22000000
+sources:
+  - https://en.wikipedia.org/wiki/Gan_Chinese
+  - https://glottolog.org/resource/languoid/id/ganc1239
+notes: |
+  Sinitic group of Jiangxi, closely related to Hakka; the two are sometimes
+  grouped together.

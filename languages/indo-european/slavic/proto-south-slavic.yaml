@@ -1,0 +1,15 @@
+id: proto-south-slavic
+name: Proto-South Slavic
+parents: [proto-slavic]
+period:
+  start: 600
+  end: 900
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/South_Slavic_languages
+notes: |
+  Late Proto-Slavic dialects of the Balkans, ancestral to the South Slavic
+  languages. Splits into an eastern (Bulgarian–Macedonian) and a western
+  (Slovene–Serbo-Croatian) group.

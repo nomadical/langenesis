@@ -1,0 +1,14 @@
+id: mossi
+name: Mooré (Mossi)
+iso639_3: mos
+parents: [proto-gur]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Mossi_language
+notes: |
+  Oti-Volta language of the Mossi people, main language of Burkina Faso.

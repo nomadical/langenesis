@@ -1,0 +1,14 @@
+id: tshiluba
+name: Tshiluba
+iso639_3: lua
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 6300000
+sources:
+  - https://en.wikipedia.org/wiki/Luba-Kasai_language
+notes: |
+  Central Bantu (Guthrie L31) language of the Kasai region, DR Congo; a national language.

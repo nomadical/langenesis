@@ -1,0 +1,13 @@
+id: proto-anatolian
+name: Proto-Anatolian
+parents: [proto-indo-european]
+period:
+  start: -3000
+  end: -2000
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Anatolian_language
+notes: |
+  Earliest branch to split from PIE (or Indo-Hittite). Dating is contested.

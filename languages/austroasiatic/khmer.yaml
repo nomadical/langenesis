@@ -1,0 +1,17 @@
+id: khmer
+name: Khmer
+glottocode: cent1989
+iso639_3: khm
+parents: [old-khmer]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 17000000
+sources:
+  - https://en.wikipedia.org/wiki/Khmer_language
+  - https://glottolog.org/resource/languoid/id/cent1989
+notes: |
+  National language of Cambodia. Covers Middle Khmer (15th–18th c.) and Modern
+  Khmer.

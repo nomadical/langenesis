@@ -1,0 +1,14 @@
+id: yurok
+name: Yurok
+iso639_3: yur
+parents: [proto-algic]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Yurok_language
+notes: |
+  Algic language of the lower Klamath River, California. The last native
+  speakers died in the 2010s, but active revitalization has produced new second-
+  language speakers.

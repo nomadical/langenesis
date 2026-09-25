@@ -1,0 +1,16 @@
+id: lower-sorbian
+name: Lower Sorbian
+glottocode: lowe1385
+iso639_3: dsb
+parents: [proto-west-slavic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 7000
+sources:
+  - https://en.wikipedia.org/wiki/Lower_Sorbian_language
+  - https://glottolog.org/resource/languoid/id/lowe1385
+notes: |
+  Spoken in Lower Lusatia (Brandenburg). Severely endangered.

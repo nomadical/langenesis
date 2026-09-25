@@ -1,0 +1,15 @@
+id: middle-egyptian
+name: Middle Egyptian
+parents: [old-egyptian]
+period:
+  start: -2000
+  end: -1350
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Egyptian_language#Middle_Egyptian
+notes: |
+  Classical Egyptian of the Middle Kingdom. Ceased to be spoken by c. 1350 BCE
+  but remained the prestige written language for hieroglyphic texts until the
+  4th century CE.

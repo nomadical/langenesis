@@ -1,0 +1,15 @@
+id: catalan
+name: Catalan
+glottocode: stan1289
+iso639_3: cat
+parents: [old-catalan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 4100000
+sources:
+  - https://en.wikipedia.org/wiki/Catalan_language
+  - https://glottolog.org/resource/languoid/id/stan1289
+notes: |
+  Includes Valencian. Around 9 million people speak it including L2 speakers.

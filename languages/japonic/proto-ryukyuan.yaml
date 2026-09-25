@@ -1,0 +1,15 @@
+id: proto-ryukyuan
+name: Proto-Ryukyuan
+parents: [proto-japonic]
+period:
+  start: 800
+  end: 1200
+  start_uncertainty: 200
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Ryukyuan_languages
+notes: |
+  Ancestor of the Ryukyuan languages, likely brought south from Kyushu around
+  the 10th–12th c. Split from mainland Japonic before Old Japanese is
+  contested.

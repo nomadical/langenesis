@@ -1,0 +1,16 @@
+id: old-georgian
+name: Old Georgian
+iso639_3: oge
+parents: [proto-karto-zan]
+period:
+  start: 430
+  end: 1100
+  start_uncertainty: 30
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Georgian_language
+notes: |
+  Attested from 5th-century inscriptions (Bir el Qutt, Bolnisi) and a rich
+  hagiographic literature; remains the liturgical language of the Georgian
+  Orthodox Church.

@@ -1,0 +1,16 @@
+id: eyak
+name: Eyak
+glottocode: eyak1241
+iso639_3: eya
+parents: [proto-athabaskan-eyak]
+period:
+  start: 1500
+  end: 2008
+  end_uncertainty: 0
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Eyak_language
+  - https://glottolog.org/resource/languoid/id/eyak1241
+notes: |
+  Spoken on the Copper River delta, Alaska. Marie Smith Jones, the last native
+  speaker, died in 2008.

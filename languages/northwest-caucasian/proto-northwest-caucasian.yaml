@@ -1,0 +1,16 @@
+id: proto-northwest-caucasian
+name: Proto-Northwest Caucasian
+parents: []
+period:
+  start: -3000
+  end: -1000
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Northwest_Caucasian_languages
+notes: |
+  Reconstructed ancestor of Abkhaz–Abaza, Circassian and Ubykh, known for very
+  small vowel inventories and large consonant inventories. Dating is highly
+  uncertain; a link with Northeast Caucasian or Hattic is proposed but not
+  accepted.

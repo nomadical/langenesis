@@ -1,0 +1,16 @@
+id: aquitanian
+name: Aquitanian
+iso639_3: xaq
+parents: [proto-basque]
+period:
+  start: -100
+  end: 500
+  start_uncertainty: 100
+  end_uncertainty: 200
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Aquitanian_language
+notes: |
+  Known from personal and divine names in Latin inscriptions in southwestern
+  Gaul (1st–3rd century CE). Widely regarded as an ancestor or close relative
+  of Basque; direct descent is not proven.

@@ -1,0 +1,17 @@
+id: chagatai
+name: Chagatai
+glottocode: chag1247
+iso639_3: chg
+parents: [old-turkic]
+period:
+  start: 1300
+  end: 1921
+  start_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Chagatai_language
+  - https://glottolog.org/resource/languoid/id/chag1247
+notes: |
+  Karluk literary language of Central Asia under the Timurids and successors
+  (Ali-Shir Nava'i, Babur). Descended via Karakhanid Turkic; replaced by Uzbek
+  and Uyghur standards in the 1920s.

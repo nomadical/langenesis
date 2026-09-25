@@ -1,0 +1,16 @@
+id: chichewa
+name: Chichewa (Nyanja)
+glottocode: nyan1308
+iso639_3: nya
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 12000000
+sources:
+  - https://en.wikipedia.org/wiki/Chewa_language
+  - https://glottolog.org/resource/languoid/id/nyan1308
+notes: |
+  Central-Eastern Bantu (Guthrie N31) language of Malawi, Zambia and Mozambique.

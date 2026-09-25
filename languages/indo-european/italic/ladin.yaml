@@ -1,0 +1,17 @@
+id: ladin
+name: Ladin
+glottocode: ladi1250
+iso639_3: lld
+parents: [vulgar-latin]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 41000
+sources:
+  - https://en.wikipedia.org/wiki/Ladin_language
+  - https://glottolog.org/resource/languoid/id/ladi1250
+notes: |
+  Spoken in the Dolomite valleys. Often grouped as Rhaeto-Romance, a contested
+  unit.

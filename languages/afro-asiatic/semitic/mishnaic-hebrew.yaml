@@ -1,0 +1,15 @@
+id: mishnaic-hebrew
+name: Mishnaic Hebrew
+parents: [biblical-hebrew]
+period:
+  start: -200
+  end: 500
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Mishnaic_Hebrew
+notes: |
+  Hebrew of the Mishnah, Tosefta and early rabbinic literature. Likely a
+  spoken vernacular until c. 200 CE, then a literary language (Amoraic
+  Hebrew).

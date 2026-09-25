@@ -1,0 +1,15 @@
+id: hmong
+name: Hmong
+iso639_3: hmn
+parents: [proto-hmong-mien]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 4000000
+sources:
+  - https://en.wikipedia.org/wiki/Hmong_language
+notes: |
+  Western Hmongic dialect cluster (Hmong Daw, Hmong Njua, etc.) of southern
+  China, Vietnam, Laos and Thailand, with a large diaspora in the US.

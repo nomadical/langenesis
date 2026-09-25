@@ -1,0 +1,17 @@
+id: slovene
+name: Slovene
+glottocode: slov1268
+iso639_3: slv
+parents: [proto-south-slavic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2500000
+sources:
+  - https://en.wikipedia.org/wiki/Slovene_language
+  - https://glottolog.org/resource/languoid/id/slov1268
+notes: |
+  Western South Slavic. The Freising manuscripts (c. 1000) are the oldest Latin-
+  script Slavic texts.

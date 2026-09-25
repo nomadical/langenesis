@@ -1,0 +1,14 @@
+id: jurchen
+name: Jurchen
+iso639_3: juc
+parents: [proto-tungusic]
+period:
+  start: 1100
+  end: 1650
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Jurchen_language
+notes: |
+  Southern Tungusic language of the Jin dynasty (1115–1234), written in the
+  Jurchen script from 1119. Direct ancestor of Manchu.

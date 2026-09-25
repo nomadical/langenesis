@@ -1,0 +1,17 @@
+id: umbrian
+name: Umbrian
+glottocode: umbr1253
+iso639_3: xum
+parents: [osco-umbrian]
+period:
+  start: -700
+  end: -50
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Umbrian_language
+  - https://glottolog.org/resource/languoid/id/umbr1253
+notes: |
+  Best known from the Iguvine Tablets (3rd–1st c. BCE). Replaced by Latin after
+  the Social War.

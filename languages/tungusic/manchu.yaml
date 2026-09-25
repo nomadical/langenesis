@@ -1,0 +1,18 @@
+id: manchu
+name: Manchu
+glottocode: manc1252
+iso639_3: mnc
+parents: [jurchen]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 20
+sources:
+  - https://en.wikipedia.org/wiki/Manchu_language
+  - https://glottolog.org/resource/languoid/id/manc1252
+notes: |
+  Language of the Qing dynasty rulers, written in a script adapted from
+  Mongolian (1599). Critically endangered, with very few native speakers left
+  in Heilongjiang.

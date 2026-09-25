@@ -1,0 +1,16 @@
+id: chipewyan
+name: Dene Suline
+glottocode: chip1261
+iso639_3: chp
+parents: [proto-athabaskan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 11000
+sources:
+  - https://en.wikipedia.org/wiki/Chipewyan_language
+  - https://glottolog.org/resource/languoid/id/chip1261
+notes: |
+  Northern Athabaskan (Chipewyan), spoken in Saskatchewan, Alberta, Manitoba and
+  the Northwest Territories.

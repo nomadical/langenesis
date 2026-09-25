@@ -1,0 +1,17 @@
+id: khalkha-mongolian
+name: Khalkha Mongolian
+glottocode: halh1238
+iso639_3: khk
+parents: [middle-mongol]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 3000000
+sources:
+  - https://en.wikipedia.org/wiki/Khalkha_Mongolian
+  - https://glottolog.org/resource/languoid/id/halh1238
+notes: |
+  Central Mongolic language and the basis of standard Mongolian in Mongolia,
+  written in Cyrillic since the 1940s.

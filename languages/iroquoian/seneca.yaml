@@ -1,0 +1,15 @@
+id: seneca
+name: Seneca
+glottocode: sene1264
+iso639_3: see
+parents: [proto-northern-iroquoian]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Seneca_language
+  - https://glottolog.org/resource/languoid/id/sene1264
+notes: |
+  Five Nations Iroquoian, spoken in western New York. Critically endangered,
+  with active revitalization.

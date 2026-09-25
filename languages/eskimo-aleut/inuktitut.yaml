@@ -1,0 +1,17 @@
+id: inuktitut
+name: Inuktitut
+glottocode: east2534
+iso639_3: iku
+parents: [proto-inuit]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 40000
+sources:
+  - https://en.wikipedia.org/wiki/Inuktitut
+  - https://glottolog.org/resource/languoid/id/east2534
+notes: |
+  Eastern Canadian Inuit, spoken in Nunavut, Nunavik and Nunatsiavut. Written in
+  Inuktitut syllabics and Latin script.

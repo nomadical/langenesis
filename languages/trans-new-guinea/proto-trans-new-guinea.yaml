@@ -1,0 +1,16 @@
+id: proto-trans-new-guinea
+name: Proto-Trans-New Guinea
+parents: []
+period:
+  start: -5000
+  end: -4000
+  start_uncertainty: 2000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Trans%E2%80%93New_Guinea_languages
+notes: |
+  Hypothesised ancestor of the largest Papuan family (~300–500 languages),
+  possibly spread with highland agriculture. Its scope and even validity are
+  contested (Pawley, Ross vs. Glottolog's narrower view); dating is very
+  uncertain.

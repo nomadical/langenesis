@@ -1,0 +1,14 @@
+id: southern-sotho
+name: Sesotho (Southern Sotho)
+iso639_3: sot
+parents: [proto-sotho-tswana]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 5600000
+sources:
+  - https://en.wikipedia.org/wiki/Sotho_language
+notes: |
+  Sotho-Tswana language, national language of Lesotho and official in South Africa.

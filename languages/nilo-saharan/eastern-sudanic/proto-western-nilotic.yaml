@@ -1,0 +1,13 @@
+id: proto-western-nilotic
+name: Proto-Western Nilotic
+parents: [proto-nilotic]
+period:
+  start: -1500
+  end: -500
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Western_Nilotic_languages
+notes: |
+  Ancestor of Dinka–Nuer and the Luo languages.

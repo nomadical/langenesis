@@ -1,0 +1,14 @@
+id: proto-samoyedic
+name: Proto-Samoyedic
+parents: [proto-uralic]
+period:
+  start: -200
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Samoyedic_languages
+notes: |
+  Ancestor of the Samoyedic branch, which split first from the rest of Uralic.
+  Dated around the turn of the era.

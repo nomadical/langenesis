@@ -1,0 +1,17 @@
+id: ossetian
+name: Ossetian
+glottocode: osse1243
+iso639_3: oss
+parents: [alanic]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 600000
+sources:
+  - https://en.wikipedia.org/wiki/Ossetian_language
+  - https://glottolog.org/resource/languoid/id/osse1243
+notes: |
+  Eastern Iranian language of the central Caucasus (North and South Ossetia),
+  with Iron and Digor dialects; heavy Caucasian areal influence.

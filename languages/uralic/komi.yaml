@@ -1,0 +1,17 @@
+id: komi
+name: Komi
+glottocode: komi1268
+iso639_3: kpv
+parents: [proto-permic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 160000
+sources:
+  - https://en.wikipedia.org/wiki/Komi_language
+  - https://glottolog.org/resource/languoid/id/komi1268
+notes: |
+  Permic language of the Komi Republic (Komi-Zyrian). Old Permic script
+  created by Stephen of Perm in 1372.

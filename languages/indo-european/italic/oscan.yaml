@@ -1,0 +1,17 @@
+id: oscan
+name: Oscan
+glottocode: osca1245
+iso639_3: osc
+parents: [osco-umbrian]
+period:
+  start: -500
+  end: 100
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Oscan_language
+  - https://glottolog.org/resource/languoid/id/osca1245
+notes: |
+  Spoken in Samnium and Campania; attested in inscriptions (e.g. Tabula Bantina,
+  Cippus Abellanus). Last traces are graffiti at Pompeii (79 CE).

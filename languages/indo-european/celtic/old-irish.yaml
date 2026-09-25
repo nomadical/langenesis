@@ -2,7 +2,7 @@ id: old-irish
 name: Old Irish
 glottocode: oldi1245
 iso639_3: sga
-parents: [proto-celtic]
+parents: [primitive-irish]
 period:
   start: 600
   end: 900

@@ -1,0 +1,15 @@
+id: khalaj
+name: Khalaj
+iso639_3: klj
+parents: [proto-turkic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 40000
+sources:
+  - https://en.wikipedia.org/wiki/Khalaj_language
+notes: |
+  Arghu Turkic language of central Iran, retaining archaic features (e.g.
+  initial h-). Thought to have split from Common Turkic very early.

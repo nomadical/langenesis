@@ -1,0 +1,14 @@
+id: teochew
+name: Teochew
+parents: [proto-min]
+period:
+  start: 900
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 10000000
+sources:
+  - https://en.wikipedia.org/wiki/Teochew_dialect
+notes: |
+  Southern Min variety of the Chaoshan region of eastern Guangdong; partially
+  intelligible with Hokkien. Included under ISO 639-3 nan.

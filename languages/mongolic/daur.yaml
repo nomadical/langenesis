@@ -1,0 +1,17 @@
+id: daur
+name: Daur
+glottocode: daga1270
+iso639_3: dta
+parents: [proto-mongolic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 100000
+sources:
+  - https://en.wikipedia.org/wiki/Daur_language
+  - https://glottolog.org/resource/languoid/id/daga1270
+notes: |
+  Mongolic language of Inner Mongolia and Heilongjiang. It split from the rest
+  of Mongolic early and may have a Khitan substrate.

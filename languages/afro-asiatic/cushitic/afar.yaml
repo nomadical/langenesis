@@ -1,0 +1,17 @@
+id: afar
+name: Afar
+glottocode: afar1241
+iso639_3: aar
+parents: [proto-east-cushitic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Afar_language
+  - https://glottolog.org/resource/languoid/id/afar1241
+notes: |
+  Lowland East Cushitic language of the Afar Triangle in Ethiopia, Eritrea and
+  Djibouti, closely related to Saho.

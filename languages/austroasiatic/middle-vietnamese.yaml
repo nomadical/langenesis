@@ -1,0 +1,14 @@
+id: middle-vietnamese
+name: Middle Vietnamese
+parents: [proto-vietic]
+period:
+  start: 1500
+  end: 1850
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Vietnamese
+notes: |
+  Vietnamese of the 16th–19th c., documented in chữ Nôm and in Alexandre de
+  Rhodes' 1651 dictionary in the Latin-based script that became chữ Quốc ngữ.

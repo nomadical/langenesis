@@ -1,0 +1,16 @@
+id: proto-algic
+name: Proto-Algic
+parents: []
+period:
+  start: -5000
+  end: -3000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Algic_languages
+notes: |
+  Reconstructed ancestor of Algic: Algonquian plus the Californian languages
+  Wiyot and Yurok. Sapir proposed the family (1913) and Haas confirmed it
+  (1958); the homeland is probably on the Columbia Plateau. Dating is very
+  uncertain.

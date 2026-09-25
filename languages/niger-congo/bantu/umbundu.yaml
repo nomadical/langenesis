@@ -1,0 +1,15 @@
+id: umbundu
+name: Umbundu
+iso639_3: umb
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 6000000
+sources:
+  - https://en.wikipedia.org/wiki/Umbundu
+notes: |
+  Western Bantu (Guthrie R11) language of Angola's central highlands, the country's most
+  widely spoken indigenous language.

@@ -1,0 +1,15 @@
+id: proto-mande
+name: Proto-Mande
+parents: [proto-niger-congo]
+period:
+  start: -5000
+  end: -3000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Mande_languages
+notes: |
+  Ancestor of the Mande languages of West Africa. Mande lacks the noun-class system
+  typical of Niger-Congo and its membership in the family is contested; some treat it
+  as an independent family. Placed here as an early Niger-Congo split.

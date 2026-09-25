@@ -1,0 +1,16 @@
+id: classic-maya
+name: Classic Maya
+parents: [proto-mayan]
+period:
+  start: -300
+  end: 900
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classic_Maya_language
+notes: |
+  Language of the Maya hieroglyphic inscriptions, from the Late Preclassic to
+  the Classic period. Houston, Robertson and Stuart identify it as Classic
+  Ch'olti'an, ancestral to Ch'olti' and Ch'orti'. It stayed in use as a prestige
+  written language across Maya city-states.

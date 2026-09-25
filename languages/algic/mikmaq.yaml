@@ -1,0 +1,16 @@
+id: mikmaq
+name: Mi'kmaq
+glottocode: mikm1235
+iso639_3: mic
+parents: [proto-eastern-algonquian]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 7000
+sources:
+  - https://en.wikipedia.org/wiki/Mi%27kmaq_language
+  - https://glottolog.org/resource/languoid/id/mikm1235
+notes: |
+  Spoken in the Canadian Maritimes and Maine. The most divergent Eastern
+  Algonquian language.

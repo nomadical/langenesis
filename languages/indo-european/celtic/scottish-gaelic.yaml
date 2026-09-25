@@ -1,0 +1,17 @@
+id: scottish-gaelic
+name: Scottish Gaelic
+glottocode: scot1245
+iso639_3: gla
+parents: [middle-irish]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 60000
+sources:
+  - https://en.wikipedia.org/wiki/Scottish_Gaelic
+  - https://glottolog.org/resource/languoid/id/scot1245
+notes: |
+  Diverged from Irish from about the 13th century; Classical Gaelic remained a
+  shared literary standard until the 17th century.

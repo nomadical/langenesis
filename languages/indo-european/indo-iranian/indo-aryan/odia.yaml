@@ -1,0 +1,17 @@
+id: odia
+name: Odia
+glottocode: oriy1255
+iso639_3: ory
+parents: [magadhi-apabhramsha]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 35000000
+sources:
+  - https://en.wikipedia.org/wiki/Odia_language
+  - https://glottolog.org/resource/languoid/id/oriy1255
+notes: |
+  Eastern Indo-Aryan; official language of Odisha. Old Odia inscriptions from the
+  10th–13th c.

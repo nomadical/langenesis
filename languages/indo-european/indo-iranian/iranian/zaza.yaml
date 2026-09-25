@@ -1,0 +1,15 @@
+id: zaza
+name: Zaza
+iso639_3: zza
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1500000
+sources:
+  - https://en.wikipedia.org/wiki/Zaza_language
+notes: |
+  Northwestern Iranian of eastern Turkey. Grouped with Gorani rather than Kurdish
+  by most linguists, though speakers often identify as Kurds.

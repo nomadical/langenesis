@@ -1,0 +1,17 @@
+id: sicilian
+name: Sicilian
+glottocode: sici1248
+iso639_3: scn
+parents: [vulgar-latin]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 4700000
+sources:
+  - https://en.wikipedia.org/wiki/Sicilian_language
+  - https://glottolog.org/resource/languoid/id/sici1248
+notes: |
+  Used as a literary language by the Sicilian School at the court of Frederick
+  II (13th c.).

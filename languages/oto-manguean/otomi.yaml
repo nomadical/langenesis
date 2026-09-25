@@ -1,0 +1,13 @@
+id: otomi
+name: Otomi
+parents: [proto-oto-manguean]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 300000
+sources:
+  - https://en.wikipedia.org/wiki/Otomi_language
+notes: |
+  Otomian branch: a dialect continuum in central Mexico (Hidalgo, Querétaro,
+  State of Mexico). Closest relative of Mazahua.

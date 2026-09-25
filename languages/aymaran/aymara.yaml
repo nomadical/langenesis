@@ -1,0 +1,15 @@
+id: aymara
+name: Aymara
+iso639_3: aym
+parents: [proto-aymaran]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1700000
+sources:
+  - https://en.wikipedia.org/wiki/Aymara_language
+notes: |
+  Spoken around Lake Titicaca in Bolivia, Peru and Chile. Co-official in Bolivia
+  and Peru.

@@ -1,0 +1,17 @@
+id: pali
+name: Pali
+glottocode: pali1273
+iso639_3: pli
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 500
+  start_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Pali
+  - https://glottolog.org/resource/languoid/id/pali1273
+notes: |
+  Middle Indo-Aryan literary language of the Theravāda Buddhist canon. Its exact
+  dialectal base is disputed (often linked to western rather than Magadhi Prakrit).
+  Still used liturgically and scholastically in Sri Lanka and Southeast Asia.

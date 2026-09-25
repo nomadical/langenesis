@@ -1,0 +1,14 @@
+id: old-catalan
+name: Old Catalan
+parents: [vulgar-latin]
+period:
+  start: 900
+  end: 1500
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/History_of_the_Catalan_language
+notes: |
+  Medieval Catalan, closely related to Old Occitan. Earliest continuous text is
+  the Homilies d'Organyà (c. 1200); literary flowering with Ramon Llull and
+  Ausiàs March.

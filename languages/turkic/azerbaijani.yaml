@@ -1,0 +1,15 @@
+id: azerbaijani
+name: Azerbaijani
+iso639_3: aze
+parents: [old-oghuz]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 24000000
+sources:
+  - https://en.wikipedia.org/wiki/Azerbaijani_language
+notes: |
+  Oghuz language of Azerbaijan and northwestern Iran (North and South
+  Azerbaijani). Literary tradition from the 13th–14th c.

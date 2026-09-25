@@ -1,0 +1,16 @@
+id: selkup
+name: Selkup
+glottocode: selk1253
+iso639_3: sel
+parents: [proto-samoyedic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1000
+sources:
+  - https://en.wikipedia.org/wiki/Selkup_language
+  - https://glottolog.org/resource/languoid/id/selk1253
+notes: |
+  Southern Samoyedic language of western Siberia, severely endangered.

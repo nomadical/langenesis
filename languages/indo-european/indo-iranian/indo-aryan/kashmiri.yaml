@@ -1,0 +1,17 @@
+id: kashmiri
+name: Kashmiri
+glottocode: kash1277
+iso639_3: kas
+parents: [vedic-sanskrit]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 7000000
+sources:
+  - https://en.wikipedia.org/wiki/Kashmiri_language
+  - https://glottolog.org/resource/languoid/id/kash1277
+notes: |
+  Largest 'Dardic' language. Dardic is a geographic rather than a proven genetic
+  subgroup of Indo-Aryan; Old Kashmiri literature begins with Lalleshwari (14th c.).

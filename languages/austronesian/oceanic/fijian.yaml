@@ -1,0 +1,17 @@
+id: fijian
+name: Fijian
+glottocode: fiji1243
+iso639_3: fij
+parents: [proto-central-pacific]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 340000
+sources:
+  - https://en.wikipedia.org/wiki/Fijian_language
+  - https://glottolog.org/resource/languoid/id/fiji1243
+notes: |
+  Standard Fijian, based on the Bauan dialect. Speaker count is L1; a similar
+  number speak it as L2. Start date is nominal.

@@ -1,0 +1,14 @@
+id: old-avestan
+name: Old Avestan
+parents: [proto-iranian]
+period:
+  start: -1500
+  end: -900
+  start_uncertainty: 300
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Avestan
+notes: |
+  Language of the Gāthās attributed to Zarathustra. Dating is highly contested
+  (proposals range from c. 1500 to 600 BCE); preserved only through a late oral
+  and manuscript tradition.

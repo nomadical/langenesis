@@ -1,0 +1,14 @@
+id: proto-romanian
+name: Proto-Romanian
+parents: [vulgar-latin]
+period:
+  start: 600
+  end: 1200
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Romanian
+notes: |
+  Common Romanian, ancestor of the Eastern Romance languages. Its homeland
+  (north or south of the Danube) is disputed.

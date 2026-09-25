@@ -1,0 +1,14 @@
+id: north-frisian
+name: North Frisian
+iso639_3: frr
+parents: [old-frisian]
+period:
+  start: 1550
+  end: present
+status: living
+speakers: 10000
+sources:
+  - https://en.wikipedia.org/wiki/North_Frisian_language
+notes: |
+  Highly fragmented dialects on the North Frisian coast and islands of
+  Schleswig-Holstein; endangered.

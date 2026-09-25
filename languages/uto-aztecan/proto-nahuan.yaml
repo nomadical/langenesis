@@ -1,0 +1,14 @@
+id: proto-nahuan
+name: Proto-Nahuan
+parents: [proto-uto-aztecan]
+period:
+  start: 400
+  end: 900
+  start_uncertainty: 200
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Nahuan_languages
+notes: |
+  Ancestor of the Nahuan (Aztecan) branch. Its speakers are thought to have
+  moved south into central Mexico during the first millennium CE.

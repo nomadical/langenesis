@@ -1,0 +1,15 @@
+id: old-egyptian
+name: Old Egyptian
+iso639_3: egy
+parents: [proto-afro-asiatic]
+period:
+  start: -2600
+  end: -2000
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Egyptian_language#Old_Egyptian
+notes: |
+  Language of the Old Kingdom (Pyramid Texts). Preceded by Archaic Egyptian
+  (from c. 3200 BCE), not tracked separately. The ISO code egy covers all pre-
+  Coptic stages.

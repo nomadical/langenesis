@@ -1,0 +1,14 @@
+id: kamkata-viri
+name: Kamkata-viri (Katë)
+iso639_3: bsh
+parents: [proto-nuristani]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 500
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Kat%C3%AB_language
+notes: |
+  Largest Nuristani language (Kati), spoken in Nuristan, Afghanistan and in
+  Chitral, Pakistan.

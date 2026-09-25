@@ -1,0 +1,19 @@
+id: hausa
+name: Hausa
+glottocode: haus1257
+iso639_3: hau
+parents: [proto-chadic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 50000000
+sources:
+  - https://en.wikipedia.org/wiki/Hausa_language
+  - https://glottolog.org/resource/languoid/id/haus1257
+notes: |
+  West Chadic language of northern Nigeria and southern Niger and a major West
+  African lingua franca; tens of millions of additional L2 speakers. Written
+  in Ajami (Arabic script) and, since the colonial period, in Latin script
+  (Boko).

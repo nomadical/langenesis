@@ -1,0 +1,17 @@
+id: slovak
+name: Slovak
+glottocode: slov1269
+iso639_3: slk
+parents: [proto-west-slavic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Slovak_language
+  - https://glottolog.org/resource/languoid/id/slov1269
+notes: |
+  Emerged from the Czech–Slovak dialect continuum; the literary standard was
+  codified by Bernolák (1787) and Štúr (1843).

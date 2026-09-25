@@ -1,0 +1,14 @@
+id: old-khmer
+name: Old Khmer
+iso639_3: okz
+parents: [proto-austroasiatic]
+period:
+  start: 611
+  end: 1400
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Khmer
+notes: |
+  Language of pre-Angkorian and Angkorian Cambodia, first dated inscription
+  611 CE. Intermediate Khmeric nodes are not tracked.

@@ -1,0 +1,14 @@
+id: proto-numic
+name: Proto-Numic
+parents: [proto-uto-aztecan]
+period:
+  start: 500
+  end: 1200
+  start_uncertainty: 400
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Numic_languages
+notes: |
+  Ancestor of the Numic branch. The Numic spread across the Great Basin is
+  usually placed around 1000 CE, but the timing is debated.

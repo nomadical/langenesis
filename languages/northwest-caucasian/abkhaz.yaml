@@ -1,0 +1,17 @@
+id: abkhaz
+name: Abkhaz
+glottocode: abkh1244
+iso639_3: abk
+parents: [proto-northwest-caucasian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 190000
+sources:
+  - https://en.wikipedia.org/wiki/Abkhaz_language
+  - https://glottolog.org/resource/languoid/id/abkh1244
+notes: |
+  Abkhaz–Abaza branch; spoken in Abkhazia and Turkey. The Abkhaz–Abaza
+  intermediate stage is not tracked. Start date is nominal.

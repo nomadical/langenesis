@@ -1,0 +1,14 @@
+id: old-telugu
+name: Old Telugu
+parents: [proto-south-central-dravidian]
+period:
+  start: 575
+  end: 1100
+  start_uncertainty: 25
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Telugu_language
+notes: |
+  Earliest full Telugu inscriptions date to ~575 CE; the stage ends with the
+  literary standard set by Nannaya's Mahabharata (11th century).

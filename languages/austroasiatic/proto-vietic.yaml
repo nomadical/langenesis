@@ -1,0 +1,14 @@
+id: proto-vietic
+name: Proto-Vietic
+parents: [proto-austroasiatic]
+period:
+  start: -500
+  end: 1000
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Vietic_languages
+notes: |
+  Ancestor of the Vietic languages of northern Vietnam and Laos. Proto-Viet-
+  Muong and Old Vietnamese (10th–15th c.) stages are not tracked.

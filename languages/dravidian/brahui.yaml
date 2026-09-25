@@ -1,0 +1,18 @@
+id: brahui
+name: Brahui
+glottocode: brah1256
+iso639_3: brh
+parents: [proto-dravidian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 2800000
+sources:
+  - https://en.wikipedia.org/wiki/Brahui_language
+  - https://glottolog.org/resource/languoid/id/brah1256
+notes: |
+  North Dravidian language of Balochistan, isolated far from other Dravidian
+  languages. Whether it is a relic of a prehistoric Dravidian presence or a
+  later (~1000 CE) migration is debated.

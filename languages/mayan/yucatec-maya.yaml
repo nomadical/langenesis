@@ -1,0 +1,17 @@
+id: yucatec-maya
+name: Yucatec Maya
+glottocode: yuca1254
+iso639_3: yua
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 800000
+sources:
+  - https://en.wikipedia.org/wiki/Yucatec_Maya_language
+  - https://glottolog.org/resource/languoid/id/yuca1254
+notes: |
+  Yucatecan branch, spoken on the Yucatán Peninsula. Colonial Yucatec is well
+  documented (Books of Chilam Balam), but that stage is not tracked separately
+  here.

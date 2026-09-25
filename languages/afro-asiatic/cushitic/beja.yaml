@@ -1,0 +1,17 @@
+id: beja
+name: Beja
+glottocode: beja1238
+iso639_3: bej
+parents: [proto-cushitic]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Beja_language
+  - https://glottolog.org/resource/languoid/id/beja1238
+notes: |
+  North Cushitic language of the Red Sea hills of Sudan, Egypt and Eritrea;
+  sole member of its branch. Some scholars treat it as an independent Afro-
+  Asiatic branch.

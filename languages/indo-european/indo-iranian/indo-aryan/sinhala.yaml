@@ -1,0 +1,16 @@
+id: sinhala
+name: Sinhala
+glottocode: sinh1246
+iso639_3: sin
+parents: [sinhala-prakrit]
+period:
+  start: 400
+  end: present
+status: living
+speakers: 16000000
+sources:
+  - https://en.wikipedia.org/wiki/Sinhala_language
+  - https://glottolog.org/resource/languoid/id/sinh1246
+notes: |
+  Insular Indo-Aryan. Covers Proto-Sinhala (4th–8th c.), Medieval Sinhala, and
+  Modern Sinhala (from c. 1200).

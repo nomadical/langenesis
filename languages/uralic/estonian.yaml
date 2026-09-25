@@ -2,7 +2,7 @@ id: estonian
 name: Estonian
 glottocode: esto1258
 iso639_3: ekk
-parents: [proto-uralic]
+parents: [proto-finnic]
 period:
   start: 1500
   end: present

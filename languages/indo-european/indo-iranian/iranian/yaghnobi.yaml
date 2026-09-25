@@ -1,0 +1,15 @@
+id: yaghnobi
+name: Yaghnobi
+iso639_3: yai
+parents: [sogdian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 12000
+sources:
+  - https://en.wikipedia.org/wiki/Yaghnobi_language
+notes: |
+  Spoken in the Yaghnob valley of Tajikistan; the only surviving descendant of a
+  Sogdian dialect. Endangered.

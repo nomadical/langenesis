@@ -1,0 +1,15 @@
+id: old-mon
+name: Old Mon
+iso639_3: omx
+parents: [proto-austroasiatic]
+period:
+  start: 550
+  end: 1200
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Mon_language#History
+notes: |
+  Mon of the Dvaravati and Thaton/Pegu polities, attested in inscriptions from
+  the 6th c. and influential on Old Burmese script and vocabulary.

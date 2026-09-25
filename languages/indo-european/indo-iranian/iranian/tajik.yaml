@@ -1,0 +1,17 @@
+id: tajik
+name: Tajik
+glottocode: taji1245
+iso639_3: tgk
+parents: [persian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Tajik_language
+  - https://glottolog.org/resource/languoid/id/taji1245
+notes: |
+  Persian of Central Asia, written in Cyrillic since 1939; diverged from Iranian
+  Persian under Uzbek/Russian influence and political separation.

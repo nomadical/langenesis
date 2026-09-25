@@ -1,0 +1,12 @@
+id: mazahua
+name: Mazahua
+parents: [proto-oto-manguean]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 150000
+sources:
+  - https://en.wikipedia.org/wiki/Mazahua_language
+notes: |
+  Otomian branch, spoken in the State of Mexico and Michoacán.

@@ -1,0 +1,18 @@
+id: franco-provencal
+name: Franco-Provençal
+glottocode: fran1260
+iso639_3: frp
+parents: [vulgar-latin]
+period:
+  start: 900
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 140000
+sources:
+  - https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al
+  - https://glottolog.org/resource/languoid/id/fran1260
+notes: |
+  Also called Arpitan; spoken in east-central France, western Switzerland and
+  the Aosta Valley. Distinct from both Oïl and Occitan; earliest texts from the
+  12th century.

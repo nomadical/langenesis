@@ -1,0 +1,15 @@
+id: proto-aymaran
+name: Proto-Aymaran
+parents: []
+period:
+  start: 0
+  end: 800
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Aymaran_languages
+notes: |
+  Reconstructed ancestor of Aymaran (Aymara and Jaqaru–Kawki), probably from
+  central Peru. Its long contact with Quechua makes a deeper 'Quechumaran'
+  relationship controversial.

@@ -1,0 +1,15 @@
+id: island-carib
+name: Island Carib
+parents: [proto-arawakan]
+period:
+  start: 1000
+  end: 1920
+  start_uncertainty: 300
+  end_uncertainty: 20
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Island_Carib_language
+notes: |
+  Iñeri, the Arawakan language of the Lesser Antilles. Despite its name it is
+  not Cariban, though it had a Carib-derived men's pidgin register. Ancestor of
+  Garifuna.

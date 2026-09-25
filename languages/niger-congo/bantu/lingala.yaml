@@ -1,0 +1,17 @@
+id: lingala
+name: Lingala
+glottocode: ling1263
+iso639_3: lin
+parents: [proto-bantu]
+period:
+  start: 1880
+  end: present
+  start_uncertainty: 20
+status: living
+speakers: 40000000
+sources:
+  - https://en.wikipedia.org/wiki/Lingala
+  - https://glottolog.org/resource/languoid/id/ling1263
+notes: |
+  Northwest Bantu (Guthrie C36d) lingua franca that crystallised from Bobangi-based trade
+  speech along the Congo River in the late 19th century. Speaker count is L1+L2.

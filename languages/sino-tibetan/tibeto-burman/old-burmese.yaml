@@ -1,0 +1,15 @@
+id: old-burmese
+name: Old Burmese
+iso639_3: obr
+parents: [proto-lolo-burmese]
+period:
+  start: 1100
+  end: 1550
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Burmese
+notes: |
+  Language of the Pagan Kingdom, first securely attested in the Myazedi
+  inscription (1113). Followed by Middle Burmese from the 16th c.

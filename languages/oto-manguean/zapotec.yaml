@@ -1,0 +1,15 @@
+id: zapotec
+name: Zapotec
+iso639_3: zap
+parents: [proto-oto-manguean]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 490000
+sources:
+  - https://en.wikipedia.org/wiki/Zapotec_languages
+notes: |
+  A cluster of about 50 mutually unintelligible Zapotecan languages in Oaxaca,
+  shown here as one node. Pre-Columbian Zapotec writing dates back to about 500
+  BCE.

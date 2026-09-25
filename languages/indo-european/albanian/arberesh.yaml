@@ -1,0 +1,15 @@
+id: arberesh
+name: Arbëresh
+iso639_3: aae
+parents: [albanian]
+period:
+  start: 1450
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 100000
+sources:
+  - https://en.wikipedia.org/wiki/Arb%C3%ABresh_language
+notes: |
+  Tosk-derived Albanian of southern Italy and Sicily, from 15th–18th-century
+  migrations; endangered.

@@ -1,0 +1,14 @@
+id: talysh
+name: Talysh
+iso639_3: tly
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Talysh_language
+notes: |
+  Northwestern Iranian of the southwestern Caspian coast, straddling Azerbaijan and
+  Iran; related to the extinct Old Azari.

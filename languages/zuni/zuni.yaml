@@ -1,0 +1,16 @@
+id: zuni
+name: Zuni
+glottocode: zuni1245
+iso639_3: zun
+parents: []
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 9500
+sources:
+  - https://en.wikipedia.org/wiki/Zuni_language
+  - https://glottolog.org/resource/languoid/id/zuni1245
+notes: |
+  Isolate spoken at Zuni Pueblo, New Mexico. Proposed links to Penutian or
+  Keresan are unproven. The start date marks the contact era.

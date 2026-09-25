@@ -1,0 +1,13 @@
+id: karina
+name: Kari'na
+iso639_3: car
+parents: [proto-cariban]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Kari%27na_language
+notes: |
+  Also called Galibi Carib. Spoken along the coast of the Guianas and Venezuela;
+  the source of the family's name.

@@ -2,7 +2,7 @@ id: finnish
 name: Finnish
 glottocode: finn1318
 iso639_3: fin
-parents: [proto-uralic]
+parents: [proto-finnic]
 period:
   start: 1500
   end: present
@@ -13,5 +13,4 @@ sources:
   - https://glottolog.org/resource/languoid/id/finn1318
 notes: |
   Member of the Finnic branch (with Estonian, Karelian, etc.). Standardisation
-  began with Mikael Agricola's 1548 New Testament translation. Simplified
-  descent — Proto-Finnic intermediate not yet tracked separately.
+  began with Mikael Agricola's 1548 New Testament translation.

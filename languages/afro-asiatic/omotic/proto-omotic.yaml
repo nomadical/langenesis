@@ -1,0 +1,14 @@
+id: proto-omotic
+name: Proto-Omotic
+parents: [proto-afro-asiatic]
+period:
+  start: -5000
+  end: -3000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Omotic_languages
+notes: |
+  Reconstructed ancestor of the Omotic languages of southwestern Ethiopia.
+  Both the unity of Omotic and its membership in Afro-Asiatic are disputed.

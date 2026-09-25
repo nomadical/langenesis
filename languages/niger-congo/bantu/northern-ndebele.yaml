@@ -1,0 +1,15 @@
+id: northern-ndebele
+name: Northern Ndebele
+iso639_3: nde
+parents: [zulu]
+period:
+  start: 1830
+  end: present
+  start_uncertainty: 10
+status: living
+speakers: 1600000
+sources:
+  - https://en.wikipedia.org/wiki/Northern_Ndebele_language
+notes: |
+  Nguni language of Zimbabwe, brought from Zululand by Mzilikazi's followers in the
+  1820s-30s; very close to Zulu. Distinct from Southern Ndebele of South Africa.

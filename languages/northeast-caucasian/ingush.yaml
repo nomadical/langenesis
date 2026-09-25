@@ -1,0 +1,17 @@
+id: ingush
+name: Ingush
+glottocode: ingu1240
+iso639_3: inh
+parents: [proto-nakh]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 500000
+sources:
+  - https://en.wikipedia.org/wiki/Ingush_language
+  - https://glottolog.org/resource/languoid/id/ingu1240
+notes: |
+  Closely related to and partly mutually intelligible with Chechen. Start date
+  is nominal.

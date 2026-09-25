@@ -1,0 +1,15 @@
+id: cheyenne
+name: Cheyenne
+glottocode: chey1247
+iso639_3: chy
+parents: [proto-algonquian]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Cheyenne_language
+  - https://glottolog.org/resource/languoid/id/chey1247
+notes: |
+  Plains Algonquian (an areal grouping), spoken in Montana and Oklahoma.
+  Endangered.

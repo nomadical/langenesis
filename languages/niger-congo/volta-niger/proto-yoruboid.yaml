@@ -1,0 +1,14 @@
+id: proto-yoruboid
+name: Proto-Yoruboid
+parents: [proto-volta-niger]
+period:
+  start: -1000
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Yoruboid_languages
+notes: |
+  Ancestor of the Yoruboid languages (Yoruba, Itsekiri, Igala). Dating is a rough
+  estimate from lexicostatistics.

@@ -1,0 +1,18 @@
+id: macedonian
+name: Macedonian
+glottocode: mace1250
+iso639_3: mkd
+parents: [old-church-slavonic]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 1600000
+sources:
+  - https://en.wikipedia.org/wiki/Macedonian_language
+  - https://glottolog.org/resource/languoid/id/mace1250
+notes: |
+  Eastern South Slavic, forming a dialect continuum with Bulgarian; standard
+  codified in 1945. Its relationship to Bulgarian is politically contested; the
+  intermediate medieval stage is not modelled separately.

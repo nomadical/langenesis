@@ -1,0 +1,17 @@
+id: corsican
+name: Corsican
+glottocode: cors1241
+iso639_3: cos
+parents: [vulgar-latin]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 150000
+sources:
+  - https://en.wikipedia.org/wiki/Corsican_language
+  - https://glottolog.org/resource/languoid/id/cors1241
+notes: |
+  Italo-Romance, heavily Tuscanised during Pisan and Genoese rule; closely
+  related to Tuscan Italian.

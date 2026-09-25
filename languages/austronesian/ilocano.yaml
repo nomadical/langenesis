@@ -1,0 +1,17 @@
+id: ilocano
+name: Ilocano
+glottocode: ilok1237
+iso639_3: ilo
+parents: [proto-malayo-polynesian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Ilocano_language
+  - https://glottolog.org/resource/languoid/id/ilok1237
+notes: |
+  Northern Luzon (Cordilleran) language and lingua franca of northern Luzon.
+  Philippine subgroup node not tracked.

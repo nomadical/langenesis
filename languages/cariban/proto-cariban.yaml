@@ -1,0 +1,14 @@
+id: proto-cariban
+name: Proto-Cariban
+parents: []
+period:
+  start: -1500
+  end: -500
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Cariban_languages
+notes: |
+  Reconstructed ancestor of Cariban, probably from the Guiana Highlands. The
+  dating is highly uncertain.

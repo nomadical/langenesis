@@ -1,0 +1,15 @@
+id: middle-irish
+name: Middle Irish
+iso639_3: mga
+parents: [old-irish]
+period:
+  start: 900
+  end: 1200
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Irish
+notes: |
+  Common literary language of Ireland, Scotland and the Isle of Man. Ancestor of
+  Irish, Scottish Gaelic and Manx.

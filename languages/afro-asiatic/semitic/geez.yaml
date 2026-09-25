@@ -1,0 +1,19 @@
+id: geez
+name: Ge'ez
+glottocode: geez1241
+iso639_3: gez
+parents: [proto-ethio-semitic]
+period:
+  start: 100
+  end: 1100
+  start_uncertainty: 200
+  end_uncertainty: 200
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Ge%CA%BDez
+  - https://glottolog.org/resource/languoid/id/geez1241
+notes: |
+  Language of the Kingdom of Aksum, first attested in 4th-century
+  inscriptions. Extinct as a vernacular by roughly the 10th–13th century;
+  still the liturgical language of the Ethiopian and Eritrean Orthodox
+  churches.

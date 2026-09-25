@@ -1,0 +1,15 @@
+id: lemnian
+name: Lemnian
+iso639_3: xle
+parents: [proto-tyrsenian]
+period:
+  start: -600
+  end: -500
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Lemnian_language
+notes: |
+  Known mainly from the Lemnos Stele (6th century BCE); very close to
+  Etruscan.

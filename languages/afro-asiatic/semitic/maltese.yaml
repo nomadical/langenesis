@@ -1,0 +1,18 @@
+id: maltese
+name: Maltese
+glottocode: malt1254
+iso639_3: mlt
+parents: [siculo-arabic]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 500000
+sources:
+  - https://en.wikipedia.org/wiki/Maltese_language
+  - https://glottolog.org/resource/languoid/id/malt1254
+notes: |
+  The only Semitic language written in the Latin script and an official EU
+  language. Arabic grammar and core vocabulary with heavy Sicilian, Italian
+  and English lexical influence.

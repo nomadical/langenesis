@@ -1,0 +1,14 @@
+id: fon
+name: Fon
+iso639_3: fon
+parents: [proto-kwa]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2200000
+sources:
+  - https://en.wikipedia.org/wiki/Fon_language
+notes: |
+  Gbe language of southern Benin, the language of the Kingdom of Dahomey.

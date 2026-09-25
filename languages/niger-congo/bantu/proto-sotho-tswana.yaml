@@ -1,0 +1,14 @@
+id: proto-sotho-tswana
+name: Proto-Sotho-Tswana
+parents: [proto-bantu]
+period:
+  start: 500
+  end: 1500
+  start_uncertainty: 300
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Sotho%E2%80%93Tswana_languages
+notes: |
+  Ancestor of the Sotho-Tswana group (Guthrie S30): Sesotho, Setswana and Sepedi.
+  Dating is approximate.

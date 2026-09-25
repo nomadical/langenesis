@@ -1,0 +1,14 @@
+id: naro
+name: Naro
+iso639_3: nhr
+parents: [proto-khoe-kwadi]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Naro_language
+notes: |
+  Kalahari Khoe language of the Ghanzi District of Botswana and eastern
+  Namibia.

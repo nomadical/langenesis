@@ -1,0 +1,14 @@
+id: old-west-norse
+name: Old West Norse
+parents: [old-norse]
+period:
+  start: 1050
+  end: 1350
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_West_Norse
+notes: |
+  Old Icelandic and Old Norwegian; the language of the sagas and Eddic poetry.
+  Often simply called Old Norse.

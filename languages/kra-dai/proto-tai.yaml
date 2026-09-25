@@ -1,0 +1,14 @@
+id: proto-tai
+name: Proto-Tai
+parents: [proto-kra-dai]
+period:
+  start: 0
+  end: 800
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Tai_language
+notes: |
+  Ancestor of the Tai branch, spoken in the Guangxi–northern Vietnam area.
+  Southwestern Tai spread into Southeast Asia from ~8th–10th c. (Pittayaporn).

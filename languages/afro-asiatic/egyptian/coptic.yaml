@@ -1,0 +1,18 @@
+id: coptic
+name: Coptic
+glottocode: copt1239
+iso639_3: cop
+parents: [demotic]
+period:
+  start: 100
+  end: 1700
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Coptic_language
+  - https://glottolog.org/resource/languoid/id/copt1239
+notes: |
+  Final stage of Egyptian, written in a Greek-derived alphabet. Displaced by
+  Arabic as a vernacular by about the 17th century; survives as the liturgical
+  language of the Coptic Church.

@@ -1,0 +1,17 @@
+id: middle-french
+name: Middle French
+glottocode: midd1316
+iso639_3: frm
+parents: [old-french]
+period:
+  start: 1350
+  end: 1600
+  start_uncertainty: 25
+  end_uncertainty: 25
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_French
+  - https://glottolog.org/resource/languoid/id/midd1316
+notes: |
+  Transitional stage between Old French and Modern French, marked by loss of the
+  two-case system. Conventionally dated c. 1340–1611.

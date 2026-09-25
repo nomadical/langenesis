@@ -1,0 +1,16 @@
+id: mozarabic
+name: Mozarabic
+iso639_3: mxi
+parents: [vulgar-latin]
+period:
+  start: 700
+  end: 1300
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Mozarabic_language
+notes: |
+  Romance varieties of Muslim-ruled al-Andalus, known mainly from kharjas
+  written in Arabic or Hebrew script. Whether they formed one language is
+  debated.

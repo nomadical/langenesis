@@ -1,0 +1,17 @@
+id: luganda
+name: Luganda
+glottocode: gand1255
+iso639_3: lug
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 5600000
+sources:
+  - https://en.wikipedia.org/wiki/Luganda
+  - https://glottolog.org/resource/languoid/id/gand1255
+notes: |
+  Great Lakes Bantu (Guthrie JE15) language of the Baganda, Uganda's most widely
+  spoken indigenous language.

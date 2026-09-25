@@ -1,0 +1,14 @@
+id: proto-tupian
+name: Proto-Tupian
+parents: []
+period:
+  start: -3000
+  end: -1000
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Tupian_languages
+notes: |
+  Reconstructed ancestor of the Tupian stock, usually placed in Rondônia
+  (southwestern Amazonia). The dating is highly uncertain.

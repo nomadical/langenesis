@@ -1,0 +1,13 @@
+id: shauraseni-apabhramsha
+name: Shauraseni Apabhramsha
+parents: [shauraseni-prakrit]
+period:
+  start: 600
+  end: 1200
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Apabhra%E1%B9%83%C5%9Ba
+notes: |
+  Western/Shauraseni Apabhraṃśa, the late Middle Indo-Aryan literary stage linking
+  Shauraseni Prakrit to Hindi, Punjabi, Gujarati and Rajasthani. Dates approximate.

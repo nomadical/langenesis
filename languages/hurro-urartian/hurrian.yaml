@@ -1,0 +1,17 @@
+id: hurrian
+name: Hurrian
+glottocode: hurr1240
+iso639_3: xhu
+parents: [proto-hurro-urartian]
+period:
+  start: -2300
+  end: -1000
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Hurrian_language
+  - https://glottolog.org/resource/languoid/id/hurr1240
+notes: |
+  Language of the Hurrians of northern Mesopotamia and Anatolia, including the
+  Mitanni kingdom; known from cuneiform texts such as the Mitanni letter.

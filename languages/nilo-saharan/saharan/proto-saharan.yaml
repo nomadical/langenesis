@@ -1,0 +1,15 @@
+id: proto-saharan
+name: Proto-Saharan
+parents: []
+period:
+  start: -3000
+  end: -1000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Saharan_languages
+notes: |
+  Ancestor of the Saharan languages (Kanuri, Teda–Daza, Zaghawa). Modelled as
+  a separate family because Nilo-Saharan is not generally accepted as a
+  demonstrated genetic unit. Dating is speculative.

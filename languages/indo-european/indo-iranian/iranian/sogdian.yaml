@@ -1,0 +1,16 @@
+id: sogdian
+name: Sogdian
+glottocode: sogd1245
+iso639_3: sog
+parents: [proto-iranian]
+period:
+  start: -400
+  end: 1000
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Sogdian_language
+  - https://glottolog.org/resource/languoid/id/sogd1245
+notes: |
+  Eastern Middle Iranian of Sogdiana (Samarkand, Bukhara) and Silk Road lingua
+  franca; script ancestral to Old Uyghur and Mongolian writing.

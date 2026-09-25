@@ -1,0 +1,18 @@
+id: paraguayan-guarani
+name: Paraguayan Guarani
+glottocode: para1311
+iso639_3: gug
+parents: [old-guarani]
+period:
+  start: 1800
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 6500000
+sources:
+  - https://en.wikipedia.org/wiki/Paraguayan_Guarani
+  - https://glottolog.org/resource/languoid/id/para1311
+notes: |
+  Co-official with Spanish in Paraguay and spoken by most of the population. The
+  speaker count includes second-language speakers; the mixed register called
+  Jopara is widespread.

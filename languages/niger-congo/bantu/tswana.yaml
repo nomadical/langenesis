@@ -1,0 +1,17 @@
+id: tswana
+name: Setswana
+glottocode: tswa1253
+iso639_3: tsn
+parents: [proto-sotho-tswana]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Tswana_language
+  - https://glottolog.org/resource/languoid/id/tswa1253
+notes: |
+  Sotho-Tswana language, national language of Botswana and official in South Africa.
+  Speaker count is approximate (L1 plus some L2).

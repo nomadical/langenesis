@@ -1,0 +1,14 @@
+id: punjabi
+name: Punjabi
+parents: [shauraseni-apabhramsha]
+period:
+  start: 1100
+  end: present
+status: living
+speakers: 113000000
+sources:
+  - https://en.wikipedia.org/wiki/Punjabi_language
+notes: |
+  Earliest literature attributed to Baba Farid (12th–13th c.). Speaker figure covers
+  both Eastern (Gurmukhi, India) and Western (Shahmukhi, Pakistan) Punjabi. Tonal,
+  unusually for Indo-European.

@@ -2,14 +2,14 @@ id: latin
 name: Latin
 glottocode: lati1261
 iso639_3: lat
-parents: [proto-italic]
+parents: [old-latin]
 period:
-  start: -700
+  start: -100
   end: 300
 status: classical
 sources:
   - https://en.wikipedia.org/wiki/Latin
   - https://glottolog.org/resource/languoid/id/lati1261
 notes: |
-  Covers Old Latin (c. 700–100 BCE) and Classical Latin (c. 100 BCE – 300 CE).
-  Late Latin and Vulgar Latin are tracked as a successor node.
+  Classical Latin (c. 100 BCE – 300 CE). Old Latin is tracked as the
+  predecessor node; Late Latin and Vulgar Latin as a successor node.

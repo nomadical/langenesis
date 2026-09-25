@@ -1,0 +1,17 @@
+id: western-apache
+name: Western Apache
+glottocode: west2615
+iso639_3: apw
+parents: [proto-apachean]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 13000
+sources:
+  - https://en.wikipedia.org/wiki/Western_Apache_language
+  - https://glottolog.org/resource/languoid/id/west2615
+notes: |
+  Western Apachean, spoken in east-central Arizona (San Carlos, White Mountain).
+  Closely related to Navajo.

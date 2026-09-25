@@ -1,0 +1,15 @@
+id: qeqchi
+name: Q'eqchi'
+glottocode: kekc1242
+iso639_3: kek
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 800000
+sources:
+  - https://en.wikipedia.org/wiki/Q%27eqchi%27_language
+  - https://glottolog.org/resource/languoid/id/kekc1242
+notes: |
+  Greater K'ichean. Spoken in Alta Verapaz (Guatemala) and in Belize.

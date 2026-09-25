@@ -1,0 +1,15 @@
+id: proto-south-central-dravidian
+name: Proto-South-Central Dravidian
+parents: [proto-dravidian]
+period:
+  start: -1100
+  end: 0
+  start_uncertainty: 400
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/South-Central_Dravidian_languages
+notes: |
+  Ancestor of South-Central Dravidian (South Dravidian II): Telugu, Gondi,
+  Kui, Kuvi and others. Some classifications group it with South Dravidian
+  under a common Proto-South Dravidian node.

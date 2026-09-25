@@ -1,0 +1,15 @@
+id: igala
+name: Igala
+iso639_3: igl
+parents: [proto-yoruboid]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1600000
+sources:
+  - https://en.wikipedia.org/wiki/Igala_language
+notes: |
+  Yoruboid language of Kogi State, Nigeria; the closest relative of Yoruba outside
+  the Yoruba-Itsekiri cluster.

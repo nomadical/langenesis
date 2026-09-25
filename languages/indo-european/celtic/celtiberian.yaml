@@ -1,0 +1,15 @@
+id: celtiberian
+name: Celtiberian
+iso639_3: xce
+parents: [proto-celtic]
+period:
+  start: -300
+  end: 0
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Celtiberian_language
+notes: |
+  Continental Celtic language of central Iberia, attested in inscriptions of the
+  2nd–1st centuries BCE.

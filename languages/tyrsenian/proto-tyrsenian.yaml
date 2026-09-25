@@ -1,0 +1,15 @@
+id: proto-tyrsenian
+name: Proto-Tyrsenian
+parents: []
+period:
+  start: -1500
+  end: -1000
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Tyrsenian_languages
+notes: |
+  Hypothetical ancestor of Etruscan, Raetic and Lemnian (Rix 1998). The family
+  is widely accepted but small; its homeland (Italy vs. Aegean) and dating are
+  debated.

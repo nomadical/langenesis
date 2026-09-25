@@ -1,0 +1,16 @@
+id: ojibwe
+name: Ojibwe
+glottocode: ojib1241
+iso639_3: oji
+parents: [proto-algonquian]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 50000
+sources:
+  - https://en.wikipedia.org/wiki/Ojibwe_language
+  - https://glottolog.org/resource/languoid/id/ojib1241
+notes: |
+  Anishinaabemowin dialect continuum around the Great Lakes. Closely related to
+  Potawatomi.

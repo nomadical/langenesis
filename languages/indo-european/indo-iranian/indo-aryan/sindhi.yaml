@@ -1,0 +1,17 @@
+id: sindhi
+name: Sindhi
+glottocode: sind1272
+iso639_3: snd
+parents: [vedic-sanskrit]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 32000000
+sources:
+  - https://en.wikipedia.org/wiki/Sindhi_language
+  - https://glottolog.org/resource/languoid/id/sind1272
+notes: |
+  Northwestern Indo-Aryan. Traditionally derived from Vrācaḍa Apabhraṃśa, which is
+  barely attested, so no intermediate Middle Indo-Aryan node is modelled.

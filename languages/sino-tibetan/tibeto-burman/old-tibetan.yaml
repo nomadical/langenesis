@@ -1,0 +1,14 @@
+id: old-tibetan
+name: Old Tibetan
+iso639_3: otb
+parents: [proto-tibeto-burman]
+period:
+  start: 650
+  end: 1000
+  start_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Tibetan
+notes: |
+  Language of the Tibetan Empire, attested in inscriptions and Dunhuang
+  manuscripts from the 7th c. onwards.

@@ -1,0 +1,16 @@
+id: bambara
+name: Bambara
+glottocode: bamb1269
+iso639_3: bam
+parents: [proto-manding]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 4000000
+sources:
+  - https://en.wikipedia.org/wiki/Bambara_language
+  - https://glottolog.org/resource/languoid/id/bamb1269
+notes: |
+  Manding language and lingua franca of Mali; about 14 million speakers including L2.

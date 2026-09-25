@@ -1,0 +1,17 @@
+id: rusyn
+name: Rusyn
+glottocode: rusy1239
+iso639_3: rue
+parents: [ruthenian]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 600000
+sources:
+  - https://en.wikipedia.org/wiki/Rusyn_language
+  - https://glottolog.org/resource/languoid/id/rusy1239
+notes: |
+  Spoken in the Carpathian region. Whether it is a separate language or a
+  Ukrainian dialect is disputed; speaker estimates vary widely.

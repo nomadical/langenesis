@@ -1,0 +1,16 @@
+id: classical-tibetan
+name: Classical Tibetan
+iso639_3: xct
+parents: [old-tibetan]
+period:
+  start: 900
+  end: 1900
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Tibetan
+notes: |
+  Literary standard shaped by the 9th c. orthographic reforms and Buddhist
+  translation work; still used as the liturgical and scholarly language of
+  Tibetan Buddhism. End date marks the rise of modern written registers.

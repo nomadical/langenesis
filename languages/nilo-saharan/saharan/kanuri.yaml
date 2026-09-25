@@ -1,0 +1,17 @@
+id: kanuri
+name: Kanuri
+glottocode: cent2050
+iso639_3: knc
+parents: [proto-saharan]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Kanuri_language
+  - https://glottolog.org/resource/languoid/id/cent2050
+notes: |
+  Language of the Kanem–Bornu empire around Lake Chad (Nigeria, Niger, Chad,
+  Cameroon); codes refer to Central Kanuri. Written in Ajami from at least the
+  17th century.

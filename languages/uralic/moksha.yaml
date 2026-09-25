@@ -1,0 +1,16 @@
+id: moksha
+name: Moksha
+glottocode: moks1248
+iso639_3: mdf
+parents: [proto-mordvinic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 130000
+sources:
+  - https://en.wikipedia.org/wiki/Moksha_language
+  - https://glottolog.org/resource/languoid/id/moks1248
+notes: |
+  Mordvinic language of western Mordovia, Russia.

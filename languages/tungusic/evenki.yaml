@@ -1,0 +1,15 @@
+id: evenki
+name: Evenki
+iso639_3: evn
+parents: [proto-tungusic]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 30000
+sources:
+  - https://en.wikipedia.org/wiki/Evenki_language
+notes: |
+  Northern Tungusic language spread across Siberia, Mongolia and Inner
+  Mongolia; the most widely dispersed Tungusic language.

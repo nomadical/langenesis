@@ -1,0 +1,15 @@
+id: cusco-quechua
+name: Cusco Quechua
+glottocode: cusc1236
+iso639_3: quz
+parents: [proto-quechua-ii]
+period:
+  start: 1600
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Cusco_Quechua
+  - https://glottolog.org/resource/languoid/id/cusc1236
+notes: |
+  Southern Quechua (Quechua IIC) variety of the Cusco region. The modern
+  prestige variety, historically closest to the colonial written standard.

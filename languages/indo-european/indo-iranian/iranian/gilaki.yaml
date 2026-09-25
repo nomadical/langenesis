@@ -1,0 +1,14 @@
+id: gilaki
+name: Gilaki
+iso639_3: glk
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2400000
+sources:
+  - https://en.wikipedia.org/wiki/Gilaki_language
+notes: |
+  Caspian (Northwestern Iranian) language of Gilan province, Iran.

@@ -1,0 +1,15 @@
+id: shauraseni-prakrit
+name: Shauraseni Prakrit
+iso639_3: psu
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 600
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Shauraseni_Prakrit
+notes: |
+  Central Prakrit of the Mathura region, used for prose in Sanskrit drama and in
+  Digambara Jain texts. Conventionally seen as ancestral to the Central and
+  Western modern Indo-Aryan languages.

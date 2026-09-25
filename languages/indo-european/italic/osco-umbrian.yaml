@@ -1,0 +1,14 @@
+id: osco-umbrian
+name: Proto-Osco-Umbrian
+parents: [proto-italic]
+period:
+  start: -1000
+  end: -600
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Osco-Umbrian_languages
+notes: |
+  Reconstructed ancestor of the Sabellic (Osco-Umbrian) branch of Italic.
+  Whether Latino-Faliscan and Sabellic form a genuine Italic clade or converged
+  by contact is debated.

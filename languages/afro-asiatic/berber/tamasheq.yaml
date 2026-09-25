@@ -1,0 +1,17 @@
+id: tamasheq
+name: Tamasheq (Tuareg)
+glottocode: tama1365
+iso639_3: taq
+parents: [proto-berber]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Tamasheq_language
+  - https://glottolog.org/resource/languoid/id/tama1365
+notes: |
+  Tuareg Berber language of northern Mali, written traditionally in Tifinagh.
+  Tuareg forms a separate southern branch of Berber alongside Tamajaq and
+  Tamahaq.

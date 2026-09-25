@@ -1,0 +1,17 @@
+id: old-church-slavonic
+name: Old Church Slavonic
+glottocode: chur1257
+iso639_3: chu
+parents: [proto-south-slavic]
+period:
+  start: 862
+  end: 1100
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Church_Slavonic
+  - https://glottolog.org/resource/languoid/id/chur1257
+notes: |
+  First Slavic literary language, standardised by Cyril and Methodius from the
+  South Slavic dialect of Thessaloniki. Also called Old Bulgarian. Glottolog and
+  ISO codes cover Church Slavonic generally.

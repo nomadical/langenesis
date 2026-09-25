@@ -1,0 +1,18 @@
+id: punic
+name: Punic
+glottocode: puni1241
+iso639_3: xpu
+parents: [phoenician]
+period:
+  start: -800
+  end: 600
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Punic_language
+  - https://glottolog.org/resource/languoid/id/puni1241
+notes: |
+  Western descendant of Phoenician spoken in Carthage and across the western
+  Mediterranean. Survived in North Africa into late antiquity (attested by
+  Augustine).

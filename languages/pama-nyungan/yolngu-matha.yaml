@@ -1,0 +1,15 @@
+id: yolngu-matha
+name: Yolŋu Matha
+parents: [proto-pama-nyungan]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 6000
+sources:
+  - https://en.wikipedia.org/wiki/Yolngu_Matha
+notes: |
+  Dialect cluster of northeast Arnhem Land. Its Pama-Nyungan membership makes
+  it an outlier surrounded by non-Pama-Nyungan languages. Start date is
+  nominal; intermediate subgroups are not tracked.

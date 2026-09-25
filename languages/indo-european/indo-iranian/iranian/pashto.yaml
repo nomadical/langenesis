@@ -1,0 +1,18 @@
+id: pashto
+name: Pashto
+glottocode: pash1269
+iso639_3: pus
+parents: [proto-iranian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 45000000
+sources:
+  - https://en.wikipedia.org/wiki/Pashto
+  - https://glottolog.org/resource/languoid/id/pash1269
+notes: |
+  Eastern Iranian; national language of Afghanistan and widely spoken in
+  Pakistan. Literature securely dated from the 16th c.; claims of earlier texts are
+  disputed.

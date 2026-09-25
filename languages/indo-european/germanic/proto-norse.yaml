@@ -1,0 +1,14 @@
+id: proto-norse
+name: Proto-Norse
+parents: [proto-germanic]
+period:
+  start: 150
+  end: 750
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Norse_language
+notes: |
+  Earliest attested North Germanic, known from Elder Futhark runic inscriptions
+  (c. 2nd–8th century). Often treated as the late stage of Northwest Germanic.

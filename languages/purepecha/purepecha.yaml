@@ -1,0 +1,17 @@
+id: purepecha
+name: Purépecha
+glottocode: pure1242
+iso639_3: tsz
+parents: []
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 140000
+sources:
+  - https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language
+  - https://glottolog.org/resource/languoid/id/pure1242
+notes: |
+  Language of the Tarascan state (Michoacán), a rival of the Aztecs. Usually
+  considered an isolate; the start date marks colonial documentation (Gilberti's
+  grammar, 1558).

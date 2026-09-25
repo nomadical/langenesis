@@ -1,0 +1,18 @@
+id: uyghur
+name: Uyghur
+glottocode: uigh1240
+iso639_3: uig
+parents: [chagatai]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 10000000
+sources:
+  - https://en.wikipedia.org/wiki/Uyghur_language
+  - https://glottolog.org/resource/languoid/id/uigh1240
+notes: |
+  Karluk language of Xinjiang, China, closely related to Uzbek. Modern
+  standard based on the Ili/Ürümqi dialects, written in Arabic script. Not the
+  direct descendant of Old Uyghur.

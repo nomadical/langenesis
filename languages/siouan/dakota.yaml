@@ -1,0 +1,15 @@
+id: dakota
+name: Dakota
+glottocode: dako1258
+iso639_3: dak
+parents: [proto-siouan]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Dakota_language
+  - https://glottolog.org/resource/languoid/id/dako1258
+notes: |
+  Eastern and Western Dakota (Santee–Sisseton, Yankton–Yanktonai), of the
+  Mississippi Valley Siouan branch. Closely related to Lakota.

@@ -1,0 +1,18 @@
+id: dyirbal
+name: Dyirbal
+glottocode: dyir1250
+iso639_3: dbl
+parents: [proto-pama-nyungan]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Dyirbal_language
+  - https://glottolog.org/resource/languoid/id/dyir1250
+notes: |
+  Language of the rainforest of northeast Queensland, famous from Dixon's work
+  on its noun classes and avoidance register. Nearly extinct, with only a
+  handful of speakers. Start date is nominal; intermediate subgroups are not
+  tracked.

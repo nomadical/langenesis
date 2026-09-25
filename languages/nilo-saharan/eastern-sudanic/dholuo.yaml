@@ -1,0 +1,17 @@
+id: dholuo
+name: Dholuo
+glottocode: luok1236
+iso639_3: luo
+parents: [proto-western-nilotic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 4000000
+sources:
+  - https://en.wikipedia.org/wiki/Dholuo
+  - https://glottolog.org/resource/languoid/id/luok1236
+notes: |
+  Luo language of western Kenya and northern Tanzania, brought by Luo
+  migrations from the Nile valley around the 15th–16th centuries.

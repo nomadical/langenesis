@@ -1,0 +1,14 @@
+id: dari
+name: Dari
+iso639_3: prs
+parents: [persian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Dari
+notes: |
+  Afghan standard of Persian and co-official language of Afghanistan. Split from
+  the Iranian standard is conventional (roughly Safavid era), not a sharp break.

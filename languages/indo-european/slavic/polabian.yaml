@@ -1,0 +1,17 @@
+id: polabian
+name: Polabian
+glottocode: pola1255
+iso639_3: pox
+parents: [proto-west-slavic]
+period:
+  start: 800
+  end: 1756
+  start_uncertainty: 100
+  end_uncertainty: 10
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Polabian_language
+  - https://glottolog.org/resource/languoid/id/pola1255
+notes: |
+  Lechitic language of the Drawehn Wends along the Elbe, extinct by the mid-18th
+  century. Known mainly from word lists.

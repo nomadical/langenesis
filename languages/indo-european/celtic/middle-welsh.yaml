@@ -1,0 +1,14 @@
+id: middle-welsh
+name: Middle Welsh
+iso639_3: wlm
+parents: [old-welsh]
+period:
+  start: 1150
+  end: 1500
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Welsh
+notes: |
+  The language of the Mabinogion and most medieval Welsh manuscripts.

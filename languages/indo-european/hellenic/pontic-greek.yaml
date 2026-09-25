@@ -1,0 +1,17 @@
+id: pontic-greek
+name: Pontic Greek
+glottocode: pont1253
+iso639_3: pnt
+parents: [medieval-greek]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 200000
+sources:
+  - https://en.wikipedia.org/wiki/Pontic_Greek
+  - https://glottolog.org/resource/languoid/id/pont1253
+notes: |
+  Developed on the Black Sea coast of Anatolia; speakers largely moved to Greece
+  in the 1923 population exchange. Speaker estimates vary.

@@ -1,0 +1,18 @@
+id: mapudungun
+name: Mapudungun
+glottocode: mapu1245
+iso639_3: arn
+parents: []
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 250000
+sources:
+  - https://en.wikipedia.org/wiki/Mapuche_language
+  - https://glottolog.org/resource/languoid/id/mapu1245
+notes: |
+  Language of the Mapuche of south-central Chile and Argentina, usually treated
+  as an isolate (Araucanian). First described in Luis de Valdivia's grammar
+  (1606); the start date marks the period of documentation, not the language's
+  origin.

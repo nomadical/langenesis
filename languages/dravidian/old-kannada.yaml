@@ -1,0 +1,14 @@
+id: old-kannada
+name: Old Kannada
+parents: [proto-south-dravidian]
+period:
+  start: 450
+  end: 1200
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Kannada
+notes: |
+  From the Halmidi inscription (~450 CE) to the 12th century; literature
+  includes the Kavirajamarga (~850 CE).

@@ -1,0 +1,17 @@
+id: venetian
+name: Venetian
+glottocode: vene1258
+iso639_3: vec
+parents: [vulgar-latin]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 3900000
+sources:
+  - https://en.wikipedia.org/wiki/Venetian_language
+  - https://glottolog.org/resource/languoid/id/vene1258
+notes: |
+  Classification is debated: grouped with Gallo-Italic by some, with Italo-
+  Dalmatian by others.

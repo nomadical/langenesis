@@ -1,0 +1,18 @@
+id: warlpiri
+name: Warlpiri
+glottocode: warl1254
+iso639_3: wbp
+parents: [proto-pama-nyungan]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 2500
+sources:
+  - https://en.wikipedia.org/wiki/Warlpiri_language
+  - https://glottolog.org/resource/languoid/id/warl1254
+notes: |
+  Ngarrkic language of the Tanami Desert, Northern Territory; one of the
+  largest Aboriginal languages by speakers. Start date is nominal;
+  intermediate subgroups are not tracked.

@@ -1,0 +1,16 @@
+id: bactrian
+name: Bactrian
+glottocode: bact1239
+iso639_3: xbc
+parents: [proto-iranian]
+period:
+  start: -300
+  end: 900
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Bactrian_language
+  - https://glottolog.org/resource/languoid/id/bact1239
+notes: |
+  Eastern Middle Iranian of Bactria, written in Greek script; official language of
+  the Kushan Empire (Rabatak inscription).

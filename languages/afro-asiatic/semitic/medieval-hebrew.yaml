@@ -1,0 +1,14 @@
+id: medieval-hebrew
+name: Medieval Hebrew
+parents: [mishnaic-hebrew]
+period:
+  start: 500
+  end: 1880
+  start_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Medieval_Hebrew
+notes: |
+  Literary, liturgical and scholarly Hebrew of the post-Talmudic period
+  (piyyut, Tiberian Masoretes, Andalusian poetry, rabbinic writing). Not a
+  native vernacular, but continuously written until the modern revival.

@@ -1,0 +1,14 @@
+id: proto-west-semitic
+name: Proto-West Semitic
+parents: [proto-semitic]
+period:
+  start: -3000
+  end: -2000
+  start_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/West_Semitic_languages
+notes: |
+  Reconstructed ancestor of West Semitic (Central Semitic, Ethio-Semitic, Old
+  and Modern South Arabian), as opposed to East Semitic (Akkadian, Eblaite).
+  Internal subgrouping, especially of the South Semitic languages, is debated.

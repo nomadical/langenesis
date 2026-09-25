@@ -1,0 +1,14 @@
+id: primitive-irish
+name: Primitive Irish
+iso639_3: pgl
+parents: [proto-celtic]
+period:
+  start: 300
+  end: 600
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Primitive_Irish
+notes: |
+  Earliest attested Goidelic, known only from Ogham inscriptions.

@@ -1,0 +1,18 @@
+id: gothic
+name: Gothic
+glottocode: goth1244
+iso639_3: got
+parents: [proto-germanic]
+period:
+  start: 300
+  end: 800
+  start_uncertainty: 50
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Gothic_language
+  - https://glottolog.org/resource/languoid/id/goth1244
+notes: |
+  Only substantially attested East Germanic language, chiefly from Wulfila's
+  4th-century Bible translation. Extinct in Italy and Iberia by around the 8th
+  century.

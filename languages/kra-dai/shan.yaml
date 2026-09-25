@@ -1,0 +1,17 @@
+id: shan
+name: Shan
+glottocode: shan1277
+iso639_3: shn
+parents: [proto-tai]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 3000000
+sources:
+  - https://en.wikipedia.org/wiki/Shan_language
+  - https://glottolog.org/resource/languoid/id/shan1277
+notes: |
+  Southwestern Tai language of Shan State, Myanmar, written in a Burmese-
+  derived script.

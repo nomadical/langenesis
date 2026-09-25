@@ -1,0 +1,14 @@
+id: proto-circassian
+name: Proto-Circassian
+parents: [proto-northwest-caucasian]
+period:
+  start: -1000
+  end: 1300
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Circassian_languages
+notes: |
+  Ancestor of Adyghe (West Circassian) and Kabardian (East Circassian). Date
+  of the split is uncertain.

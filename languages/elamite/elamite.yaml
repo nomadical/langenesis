@@ -1,0 +1,19 @@
+id: elamite
+name: Elamite
+glottocode: elam1244
+iso639_3: elx
+parents: []
+period:
+  start: -2600
+  end: -330
+  start_uncertainty: 200
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Elamite_language
+  - https://glottolog.org/resource/languoid/id/elam1244
+notes: |
+  Language of Elam in southwestern Iran, attested from ~2600 BCE to the
+  Achaemenid period (Old, Middle, Neo-, Achaemenid Elamite). Usually treated
+  as an isolate; the Elamo-Dravidian hypothesis is not accepted. Whether
+  Proto-Elamite and Linear Elamite record the same language is debated.

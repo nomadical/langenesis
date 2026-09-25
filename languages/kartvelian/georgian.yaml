@@ -1,0 +1,17 @@
+id: georgian
+name: Georgian
+glottocode: nucl1302
+iso639_3: kat
+parents: [old-georgian]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 3700000
+sources:
+  - https://en.wikipedia.org/wiki/Georgian_language
+  - https://glottolog.org/resource/languoid/id/nucl1302
+notes: |
+  Covers Middle Georgian (~1100–1800) and Modern Georgian. Written in the
+  Mkhedruli script.

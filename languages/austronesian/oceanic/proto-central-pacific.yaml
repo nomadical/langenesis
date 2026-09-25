@@ -1,0 +1,13 @@
+id: proto-central-pacific
+name: Proto-Central Pacific
+parents: [proto-oceanic]
+period:
+  start: -1000
+  end: -800
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Central_Pacific_languages
+notes: |
+  Ancestor of Fijian, Rotuman and the Polynesian languages, spoken in the
+  Fiji–Tonga–Samoa region after Lapita settlement.

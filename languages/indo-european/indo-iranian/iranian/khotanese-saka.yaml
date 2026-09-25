@@ -1,0 +1,14 @@
+id: khotanese-saka
+name: Khotanese Saka
+iso639_3: kho
+parents: [proto-iranian]
+period:
+  start: 300
+  end: 1000
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Saka_language
+notes: |
+  Eastern Middle Iranian of the Kingdom of Khotan in the Tarim Basin, preserved in
+  Buddhist manuscripts in Brahmi script (mostly 7th–10th c.).

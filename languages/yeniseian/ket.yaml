@@ -1,0 +1,17 @@
+id: ket
+name: Ket
+glottocode: kett1243
+iso639_3: ket
+parents: [proto-yeniseian]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 20
+sources:
+  - https://en.wikipedia.org/wiki/Ket_language
+  - https://glottolog.org/resource/languoid/id/kett1243
+notes: |
+  Last surviving Yeniseian language, spoken along the middle Yenisei in
+  Krasnoyarsk Krai; fewer than a few dozen fluent speakers remain.

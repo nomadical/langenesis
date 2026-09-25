@@ -1,0 +1,13 @@
+id: old-east-norse
+name: Old East Norse
+parents: [old-norse]
+period:
+  start: 1050
+  end: 1225
+  start_uncertainty: 50
+  end_uncertainty: 25
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_East_Norse
+notes: |
+  Runic Swedish and Runic Danish; ancestor of Swedish and Danish.

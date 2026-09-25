@@ -1,0 +1,14 @@
+id: proto-samic
+name: Proto-Samic
+parents: [proto-uralic]
+period:
+  start: -500
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Samic_language
+notes: |
+  Ancestor of the Sami languages of northern Fennoscandia; reconstructed at
+  ~500 BCE–500 CE, with an unidentified Palaeo-European substrate.

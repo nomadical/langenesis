@@ -1,0 +1,17 @@
+id: kabardian
+name: Kabardian
+glottocode: kaba1278
+iso639_3: kbd
+parents: [proto-circassian]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1600000
+sources:
+  - https://en.wikipedia.org/wiki/Kabardian_language
+  - https://glottolog.org/resource/languoid/id/kaba1278
+notes: |
+  East Circassian; spoken in Kabardino-Balkaria and Karachay-Cherkessia, and
+  in the diaspora. Start date is nominal.

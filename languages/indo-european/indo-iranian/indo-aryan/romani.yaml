@@ -1,0 +1,16 @@
+id: romani
+name: Romani
+iso639_3: rom
+parents: [proto-romani]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Romani_language
+notes: |
+  Language of the Roma, spoken across Europe and beyond, with a heavy Byzantine
+  Greek layer acquired in Anatolia/the Balkans. ISO code is the Romani
+  macrolanguage; speaker estimates range widely.

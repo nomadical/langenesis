@@ -1,0 +1,15 @@
+id: proto-nilotic
+name: Proto-Nilotic
+parents: [proto-eastern-sudanic]
+period:
+  start: -3000
+  end: -1500
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Nilotic_languages
+notes: |
+  Ancestor of the Western, Eastern and Southern Nilotic languages of South
+  Sudan, Uganda, Kenya and Tanzania, probably spoken in the southern Sudan
+  region.

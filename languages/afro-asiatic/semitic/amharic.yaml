@@ -1,0 +1,18 @@
+id: amharic
+name: Amharic
+glottocode: amha1245
+iso639_3: amh
+parents: [proto-ethio-semitic]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 35000000
+sources:
+  - https://en.wikipedia.org/wiki/Amharic
+  - https://glottolog.org/resource/languoid/id/amha1245
+notes: |
+  South Ethio-Semitic; the working language of Ethiopia and the second most
+  spoken Semitic language after Arabic. Earliest texts are 14th-century royal
+  songs; L1 figure, with many more L2 speakers.

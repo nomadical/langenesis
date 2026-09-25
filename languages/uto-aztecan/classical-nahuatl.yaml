@@ -1,0 +1,18 @@
+id: classical-nahuatl
+name: Classical Nahuatl
+glottocode: clas1250
+iso639_3: nci
+parents: [proto-nahuan]
+period:
+  start: 1300
+  end: 1750
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Nahuatl
+  - https://glottolog.org/resource/languoid/id/clas1250
+notes: |
+  Language of Tenochtitlan and the Aztec Empire. After the conquest it became a
+  major written language in Latin script (the Florentine Codex and colonial
+  documents).

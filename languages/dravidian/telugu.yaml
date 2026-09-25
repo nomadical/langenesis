@@ -2,9 +2,9 @@ id: telugu
 name: Telugu
 glottocode: telu1262
 iso639_3: tel
-parents: [proto-dravidian]
+parents: [old-telugu]
 period:
-  start: 575
+  start: 1100
   end: present
 status: living
 speakers: 83000000
@@ -12,5 +12,5 @@ sources:
   - https://en.wikipedia.org/wiki/Telugu_language
   - https://glottolog.org/resource/languoid/id/telu1262
 notes: |
-  South-Central Dravidian. Earliest inscriptions date to the 6th century CE.
-  One of India's six Classical Languages.
+  South-Central Dravidian. Covers Middle Telugu (~1100–1600) and Modern Telugu;
+  Old Telugu is tracked separately. One of India's Classical Languages.

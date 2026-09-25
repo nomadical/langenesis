@@ -1,0 +1,15 @@
+id: mende
+name: Mende
+iso639_3: men
+parents: [proto-mande]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Mende_language
+notes: |
+  Southwestern Mande language of Sierra Leone, written in its own Kikakui script
+  in the 20th century.

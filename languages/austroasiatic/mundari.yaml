@@ -1,0 +1,17 @@
+id: mundari
+name: Mundari
+glottocode: mund1320
+iso639_3: unr
+parents: [proto-munda]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1100000
+sources:
+  - https://en.wikipedia.org/wiki/Mundari_language
+  - https://glottolog.org/resource/languoid/id/mund1320
+notes: |
+  North Munda language of Jharkhand and neighbouring states, closely related
+  to Santali and Ho.

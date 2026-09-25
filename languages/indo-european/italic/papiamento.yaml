@@ -1,0 +1,18 @@
+id: papiamento
+name: Papiamento
+glottocode: papi1253
+iso639_3: pap
+parents: [portuguese, spanish]
+period:
+  start: 1650
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 340000
+sources:
+  - https://en.wikipedia.org/wiki/Papiamento
+  - https://glottolog.org/resource/languoid/id/papi1253
+notes: |
+  Iberian-based creole of Aruba, Bonaire and Curaçao. Whether its base is
+  Portuguese (Afro-Portuguese creole) or Spanish is debated; also strongly
+  Dutch-influenced.

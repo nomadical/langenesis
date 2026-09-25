@@ -1,0 +1,15 @@
+id: soninke
+name: Soninke
+iso639_3: snk
+parents: [proto-mande]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Soninke_language
+notes: |
+  Western Mande language associated with the Ghana Empire (Wagadu). The start date
+  is a conventional anchor, not an attested stage boundary.

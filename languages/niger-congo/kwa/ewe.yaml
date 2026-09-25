@@ -1,0 +1,16 @@
+id: ewe
+name: Ewe
+glottocode: ewee1241
+iso639_3: ewe
+parents: [proto-kwa]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 7000000
+sources:
+  - https://en.wikipedia.org/wiki/Ewe_language
+  - https://glottolog.org/resource/languoid/id/ewee1241
+notes: |
+  Gbe language of southeastern Ghana and southern Togo.

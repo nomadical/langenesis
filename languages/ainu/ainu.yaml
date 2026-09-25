@@ -1,0 +1,16 @@
+id: ainu
+name: Ainu
+iso639_3: ain
+parents: []
+period:
+  start: 700
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Ainu_language
+notes: |
+  Isolate of Hokkaido (formerly also Sakhalin and the Kurils). Nearly extinct
+  as a first language — only a handful of elderly speakers — with active
+  revival efforts; recognised by Japan's 2019 Ainu Promotion Act. Start date
+  (Satsumon period) is approximate.

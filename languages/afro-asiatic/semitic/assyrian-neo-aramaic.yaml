@@ -1,0 +1,17 @@
+id: assyrian-neo-aramaic
+name: Assyrian Neo-Aramaic
+glottocode: assy1241
+iso639_3: aii
+parents: [aramaic]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 200
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Assyrian_Neo-Aramaic
+  - https://glottolog.org/resource/languoid/id/assy1241
+notes: |
+  Northeastern Neo-Aramaic language of Assyrian Christians in northern Iraq,
+  southeastern Turkey, northwestern Iran and the diaspora. Descends from Late
+  Eastern Aramaic vernaculars, not directly from Classical Syriac.

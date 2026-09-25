@@ -1,0 +1,14 @@
+id: middle-low-german
+name: Middle Low German
+iso639_3: gml
+parents: [old-saxon]
+period:
+  start: 1150
+  end: 1600
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Low_German
+notes: |
+  Lingua franca of the Hanseatic League; strong lexical influence on the
+  Scandinavian languages.

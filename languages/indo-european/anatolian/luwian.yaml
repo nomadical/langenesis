@@ -1,0 +1,15 @@
+id: luwian
+name: Luwian
+iso639_3: xlu
+parents: [proto-anatolian]
+period:
+  start: -1600
+  end: -600
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Luwian_language
+notes: |
+  Attested in cuneiform and Anatolian hieroglyphs; widely spoken in the Late
+  Bronze Age and in the Neo-Hittite states.

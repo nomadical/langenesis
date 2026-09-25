@@ -1,0 +1,15 @@
+id: proto-min
+name: Proto-Min
+parents: [old-chinese]
+period:
+  start: -100
+  end: 900
+  start_uncertainty: 300
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Min_Chinese
+notes: |
+  Ancestor of the Min varieties, which split off before Middle Chinese and
+  preserve Old Chinese distinctions absent from the Qieyun system. Dating is
+  approximate (Han period settlement of Fujian).

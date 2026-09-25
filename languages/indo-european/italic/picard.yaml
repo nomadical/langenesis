@@ -1,0 +1,17 @@
+id: picard
+name: Picard
+glottocode: pica1241
+iso639_3: pcd
+parents: [old-french]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 200000
+sources:
+  - https://en.wikipedia.org/wiki/Picard_language
+  - https://glottolog.org/resource/languoid/id/pica1241
+notes: |
+  Langue d'oïl of northern France and Hainaut; an important medieval literary
+  variety. Speaker estimates are uncertain.

@@ -1,0 +1,16 @@
+id: hopi
+name: Hopi
+glottocode: hopi1249
+iso639_3: hop
+parents: [proto-uto-aztecan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 6800
+sources:
+  - https://en.wikipedia.org/wiki/Hopi_language
+  - https://glottolog.org/resource/languoid/id/hopi1249
+notes: |
+  Forms its own branch of Northern Uto-Aztecan. Spoken in northeastern Arizona;
+  the speaker count comes from the 2010 US census.

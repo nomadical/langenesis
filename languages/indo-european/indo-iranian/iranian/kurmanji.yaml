@@ -1,0 +1,17 @@
+id: kurmanji
+name: Kurmanji
+glottocode: nort2641
+iso639_3: kmr
+parents: [proto-kurdish]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 15000000
+sources:
+  - https://en.wikipedia.org/wiki/Kurmanji
+  - https://glottolog.org/resource/languoid/id/nort2641
+notes: |
+  Northern Kurdish, spoken in Turkey, Syria, northern Iraq, Iran and the diaspora;
+  usually written in Latin script.

@@ -1,0 +1,18 @@
+id: malayalam
+name: Malayalam
+glottocode: mala1464
+iso639_3: mal
+parents: [old-tamil]
+period:
+  start: 830
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 38000000
+sources:
+  - https://en.wikipedia.org/wiki/Malayalam
+  - https://glottolog.org/resource/languoid/id/mala1464
+notes: |
+  Emerged from the west-coast dialects of Middle Tamil; the Vazhappally copper
+  plates (~830 CE) are usually cited as the earliest record. Whether it split
+  from Old/Middle Tamil or from an earlier common stage is debated.

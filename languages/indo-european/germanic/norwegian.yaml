@@ -1,0 +1,17 @@
+id: norwegian
+name: Norwegian
+glottocode: norw1258
+iso639_3: nor
+parents: [old-west-norse]
+period:
+  start: 1350
+  end: present
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Norwegian_language
+  - https://glottolog.org/resource/languoid/id/norw1258
+notes: |
+  Middle Norwegian (1350–1525) is not tracked separately. Bokmål reflects heavy
+  Danish influence from four centuries of Danish rule; Nynorsk is built on rural
+  dialects.

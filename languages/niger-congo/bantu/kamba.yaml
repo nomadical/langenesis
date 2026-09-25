@@ -1,0 +1,14 @@
+id: kamba
+name: Kamba
+iso639_3: kam
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 4700000
+sources:
+  - https://en.wikipedia.org/wiki/Kamba_language
+notes: |
+  Northeast Bantu (Guthrie E55) language of Kenya's Eastern Province.

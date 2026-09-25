@@ -1,0 +1,17 @@
+id: swiss-german
+name: Swiss German
+glottocode: swis1247
+iso639_3: gsw
+parents: [middle-high-german]
+period:
+  start: 1350
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Swiss_German
+  - https://glottolog.org/resource/languoid/id/swis1247
+notes: |
+  Alemannic dialects of German-speaking Switzerland, used in diglossia with
+  Standard German.

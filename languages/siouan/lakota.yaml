@@ -1,0 +1,16 @@
+id: lakota
+name: Lakota
+glottocode: lako1247
+iso639_3: lkt
+parents: [proto-siouan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 2000
+sources:
+  - https://en.wikipedia.org/wiki/Lakota_language
+  - https://glottolog.org/resource/languoid/id/lako1247
+notes: |
+  Western (Teton) Sioux, of the Mississippi Valley Siouan branch. Forms a
+  dialect continuum with Dakota.

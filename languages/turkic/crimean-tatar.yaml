@@ -1,0 +1,17 @@
+id: crimean-tatar
+name: Crimean Tatar
+glottocode: crim1257
+iso639_3: crh
+parents: [proto-kipchak]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 300000
+sources:
+  - https://en.wikipedia.org/wiki/Crimean_Tatar_language
+  - https://glottolog.org/resource/languoid/id/crim1257
+notes: |
+  Language of the Crimean Tatars; mixes Kipchak (steppe), Oghuz (southern
+  coast) and transitional dialects. Severely affected by the 1944 deportation.

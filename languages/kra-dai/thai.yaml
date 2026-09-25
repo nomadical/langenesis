@@ -1,0 +1,18 @@
+id: thai
+name: Thai
+glottocode: thai1261
+iso639_3: tha
+parents: [proto-tai]
+period:
+  start: 1250
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 21000000
+sources:
+  - https://en.wikipedia.org/wiki/Thai_language
+  - https://glottolog.org/resource/languoid/id/thai1261
+notes: |
+  Southwestern Tai language and national language of Thailand; speaker figure
+  is Central Thai L1. The Ramkhamhaeng inscription (1292) is traditionally the
+  earliest record, though its authenticity is debated.

@@ -1,0 +1,18 @@
+id: etruscan
+name: Etruscan
+glottocode: etru1241
+iso639_3: ett
+parents: [proto-tyrsenian]
+period:
+  start: -700
+  end: 50
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Etruscan_language
+  - https://glottolog.org/resource/languoid/id/etru1241
+notes: |
+  Language of the Etruscan civilisation of central Italy, written in a Greek-
+  derived alphabet from ~700 BCE. Replaced by Latin by the 1st century CE;
+  still partly understood.

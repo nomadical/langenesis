@@ -1,0 +1,13 @@
+id: proto-permic
+name: Proto-Permic
+parents: [proto-uralic]
+period:
+  start: 0
+  end: 900
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Permic_languages
+notes: |
+  Ancestor of Udmurt and the Komi languages, spoken in the Kama river basin.

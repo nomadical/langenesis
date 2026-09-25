@@ -1,0 +1,15 @@
+id: proto-atlantic-congo
+name: Proto-Atlantic-Congo
+parents: [proto-niger-congo]
+period:
+  start: -7000
+  end: -5000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Atlantic%E2%80%93Congo_languages
+notes: |
+  Hypothetical ancestor of the core of Niger-Congo, excluding Mande, Dogon, Ijoid and
+  Kordofanian. Dating is speculative and follows from the contested dating of
+  Proto-Niger-Congo.

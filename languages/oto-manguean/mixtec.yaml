@@ -1,0 +1,13 @@
+id: mixtec
+name: Mixtec
+parents: [proto-oto-manguean]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 530000
+sources:
+  - https://en.wikipedia.org/wiki/Mixtec_language
+notes: |
+  Mixtecan branch: a large dialect complex in Oaxaca, Puebla and Guerrero, shown
+  here as one node. Pre-Columbian Mixtec codices record the language.

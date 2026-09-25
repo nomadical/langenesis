@@ -1,0 +1,15 @@
+id: old-frisian
+name: Old Frisian
+iso639_3: ofs
+parents: [proto-west-germanic]
+period:
+  start: 800
+  end: 1550
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Frisian
+notes: |
+  Closest relative of Old English (Anglo-Frisian grouping, not universally
+  accepted). Written records begin in the 13th century.

@@ -1,0 +1,15 @@
+id: yaqui
+name: Yaqui
+glottocode: yaqu1251
+iso639_3: yaq
+parents: [proto-uto-aztecan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 17000
+sources:
+  - https://en.wikipedia.org/wiki/Yaqui_language
+  - https://glottolog.org/resource/languoid/id/yaqu1251
+notes: |
+  Cahitan branch, spoken in Sonora and Arizona. Closely related to Mayo.

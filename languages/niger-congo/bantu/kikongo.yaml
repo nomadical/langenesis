@@ -1,0 +1,15 @@
+id: kikongo
+name: Kikongo
+iso639_3: kon
+parents: [proto-bantu]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 7000000
+sources:
+  - https://en.wikipedia.org/wiki/Kongo_language
+notes: |
+  West-Central Bantu (Guthrie H10) language of the former Kingdom of Kongo; one of the
+  first Bantu languages written (catechism of 1624).

@@ -1,0 +1,16 @@
+id: icelandic
+name: Icelandic
+glottocode: icel1247
+iso639_3: isl
+parents: [old-west-norse]
+period:
+  start: 1350
+  end: present
+status: living
+speakers: 330000
+sources:
+  - https://en.wikipedia.org/wiki/Icelandic_language
+  - https://glottolog.org/resource/languoid/id/icel1247
+notes: |
+  Most conservative North Germanic language. Middle Icelandic (1350–1550) is not
+  tracked separately.

@@ -2,7 +2,7 @@ id: kazakh
 name: Kazakh
 glottocode: kaza1248
 iso639_3: kaz
-parents: [old-turkic]
+parents: [proto-kipchak]
 period:
   start: 1500
   end: present
