@@ -1,8 +1,8 @@
-import yaml from "js-yaml";
-import { languageNodeSchema, type LanguageNode, periodEnd } from "./schema";
+import languages from "virtual:languages";
+import { type CoreNode, periodEnd } from "./model";
 
 export interface TreeNode {
-  data: LanguageNode;
+  data: CoreNode;
   children: TreeNode[];
   /** Parents beyond parents[0]. Used to draw secondary (DAG) edges. */
   secondaryParentIds: string[];
@@ -103,43 +103,8 @@ export function familyLabel(name: string): string {
   return name.replace(/^Proto-/, "");
 }
 
-interface LoadedFile {
-  node: LanguageNode;
-  /** Top-level folder under languages/, e.g. "indo-european". */
-  folder: string;
-}
-
-function loadYamlFiles(): LoadedFile[] {
-  const files = import.meta.glob("/languages/**/*.yaml", {
-    query: "?raw",
-    import: "default",
-    eager: true,
-  }) as Record<string, string>;
-
-  const out: LoadedFile[] = [];
-  for (const [path, raw] of Object.entries(files)) {
-    let parsed: unknown;
-    try {
-      parsed = yaml.load(raw);
-    } catch (err) {
-      throw new Error(`Failed to parse ${path}: ${(err as Error).message}`);
-    }
-    const result = languageNodeSchema.safeParse(parsed);
-    if (!result.success) {
-      throw new Error(
-        `Schema validation failed for ${path}:\n${result.error.issues
-          .map((i) => `  - ${i.path.join(".")}: ${i.message}`)
-          .join("\n")}`,
-      );
-    }
-    const folder = path.split("/")[2] ?? "";
-    out.push({ node: result.data, folder });
-  }
-  return out;
-}
-
 export function buildTree(
-  nodes: LanguageNode[],
+  nodes: CoreNode[],
   folderOf: Map<string, string> = new Map(),
 ): LoadedData {
   const byId = new Map<string, TreeNode>();
@@ -245,13 +210,12 @@ export function buildTree(
     root = topLevel[0];
     hasVirtualRoot = false;
   } else {
-    const rootData: LanguageNode = {
+    const rootData: CoreNode = {
       id: VIRTUAL_ROOT_ID,
       name: "Languages",
       parents: [],
       period: { start: minYear, end: minYear },
       status: "reconstructed",
-      sources: [],
     };
     root = { data: rootData, children: topLevel, secondaryParentIds: [] };
     byId.set(VIRTUAL_ROOT_ID, root);
@@ -273,9 +237,8 @@ export function isVirtualRootId(id: string): boolean {
 }
 
 export function loadData(): LoadedData {
-  const files = loadYamlFiles();
   return buildTree(
-    files.map((f) => f.node),
-    new Map(files.map((f) => [f.node.id, f.folder])),
+    languages,
+    new Map(languages.map((n) => [n.id, n.folder])),
   );
 }

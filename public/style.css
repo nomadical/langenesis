@@ -293,144 +293,75 @@ kbd {
 }
 
 /* ============ Viz ============ */
+/* Geometry is drawn on the canvas by radial-tree.ts; the SVG on top holds
+   only screen-space text and receives pointer + zoom input. */
 .viz-wrap {
   position: relative;
   min-width: 0;
   overflow: hidden;
+  contain: strict;
 }
+.viz-canvas,
 #viz {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   display: block;
+}
+#viz {
   cursor: grab;
-  /* Updated on every zoom frame by radial-tree.ts:
-     --zs scales strokes gently, --zf converts screen px to user units. */
-  --zs: 1;
-  --zf: 1;
+  touch-action: none;
 }
 #viz:active { cursor: grabbing; }
 
-/* Era rings — hairlines that stay 1px on screen at every zoom level. */
-.era-ring {
-  fill: none;
-  stroke: var(--ring);
-  stroke-width: calc(1px * var(--zf));
-  stroke-dasharray: calc(3px * var(--zf)) calc(4px * var(--zf));
-  pointer-events: none;
-}
-.era-ring.era-today {
-  stroke: rgba(180, 200, 230, 0.16);
-  stroke-dasharray: none;
-}
 .era-label {
   fill: var(--fg-faint);
-  font-size: calc(10.5px * var(--zf));
+  font-size: 10.5px;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.04em;
+}
+
+.node-label,
+.band-label,
+.era-label {
   pointer-events: none;
-  transition: opacity 160ms;
+  animation: label-in 160ms ease-out;
 }
-.era-label.lod-hidden { opacity: 0; }
-
-.edge {
-  fill: none;
-  stroke-width: calc(1.2px * var(--zs));
-  opacity: 0.85;
-  stroke-linecap: round;
-  transition: opacity 180ms;
-}
-.edge.root-edge {
-  stroke: var(--fg-ghost);
-  stroke-width: calc(1px * var(--zf));
-  stroke-dasharray: calc(1px * var(--zf)) calc(4px * var(--zf));
-  opacity: 1;
-}
-.edge.secondary {
-  stroke-dasharray: calc(4px * var(--zs)) calc(5px * var(--zs));
-  opacity: 0.55;
-}
-
-.node-hitbox {
-  stroke: transparent;
-  stroke-width: calc(14px * var(--zf));
-  stroke-linecap: round;
-  cursor: pointer;
-}
-.node-arc {
-  stroke-width: calc(2.8px * var(--zs));
-  stroke-linecap: round;
-  fill: none;
-  pointer-events: none;
-  transition: stroke-width 180ms ease-out, opacity 200ms ease-out;
-}
-/* Reconstructed proto-languages are dotted: honest about being hypothetical. */
-.node.reconstructed .node-arc {
-  stroke-dasharray: calc(0.1px * var(--zs)) calc(5.5px * var(--zs));
-}
-.node:hover .node-arc { stroke-width: calc(5px * var(--zs)); }
-
-.node.selected .node-arc { stroke-width: calc(6.5px * var(--zs)); }
-.node.lineage .node-arc { stroke-width: calc(4.5px * var(--zs)); }
-.edge.lineage-edge { stroke-width: calc(2.4px * var(--zs)); }
-
-/* Focus mode: selecting a language dims everything except its lineage
-   (full strength) and its family (half strength). */
-#viz:has(.node.selected) .node-arc { opacity: 0.12; }
-#viz:has(.node.selected) .edge { opacity: 0.08; }
-#viz:has(.node.selected) .node.same-family .node-arc { opacity: 0.6; }
-#viz:has(.node.selected) .edge.same-family-edge { opacity: 0.45; }
-#viz:has(.node.selected) .node.lineage .node-arc,
-#viz:has(.node.selected) .node:hover .node-arc { opacity: 1; }
-#viz:has(.node.selected) .edge.lineage-edge { opacity: 1; }
-#viz:has(.node.selected) .node:not(.lineage):not(.same-family) .node-label { opacity: 0.1; }
-#viz:has(.node.selected) .node:not(.lineage) .node-label.internal { opacity: 0; }
-
-/* Family hover (sidebar or outer band). */
-#viz.family-focus .node:not(.family-hit) .node-arc { opacity: 0.1; }
-#viz.family-focus .edge:not(.family-hit) { opacity: 0.06; }
-#viz.family-focus .node:not(.family-hit) .node-label { opacity: 0.12; }
-#viz.family-focus .band:not(.family-hit) { opacity: 0.3; }
+@keyframes label-in { from { opacity: 0; } }
 
 .node-label {
   fill: var(--fg);
-  pointer-events: none;
   paint-order: stroke;
   stroke: var(--bg);
-  stroke-width: calc(3.5px * var(--zf));
+  stroke-width: 3.5px;
   stroke-linejoin: round;
-  font-size: calc(12.5px * var(--zf));
+  font-size: 12.5px;
   font-weight: 500;
-  transition: opacity 160ms ease-out;
 }
 .node-label.internal {
   fill: var(--fg-dim);
-  font-size: calc(11px * var(--zf));
+  font-size: 11px;
   font-style: italic;
 }
-/* Level of detail: labels without room at this zoom are hidden. Hover,
-   selection and lineage always bring them back. */
-.node-label.lod-hidden { opacity: 0; }
-.node:hover .node-label,
-.node.lineage .node-label { opacity: 1 !important; fill: var(--fg); }
-.node.selected .node-label { font-weight: 700; fill: #fff; }
+.node-label.hover,
+.node-label.lineage { fill: var(--fg); }
+.node-label.selected { font-weight: 700; fill: #fff; }
 
-/* Outer family band */
-.band { cursor: pointer; transition: opacity 180ms; }
-.band-hit { fill: transparent; }
-.band-arc { fill: currentColor; opacity: 0.85; }
-.band:hover .band-arc { opacity: 1; }
+/* Focus mode: a selection fades labels outside its lineage and family. */
+#viz.has-selection .node-label:not(.lineage):not(.same-family) { opacity: 0.1; }
+#viz.has-selection .node-label.internal:not(.lineage) { opacity: 0; }
+#viz.family-focus .node-label:not(.family-hit) { opacity: 0.12; }
+#viz.family-focus .band-label:not(.family-hit) { opacity: 0.3; }
+#viz .node-label.hover { opacity: 1; }
+
 .band-text-path { fill: none; }
 .band-label {
-  fill: currentColor;
-  font-size: calc(11px * var(--zf));
+  font-size: 11px;
   font-weight: 650;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  pointer-events: none;
-  transition: opacity 160ms;
 }
-.band-label.lod-hidden { opacity: 0; }
-.band:hover .band-label { opacity: 1; }
 
 /* Zoom controls */
 .zoom-controls {

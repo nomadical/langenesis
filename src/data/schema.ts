@@ -45,8 +45,9 @@ export const languageNodeSchema = z.object({
 
 export type LanguageNode = z.infer<typeof languageNodeSchema>;
 
-export const CURRENT_YEAR = 2026;
-
-export function periodEnd(node: LanguageNode): number {
-  return node.period.end === "present" ? CURRENT_YEAR : node.period.end;
-}
+export {
+  type CoreNode,
+  CURRENT_YEAR,
+  type NodeDetails,
+  periodEnd,
+} from "./model";

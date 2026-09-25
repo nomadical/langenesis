@@ -1,5 +1,5 @@
 import { type FamilyInfo, isVirtualRootId, loadData } from "./data/loader";
-import { type LanguageNode } from "./data/schema";
+import { type CoreNode, type NodeDetails } from "./data/model";
 import { renderRadialTree, type RadialTreeHandle } from "./viz/radial-tree";
 
 function mustGet<T extends Element>(id: string): T {
@@ -38,8 +38,10 @@ const STARTERS = [
 ];
 
 let selectedId: string | null = null;
+// Notes, sources and codes load after first paint; the tree never needs them.
+let details: Record<string, NodeDetails> | null = null;
 let acIndex = -1;
-let acMatches: LanguageNode[] = [];
+let acMatches: CoreNode[] = [];
 
 const compact = new Intl.NumberFormat("en", {
   notation: "compact",
@@ -92,6 +94,15 @@ function setSelection(id: string | null, opts: { focus?: "lineage" | "family" | 
     else if (focus === "family") handle.focusFamily(data.familyOf.get(id) ?? id);
   } else {
     renderDetail(null);
+
+// Fetch the reference material once the tree is on screen.
+requestAnimationFrame(() =>
+  setTimeout(async () => {
+    details = (await import("virtual:language-details")).default;
+    const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
+    if (node) renderDetail(node);
+  }, 0),
+);
     if (focus !== "none") handle.resetZoom();
   }
   updateFamilyActive();
@@ -139,10 +150,10 @@ function renderFamilies() {
 renderFamilies();
 
 // ============ Detail panel ============
-function renderDetail(node: LanguageNode | null) {
+function renderDetail(node: CoreNode | null) {
   if (!node) {
     const starters = STARTERS.map((id) => data.byId.get(id)?.data)
-      .filter((n): n is LanguageNode => !!n)
+      .filter((n): n is CoreNode => !!n)
       .map(
         (n) =>
           `<button type="button" class="chip" data-jump="${escapeAttr(n.id)}" style="--c:${handle.familyColor(data.familyOf.get(n.id) ?? "")}">${escapeHtml(n.name)}</button>`,
@@ -162,11 +173,12 @@ function renderDetail(node: LanguageNode | null) {
   const fam = familyOfNode(node.id);
   const famColor = fam ? handle.familyColor(fam.id) : "var(--fg-dim)";
 
+  const info = details?.[node.id];
   const facts: string[] = [];
   if (node.speakers !== undefined)
     facts.push(`<dt>Speakers</dt><dd>${compact.format(node.speakers)} <span class="faint">(${node.speakers.toLocaleString("en-US")})</span></dd>`);
-  if (node.iso639_3) facts.push(`<dt>ISO 639-3</dt><dd class="mono">${node.iso639_3}</dd>`);
-  if (node.glottocode) facts.push(`<dt>Glottocode</dt><dd class="mono">${node.glottocode}</dd>`);
+  if (info?.iso639_3) facts.push(`<dt>ISO 639-3</dt><dd class="mono">${info.iso639_3}</dd>`);
+  if (info?.glottocode) facts.push(`<dt>Glottocode</dt><dd class="mono">${info.glottocode}</dd>`);
   if (node.parents.length > 1) {
     const others = node.parents
       .slice(1)
@@ -210,7 +222,7 @@ function renderDetail(node: LanguageNode | null) {
       </section>`
     : "";
 
-  const sources = node.sources
+  const sources = (info?.sources ?? [])
     .map((s) => `<li><a href="${escapeAttr(s)}" target="_blank" rel="noopener">${escapeHtml(prettyUrl(s))}</a></li>`)
     .join("");
 
@@ -222,7 +234,7 @@ function renderDetail(node: LanguageNode | null) {
       <span class="pill status-${node.status}">${statusLabel(node.status)}</span>
     </header>
     ${facts.length ? `<dl>${facts.join("")}</dl>` : ""}
-    ${node.notes ? `<p class="notes">${escapeHtml(node.notes.trim())}</p>` : ""}
+    ${info?.notes ? `<p class="notes">${escapeHtml(info.notes)}</p>` : ""}
     ${lineageHtml}
     ${childrenHtml}
     ${sources ? `<section class="sources"><h3 class="section-title">Sources</h3><ul>${sources}</ul></section>` : ""}
@@ -380,7 +392,7 @@ function positionTooltip(event: MouseEvent) {
 }
 
 // ============ Formatting ============
-function statusLabel(status: LanguageNode["status"]): string {
+function statusLabel(status: CoreNode["status"]): string {
   return {
     living: "Living",
     extinct: "Extinct",
@@ -388,7 +400,7 @@ function statusLabel(status: LanguageNode["status"]): string {
     classical: "Classical",
   }[status];
 }
-function formatPeriod(node: LanguageNode): string {
+function formatPeriod(node: CoreNode): string {
   const start = formatYear(node.period.start, node.period.start_uncertainty);
   const end = node.period.end === "present" ? "today" : formatYear(node.period.end);
   return `${start} – ${end}`;
@@ -415,3 +427,12 @@ function escapeAttr(s: string): string {
 }
 
 renderDetail(null);
+
+// Fetch the reference material once the tree is on screen.
+requestAnimationFrame(() =>
+  setTimeout(async () => {
+    details = (await import("virtual:language-details")).default;
+    const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
+    if (node) renderDetail(node);
+  }, 0),
+);
