@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T13:28:04.727149+00:00",
+  "title": "Design System: Langenesis",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Night",
+        "tonalRamp": [
+          "oklch(15% 0.02 265)",
+          "oklch(25% 0.02 265)",
+          "oklch(35% 0.02 265)",
+          "oklch(48% 0.02 265)",
+          "oklch(60% 0.02 265)",
+          "oklch(72% 0.02 265)",
+          "oklch(84% 0.02 265)",
+          "oklch(95% 0.02 265)"
+        ]
+      },
+      "night-panel": {
+        "role": "neutral",
+        "displayName": "Night Panel",
+        "tonalRamp": [
+          "oklch(15% 0.03 265)",
+          "oklch(25% 0.03 265)",
+          "oklch(35% 0.03 265)",
+          "oklch(48% 0.03 265)",
+          "oklch(60% 0.03 265)",
+          "oklch(72% 0.03 265)",
+          "oklch(84% 0.03 265)",
+          "oklch(95% 0.03 265)"
+        ]
+      },
+      "night-panel-raised": {
+        "role": "neutral",
+        "displayName": "Night Panel Raised",
+        "tonalRamp": [
+          "oklch(15% 0.03 265)",
+          "oklch(25% 0.03 265)",
+          "oklch(35% 0.03 265)",
+          "oklch(48% 0.03 265)",
+          "oklch(60% 0.03 265)",
+          "oklch(72% 0.03 265)",
+          "oklch(84% 0.03 265)",
+          "oklch(95% 0.03 265)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink"
+      },
+      "ink-dim": {
+        "role": "neutral",
+        "displayName": "Ink Dim"
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Ink Faint"
+      },
+      "ink-ghost": {
+        "role": "neutral",
+        "displayName": "Ink Ghost"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline"
+      },
+      "hairline-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong"
+      },
+      "era-ring": {
+        "role": "neutral",
+        "displayName": "Era Ring"
+      },
+      "signal-blue": {
+        "role": "primary",
+        "displayName": "Signal Blue",
+        "tonalRamp": [
+          "oklch(15% 0.12 240)",
+          "oklch(25% 0.12 240)",
+          "oklch(35% 0.12 240)",
+          "oklch(48% 0.12 240)",
+          "oklch(60% 0.12 240)",
+          "oklch(72% 0.12 240)",
+          "oklch(84% 0.12 240)",
+          "oklch(95% 0.12 240)"
+        ]
+      },
+      "status-living": {
+        "role": "tertiary",
+        "displayName": "Living Sage"
+      },
+      "status-extinct": {
+        "role": "tertiary",
+        "displayName": "Extinct Lavender"
+      },
+      "status-reconstructed": {
+        "role": "tertiary",
+        "displayName": "Reconstructed Slate"
+      },
+      "status-classical": {
+        "role": "tertiary",
+        "displayName": "Classical Amber"
+      },
+      "line-indo-european": {
+        "role": "tertiary",
+        "displayName": "Transit line · Indo European"
+      },
+      "line-afro-asiatic": {
+        "role": "tertiary",
+        "displayName": "Transit line · Afro Asiatic"
+      },
+      "line-niger-congo": {
+        "role": "tertiary",
+        "displayName": "Transit line · Niger Congo"
+      },
+      "line-sino-tibetan": {
+        "role": "tertiary",
+        "displayName": "Transit line · Sino Tibetan"
+      },
+      "line-austronesian": {
+        "role": "tertiary",
+        "displayName": "Transit line · Austronesian"
+      },
+      "line-dravidian": {
+        "role": "tertiary",
+        "displayName": "Transit line · Dravidian"
+      },
+      "line-turkic": {
+        "role": "tertiary",
+        "displayName": "Transit line · Turkic"
+      },
+      "line-uralic": {
+        "role": "tertiary",
+        "displayName": "Transit line · Uralic"
+      },
+      "line-japonic": {
+        "role": "tertiary",
+        "displayName": "Transit line · Japonic"
+      },
+      "line-koreanic": {
+        "role": "tertiary",
+        "displayName": "Transit line · Koreanic"
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Selected language name in the detail panel."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Empty-state question."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Notes and intro copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Sentence-case section titles."
+      },
+      "map-label": {
+        "displayName": "Map label",
+        "purpose": "Leaf language names on the tree, fixed pixel size with night halo."
+      },
+      "map-stage": {
+        "displayName": "Map stage",
+        "purpose": "Italic historical-stage names beside their arc, from ~1.9x zoom."
+      },
+      "band-label": {
+        "displayName": "Band label",
+        "purpose": "Uppercase family names along the outer band."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Tabular periods, counts and metadata."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "ISO 639-3 and Glottolog codes only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 12px 32px rgba(0, 0, 0, 0.5)",
+        "purpose": "Autocomplete list."
+      },
+      {
+        "name": "tooltip",
+        "value": "0 6px 18px rgba(0, 0, 0, 0.5)",
+        "purpose": "Hover tooltips."
+      },
+      {
+        "name": "control",
+        "value": "0 4px 14px rgba(0, 0, 0, 0.35)",
+        "purpose": "Zoom control stack."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "120-180ms ease-out",
+        "purpose": "Hover, focus, label fade-in."
+      },
+      {
+        "name": "camera",
+        "value": "550-750ms cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Zoom to lineage / family / reset."
+      },
+      {
+        "name": "intro-sweep",
+        "value": "420ms cubic-out, 60ms stagger per depth",
+        "purpose": "One-time arc sweep on load; skipped under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "480px"
+      },
+      {
+        "name": "stacked",
+        "value": "860px"
+      },
+      {
+        "name": "compact",
+        "value": "1180px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Search",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Central search with key hint; Signal Blue focus ring.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"m10.5 10.5 3 3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg><input placeholder=\"Search nearly 700 languages\"/></label>",
+      "css": ".ds-search{position:relative;display:block;width:320px}.ds-search svg{position:absolute;left:12px;top:50%;width:15px;height:15px;transform:translateY(-50%);color:rgba(232,236,245,.46)}.ds-search input{width:100%;background:#131826;border:1px solid rgba(255,255,255,.16);color:rgba(232,236,245,.95);padding:9px 14px 9px 34px;border-radius:8px;font:14px system-ui,sans-serif;transition:border-color 150ms,box-shadow 150ms}.ds-search input:hover{border-color:rgba(255,255,255,.24)}.ds-search input:focus{outline:none;border-color:#7cc4ff;box-shadow:0 0 0 3px rgba(124,196,255,.15)}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Language chip with family-colour dot.",
+      "html": "<button class=\"ds-chip\" style=\"--c:#5b9bd5\">English</button>",
+      "css": ".ds-chip{--c:rgba(232,236,245,.46);display:inline-flex;align-items:center;gap:7px;padding:5px 10px 5px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.16);background:#131826;color:rgba(232,236,245,.95);font:12.5px system-ui,sans-serif;cursor:pointer;transition:border-color 120ms,background 120ms}.ds-chip::before{content:\"\";width:7px;height:7px;border-radius:50%;background:var(--c)}.ds-chip:hover{border-color:var(--c);background:#1a2030}.ds-chip:focus-visible{outline:2px solid #7cc4ff;outline-offset:2px}"
+    },
+    {
+      "name": "Family Row",
+      "kind": "nav",
+      "refersTo": "family-row",
+      "description": "Sidebar family button with swatch and leaf count.",
+      "html": "<button class=\"ds-fam\"><span class=\"ds-sw\" style=\"background:#5b9bd5\"></span><span class=\"ds-n\">Indo-European</span><span class=\"ds-c\">138</span></button>",
+      "css": ".ds-fam{width:240px;display:flex;align-items:center;gap:9px;padding:5px 8px;border:0;background:none;border-radius:6px;color:rgba(232,236,245,.95);font:13px system-ui,sans-serif;text-align:left;cursor:pointer;transition:background 120ms}.ds-fam:hover{background:#131826}.ds-fam:focus-visible{outline:2px solid #7cc4ff;outline-offset:2px}.ds-sw{width:10px;height:10px;border-radius:50%}.ds-n{flex:1}.ds-c{color:rgba(232,236,245,.46);font-size:12px;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Zoom Controls",
+      "kind": "button",
+      "refersTo": "zoom-button",
+      "description": "Stacked icon buttons: in, out, fit.",
+      "html": "<div class=\"ds-zoom\"><button aria-label=\"Zoom in\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 3v10M3 8h10\"/></svg></button><button aria-label=\"Zoom out\"><svg viewBox=\"0 0 16 16\"><path d=\"M3 8h10\"/></svg></button></div>",
+      "css": ".ds-zoom{display:inline-flex;flex-direction:column;background:rgba(19,24,38,.92);border:1px solid rgba(255,255,255,.16);border-radius:8px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.35)}.ds-zoom button{width:34px;height:34px;display:grid;place-items:center;background:none;border:0;color:rgba(232,236,245,.66);cursor:pointer;transition:background 120ms,color 120ms}.ds-zoom button+button{border-top:1px solid rgba(255,255,255,.08)}.ds-zoom button:hover{background:#1a2030;color:rgba(232,236,245,.95)}.ds-zoom svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round}"
+    },
+    {
+      "name": "Status Pill",
+      "kind": "chip",
+      "refersTo": "status-pill",
+      "description": "Status tag tinted from its own colour.",
+      "html": "<span class=\"ds-pill\" style=\"--c:#8fd6a3\">Living</span> <span class=\"ds-pill\" style=\"--c:#9aa6bd\">Reconstructed</span> <span class=\"ds-pill\" style=\"--c:#ffc97c\">Classical</span>",
+      "css": ".ds-pill{--c:rgba(232,236,245,.66);display:inline-block;padding:2px 8px;border-radius:4px;font:600 11.5px system-ui,sans-serif;color:var(--c);background:color-mix(in srgb,var(--c) 14%,transparent)}"
+    },
+    {
+      "name": "Lineage Line",
+      "kind": "custom",
+      "description": "Ancestry drawn as a metro line in the family colour.",
+      "html": "<ol class=\"ds-line\" style=\"--c:#5b9bd5\"><li class=\"r\"><a>Proto-Germanic</a><span>c. 500 BCE – 500 CE</span></li><li><a>Old English</a><span>450 CE – 1150 CE</span></li><li class=\"cur\"><b>English</b><span>1500 CE – today</span></li></ol>",
+      "css": ".ds-line{list-style:none;margin:0;padding:0;font:13.5px system-ui,sans-serif;color:rgba(232,236,245,.95)}.ds-line li{position:relative;padding:0 0 12px 22px;display:grid;gap:1px}.ds-line li::before{content:\"\";position:absolute;left:4px;top:8px;bottom:-6px;width:3px;border-radius:2px;background:var(--c);opacity:.55}.ds-line li:last-child::before{display:none}.ds-line li::after{content:\"\";position:absolute;left:0;top:4px;width:11px;height:11px;border-radius:50%;background:#0a0d14;border:2.5px solid var(--c);box-sizing:border-box}.ds-line li.r::after{border-style:dotted}.ds-line li.cur::after{background:var(--c)}.ds-line a{color:#7cc4ff;cursor:pointer}.ds-line a:hover{text-decoration:underline}.ds-line b{color:#fff;font-weight:650}.ds-line span{font-size:11.5px;color:rgba(232,236,245,.46);font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Tooltip",
+      "kind": "custom",
+      "refersTo": "tooltip",
+      "description": "Map hover tooltip.",
+      "html": "<div class=\"ds-tip\"><div class=\"n\">English</div><div class=\"p\">1500 CE – today</div><div class=\"m\">Living · 1.5B speakers</div></div>",
+      "css": ".ds-tip{display:inline-block;background:rgba(20,25,36,.97);border:1px solid rgba(255,255,255,.16);padding:8px 11px;border-radius:7px;box-shadow:0 6px 18px rgba(0,0,0,.5);font:12px system-ui,sans-serif;color:rgba(232,236,245,.95)}.ds-tip .n{font-weight:600;font-size:13px}.ds-tip .p{color:rgba(232,236,245,.66);font-size:11.5px;font-variant-numeric:tabular-nums;margin-top:2px}.ds-tip .m{color:rgba(232,236,245,.46);font-size:11.5px;margin-top:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Transit Map",
+    "overview": "Langenesis is a metro map of time, lit up at night. Coloured lines run outward across a deep navy ground: each family is a line, each language a stretch of track, each historical stage a station separated by a small gap. Distance from the centre is always years, marked by faint dotted era rings. The map is the only loud thing on the screen.\n\nThe chrome around it is a quiet instrument panel: tonal layers of night navy, hairline borders, one signal-blue accent, and one system sans throughout. It exists to search, explain and navigate, never to compete with the lines. Density is high but calm. Labels appear only where they fit (level of detail), so the first view reads as major languages and family names, and detail arrives as you zoom.\n\nHonesty is visual too. Reconstructed proto-languages are dotted because nobody ever wrote them down. Relationships between families that are not demonstrated are drawn as ghost hairlines, never as solid track.",
+    "keyCharacteristics": [
+      "Dark, tonal, flat chrome; colour is reserved for family lines and status.",
+      "One sans family at product sizes (11–24px); numbers are tabular.",
+      "The tree renders on canvas; text stays crisp in a screen-space SVG overlay at fixed pixel sizes.",
+      "Motion conveys state only: one intro sweep, fast state fades, eased camera moves."
+    ],
+    "rules": [
+      {
+        "name": "The Lines Own Colour Rule",
+        "body": "Saturated colour belongs to the map's family lines and to status. Chrome stays navy and ink; a coloured panel, button or heading is a mistake.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Signal Rule",
+        "body": "Signal Blue marks what is interactive or focused, and nothing else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Pixel Rule",
+        "body": "Map text never scales with zoom. Labels keep their pixel size, and level of detail decides which ones appear.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "Section titles are sentence-case labels. There are no uppercase kickers above headings; uppercase is reserved for band labels on the map.",
+        "section": "typography"
+      },
+      {
+        "name": "The Map Has No Shadows Rule",
+        "body": "Emphasis on the map comes from stroke width, opacity and draw order, never from glows or drop shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep chrome in the navy tonal layers with hairline borders; let the family lines carry the colour.",
+      "**Do** use Signal Blue only for links, focus, the caret and selection.",
+      "**Do** keep map text at fixed pixel sizes (12.5px leaves, 11px stages, 11px band) and let level of detail decide what shows.",
+      "**Do** draw reconstructed proto-languages dotted and undemonstrated relationships as ghost hairlines.",
+      "**Do** use tabular numerals for every year, period and count.",
+      "**Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out, and honour `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "**Don't** add glows, drop shadows or gradients to the map.",
+      "**Don't** use a family line colour for chrome, buttons or headings.",
+      "**Don't** put uppercase eyebrow labels above headings; uppercase is for band labels only.",
+      "**Don't** scale label text with zoom or show labels that collide.",
+      "**Don't** add decorative motion; each animation must convey a state change."
+    ]
+  }
+}

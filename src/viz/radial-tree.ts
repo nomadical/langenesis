@@ -838,16 +838,25 @@ export function renderRadialTree(
     return { arc: best };
   }
 
-  svgEl.addEventListener("pointermove", (event) => {
-    if (event.buttons) return; // panning
-    const { arc, family } = hitTest(event);
+  // The last pointer position over the map. Hover is re-resolved from it
+  // whenever the tree moves under a still cursor (wheel zoom, camera moves),
+  // so the tooltip always describes what is actually under the pointer.
+  let lastPointer: PointerEvent | null = null;
+  let dragging = false;
+
+  function updateHover(event: PointerEvent | null) {
+    const hit = event && !dragging ? hitTest(event) : {};
+    const { arc, family } = hit;
     const nextHover = arc?.id ?? null;
     const nextFamily = family?.id ?? null;
     if (nextHover !== hoverId) {
       hoverId = nextHover;
       const el = hoverId ? labelById.get(hoverId)?.el : undefined;
       if (el) labelsG.node()!.appendChild(el); // hovered label on top
-      options.onNodeHover?.(arc ? nodeById.get(arc.id)!.data.data : null, arc ? event : null);
+      options.onNodeHover?.(
+        arc ? nodeById.get(arc.id)!.data.data : null,
+        arc ? event : null,
+      );
       stateChanged();
     }
     if (nextFamily !== hoverFamily) {
@@ -856,18 +865,15 @@ export function renderRadialTree(
       options.onFamilyHover?.(family ?? null, family ? event : null);
     }
     svgEl.style.cursor = arc || family ? "pointer" : "";
+  }
+
+  svgEl.addEventListener("pointermove", (event) => {
+    lastPointer = event;
+    if (!event.buttons) updateHover(event);
   });
   svgEl.addEventListener("pointerleave", () => {
-    if (hoverId) {
-      hoverId = null;
-      options.onNodeHover?.(null, null);
-      stateChanged();
-    }
-    if (hoverFamily) {
-      hoverFamily = null;
-      highlightFamily(null);
-      options.onFamilyHover?.(null, null);
-    }
+    lastPointer = null;
+    updateHover(null);
   });
   svgEl.addEventListener("click", (event) => {
     const { arc, family } = hitTest(event);
@@ -880,9 +886,23 @@ export function renderRadialTree(
     .zoom<SVGSVGElement, unknown>()
     .scaleExtent(SCALE_EXTENT)
     .clickDistance(4)
+    .on("start", (event) => {
+      // Dragging to pan: drop the hover until the drag ends.
+      const type = event.sourceEvent?.type;
+      if (type === "mousedown" || type === "touchstart") {
+        dragging = true;
+        updateHover(null);
+      }
+    })
     .on("zoom", (event) => {
       t = event.transform;
+      if (lastPointer) updateHover(lastPointer);
       scheduleFrame();
+    })
+    .on("end", () => {
+      if (!dragging) return;
+      dragging = false;
+      updateHover(lastPointer);
     });
   svg.call(zoomBehavior).on("dblclick.zoom", null);
 
