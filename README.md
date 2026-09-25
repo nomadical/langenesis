@@ -29,8 +29,8 @@ npm run build    # production bundle in dist/
 ## How it works
 
 - **Data**: `languages/<family>/<slug>.yaml`. One file per language node. The schema is in `src/data/schema.ts`.
-- **Viz**: D3 radial tree with custom even-leaf angular distribution and a piecewise-linear time scale (so the modern era stays readable even when Proto-Niger-Congo at -10000 BCE is in the data). Era rings mark time and an outer band names each family. Labels use zoom-dependent level of detail: the most-spoken languages are labelled first, and the rest (including historical stages) appear as you zoom in.
-- **Build**: Vite. YAML files are imported at build time via `import.meta.glob` and validated with Zod.
+- **Viz**: D3 layout with custom even-leaf angular distribution and a piecewise-linear time scale (so the modern era stays readable even when Proto-Niger-Congo at -10000 BCE is in the data). Arcs, edges, era rings and the family band are drawn on a `<canvas>` in batched strokes; only the labels that fit at the current zoom (level of detail) and are on screen live in an SVG overlay. Hover and click use polar-coordinate hit-testing rather than DOM events. A zoom frame takes ~11 ms (median) even on a 4× throttled CPU.
+- **Build**: Vite. A small plugin (`src/data/languages-plugin.ts`) validates every YAML file with Zod at build time and emits JSON, so the browser ships neither a YAML parser nor Zod. Notes and sources are a separate chunk fetched after first paint.
 - **No backend**. The site is fully static and works on GitHub Pages.
 
 ## Project layout
