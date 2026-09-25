@@ -21,7 +21,9 @@ export interface RadialTreeHandle {
   lineageOf: (id: string) => string[];
 }
 
-const VB = 1000;
+// Leaves end at OUTER_R; the extra margin leaves room for the longest radial
+// label (~110 units at 14px) so names at the top and bottom are not clipped.
+const VB = 1140;
 const OUTER_R = 430;
 const INNER_R = 60;
 
@@ -82,15 +84,38 @@ export function renderRadialTree(
     }
   });
 
+  // Inset on each chained line endpoint. The visible gap between adjacent
+  // arcs is 2 * (inset - cap_radius). For the default stroke (5, cap 2.5)
+  // that's a 9-unit gap; for the selected stroke (9, cap 4.5) it's 5 units —
+  // still clearly visible even with the lineage glow.
+  // Short arcs scale the inset down so they don't collapse.
+  const TARGET_INSET = 7;
+
   hier.each((n) => {
     const p = n as Positioned;
     if (data.hasVirtualRoot && isVirtualRootId(n.data.data.id)) {
       p.startR = 0;
       p.endR = 0;
-    } else {
-      p.startR = timeScale(n.data.data.period.start);
-      p.endR = timeScale(periodEnd(n.data.data));
+      return;
     }
+    const rawStart = timeScale(n.data.data.period.start);
+    const rawEnd = timeScale(periodEnd(n.data.data));
+    const span = rawEnd - rawStart;
+    const parent = n.parent;
+    const hasInternalParent =
+      !!parent &&
+      !(data.hasVirtualRoot && isVirtualRootId(parent.data.data.id));
+    const hasChildren = !!(n.children && n.children.length > 0);
+    const sides =
+      (hasInternalParent ? 1 : 0) + (hasChildren ? 1 : 0);
+    // Keep at least 1 unit of line length, regardless of how short the period is.
+    const maxInsetTotal = Math.max(0, span - 1);
+    const inset =
+      sides === 0
+        ? 0
+        : Math.min(TARGET_INSET, maxInsetTotal / sides);
+    p.startR = rawStart + (hasInternalParent ? inset : 0);
+    p.endR = rawEnd - (hasChildren ? inset : 0);
   });
 
   const visibleNodes = hier
@@ -123,30 +148,6 @@ export function renderRadialTree(
     .attr("r", OUTER_R * 4)
     .attr("fill", "transparent")
     .on("click", () => options.onNodeClick?.(null));
-
-  // Time rings — only at era anchors. Subtle styling so they don't dominate.
-  const ringG = zoomRoot.append("g").attr("class", "rings");
-  const eraAnchors: { year: number; label: string }[] = [
-    { year: -3000, label: "3000 BCE" },
-    { year: 0, label: "1 CE" },
-    { year: 1500, label: "1500" },
-  ].filter((a) => a.year > data.yearExtent[0] && a.year < data.yearExtent[1]);
-  ringG
-    .selectAll("circle")
-    .data(eraAnchors)
-    .join("circle")
-    .attr("class", "ring")
-    .attr("r", (a) => timeScale(a.year));
-  ringG
-    .selectAll("text")
-    .data(eraAnchors)
-    .join("text")
-    .attr("class", "ring-label")
-    .attr("x", 0)
-    .attr("y", (a) => -timeScale(a.year) - 4)
-    .attr("text-anchor", "middle")
-    .attr("font-size", 10)
-    .text((a) => a.label);
 
   // Edges
   type Endpoint = { angle: number; r: number };
@@ -254,9 +255,14 @@ export function renderRadialTree(
     .attr("x2", (d) => polarX(d.angle, d.endR))
     .attr("y2", (d) => polarY(d.angle, d.endR))
     .style("cursor", "pointer")
-    .on("mouseenter", (event, d) =>
-      options.onNodeHover?.(d.data.data, event as MouseEvent),
-    )
+    .on("mouseenter", function (event, d) {
+      // Lift this node group to the end of its parent so its arc + label
+      // render on top — otherwise child node groups drawn later (children
+      // are deeper in BFS) can occlude an inner parent's label.
+      const group = (this as SVGElement).parentNode;
+      if (group) d3.select(group as Element).raise();
+      options.onNodeHover?.(d.data.data, event as MouseEvent);
+    })
     .on("mouseleave", () => options.onNodeHover?.(null, null))
     .on("click", (event, d) => {
       event.stopPropagation();
@@ -290,11 +296,9 @@ export function renderRadialTree(
       isLeafNode(d) ? "node-label leaf" : "node-label internal",
     )
     .attr("transform", (d) => labelTransform(d))
-    .attr("text-anchor", (d) =>
-      isLeafNode(d) ? (d.angle > Math.PI ? "end" : "start") : "middle",
-    )
+    .attr("text-anchor", (d) => (d.angle > Math.PI ? "end" : "start"))
     .attr("dy", "0.32em")
-    .attr("font-size", (d) => (isLeafNode(d) ? 14 : 10))
+    .attr("font-size", (d) => (isLeafNode(d) ? 14 : 12))
     .text((d) => d.data.data.name)
     .style("opacity", 0)
     .transition()
@@ -391,6 +395,13 @@ export function renderRadialTree(
         else if (selFam && fam === selFam)
           this.classList.add("same-family-edge");
       });
+      // Raise lineage groups so their labels render on top of every other
+      // node. Iterate from the deepest ancestor to the selected so the
+      // selected ends up on the very top.
+      const lineageList = ancestorsOf(id).reverse();
+      for (const lid of lineageList) {
+        svg.selectAll(`.node[data-id="${lid}"]`).raise();
+      }
     },
     resetZoom,
     search(query: string) {
@@ -429,17 +440,15 @@ function isLeafNode(d: Positioned): boolean {
 }
 
 function labelTransform(d: Positioned): string {
+  // All labels are radial (read outward from center). Leaves sit just past the
+  // outer end of their arc; internal nodes sit at the midpoint and are hidden
+  // by default (revealed on hover/selection — see style.css), so chained-label
+  // overlap is moot.
   const angle = d.angle;
-  if (isLeafNode(d)) {
-    const r = d.endR + 8;
-    const deg = (angle * 180) / Math.PI - 90;
-    const flip = angle > Math.PI;
-    return `rotate(${deg}) translate(${r},0)${flip ? " rotate(180)" : ""}`;
-  }
-  const r = (d.startR + d.endR) / 2;
-  const deg = (angle * 180) / Math.PI;
-  const flip = angle > Math.PI / 2 && angle <= (3 * Math.PI) / 2;
-  return `rotate(${deg}) translate(0,${-r})${flip ? " rotate(180)" : ""}`;
+  const r = isLeafNode(d) ? d.endR + 8 : (d.startR + d.endR) / 2;
+  const deg = (angle * 180) / Math.PI - 90;
+  const flip = angle > Math.PI;
+  return `rotate(${deg}) translate(${r},0)${flip ? " rotate(180)" : ""}`;
 }
 
 /**

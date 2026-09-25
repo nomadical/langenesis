@@ -212,17 +212,8 @@ kbd {
 }
 #viz:active { cursor: grabbing; }
 
-.ring {
-  fill: none;
-  stroke: rgba(180, 200, 230, 0.05);
-  stroke-dasharray: 1 4;
-}
-.ring-label {
-  fill: rgba(232, 236, 245, 0.22);
-  font-family: ui-monospace, monospace;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
+/* Timeline rings removed — radial distance still encodes time, explained in
+   the sidebar tip. Hover any node to see its period in the tooltip. */
 
 .edge {
   fill: none;
@@ -241,9 +232,13 @@ kbd {
   stroke-linecap: round;
   fill: none;
   cursor: pointer;
-  transition: stroke-width 160ms ease, filter 200ms ease, opacity 200ms ease;
+  transition: stroke-width 180ms ease, filter 220ms ease, opacity 220ms ease;
 }
-.node-arc:hover { stroke-width: 8; }
+/* Hover halo: glow in the node's own color + slight thickening. */
+.node:hover .node-arc {
+  stroke-width: 7.5;
+  filter: drop-shadow(0 0 7px currentColor);
+}
 
 /* Three-tier hierarchy when a node is selected:
      1. selected + lineage = full brightness + glow
@@ -251,41 +246,40 @@ kbd {
      3. other families = strongly faded background
    The CSS uses :has(.node.selected) to flip into "focus mode". */
 
-/* Tier 1 — selected node */
+/* Tier 1 — selected node. Halo radius stays well inside the visible station
+   gap so it doesn't bleed across into neighbouring lineage arcs. */
 .node.selected .node-arc {
   stroke-width: 9;
-  filter: drop-shadow(0 0 12px currentColor);
+  filter: drop-shadow(0 0 3px currentColor);
 }
-/* Tier 1 — lineage path */
+/* Tier 1 — lineage path. No halo: stations stay crisp; the bright family
+   colour + thicker stroke + on-top z-order are enough emphasis. */
 .node.lineage .node-arc {
   stroke-width: 7;
-  filter: drop-shadow(0 0 6px currentColor);
 }
 .edge.lineage-edge {
   stroke-width: 3;
-  filter: drop-shadow(0 0 4px currentColor);
 }
 
-/* Focus mode: anything inside #viz that isn't in the selected family fades.
-   Default fade for everything when something is selected. */
+/* Focus-mode arc + edge dimming. Labels don't follow these tiers — leaf
+   names stay readable everywhere; intermediate names stay hidden unless that
+   specific node is selected or hovered. */
 #viz:has(.node.selected) .node-arc { opacity: 0.13; }
 #viz:has(.node.selected) .edge { opacity: 0.1; }
-#viz:has(.node.selected) .node-label { opacity: 0.25; }
 
-/* Tier 2 — same family but not on lineage */
+/* Tier 2 — same family but not on the lineage */
 #viz:has(.node.selected) .node.same-family .node-arc { opacity: 0.7; }
-#viz:has(.node.selected) .node.same-family .node-label { opacity: 0.7; }
 #viz:has(.node.selected) .edge.same-family-edge { opacity: 0.55; }
 
-/* Tier 1 wins (full opacity for lineage + selected) */
+/* Tier 1 — lineage + selected */
 #viz:has(.node.selected) .node.lineage .node-arc,
 #viz:has(.node.selected) .node.selected .node-arc {
   opacity: 1;
 }
 #viz:has(.node.selected) .edge.lineage-edge { opacity: 1; }
-#viz:has(.node.selected) .node.lineage .node-label,
-#viz:has(.node.selected) .node.selected .node-label {
-  opacity: 1;
+
+/* Selected node gets a bolder label for emphasis. */
+.node.selected .node-label {
   font-weight: 600;
 }
 
@@ -297,10 +291,25 @@ kbd {
   stroke-width: 3;
   stroke-linejoin: round;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  transition: opacity 200ms ease;
+  transition: opacity 220ms ease;
 }
-.node-label.internal { fill: var(--fg-dim); font-weight: 500; }
 .node-label.leaf { fill: var(--fg); font-weight: 500; }
+
+/* Internal labels are hidden in the default view (chained labels near the
+   center would always look crowded). They reveal on hover or selection — one
+   at a time. The detail panel always lists the full lineage in prose. */
+.node-label.internal {
+  fill: var(--fg-dim);
+  font-weight: 500;
+  opacity: 0;
+}
+.node:hover .node-label.internal,
+.node.selected .node-label.internal {
+  opacity: 1;
+}
+/* Even when something else is selected and the rest of the viz is dimmed,
+   the currently-hovered arc still pops to full opacity. */
+#viz:has(.node.selected) .node:hover .node-arc { opacity: 1; }
 
 
 /* ============ Tooltip ============ */
@@ -316,6 +325,13 @@ kbd {
   z-index: 10;
   backdrop-filter: blur(6px);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 140ms ease-out, transform 140ms ease-out;
+}
+.tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .tooltip-name { font-weight: 600; font-size: 13px; }
 .tooltip-period { color: var(--fg-dim); font-family: ui-monospace, monospace; font-size: 11px; margin-top: 2px; }

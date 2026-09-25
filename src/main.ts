@@ -29,10 +29,10 @@ let acMatches: LanguageNode[] = [];
 const handle: RadialTreeHandle = renderRadialTree(svgEl, data, {
   onNodeHover(node, event) {
     if (!node || !event) {
-      tooltipEl.hidden = true;
+      tooltipEl.classList.remove("visible");
       return;
     }
-    tooltipEl.hidden = false;
+    tooltipEl.classList.add("visible");
     const famId = data.familyOf.get(node.id);
     const famName = famId
       ? data.families.find((f) => f.id === famId)?.name
@@ -254,7 +254,7 @@ document.addEventListener("keydown", (e) => {
 
 // ============ Tooltip positioning ============
 document.addEventListener("mousemove", (event) => {
-  if (!tooltipEl.hidden) positionTooltip(event);
+  if (tooltipEl.classList.contains("visible")) positionTooltip(event);
 });
 
 function formatPeriod(node: LanguageNode): string {
