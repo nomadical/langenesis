@@ -1,0 +1,15 @@
+id: late-egyptian
+name: Late Egyptian
+parents: [middle-egyptian]
+period:
+  start: -1350
+  end: -700
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Egyptian_language#Late_Egyptian
+notes: |
+  Vernacular of the New Kingdom (Amarna period onwards), written in hieratic
+  and hieroglyphs. Marks a strong typological shift from synthetic to more
+  analytic grammar.

@@ -1,0 +1,14 @@
+id: proto-hmong-mien
+name: Proto-Hmong-Mien
+parents: []
+period:
+  start: -500
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Hmong%E2%80%93Mien_languages
+notes: |
+  Reconstructed ancestor of the Hmong-Mien (Miao-Yao) family of southern
+  China; Ratliff dates it to ~2500 years ago.

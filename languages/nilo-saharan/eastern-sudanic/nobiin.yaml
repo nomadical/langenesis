@@ -1,0 +1,17 @@
+id: nobiin
+name: Nobiin
+glottocode: nobi1240
+iso639_3: fia
+parents: [old-nubian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Nobiin
+  - https://glottolog.org/resource/languoid/id/nobi1240
+notes: |
+  Nubian language of the Nile valley on the Egypt–Sudan border; the closest
+  living descendant of Old Nubian. Many speakers were displaced by the Aswan
+  High Dam.

@@ -1,0 +1,16 @@
+id: laz
+name: Laz
+glottocode: lazz1240
+iso639_3: lzz
+parents: [proto-zan]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 20000
+sources:
+  - https://en.wikipedia.org/wiki/Laz_language
+  - https://glottolog.org/resource/languoid/id/lazz1240
+notes: |
+  Spoken mainly along the Black Sea coast of northeastern Turkey. Endangered.

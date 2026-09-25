@@ -1,0 +1,14 @@
+id: herero
+name: Otjiherero
+iso639_3: her
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 250000
+sources:
+  - https://en.wikipedia.org/wiki/Herero_language
+notes: |
+  Southwest Bantu (Guthrie R31) language of Namibia and Botswana.

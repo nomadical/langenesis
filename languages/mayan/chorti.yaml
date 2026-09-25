@@ -1,0 +1,17 @@
+id: chorti
+name: Ch'orti'
+glottocode: chor1273
+iso639_3: caa
+parents: [classic-maya]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 30000
+sources:
+  - https://en.wikipedia.org/wiki/Ch%27orti%27_language
+  - https://glottolog.org/resource/languoid/id/chor1273
+notes: |
+  Ch'olan branch, spoken in eastern Guatemala near Copán. Regarded as the
+  closest living descendant of the language of the Classic Maya inscriptions.

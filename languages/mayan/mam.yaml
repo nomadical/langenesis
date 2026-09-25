@@ -1,0 +1,15 @@
+id: mam
+name: Mam
+glottocode: mamm1241
+iso639_3: mam
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 500000
+sources:
+  - https://en.wikipedia.org/wiki/Mam_language
+  - https://glottolog.org/resource/languoid/id/mamm1241
+notes: |
+  Mamean branch (Eastern Mayan), spoken in western Guatemala and Chiapas.

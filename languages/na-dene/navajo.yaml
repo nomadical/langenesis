@@ -1,0 +1,17 @@
+id: navajo
+name: Navajo
+glottocode: nava1243
+iso639_3: nav
+parents: [proto-apachean]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 170000
+sources:
+  - https://en.wikipedia.org/wiki/Navajo_language
+  - https://glottolog.org/resource/languoid/id/nava1243
+notes: |
+  Western Apachean. The most spoken Native American language north of Mexico;
+  famous for the WWII code talkers.

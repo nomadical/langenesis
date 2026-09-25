@@ -1,0 +1,15 @@
+id: tzeltal
+name: Tzeltal
+glottocode: tzel1254
+iso639_3: tzh
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 600000
+sources:
+  - https://en.wikipedia.org/wiki/Tzeltal_language
+  - https://glottolog.org/resource/languoid/id/tzel1254
+notes: |
+  Tzeltalan branch, spoken in Chiapas and closely related to Tzotzil.

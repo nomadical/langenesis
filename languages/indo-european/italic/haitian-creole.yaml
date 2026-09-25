@@ -1,0 +1,18 @@
+id: haitian-creole
+name: Haitian Creole
+glottocode: hait1244
+iso639_3: hat
+parents: [french]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 13000000
+sources:
+  - https://en.wikipedia.org/wiki/Haitian_Creole
+  - https://glottolog.org/resource/languoid/id/hait1244
+notes: |
+  French-based creole formed in colonial Saint-Domingue with substantial West
+  African (notably Fon and Kikongo) input, which is not modelled here as a
+  second parent.

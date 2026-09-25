@@ -1,0 +1,14 @@
+id: proto-baltic
+name: Proto-Baltic
+parents: [proto-indo-european]
+period:
+  start: -1500
+  end: 0
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Baltic_languages
+notes: |
+  Common ancestor of East and West Baltic. Its relation to Proto-Slavic (a
+  shared Balto-Slavic node) is widely accepted but not modeled here.

@@ -1,0 +1,14 @@
+id: ardhamagadhi-prakrit
+name: Ardhamagadhi Prakrit
+iso639_3: pka
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 600
+  start_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Ardhamagadhi_Prakrit
+notes: |
+  Prakrit intermediate between Magadhi and Shauraseni; the canonical language of
+  Śvetāmbara Jain scripture.

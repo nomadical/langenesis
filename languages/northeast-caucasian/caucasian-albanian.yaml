@@ -1,0 +1,16 @@
+id: caucasian-albanian
+name: Caucasian Albanian
+iso639_3: xag
+parents: [proto-lezgic]
+period:
+  start: 400
+  end: 1200
+  start_uncertainty: 100
+  end_uncertainty: 200
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Caucasian_Albanian_language
+notes: |
+  Language of Caucasian Albania, known from short inscriptions and Christian
+  palimpsests from Saint Catherine's Monastery (5th–7th century). Widely
+  regarded as an early form of Udi.

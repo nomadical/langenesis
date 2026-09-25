@@ -1,0 +1,15 @@
+id: proto-siouan
+name: Proto-Siouan
+parents: []
+period:
+  start: -1000
+  end: 0
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Siouan_languages
+notes: |
+  Reconstructed ancestor of Siouan (Siouan–Catawba, if Catawban is counted).
+  Probably spoken in the Ohio Valley or the Mississippi Valley; the dating is
+  uncertain.

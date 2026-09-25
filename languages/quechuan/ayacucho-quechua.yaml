@@ -1,0 +1,15 @@
+id: ayacucho-quechua
+name: Ayacucho Quechua
+glottocode: ayac1239
+iso639_3: quy
+parents: [proto-quechua-ii]
+period:
+  start: 1600
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Ayacucho_Quechua
+  - https://glottolog.org/resource/languoid/id/ayac1239
+notes: |
+  Southern Quechua (Quechua IIC) variety of the Ayacucho region (Chanka).
+  Mutually intelligible with Cusco Quechua.

@@ -1,0 +1,18 @@
+id: dzongkha
+name: Dzongkha
+glottocode: dzon1239
+iso639_3: dzo
+parents: [classical-tibetan]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 170000
+sources:
+  - https://en.wikipedia.org/wiki/Dzongkha
+  - https://glottolog.org/resource/languoid/id/dzon1239
+notes: |
+  Tibetic language of western Bhutan and Bhutan's national language since
+  1971. Written in Tibetan script; descended from Old Tibetan via South
+  Tibetic varieties (Classical Tibetan parent is a simplification).

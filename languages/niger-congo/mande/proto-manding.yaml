@@ -1,0 +1,14 @@
+id: proto-manding
+name: Proto-Manding
+parents: [proto-mande]
+period:
+  start: -500
+  end: 1200
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Manding_languages
+notes: |
+  Ancestor of the Manding dialect continuum (Bambara, Mandinka, Dyula, Maninka),
+  associated with the rise of the Mali Empire in the 13th century.

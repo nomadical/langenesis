@@ -1,0 +1,17 @@
+id: chuvash
+name: Chuvash
+glottocode: chuv1255
+iso639_3: chv
+parents: [bulgar]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 700000
+sources:
+  - https://en.wikipedia.org/wiki/Chuvash_language
+  - https://glottolog.org/resource/languoid/id/chuv1255
+notes: |
+  Sole surviving Oghur Turkic language, spoken in Chuvashia, Russia; descended
+  from Volga Bulgar.

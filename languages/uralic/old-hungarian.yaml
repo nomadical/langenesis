@@ -1,0 +1,14 @@
+id: old-hungarian
+name: Old Hungarian
+iso639_3: ohu
+parents: [proto-ugric]
+period:
+  start: 900
+  end: 1526
+  start_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Hungarian_language
+notes: |
+  Hungarian from the Conquest (~895) to the Battle of Mohács (1526). The
+  Funeral Sermon and Prayer (~1192) is the oldest connected text.

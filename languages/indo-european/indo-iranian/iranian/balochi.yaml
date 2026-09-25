@@ -1,0 +1,15 @@
+id: balochi
+name: Balochi
+iso639_3: bal
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Balochi_language
+notes: |
+  Northwestern Iranian spoken in Balochistan (Pakistan, Iran, Afghanistan) despite
+  its southeastern location; shows affinities with Parthian.

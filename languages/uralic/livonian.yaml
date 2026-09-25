@@ -1,0 +1,17 @@
+id: livonian
+name: Livonian
+glottocode: livv1244
+iso639_3: liv
+parents: [proto-finnic]
+period:
+  start: 1000
+  end: 2013
+  start_uncertainty: 300
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Livonian_language
+  - https://glottolog.org/resource/languoid/id/livv1244
+notes: |
+  Finnic language of the Courland coast, Latvia. The last native speaker,
+  Grizelda Kristiņa, died in 2013; a small revival community uses it as a
+  second language.

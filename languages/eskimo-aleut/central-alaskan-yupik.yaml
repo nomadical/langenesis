@@ -1,0 +1,16 @@
+id: central-alaskan-yupik
+name: Central Alaskan Yup'ik
+glottocode: cent2127
+iso639_3: esu
+parents: [proto-eskimo]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 10000
+sources:
+  - https://en.wikipedia.org/wiki/Central_Alaskan_Yup%27ik_language
+  - https://glottolog.org/resource/languoid/id/cent2127
+notes: |
+  Yupik branch, spoken in southwestern Alaska. The most widely spoken Alaska
+  Native language.

@@ -1,0 +1,18 @@
+id: karelian
+name: Karelian
+glottocode: kare1335
+iso639_3: krl
+parents: [proto-finnic]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 36000
+sources:
+  - https://en.wikipedia.org/wiki/Karelian_language
+  - https://glottolog.org/resource/languoid/id/kare1335
+notes: |
+  Finnic language of Russian Karelia and eastern Finland, closely related to
+  Eastern Finnish dialects. Birch bark letter no. 292 (13th c.) is the oldest
+  known Finnic text.

@@ -1,0 +1,14 @@
+id: fang
+name: Fang
+iso639_3: fan
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1000000
+sources:
+  - https://en.wikipedia.org/wiki/Fang_language
+notes: |
+  Northwest Bantu (Guthrie A75) language of Equatorial Guinea, Gabon and southern Cameroon.

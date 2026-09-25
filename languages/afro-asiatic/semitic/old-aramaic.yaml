@@ -1,0 +1,15 @@
+id: old-aramaic
+name: Old Aramaic
+iso639_3: oar
+parents: [proto-northwest-semitic]
+period:
+  start: -1000
+  end: -700
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Aramaic
+notes: |
+  Earliest attested Aramaic, from inscriptions of the Syrian city-states (e.g.
+  Tell Fekheriye, Sefire). Precedes the Imperial Aramaic of the Neo-Assyrian
+  and Achaemenid empires.

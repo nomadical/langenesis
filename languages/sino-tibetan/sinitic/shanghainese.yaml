@@ -1,0 +1,15 @@
+id: shanghainese
+name: Shanghainese
+parents: [wu-chinese]
+period:
+  start: 1850
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 14000000
+sources:
+  - https://en.wikipedia.org/wiki/Shanghainese
+notes: |
+  Northern Wu variety of the city of Shanghai, which became the Wu prestige
+  dialect after the city's growth from the mid-19th c. Declining among younger
+  speakers in favour of Mandarin.

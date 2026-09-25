@@ -1,0 +1,16 @@
+id: old-tupi
+name: Old Tupi
+iso639_3: tpn
+parents: [proto-tupi-guarani]
+period:
+  start: 1000
+  end: 1800
+  start_uncertainty: 300
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Old_Tupi
+notes: |
+  Tupinambá, the coastal language of 16th-century Brazil. Jesuits (Anchieta's
+  grammar, 1595) documented it and used it as a língua geral; it has a literary
+  and toponymic afterlife.

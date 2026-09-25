@@ -1,0 +1,14 @@
+id: scythian
+name: Scythian
+iso639_3: xsc
+parents: [proto-iranian]
+period:
+  start: -800
+  end: 400
+  start_uncertainty: 200
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Scythian_languages
+notes: |
+  Eastern Iranian speech of the Scythians and Sarmatians of the Eurasian steppe,
+  known almost only from names and glosses.

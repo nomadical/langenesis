@@ -1,0 +1,15 @@
+id: proto-northeast-caucasian
+name: Proto-Northeast Caucasian
+parents: []
+period:
+  start: -4000
+  end: -3000
+  start_uncertainty: 1000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Northeast_Caucasian_languages
+notes: |
+  Reconstructed ancestor of the Nakh-Daghestanian family. Dating is contested
+  (estimates range from the 6th to the 3rd millennium BCE); links to Hurro-
+  Urartian (Alarodian) are proposed but unproven.

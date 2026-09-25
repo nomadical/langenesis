@@ -1,0 +1,13 @@
+id: old-malay
+name: Old Malay
+iso639_3: omy
+parents: [proto-malayo-polynesian]
+period:
+  start: 683
+  end: 1400
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Malay
+notes: |
+  Malay of the Srivijaya-era inscriptions, beginning with the Kedukan Bukit
+  inscription (683 CE). Intermediate Proto-Malayic stage not tracked.

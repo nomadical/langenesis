@@ -1,0 +1,17 @@
+id: pitjantjatjara
+name: Pitjantjatjara
+glottocode: pitj1243
+iso639_3: pjt
+parents: [proto-pama-nyungan]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 3000
+sources:
+  - https://en.wikipedia.org/wiki/Pitjantjatjara_dialect
+  - https://glottolog.org/resource/languoid/id/pitj1243
+notes: |
+  A variety of the Western Desert Language, spoken in central Australia. Start
+  date is nominal; intermediate subgroups are not tracked.

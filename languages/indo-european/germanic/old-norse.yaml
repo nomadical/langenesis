@@ -1,0 +1,17 @@
+id: old-norse
+name: Old Norse
+glottocode: oldn1244
+iso639_3: non
+parents: [proto-norse]
+period:
+  start: 750
+  end: 1050
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Norse
+  - https://glottolog.org/resource/languoid/id/oldn1244
+notes: |
+  Common Viking Age Scandinavian, written in the Younger Futhark. Split into
+  West and East Norse dialect groups; conventional boundary dates vary.

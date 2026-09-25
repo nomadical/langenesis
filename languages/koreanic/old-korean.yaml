@@ -1,0 +1,14 @@
+id: old-korean
+name: Old Korean
+iso639_3: oko
+parents: [proto-koreanic]
+period:
+  start: 300
+  end: 918
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Korean
+notes: |
+  Korean of the Three Kingdoms and Unified Silla periods, attested in hyangga
+  poetry written with idu/hyangchal Chinese-character transcription.

@@ -1,0 +1,16 @@
+id: proto-ethio-semitic
+name: Proto-Ethio-Semitic
+parents: [proto-west-semitic]
+period:
+  start: -1000
+  end: 0
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Ethio-Semitic_languages
+notes: |
+  Ancestor of the Semitic languages of Ethiopia and Eritrea, brought across
+  the Red Sea from South Arabia in the early first millennium BCE or earlier;
+  the timing is disputed. Splits into North (Ge'ez, Tigrinya, Tigre) and South
+  Ethio-Semitic (Amharic and others).

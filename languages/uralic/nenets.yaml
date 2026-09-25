@@ -1,0 +1,17 @@
+id: nenets
+name: Nenets
+glottocode: tund1255
+iso639_3: yrk
+parents: [proto-samoyedic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 22000
+sources:
+  - https://en.wikipedia.org/wiki/Nenets_languages
+  - https://glottolog.org/resource/languoid/id/tund1255
+notes: |
+  Northern Samoyedic language (mainly Tundra Nenets) of the Russian Arctic
+  tundra.

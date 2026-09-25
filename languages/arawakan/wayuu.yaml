@@ -1,0 +1,16 @@
+id: wayuu
+name: Wayuu
+glottocode: wayu1243
+iso639_3: guc
+parents: [proto-arawakan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 400000
+sources:
+  - https://en.wikipedia.org/wiki/Wayuu_language
+  - https://glottolog.org/resource/languoid/id/wayu1243
+notes: |
+  Northern Arawakan (Ta-Arawakan), spoken on the Guajira Peninsula of Colombia
+  and Venezuela.

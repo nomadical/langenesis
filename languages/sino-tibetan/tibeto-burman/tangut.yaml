@@ -1,0 +1,14 @@
+id: tangut
+name: Tangut
+iso639_3: txg
+parents: [proto-tibeto-burman]
+period:
+  start: 1036
+  end: 1500
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Tangut_language
+notes: |
+  Language of the Western Xia state, written in its own logographic script
+  (created 1036). Usually classified as Qiangic; last texts date from ~1500.

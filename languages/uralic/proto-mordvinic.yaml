@@ -1,0 +1,13 @@
+id: proto-mordvinic
+name: Proto-Mordvinic
+parents: [proto-uralic]
+period:
+  start: -200
+  end: 800
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Mordvinic_languages
+notes: |
+  Ancestor of Erzya and Moksha in the middle Volga basin.

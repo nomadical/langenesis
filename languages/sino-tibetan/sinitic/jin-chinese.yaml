@@ -1,0 +1,18 @@
+id: jin-chinese
+name: Jin Chinese
+glottocode: jinc1253
+iso639_3: cjy
+parents: [middle-chinese]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 63000000
+sources:
+  - https://en.wikipedia.org/wiki/Jin_Chinese
+  - https://glottolog.org/resource/languoid/id/jinc1253
+notes: |
+  Spoken mainly in Shanxi and Inner Mongolia; distinguished by retention of
+  the Middle Chinese entering tone. Many scholars classify it as a Mandarin
+  subgroup rather than a separate group.

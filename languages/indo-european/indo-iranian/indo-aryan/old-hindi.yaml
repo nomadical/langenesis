@@ -1,0 +1,13 @@
+id: old-hindi
+name: Old Hindi
+parents: [shauraseni-apabhramsha]
+period:
+  start: 1100
+  end: 1600
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Hindustani_language
+notes: |
+  Early Hindavi / Old Khariboli of the Delhi region, attested in poetry attributed
+  to Amir Khusrau and the Sant poets. Ancestor of Hindustani (Hindi and Urdu).

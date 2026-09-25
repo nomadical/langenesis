@@ -1,0 +1,17 @@
+id: urdu
+name: Urdu
+glottocode: urdu1245
+iso639_3: urd
+parents: [old-hindi]
+period:
+  start: 1600
+  end: present
+status: living
+speakers: 70000000
+sources:
+  - https://en.wikipedia.org/wiki/Urdu
+  - https://glottolog.org/resource/languoid/id/urdu1245
+notes: |
+  Persianised register of Hindustani, mutually intelligible with Hindi in everyday
+  speech. Literary Urdu developed from Dakhni and Rekhta (16th–18th c.); national
+  language of Pakistan.

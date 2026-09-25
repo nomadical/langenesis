@@ -1,0 +1,15 @@
+id: mycenaean-greek
+name: Mycenaean Greek
+iso639_3: gmy
+parents: [proto-hellenic]
+period:
+  start: -1600
+  end: -1100
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Mycenaean_Greek
+notes: |
+  Oldest attested Greek, written in Linear B on palace archive tablets. Not the
+  ancestor of all later Greek dialects.

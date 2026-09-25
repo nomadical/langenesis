@@ -1,0 +1,15 @@
+id: cree
+name: Cree
+iso639_3: cre
+parents: [proto-algonquian]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 100000
+sources:
+  - https://en.wikipedia.org/wiki/Cree_language
+notes: |
+  Cree–Montagnais–Naskapi dialect continuum from the Rockies to Labrador. The
+  most widely spoken Indigenous language in Canada; syllabics script since the
+  1840s.

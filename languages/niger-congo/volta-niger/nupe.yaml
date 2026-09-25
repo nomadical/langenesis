@@ -1,0 +1,14 @@
+id: nupe
+name: Nupe
+iso639_3: nup
+parents: [proto-volta-niger]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1000000
+sources:
+  - https://en.wikipedia.org/wiki/Nupe_language
+notes: |
+  Nupoid language of central Nigeria, spoken around the Niger-Kaduna confluence.

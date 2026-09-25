@@ -1,0 +1,17 @@
+id: greenlandic
+name: Greenlandic
+glottocode: kala1399
+iso639_3: kal
+parents: [proto-inuit]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 56000
+sources:
+  - https://en.wikipedia.org/wiki/Greenlandic_language
+  - https://glottolog.org/resource/languoid/id/kala1399
+notes: |
+  Kalaallisut, the sole official language of Greenland since 2009. Thule Inuit
+  reached Greenland around 1200-1300 CE.

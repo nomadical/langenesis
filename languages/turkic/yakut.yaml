@@ -1,0 +1,17 @@
+id: yakut
+name: Yakut (Sakha)
+glottocode: yaku1245
+iso639_3: sah
+parents: [old-turkic]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 450000
+sources:
+  - https://en.wikipedia.org/wiki/Yakut_language
+  - https://glottolog.org/resource/languoid/id/yaku1245
+notes: |
+  Northeastern (Siberian) Turkic language of the Sakha Republic, with a large
+  Mongolic and Tungusic lexical layer. Separated from other Turkic early.

@@ -1,0 +1,14 @@
+id: tsonga
+name: Xitsonga
+iso639_3: tso
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 3700000
+sources:
+  - https://en.wikipedia.org/wiki/Tsonga_language
+notes: |
+  Southern Bantu (Guthrie S53) language of South Africa and southern Mozambique.

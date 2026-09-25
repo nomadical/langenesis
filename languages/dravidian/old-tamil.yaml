@@ -1,7 +1,7 @@
 id: old-tamil
 name: Old Tamil
 iso639_3: oty
-parents: [proto-dravidian]
+parents: [proto-south-dravidian]
 period:
   start: -300
   end: 700

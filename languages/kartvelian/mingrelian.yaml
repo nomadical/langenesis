@@ -1,0 +1,17 @@
+id: mingrelian
+name: Mingrelian
+glottocode: ming1252
+iso639_3: xmf
+parents: [proto-zan]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 340000
+sources:
+  - https://en.wikipedia.org/wiki/Mingrelian_language
+  - https://glottolog.org/resource/languoid/id/ming1252
+notes: |
+  Spoken in Samegrelo, western Georgia; speakers are mostly bilingual in
+  Georgian.

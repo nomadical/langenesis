@@ -1,0 +1,13 @@
+id: sinhala-prakrit
+name: Sinhala Prakrit
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 400
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Elu_language
+notes: |
+  Also called Elu. Middle Indo-Aryan of Sri Lanka, attested in Brahmi cave
+  inscriptions from the 3rd c. BCE; developed in isolation from mainland Prakrits.

@@ -1,0 +1,14 @@
+id: old-arabic
+name: Old Arabic
+parents: [proto-central-semitic]
+period:
+  start: -800
+  end: 500
+  start_uncertainty: 200
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Arabic
+notes: |
+  Pre-Islamic Arabic attested in Safaitic, Hismaic, Nabataean-script and early
+  Arabic-script inscriptions. Ancestral to Classical Arabic and the modern
+  dialects.

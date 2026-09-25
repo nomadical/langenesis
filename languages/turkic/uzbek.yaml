@@ -2,7 +2,7 @@ id: uzbek
 name: Uzbek
 glottocode: nort2690
 iso639_3: uzn
-parents: [old-turkic]
+parents: [chagatai]
 period:
   start: 1500
   end: present

@@ -1,0 +1,17 @@
+id: syriac
+name: Classical Syriac
+glottocode: clas1252
+iso639_3: syc
+parents: [aramaic]
+period:
+  start: 1
+  end: 1300
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Syriac_language
+  - https://glottolog.org/resource/languoid/id/clas1252
+notes: |
+  Middle Aramaic dialect of Edessa that became the literary and liturgical
+  language of Syriac Christianity. Declined as a vernacular after the 13th
+  century but remains in liturgical use.

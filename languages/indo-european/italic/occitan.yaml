@@ -1,0 +1,16 @@
+id: occitan
+name: Occitan
+glottocode: occi1239
+iso639_3: oci
+parents: [old-occitan]
+period:
+  start: 1400
+  end: present
+status: living
+speakers: 200000
+sources:
+  - https://en.wikipedia.org/wiki/Occitan_language
+  - https://glottolog.org/resource/languoid/id/occi1239
+notes: |
+  Spoken in southern France, the Val d'Aran and the Occitan Valleys of Italy.
+  Speaker estimates range from about 100,000 to several hundred thousand.

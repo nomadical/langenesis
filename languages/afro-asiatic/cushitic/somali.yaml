@@ -1,0 +1,17 @@
+id: somali
+name: Somali
+glottocode: soma1255
+iso639_3: som
+parents: [proto-east-cushitic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 22000000
+sources:
+  - https://en.wikipedia.org/wiki/Somali_language
+  - https://glottolog.org/resource/languoid/id/soma1255
+notes: |
+  Lowland East Cushitic language of Somalia, Djibouti, eastern Ethiopia and
+  northeastern Kenya. Official Latin orthography adopted in 1972.

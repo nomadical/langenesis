@@ -1,0 +1,16 @@
+id: oodham
+name: O'odham
+glottocode: toho1245
+iso639_3: ood
+parents: [proto-uto-aztecan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 15000
+sources:
+  - https://en.wikipedia.org/wiki/O%27odham_language
+  - https://glottolog.org/resource/languoid/id/toho1245
+notes: |
+  Tepiman branch (Tohono O'odham and Akimel O'odham). Spoken in southern Arizona
+  and northern Sonora.

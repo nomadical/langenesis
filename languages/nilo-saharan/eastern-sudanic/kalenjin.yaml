@@ -1,0 +1,15 @@
+id: kalenjin
+name: Kalenjin
+iso639_3: kln
+parents: [proto-nilotic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Nandi%E2%80%93Markweta_languages
+notes: |
+  Southern Nilotic dialect cluster (Nandi, Kipsigis and others) of the Kenyan
+  highlands, also called Nandi–Markweta; intermediate Southern Nilotic node
+  not tracked.

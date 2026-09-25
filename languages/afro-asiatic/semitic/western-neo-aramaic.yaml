@@ -1,0 +1,16 @@
+id: western-neo-aramaic
+name: Western Neo-Aramaic
+glottocode: west2763
+iso639_3: amw
+parents: [aramaic]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Western_Neo-Aramaic
+  - https://glottolog.org/resource/languoid/id/west2763
+notes: |
+  The only surviving Western Aramaic variety, spoken in Maaloula and nearby
+  villages in Syria. Severely endangered.

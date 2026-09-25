@@ -1,0 +1,17 @@
+id: aragonese
+name: Aragonese
+glottocode: arag1245
+iso639_3: arg
+parents: [vulgar-latin]
+period:
+  start: 900
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 10000
+sources:
+  - https://en.wikipedia.org/wiki/Aragonese_language
+  - https://glottolog.org/resource/languoid/id/arag1245
+notes: |
+  Descendant of Navarro-Aragonese, spoken in northern Aragon. Endangered; about
+  10,000 active speakers, more with passive knowledge.

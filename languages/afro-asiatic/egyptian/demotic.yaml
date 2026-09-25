@@ -1,0 +1,15 @@
+id: demotic
+name: Demotic
+parents: [late-egyptian]
+period:
+  start: -700
+  end: 450
+  start_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Demotic_(Egyptian)
+  - https://en.wikipedia.org/wiki/Egyptian_language#Demotic
+notes: |
+  Egyptian of the Late, Ptolemaic and Roman periods, written in the Demotic
+  script (e.g. the middle text of the Rosetta Stone). Last dated inscription
+  452 CE at Philae.

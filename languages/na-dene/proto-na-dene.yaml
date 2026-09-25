@@ -1,0 +1,15 @@
+id: proto-na-dene
+name: Proto-Na-Dene
+parents: []
+period:
+  start: -3000
+  end: -1500
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Na-Dene_languages
+notes: |
+  Reconstructed ancestor of Na-Dene (Tlingit plus Athabaskan–Eyak). The dating
+  is highly uncertain. Vajda's Dene–Yeniseian proposal (2008), which links it to
+  Ket in Siberia, is widely discussed but not universally accepted.

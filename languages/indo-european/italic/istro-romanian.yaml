@@ -1,0 +1,15 @@
+id: istro-romanian
+name: Istro-Romanian
+glottocode: istr1245
+iso639_3: ruo
+parents: [proto-romanian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Istro-Romanian_language
+  - https://glottolog.org/resource/languoid/id/istr1245
+notes: |
+  Spoken by a few hundred people in Istria, Croatia. Severely endangered.

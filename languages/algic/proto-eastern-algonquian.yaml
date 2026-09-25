@@ -1,0 +1,14 @@
+id: proto-eastern-algonquian
+name: Proto-Eastern Algonquian
+parents: [proto-algonquian]
+period:
+  start: 0
+  end: 800
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Eastern_Algonquian_languages
+notes: |
+  Ancestor of the Eastern Algonquian languages of the Atlantic seaboard, the
+  only proven genetic subgroup of Algonquian.

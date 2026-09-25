@@ -1,0 +1,16 @@
+id: yoruba
+name: Yoruba
+glottocode: yoru1245
+iso639_3: yor
+parents: [proto-yoruboid]
+period:
+  start: 1000
+  end: present
+status: living
+speakers: 47000000
+sources:
+  - https://en.wikipedia.org/wiki/Yoruba_language
+  - https://glottolog.org/resource/languoid/id/yoru1245
+notes: |
+  Yoruboid language of southwestern Nigeria and Benin (Volta-Niger branch), closely
+  related to Itsekiri and Igala. Written in Latin script since the 19th century.

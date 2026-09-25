@@ -1,0 +1,14 @@
+id: proto-oceanic
+name: Proto-Oceanic
+parents: [proto-malayo-polynesian]
+period:
+  start: -1500
+  end: -1000
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Oceanic_language
+notes: |
+  Ancestor of the ~450 Oceanic languages, associated with the Lapita culture
+  in the Bismarck Archipelago (~1350 BCE). The intermediate Central-Eastern
+  Malayo-Polynesian stage is not tracked.

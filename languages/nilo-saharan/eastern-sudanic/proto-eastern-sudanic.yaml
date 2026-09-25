@@ -1,0 +1,16 @@
+id: proto-eastern-sudanic
+name: Proto-Eastern Sudanic
+parents: []
+period:
+  start: -6000
+  end: -4000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Eastern_Sudanic_languages
+notes: |
+  Ancestor of the Eastern Sudanic languages (Nilotic, Nubian and others).
+  Modelled as its own family because the proposed Nilo-Saharan macrofamily
+  (Greenberg 1963) is doubted by many linguists; Eastern Sudanic itself is
+  better supported but still debated, and its dating is speculative.

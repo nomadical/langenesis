@@ -1,0 +1,16 @@
+id: sardinian
+name: Sardinian
+iso639_3: srd
+parents: [vulgar-latin]
+period:
+  start: 800
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 1000000
+sources:
+  - https://en.wikipedia.org/wiki/Sardinian_language
+notes: |
+  Often regarded as the most conservative Romance language and one of the
+  earliest to split from the rest. ISO srd is a macrolanguage covering
+  Logudorese and Campidanese.

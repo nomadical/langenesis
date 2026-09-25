@@ -1,0 +1,16 @@
+id: itelmen
+name: Itelmen
+glottocode: itel1242
+iso639_3: itl
+parents: [proto-chukotko-kamchatkan]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Itelmen_language
+  - https://glottolog.org/resource/languoid/id/itel1242
+notes: |
+  Sole surviving Kamchatkan language, of western Kamchatka; moribund, with
+  only a few elderly speakers.

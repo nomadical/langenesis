@@ -1,0 +1,15 @@
+id: munsee
+name: Munsee
+glottocode: muns1251
+iso639_3: umu
+parents: [proto-eastern-algonquian]
+period:
+  start: 1600
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Munsee_language
+  - https://glottolog.org/resource/languoid/id/muns1251
+notes: |
+  Lenape (Delaware) language of the lower Hudson. A handful of elderly speakers
+  remain at Moraviantown, Ontario.

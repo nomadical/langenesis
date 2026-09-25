@@ -13,6 +13,10 @@ export interface FamilyInfo {
   id: string;
   /** Display name (the top-level node's name). */
   name: string;
+  /** Family name without the "Proto-" prefix, e.g. "Indo-European". */
+  label: string;
+  /** Number of leaf languages (tips) in the family. */
+  leafCount: number;
   /** The TreeNode itself. */
   node: TreeNode;
   /** All descendant ids (excluding the root id itself). */
@@ -36,14 +40,83 @@ export interface LoadedData {
 
 const VIRTUAL_ROOT_ID = "__root__";
 
-function loadYamlFiles(): LanguageNode[] {
+/**
+ * Families are laid out around the circle in this order — a rough world tour
+ * (Africa → Near East & Europe → Caucasus → South, North & East Asia →
+ * Southeast Asia & Oceania → the Americas) so geographic neighbours sit next
+ * to each other. Keys are the top-level folder under `languages/`. Unknown
+ * folders are appended, largest first.
+ */
+const FAMILY_ORDER = [
+  "khoisan",
+  "niger-congo",
+  "nilo-saharan",
+  "afro-asiatic",
+  "sumerian",
+  "elamite",
+  "hurro-urartian",
+  "indo-european",
+  "tyrsenian",
+  "basque",
+  "uralic",
+  "kartvelian",
+  "northwest-caucasian",
+  "northeast-caucasian",
+  "dravidian",
+  "burushaski",
+  "turkic",
+  "mongolic",
+  "tungusic",
+  "yeniseian",
+  "chukotko-kamchatkan",
+  "ainu",
+  "koreanic",
+  "japonic",
+  "sino-tibetan",
+  "hmong-mien",
+  "kra-dai",
+  "austroasiatic",
+  "austronesian",
+  "trans-new-guinea",
+  "pama-nyungan",
+  "eskimo-aleut",
+  "na-dene",
+  "haida",
+  "algic",
+  "kutenai",
+  "iroquoian",
+  "siouan",
+  "zuni",
+  "uto-aztecan",
+  "purepecha",
+  "oto-manguean",
+  "mayan",
+  "arawakan",
+  "cariban",
+  "tupian",
+  "quechuan",
+  "aymaran",
+  "mapudungun",
+];
+
+export function familyLabel(name: string): string {
+  return name.replace(/^Proto-/, "");
+}
+
+interface LoadedFile {
+  node: LanguageNode;
+  /** Top-level folder under languages/, e.g. "indo-european". */
+  folder: string;
+}
+
+function loadYamlFiles(): LoadedFile[] {
   const files = import.meta.glob("/languages/**/*.yaml", {
     query: "?raw",
     import: "default",
     eager: true,
   }) as Record<string, string>;
 
-  const nodes: LanguageNode[] = [];
+  const out: LoadedFile[] = [];
   for (const [path, raw] of Object.entries(files)) {
     let parsed: unknown;
     try {
@@ -59,12 +132,16 @@ function loadYamlFiles(): LanguageNode[] {
           .join("\n")}`,
       );
     }
-    nodes.push(result.data);
+    const folder = path.split("/")[2] ?? "";
+    out.push({ node: result.data, folder });
   }
-  return nodes;
+  return out;
 }
 
-export function buildTree(nodes: LanguageNode[]): LoadedData {
+export function buildTree(
+  nodes: LanguageNode[],
+  folderOf: Map<string, string> = new Map(),
+): LoadedData {
   const byId = new Map<string, TreeNode>();
   for (const data of nodes) {
     if (byId.has(data.id)) {
@@ -127,6 +204,19 @@ export function buildTree(nodes: LanguageNode[]): LoadedData {
   // distinct families so colors map onto subbranches (Italic, Germanic, …)
   // rather than everything collapsing to one hue.
   const familyOf = new Map<string, string>();
+  const countLeaves = (n: TreeNode): number =>
+    n.children.length === 0
+      ? 1
+      : n.children.reduce((s, c) => s + countLeaves(c), 0);
+  const orderIndex = (n: TreeNode) => {
+    const i = FAMILY_ORDER.indexOf(folderOf.get(n.data.id) ?? "");
+    return i === -1 ? FAMILY_ORDER.length : i;
+  };
+  topLevel.sort(
+    (a, b) =>
+      orderIndex(a) - orderIndex(b) || countLeaves(b) - countLeaves(a),
+  );
+
   const familyRoots: TreeNode[] =
     topLevel.length === 1 ? topLevel[0].children : topLevel;
 
@@ -139,7 +229,14 @@ export function buildTree(nodes: LanguageNode[]): LoadedData {
       familyOf.set(cur.data.id, root.data.id);
       stack.push(...cur.children);
     }
-    return { id: root.data.id, name: root.data.name, node: root, descendants };
+    return {
+      id: root.data.id,
+      name: root.data.name,
+      label: familyLabel(root.data.name),
+      leafCount: countLeaves(root),
+      node: root,
+      descendants,
+    };
   });
 
   let root: TreeNode;
@@ -176,5 +273,9 @@ export function isVirtualRootId(id: string): boolean {
 }
 
 export function loadData(): LoadedData {
-  return buildTree(loadYamlFiles());
+  const files = loadYamlFiles();
+  return buildTree(
+    files.map((f) => f.node),
+    new Map(files.map((f) => [f.node.id, f.folder])),
+  );
 }

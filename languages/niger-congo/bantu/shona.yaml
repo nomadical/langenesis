@@ -1,0 +1,17 @@
+id: shona
+name: Shona
+glottocode: shon1251
+iso639_3: sna
+parents: [proto-bantu]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 11000000
+sources:
+  - https://en.wikipedia.org/wiki/Shona_language
+  - https://glottolog.org/resource/languoid/id/shon1251
+notes: |
+  Southern Bantu (Guthrie S10) language of Zimbabwe, associated with the Great
+  Zimbabwe culture.

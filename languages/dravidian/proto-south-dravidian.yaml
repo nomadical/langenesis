@@ -1,0 +1,15 @@
+id: proto-south-dravidian
+name: Proto-South Dravidian
+parents: [proto-dravidian]
+period:
+  start: -1100
+  end: -300
+  start_uncertainty: 400
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/South_Dravidian_languages
+notes: |
+  Ancestor of South Dravidian (Krishnamurti's South Dravidian I): Tamil,
+  Malayalam, Kannada, Tulu and others. Dating follows Krishnamurti and is
+  approximate.

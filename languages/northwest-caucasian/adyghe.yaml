@@ -1,0 +1,17 @@
+id: adyghe
+name: Adyghe
+glottocode: adyg1241
+iso639_3: ady
+parents: [proto-circassian]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 600000
+sources:
+  - https://en.wikipedia.org/wiki/Adyghe_language
+  - https://glottolog.org/resource/languoid/id/adyg1241
+notes: |
+  West Circassian; official in the Republic of Adygea, with a large diaspora
+  in Turkey. Start date is nominal.

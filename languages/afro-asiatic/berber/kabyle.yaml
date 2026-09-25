@@ -1,0 +1,17 @@
+id: kabyle
+name: Kabyle
+glottocode: kaby1243
+iso639_3: kab
+parents: [proto-berber]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Kabyle_language
+  - https://glottolog.org/resource/languoid/id/kaby1243
+notes: |
+  Northern Berber language of Kabylia, northern Algeria, and the largest
+  Berber language of Algeria.

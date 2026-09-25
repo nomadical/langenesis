@@ -1,0 +1,17 @@
+id: aromanian
+name: Aromanian
+glottocode: arom1237
+iso639_3: rup
+parents: [proto-romanian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 250000
+sources:
+  - https://en.wikipedia.org/wiki/Aromanian_language
+  - https://glottolog.org/resource/languoid/id/arom1237
+notes: |
+  Spoken in Greece, Albania, North Macedonia and elsewhere in the Balkans.
+  Endangered; estimates vary widely.

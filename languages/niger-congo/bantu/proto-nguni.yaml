@@ -1,0 +1,14 @@
+id: proto-nguni
+name: Proto-Nguni
+parents: [proto-bantu]
+period:
+  start: 500
+  end: 1500
+  start_uncertainty: 300
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Nguni_languages
+notes: |
+  Ancestor of the Nguni languages of southern Africa (Zulu, Xhosa, Swati, Ndebele),
+  notable for click consonants borrowed from Khoisan languages. Dating is approximate.

@@ -1,0 +1,14 @@
+id: rajasthani
+name: Rajasthani
+iso639_3: raj
+parents: [old-gujarati]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 26000000
+sources:
+  - https://en.wikipedia.org/wiki/Rajasthani_languages
+notes: |
+  Cluster of Western Indo-Aryan varieties (Marwari, Dhundhari, Mewari, Hadoti…)
+  officially counted under Hindi in the Indian census.

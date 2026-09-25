@@ -3,7 +3,7 @@ name: Old French
 parents: [vulgar-latin]
 period:
   start: 800
-  end: 1400
+  end: 1350
 status: extinct
 sources:
   - https://en.wikipedia.org/wiki/Old_French

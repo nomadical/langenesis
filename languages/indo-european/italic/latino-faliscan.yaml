@@ -1,0 +1,12 @@
+id: latino-faliscan
+name: Proto-Latino-Faliscan
+parents: [proto-italic]
+period:
+  start: -1000
+  end: -700
+  start_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Latino-Faliscan_languages
+notes: |
+  Reconstructed common ancestor of Latin and Faliscan.

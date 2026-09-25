@@ -1,0 +1,15 @@
+id: dyula
+name: Dyula
+iso639_3: dyu
+parents: [proto-manding]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Dyula_language
+notes: |
+  Manding trade language of Burkina Faso, Côte d'Ivoire and Mali, highly mutually
+  intelligible with Bambara; widely spoken as L2.

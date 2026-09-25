@@ -1,0 +1,17 @@
+id: lao
+name: Lao
+glottocode: laoo1244
+iso639_3: lao
+parents: [proto-tai]
+period:
+  start: 1350
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 3700000
+sources:
+  - https://en.wikipedia.org/wiki/Lao_language
+  - https://glottolog.org/resource/languoid/id/laoo1244
+notes: |
+  Southwestern Tai language of Laos, continuous with the Isan varieties of
+  northeastern Thailand. Lan Xang kingdom founded 1353.

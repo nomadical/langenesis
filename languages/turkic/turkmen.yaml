@@ -1,0 +1,17 @@
+id: turkmen
+name: Turkmen
+glottocode: turk1304
+iso639_3: tuk
+parents: [old-oghuz]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 7000000
+sources:
+  - https://en.wikipedia.org/wiki/Turkmen_language
+  - https://glottolog.org/resource/languoid/id/turk1304
+notes: |
+  Eastern Oghuz language of Turkmenistan. Literary Turkmen developed from
+  Chagatai-influenced traditions (Magtymguly, 18th c.).

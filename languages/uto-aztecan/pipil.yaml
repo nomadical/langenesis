@@ -1,0 +1,17 @@
+id: pipil
+name: Pipil
+glottocode: pipi1250
+iso639_3: ppl
+parents: [proto-nahuan]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 200
+sources:
+  - https://en.wikipedia.org/wiki/Pipil_language
+  - https://glottolog.org/resource/languoid/id/pipi1250
+notes: |
+  Nahuan language of El Salvador (Nawat). It came from Nahua migrations around
+  800-1000 CE. Critically endangered; revitalization is underway.

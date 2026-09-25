@@ -1,0 +1,17 @@
+id: lak
+name: Lak
+glottocode: lakk1252
+iso639_3: lbe
+parents: [proto-northeast-caucasian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 150000
+sources:
+  - https://en.wikipedia.org/wiki/Lak_language
+  - https://glottolog.org/resource/languoid/id/lakk1252
+notes: |
+  Forms its own branch of Northeast Caucasian; spoken in central Dagestan.
+  Start date is nominal.

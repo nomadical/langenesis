@@ -1,0 +1,17 @@
+id: bodo
+name: Bodo
+glottocode: bodo1269
+iso639_3: brx
+parents: [proto-tibeto-burman]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1500000
+sources:
+  - https://en.wikipedia.org/wiki/Boro_language_(India)
+  - https://glottolog.org/resource/languoid/id/bodo1269
+notes: |
+  Boro-Garo (Sal) language of Assam, India; a scheduled language of India
+  since 2003.

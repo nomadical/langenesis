@@ -1,0 +1,17 @@
+id: balinese
+name: Balinese
+glottocode: bali1278
+iso639_3: ban
+parents: [proto-malayo-polynesian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 3300000
+sources:
+  - https://en.wikipedia.org/wiki/Balinese_language
+  - https://glottolog.org/resource/languoid/id/bali1278
+notes: |
+  Bali–Sasak–Sumbawa subgroup; spoken on Bali and Lombok. Retains strong Old
+  Javanese literary influence.

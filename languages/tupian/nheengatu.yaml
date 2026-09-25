@@ -1,0 +1,17 @@
+id: nheengatu
+name: Nheengatu
+glottocode: nhen1239
+iso639_3: yrl
+parents: [old-tupi]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 20000
+sources:
+  - https://en.wikipedia.org/wiki/Nheengatu_language
+  - https://glottolog.org/resource/languoid/id/nhen1239
+notes: |
+  Descends from the Amazonian língua geral, which grew out of Old Tupi. Still
+  spoken along the Rio Negro; co-official in São Gabriel da Cachoeira.

@@ -1,0 +1,13 @@
+id: old-gujarati
+name: Old Gujarati
+parents: [shauraseni-apabhramsha]
+period:
+  start: 1200
+  end: 1500
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Western_R%C4%81jasth%C4%81ni
+notes: |
+  Also called Old Western Rajasthani or Maru-Gurjar; descended from Gurjara
+  Apabhraṃśa. Common ancestor of Gujarati and Rajasthani.

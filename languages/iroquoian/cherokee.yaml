@@ -1,0 +1,16 @@
+id: cherokee
+name: Cherokee
+glottocode: cher1273
+iso639_3: chr
+parents: [proto-iroquoian]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 2000
+sources:
+  - https://en.wikipedia.org/wiki/Cherokee_language
+  - https://glottolog.org/resource/languoid/id/cher1273
+notes: |
+  The only Southern Iroquoian language. Written in Sequoyah's syllabary since
+  1821.

@@ -1,0 +1,16 @@
+id: proto-eastern-polynesian
+name: Proto-Eastern Polynesian
+parents: [proto-polynesian]
+period:
+  start: 700
+  end: 1100
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Eastern_Polynesian_languages
+notes: |
+  Ancestor of the Eastern Polynesian languages, spoken in central East
+  Polynesia (Society / Cook Islands region) before the rapid settlement of
+  Hawaiʻi, Rapa Nui and Aotearoa. Recent radiocarbon chronologies place that
+  dispersal ~1000–1200 CE.

@@ -1,0 +1,17 @@
+id: chechen
+name: Chechen
+glottocode: chec1245
+iso639_3: che
+parents: [proto-nakh]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1700000
+sources:
+  - https://en.wikipedia.org/wiki/Chechen_language
+  - https://glottolog.org/resource/languoid/id/chec1245
+notes: |
+  Largest Nakh language, spoken in Chechnya. Written only since the 19th
+  century. Start date is nominal.

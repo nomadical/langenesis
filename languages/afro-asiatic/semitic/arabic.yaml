@@ -13,6 +13,5 @@ sources:
   - https://glottolog.org/resource/languoid/id/stan1318
 notes: |
   Modern Standard Arabic (MSA), the literary and formal register. Spoken
-  Arabic varieties (Egyptian, Levantine, Maghrebi, Gulf, etc.) are mutually
-  divergent and are sometimes treated as separate languages; they are not
-  tracked here as separate nodes.
+  varieties (Egyptian, Levantine, Maghrebi, Gulf, etc.) are mutually divergent;
+  a selection is tracked as sister nodes descending from Classical Arabic.

@@ -1,0 +1,15 @@
+id: proto-chukotko-kamchatkan
+name: Proto-Chukotko-Kamchatkan
+parents: []
+period:
+  start: 0
+  end: 1000
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Chukotko-Kamchatkan_languages
+notes: |
+  Reconstructed ancestor of the Chukotkan and Kamchatkan (Itelmen) languages
+  of the Russian Far East. Dating is poorly constrained; the Itelmen
+  relationship is sometimes questioned.

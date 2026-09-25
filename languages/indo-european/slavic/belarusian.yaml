@@ -1,0 +1,17 @@
+id: belarusian
+name: Belarusian
+glottocode: bela1254
+iso639_3: bel
+parents: [ruthenian]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Belarusian_language
+  - https://glottolog.org/resource/languoid/id/bela1254
+notes: |
+  Speaker figure reflects census self-identification; everyday use is much lower
+  due to Russian dominance.

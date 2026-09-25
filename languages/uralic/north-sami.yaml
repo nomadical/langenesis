@@ -1,0 +1,16 @@
+id: north-sami
+name: Northern Sami
+glottocode: nort2671
+iso639_3: sme
+parents: [proto-samic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 25000
+sources:
+  - https://en.wikipedia.org/wiki/Northern_Sami
+  - https://glottolog.org/resource/languoid/id/nort2671
+notes: |
+  Most widely spoken Sami language, in northern Norway, Sweden and Finland.

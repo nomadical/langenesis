@@ -1,0 +1,17 @@
+id: erzya
+name: Erzya
+glottocode: erzy1239
+iso639_3: myv
+parents: [proto-mordvinic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 300000
+sources:
+  - https://en.wikipedia.org/wiki/Erzya_language
+  - https://glottolog.org/resource/languoid/id/erzy1239
+notes: |
+  Mordvinic language of Mordovia, Russia; a co-official language there with
+  Moksha and Russian.

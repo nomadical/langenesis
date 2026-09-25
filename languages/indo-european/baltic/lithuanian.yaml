@@ -1,0 +1,17 @@
+id: lithuanian
+name: Lithuanian
+glottocode: lith1251
+iso639_3: lit
+parents: [proto-east-baltic]
+period:
+  start: 700
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 3000000
+sources:
+  - https://en.wikipedia.org/wiki/Lithuanian_language
+  - https://glottolog.org/resource/languoid/id/lith1251
+notes: |
+  Among the most conservative living Indo-European languages. First printed book
+  1547.

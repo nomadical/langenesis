@@ -1,0 +1,14 @@
+id: alanic
+name: Alanic
+iso639_3: xln
+parents: [scythian]
+period:
+  start: 100
+  end: 1300
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Alanic_language
+notes: |
+  Language of the Alans, a Sarmatian people; scant records (e.g. the 12th-c.
+  Tzetzes phrases, the Zelenchuk inscription). Direct ancestor of Ossetian.

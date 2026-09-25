@@ -1,0 +1,15 @@
+id: gujarati
+name: Gujarati
+glottocode: guja1252
+iso639_3: guj
+parents: [old-gujarati]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 57000000
+sources:
+  - https://en.wikipedia.org/wiki/Gujarati_language
+  - https://glottolog.org/resource/languoid/id/guja1252
+notes: |
+  Western Indo-Aryan; Middle Gujarati (1500–1800) then Modern Gujarati.

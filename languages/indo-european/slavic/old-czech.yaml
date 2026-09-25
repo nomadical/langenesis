@@ -1,0 +1,13 @@
+id: old-czech
+name: Old Czech
+parents: [proto-west-slavic]
+period:
+  start: 1000
+  end: 1500
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Czech
+notes: |
+  Czech of the 12th–16th centuries; continuous literary tradition from the late
+  13th century.

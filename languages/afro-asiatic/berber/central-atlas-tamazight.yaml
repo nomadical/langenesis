@@ -1,0 +1,17 @@
+id: central-atlas-tamazight
+name: Central Atlas Tamazight
+glottocode: cent2194
+iso639_3: tzm
+parents: [proto-berber]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 3000000
+sources:
+  - https://en.wikipedia.org/wiki/Central_Atlas_Tamazight
+  - https://glottolog.org/resource/languoid/id/cent2194
+notes: |
+  Northern Berber language of the Middle and High Atlas in Morocco. Standard
+  Moroccan Amazigh, official since 2011, is largely based on it and Tashelhit.

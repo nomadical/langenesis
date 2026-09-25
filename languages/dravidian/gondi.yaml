@@ -1,0 +1,15 @@
+id: gondi
+name: Gondi
+iso639_3: gon
+parents: [proto-south-central-dravidian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 3000000
+sources:
+  - https://en.wikipedia.org/wiki/Gondi_language
+notes: |
+  South-Central Dravidian dialect continuum of central India, spoken by the
+  Gond people. Start date is nominal.

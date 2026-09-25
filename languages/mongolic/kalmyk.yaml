@@ -1,0 +1,17 @@
+id: kalmyk
+name: Kalmyk-Oirat
+glottocode: kalm1243
+iso639_3: xal
+parents: [middle-mongol]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 350000
+sources:
+  - https://en.wikipedia.org/wiki/Kalmyk_Oirat
+  - https://glottolog.org/resource/languoid/id/kalm1243
+notes: |
+  Western Mongolic (Oirat) language of Kalmykia on the lower Volga, western
+  Mongolia and Xinjiang. Kalmyks migrated west in the early 17th c.

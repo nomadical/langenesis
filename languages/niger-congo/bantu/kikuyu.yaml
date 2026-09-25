@@ -1,0 +1,16 @@
+id: kikuyu
+name: Kikuyu
+glottocode: kiku1240
+iso639_3: kik
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Kikuyu_language
+  - https://glottolog.org/resource/languoid/id/kiku1240
+notes: |
+  Northeast Bantu (Guthrie E51) language of central Kenya, closely related to Kamba.

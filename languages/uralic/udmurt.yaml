@@ -1,0 +1,16 @@
+id: udmurt
+name: Udmurt
+glottocode: udmu1245
+iso639_3: udm
+parents: [proto-permic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 260000
+sources:
+  - https://en.wikipedia.org/wiki/Udmurt_language
+  - https://glottolog.org/resource/languoid/id/udmu1245
+notes: |
+  Permic language of Udmurtia, Russia.

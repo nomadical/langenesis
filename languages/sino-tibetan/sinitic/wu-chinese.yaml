@@ -1,0 +1,18 @@
+id: wu-chinese
+name: Wu Chinese
+glottocode: wuch1236
+iso639_3: wuu
+parents: [middle-chinese]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 82000000
+sources:
+  - https://en.wikipedia.org/wiki/Wu_Chinese
+  - https://glottolog.org/resource/languoid/id/wuch1236
+notes: |
+  Sinitic group of the lower Yangtze (Jiangsu, Zhejiang, Shanghai), notable
+  for retaining voiced initials. Second-largest Sinitic group after Mandarin
+  by some counts.

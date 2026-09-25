@@ -1,0 +1,12 @@
+id: kichwa
+name: Kichwa
+parents: [proto-quechua-ii]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Kichwa_language
+notes: |
+  Quechua IIB varieties of Ecuador and Colombia. They probably spread north with
+  the Inca expansion and colonial missions.

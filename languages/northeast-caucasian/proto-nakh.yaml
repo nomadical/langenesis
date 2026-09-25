@@ -1,0 +1,13 @@
+id: proto-nakh
+name: Proto-Nakh
+parents: [proto-northeast-caucasian]
+period:
+  start: -1000
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Nakh_languages
+notes: |
+  Ancestor of Chechen, Ingush and Bats. Dating is approximate.

@@ -1,0 +1,14 @@
+id: serer
+name: Serer
+iso639_3: srr
+parents: [proto-atlantic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1500000
+sources:
+  - https://en.wikipedia.org/wiki/Serer_language
+notes: |
+  North Atlantic language of Senegal and the Gambia, closely related to Fula.

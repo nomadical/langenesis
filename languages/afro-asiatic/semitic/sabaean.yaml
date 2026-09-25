@@ -1,0 +1,19 @@
+id: sabaean
+name: Sabaic (Sabaean)
+glottocode: saba1279
+iso639_3: xsa
+parents: [proto-west-semitic]
+period:
+  start: -1000
+  end: 600
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Sabaic
+  - https://glottolog.org/resource/languoid/id/saba1279
+notes: |
+  The best-attested Old South Arabian language, of the kingdom of Saba in
+  Yemen, written in the musnad script. Old South Arabian is placed in South
+  Semitic or in Central Semitic depending on the author; it is not the
+  ancestor of the Modern South Arabian languages.

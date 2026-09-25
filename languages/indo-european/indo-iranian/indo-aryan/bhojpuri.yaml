@@ -1,0 +1,17 @@
+id: bhojpuri
+name: Bhojpuri
+glottocode: bhoj1244
+iso639_3: bho
+parents: [magadhi-apabhramsha]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 52000000
+sources:
+  - https://en.wikipedia.org/wiki/Bhojpuri_language
+  - https://glottolog.org/resource/languoid/id/bhoj1244
+notes: |
+  Bihari language of western Bihar and eastern Uttar Pradesh, also spoken by the
+  Indian diaspora in Mauritius, Fiji, Suriname and the Caribbean.

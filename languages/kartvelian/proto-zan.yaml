@@ -1,0 +1,14 @@
+id: proto-zan
+name: Proto-Zan
+parents: [proto-karto-zan]
+period:
+  start: -800
+  end: 1000
+  start_uncertainty: 300
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Zan_languages
+notes: |
+  Ancestor of Mingrelian and Laz, which are sometimes treated as dialects of a
+  single Zan language. Date of the Mingrelian–Laz split is uncertain.

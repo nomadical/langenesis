@@ -1,0 +1,15 @@
+id: aleut
+name: Aleut
+glottocode: aleu1260
+iso639_3: ale
+parents: [proto-eskimo-aleut]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Aleut_language
+  - https://glottolog.org/resource/languoid/id/aleu1260
+notes: |
+  Unangam Tunuu, the sole member of the Aleut branch. Spoken in the Aleutian,
+  Pribilof and Commander Islands; critically endangered.

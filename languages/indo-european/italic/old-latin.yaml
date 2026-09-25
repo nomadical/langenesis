@@ -1,0 +1,14 @@
+id: old-latin
+name: Old Latin
+parents: [latino-faliscan]
+period:
+  start: -700
+  end: -100
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Latin
+notes: |
+  Archaic Latin from the earliest inscriptions (Lapis Niger, Duenos inscription)
+  to the start of the Classical period. Earliest dating of some inscriptions
+  (e.g. the Praeneste fibula) is contested.

@@ -1,0 +1,14 @@
+id: maharashtri-prakrit
+name: Maharashtri Prakrit
+iso639_3: pmh
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 800
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Maharashtri_Prakrit
+notes: |
+  Southern Prakrit and the premier medium of Prakrit lyric poetry (e.g. the
+  Gāhāsattasaī). Ancestral to Marathi and Konkani.

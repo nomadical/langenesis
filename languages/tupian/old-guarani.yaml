@@ -1,0 +1,14 @@
+id: old-guarani
+name: Old Guarani
+parents: [proto-tupi-guarani]
+period:
+  start: 1000
+  end: 1800
+  start_uncertainty: 300
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Guarani_language
+notes: |
+  Guarani of the colonial Jesuit reductions, documented by Antonio Ruiz de
+  Montoya (1639-1640). Ancestral to modern Guarani varieties.

@@ -1,0 +1,14 @@
+id: crimean-gothic
+name: Crimean Gothic
+parents: [gothic]
+period:
+  start: 800
+  end: 1800
+  start_uncertainty: 200
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Crimean_Gothic
+notes: |
+  Known almost only from a word list recorded by Busbecq in the 1560s. Whether
+  it descends directly from Wulfila's Gothic is debated.

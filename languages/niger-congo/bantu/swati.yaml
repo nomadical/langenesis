@@ -1,0 +1,16 @@
+id: swati
+name: Swati
+glottocode: swat1243
+iso639_3: ssw
+parents: [proto-nguni]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2300000
+sources:
+  - https://en.wikipedia.org/wiki/Swazi_language
+  - https://glottolog.org/resource/languoid/id/swat1243
+notes: |
+  Nguni (Tekela) language of Eswatini and South Africa.

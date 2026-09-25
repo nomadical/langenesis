@@ -1,0 +1,15 @@
+id: proto-kxa
+name: Proto-Kx'a
+parents: []
+period:
+  start: -2000
+  end: 0
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Kx%CA%BCa_languages
+notes: |
+  Ancestor of the Ju languages and ǂʼAmkoe, a relationship established by
+  Heine and Honken (2010). Dating is essentially unknown and the figures here
+  are placeholders.

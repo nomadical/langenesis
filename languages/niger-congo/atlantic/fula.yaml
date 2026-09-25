@@ -1,0 +1,15 @@
+id: fula
+name: Fula (Fulfulde / Pulaar)
+iso639_3: ful
+parents: [proto-atlantic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 37000000
+sources:
+  - https://en.wikipedia.org/wiki/Fula_language
+notes: |
+  North Atlantic (Senegambian) language spoken as a dialect continuum from Senegal to
+  Sudan, spread by Fulani pastoralist migrations. Closest relatives are Serer and Wolof.

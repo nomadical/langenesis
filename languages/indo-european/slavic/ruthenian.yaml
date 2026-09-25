@@ -1,0 +1,15 @@
+id: ruthenian
+name: Ruthenian
+parents: [old-east-slavic]
+period:
+  start: 1300
+  end: 1700
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Ruthenian_language
+notes: |
+  Middle Ruthenian, the East Slavic chancery and literary language of the Grand
+  Duchy of Lithuania and Polish–Lithuanian Commonwealth. Ancestor of Ukrainian,
+  Belarusian and Rusyn.

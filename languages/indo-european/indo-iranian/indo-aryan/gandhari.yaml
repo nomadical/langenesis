@@ -1,0 +1,13 @@
+id: gandhari
+name: Gandhari
+iso639_3: pgd
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 400
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Gandhari_language
+notes: |
+  Northwestern Prakrit of Gandhara, written in Kharoṣṭhī; known from Aśokan edicts,
+  early Buddhist manuscripts, and Niya documents from the Tarim Basin.

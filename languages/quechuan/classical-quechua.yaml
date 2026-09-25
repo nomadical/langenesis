@@ -1,0 +1,16 @@
+id: classical-quechua
+name: Classical Quechua
+parents: [proto-quechua-ii]
+period:
+  start: 1450
+  end: 1800
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Quechua
+notes: |
+  The Inca-era and colonial lingua franca (lengua general), codified by Spanish
+  grammarians and used in church texts such as those of the Third Council of
+  Lima (1584). How it relates to modern varieties is debated, so it is shown
+  here as a sister of them rather than their ancestor.

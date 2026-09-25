@@ -1,0 +1,17 @@
+id: iu-mien
+name: Iu Mien
+glottocode: iumi1238
+iso639_3: ium
+parents: [proto-hmong-mien]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 800000
+sources:
+  - https://en.wikipedia.org/wiki/Iu_Mien_language
+  - https://glottolog.org/resource/languoid/id/iumi1238
+notes: |
+  Largest Mienic language, spoken in southern China, Laos, Vietnam and
+  Thailand, with diaspora communities in the US.

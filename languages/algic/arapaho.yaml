@@ -1,0 +1,15 @@
+id: arapaho
+name: Arapaho
+glottocode: arap1274
+iso639_3: arp
+parents: [proto-algonquian]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Arapaho_language
+  - https://glottolog.org/resource/languoid/id/arap1274
+notes: |
+  Plains Algonquian (an areal grouping), spoken in Wyoming and Oklahoma.
+  Severely endangered.

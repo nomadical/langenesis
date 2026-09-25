@@ -1,0 +1,14 @@
+id: crow
+name: Crow
+glottocode: crow1244
+iso639_3: cro
+parents: [proto-siouan]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Crow_language
+  - https://glottolog.org/resource/languoid/id/crow1244
+notes: |
+  Missouri River Siouan, closely related to Hidatsa. Spoken in Montana.

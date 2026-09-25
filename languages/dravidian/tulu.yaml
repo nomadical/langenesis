@@ -1,0 +1,17 @@
+id: tulu
+name: Tulu
+glottocode: tulu1258
+iso639_3: tcy
+parents: [proto-south-dravidian]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 1800000
+sources:
+  - https://en.wikipedia.org/wiki/Tulu_language
+  - https://glottolog.org/resource/languoid/id/tulu1258
+notes: |
+  South Dravidian language of coastal Karnataka and Kerala; an early offshoot
+  of the branch. Earliest inscriptions ~14th–15th century.

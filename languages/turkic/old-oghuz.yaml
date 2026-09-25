@@ -1,0 +1,14 @@
+id: old-oghuz
+name: Old Oghuz
+parents: [old-turkic]
+period:
+  start: 800
+  end: 1200
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Oghuz_languages
+notes: |
+  Southwestern (Oghuz) Turkic of the Oghuz confederation, documented by Mahmud
+  al-Kashgari (11th c.). Ancestor of Turkish, Azerbaijani and Turkmen.

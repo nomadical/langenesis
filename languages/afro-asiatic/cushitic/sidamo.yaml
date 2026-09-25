@@ -1,0 +1,16 @@
+id: sidamo
+name: Sidama
+glottocode: sida1246
+iso639_3: sid
+parents: [proto-east-cushitic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 4000000
+sources:
+  - https://en.wikipedia.org/wiki/Sidama_language
+  - https://glottolog.org/resource/languoid/id/sida1246
+notes: |
+  Highland East Cushitic language of the Sidama Region of southern Ethiopia.

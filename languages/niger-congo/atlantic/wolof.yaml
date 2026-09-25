@@ -1,0 +1,17 @@
+id: wolof
+name: Wolof
+glottocode: wolo1247
+iso639_3: wol
+parents: [proto-atlantic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 5500000
+sources:
+  - https://en.wikipedia.org/wiki/Wolof_language
+  - https://glottolog.org/resource/languoid/id/wolo1247
+notes: |
+  North Atlantic (Senegambian) language and main lingua franca of Senegal; roughly
+  22 million speakers including L2.

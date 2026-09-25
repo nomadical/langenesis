@@ -1,0 +1,17 @@
+id: kashubian
+name: Kashubian
+glottocode: kash1274
+iso639_3: csb
+parents: [proto-west-slavic]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 88000
+sources:
+  - https://en.wikipedia.org/wiki/Kashubian_language
+  - https://glottolog.org/resource/languoid/id/kash1274
+notes: |
+  Lechitic language of Pomerania, the surviving descendant of Pomeranian.
+  Speaker figure is home use from the 2021 Polish census.

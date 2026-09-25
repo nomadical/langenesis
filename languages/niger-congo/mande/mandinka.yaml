@@ -1,0 +1,14 @@
+id: mandinka
+name: Mandinka
+iso639_3: mnk
+parents: [proto-manding]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2100000
+sources:
+  - https://en.wikipedia.org/wiki/Mandinka_language
+notes: |
+  Western Manding language of the Gambia, Senegal and Guinea-Bissau.

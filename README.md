@@ -2,7 +2,7 @@
 
 An interactive radial time-tree of the world's languages, rendered as a metro-map.
 
-Each color is one language family. Radial distance is time — inner is older, outer is today. Click a language to see its full lineage from its proto-ancestor down through every historical stage to the modern form.
+Each color is one language family. Radial distance is time — inner is older, outer is today. Reconstructed proto-languages are drawn dotted. Click a language to see its full lineage from its proto-ancestor down through every historical stage to the modern form.
 
 ## Why
 
@@ -10,9 +10,9 @@ Almost every diagram of language evolution is either a static poster (beautiful 
 
 ## Status
 
-10 families, 87 languages — Indo-European, Sino-Tibetan, Afro-Asiatic, Austronesian, Turkic, Japonic, Koreanic, Dravidian, Niger-Congo, Uralic. Each node has dates, a status (living / classical / extinct / reconstructed), at least one source, and most have a Glottolog code.
+52 families and isolates, 690 nodes (living languages, historical stages, and reconstructed proto-languages) spanning Africa, Eurasia, Oceania, and the Americas. Each node has dates, a status (living / classical / extinct / reconstructed), at least one source, and a Glottolog code where one could be verified.
 
-The dataset is hand-curated. Coverage is intentionally sparse but every entry is verifiable. Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+The dataset is hand-curated. Coverage aims at every family with a million-plus speakers plus notable isolates and attested historical stages. It is not exhaustive (Glottolog lists ~8,000 languoids). Contributions welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Run it locally
 
@@ -29,7 +29,7 @@ npm run build    # production bundle in dist/
 ## How it works
 
 - **Data**: `languages/<family>/<slug>.yaml`. One file per language node. The schema is in `src/data/schema.ts`.
-- **Viz**: D3 radial tree with custom even-leaf angular distribution and a piecewise-linear time scale (so the modern era stays readable even when Proto-Niger-Congo at -10000 BCE is in the data).
+- **Viz**: D3 radial tree with custom even-leaf angular distribution and a piecewise-linear time scale (so the modern era stays readable even when Proto-Niger-Congo at -10000 BCE is in the data). Era rings mark time and an outer band names each family. Labels use zoom-dependent level of detail: the most-spoken languages are labelled first, and the rest (including historical stages) appear as you zoom in.
 - **Build**: Vite. YAML files are imported at build time via `import.meta.glob` and validated with Zod.
 - **No backend**. The site is fully static and works on GitHub Pages.
 

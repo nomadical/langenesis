@@ -1,0 +1,17 @@
+id: kyrgyz
+name: Kyrgyz
+glottocode: kirg1245
+iso639_3: kir
+parents: [proto-kipchak]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Kyrgyz_language
+  - https://glottolog.org/resource/languoid/id/kirg1245
+notes: |
+  Kipchak language of Kyrgyzstan. Some classifications place it with Southern
+  Altai in a Kyrgyz–Kipchak subgroup, reflecting an older Siberian origin.

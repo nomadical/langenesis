@@ -1,0 +1,17 @@
+id: marathi
+name: Marathi
+glottocode: mara1378
+iso639_3: mar
+parents: [maharashtri-prakrit]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 83000000
+sources:
+  - https://en.wikipedia.org/wiki/Marathi_language
+  - https://glottolog.org/resource/languoid/id/mara1378
+notes: |
+  Southern Indo-Aryan. Old Marathi is attested from inscriptions of c. 1000–1100 CE
+  and the Yadava-era literature (Dnyaneshwari, 1290).

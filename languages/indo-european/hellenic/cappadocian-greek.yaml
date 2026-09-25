@@ -1,0 +1,14 @@
+id: cappadocian-greek
+name: Cappadocian Greek
+iso639_3: cpg
+parents: [medieval-greek]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 200
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Cappadocian_Greek
+notes: |
+  Heavily Turkish-influenced Greek of central Anatolia. Thought extinct after
+  1923 until speakers were found in Greece in 2005; critically endangered.

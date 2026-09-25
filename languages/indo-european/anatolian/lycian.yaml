@@ -1,0 +1,14 @@
+id: lycian
+name: Lycian
+iso639_3: xlc
+parents: [proto-anatolian]
+period:
+  start: -500
+  end: -300
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Lycian_language
+notes: |
+  Luwic language of southwestern Anatolia, written in its own alphabet.

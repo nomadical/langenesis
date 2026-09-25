@@ -1,0 +1,17 @@
+id: newar
+name: Newar
+glottocode: newa1246
+iso639_3: new
+parents: [proto-tibeto-burman]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 860000
+sources:
+  - https://en.wikipedia.org/wiki/Newar_language
+  - https://glottolog.org/resource/languoid/id/newa1246
+notes: |
+  Language of the Newar people of the Kathmandu Valley (Nepal Bhasa). Literary
+  records from 1114; classified as Mahakiranti or as its own branch.

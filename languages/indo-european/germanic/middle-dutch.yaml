@@ -1,0 +1,15 @@
+id: middle-dutch
+name: Middle Dutch
+iso639_3: dum
+parents: [old-dutch]
+period:
+  start: 1150
+  end: 1500
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Dutch
+notes: |
+  Group of closely related dialects (Flemish, Brabantian, Hollandic, Limburgish)
+  with a rich literary tradition.

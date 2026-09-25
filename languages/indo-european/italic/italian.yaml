@@ -2,7 +2,7 @@ id: italian
 name: Italian
 glottocode: ital1282
 iso639_3: ita
-parents: [vulgar-latin]
+parents: [old-italian]
 period:
   start: 1300
   end: present

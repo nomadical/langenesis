@@ -1,0 +1,14 @@
+id: proto-volta-niger
+name: Proto-Volta-Niger
+parents: [proto-atlantic-congo]
+period:
+  start: -4000
+  end: -2000
+  start_uncertainty: 1000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Volta%E2%80%93Niger_languages
+notes: |
+  Ancestor of the Volta-Niger (East Kwa) languages of southern Nigeria and Benin,
+  including Yoruboid, Igboid, Edoid and Nupoid. Dating is speculative.

@@ -1,0 +1,15 @@
+id: proto-yeniseian
+name: Proto-Yeniseian
+parents: []
+period:
+  start: -500
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Yeniseian_languages
+notes: |
+  Reconstructed ancestor of the Yeniseian family of central Siberia (Ket,
+  Yugh, Kott, Arin...). A link to Na-Dene (Dené–Yeniseian, Vajda 2008) is
+  proposed but not widely accepted.

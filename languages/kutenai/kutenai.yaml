@@ -1,0 +1,16 @@
+id: kutenai
+name: Kutenai
+glottocode: kute1249
+iso639_3: kut
+parents: []
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Kutenai_language
+  - https://glottolog.org/resource/languoid/id/kute1249
+notes: |
+  Ktunaxa, an isolate of the Kootenay region (British Columbia, Idaho, Montana).
+  Proposed Algic or Salishan links are unproven. The start date marks the
+  contact era.

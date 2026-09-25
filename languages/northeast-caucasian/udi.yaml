@@ -1,0 +1,17 @@
+id: udi
+name: Udi
+glottocode: udii1243
+iso639_3: udi
+parents: [caucasian-albanian]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 4000
+sources:
+  - https://en.wikipedia.org/wiki/Udi_language
+  - https://glottolog.org/resource/languoid/id/udii1243
+notes: |
+  Descendant of Caucasian Albanian, spoken in Nij (Azerbaijan) and Zinobiani
+  (Georgia). Endangered.

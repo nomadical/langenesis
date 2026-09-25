@@ -1,0 +1,19 @@
+id: taino
+name: Taíno
+glottocode: tain1254
+iso639_3: tnq
+parents: [proto-arawakan]
+period:
+  start: 500
+  end: 1600
+  start_uncertainty: 300
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Ta%C3%ADno_language
+  - https://glottolog.org/resource/languoid/id/tain1254
+notes: |
+  Caribbean (Ta-)Arawakan language of the Greater Antilles and Bahamas, the
+  first American language Europeans met (1492). Died out within about a century
+  of the conquest; it survives in loanwords such as hammock, hurricane and
+  canoe.

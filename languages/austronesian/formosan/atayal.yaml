@@ -1,0 +1,18 @@
+id: atayal
+name: Atayal
+glottocode: atay1247
+iso639_3: tay
+parents: [proto-austronesian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Atayal_language
+  - https://glottolog.org/resource/languoid/id/atay1247
+notes: |
+  Atayalic branch of Formosan, spoken in the mountains of northern Taiwan.
+  Formosan languages form several primary branches of Austronesian; no
+  Formosan subgroup is assumed. Start date is nominal (no pre-colonial written
+  record).

@@ -1,0 +1,17 @@
+id: megleno-romanian
+name: Megleno-Romanian
+glottocode: megl1237
+iso639_3: ruq
+parents: [proto-romanian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 5000
+sources:
+  - https://en.wikipedia.org/wiki/Megleno-Romanian_language
+  - https://glottolog.org/resource/languoid/id/megl1237
+notes: |
+  Spoken in the Moglena region on the Greece–North Macedonia border. Seriously
+  endangered.

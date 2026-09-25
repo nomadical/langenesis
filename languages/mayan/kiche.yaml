@@ -1,0 +1,16 @@
+id: kiche
+name: K'iche'
+glottocode: kich1262
+iso639_3: quc
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 1000000
+sources:
+  - https://en.wikipedia.org/wiki/K%27iche%27_language
+  - https://glottolog.org/resource/languoid/id/kich1262
+notes: |
+  K'ichean branch (Eastern Mayan). The Popol Vuh was written in Colonial
+  K'iche'. The largest Mayan language in Guatemala.

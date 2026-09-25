@@ -2,9 +2,9 @@ id: french
 name: French
 glottocode: stan1290
 iso639_3: fra
-parents: [old-french]
+parents: [middle-french]
 period:
-  start: 1400
+  start: 1600
   end: present
 status: living
 speakers: 310000000
@@ -12,5 +12,5 @@ sources:
   - https://en.wikipedia.org/wiki/French_language
   - https://glottolog.org/resource/languoid/id/stan1290
 notes: |
-  Includes Middle French (~1400–1600) and Modern French (1600–present).
-  Eventually split into a separate Middle French stage.
+  Modern French (1600–present), standardised under the Académie française
+  (1635). Middle French is tracked as the predecessor node.

@@ -1,0 +1,12 @@
+id: old-swedish
+name: Old Swedish
+parents: [old-east-norse]
+period:
+  start: 1225
+  end: 1526
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Swedish
+notes: |
+  Starts with the earliest Latin-script laws (Västgötalagen); ends with the 1526
+  New Testament translation.

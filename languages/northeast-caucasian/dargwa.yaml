@@ -1,0 +1,15 @@
+id: dargwa
+name: Dargwa
+iso639_3: dar
+parents: [proto-northeast-caucasian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 500000
+sources:
+  - https://en.wikipedia.org/wiki/Dargwa_language
+notes: |
+  Dargwa is a cluster of often mutually unintelligible varieties in central
+  Dagestan, arguably several languages. Start date is nominal.

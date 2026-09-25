@@ -1,0 +1,17 @@
+id: xhosa
+name: Xhosa
+glottocode: xhos1239
+iso639_3: xho
+parents: [proto-nguni]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 8200000
+sources:
+  - https://en.wikipedia.org/wiki/Xhosa_language
+  - https://glottolog.org/resource/languoid/id/xhos1239
+notes: |
+  Nguni language of South Africa's Eastern Cape, with the richest click inventory of
+  the Bantu languages.

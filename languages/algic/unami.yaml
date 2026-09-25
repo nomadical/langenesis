@@ -1,0 +1,16 @@
+id: unami
+name: Unami
+glottocode: unam1242
+iso639_3: unm
+parents: [proto-eastern-algonquian]
+period:
+  start: 1600
+  end: 2002
+  end_uncertainty: 0
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Unami_language
+  - https://glottolog.org/resource/languoid/id/unam1242
+notes: |
+  Lenape (Delaware) language of the Delaware Valley. The last fluent speaker
+  died in 2002; revitalization work continues in Oklahoma.

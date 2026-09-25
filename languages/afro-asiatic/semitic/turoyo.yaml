@@ -1,0 +1,16 @@
+id: turoyo
+name: Turoyo
+glottocode: turo1239
+iso639_3: tru
+parents: [aramaic]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 200
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Turoyo_language
+  - https://glottolog.org/resource/languoid/id/turo1239
+notes: |
+  Central Neo-Aramaic language of the Tur Abdin region of southeastern Turkey,
+  spoken today largely in the diaspora.

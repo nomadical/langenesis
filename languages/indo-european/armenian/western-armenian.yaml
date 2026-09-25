@@ -1,0 +1,14 @@
+id: western-armenian
+name: Western Armenian
+iso639_3: hyw
+parents: [middle-armenian]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Western_Armenian
+notes: |
+  Language of the Armenian diaspora descended from Ottoman Armenians; classified
+  as endangered by UNESCO.

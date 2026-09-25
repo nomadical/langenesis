@@ -1,0 +1,17 @@
+id: indonesian
+name: Indonesian
+glottocode: indo1316
+iso639_3: ind
+parents: [classical-malay]
+period:
+  start: 1928
+  end: present
+status: living
+speakers: 200000000
+sources:
+  - https://en.wikipedia.org/wiki/Indonesian_language
+  - https://glottolog.org/resource/languoid/id/indo1316
+notes: |
+  Standardised variety of Malay adopted as the language of national unity at
+  the 1928 Youth Pledge and made official in 1945. Speaker count includes L2
+  speakers; most Indonesians speak it as a second language.

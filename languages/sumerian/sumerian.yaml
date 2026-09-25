@@ -1,0 +1,19 @@
+id: sumerian
+name: Sumerian
+glottocode: sume1241
+iso639_3: sux
+parents: []
+period:
+  start: -3100
+  end: 100
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Sumerian_language
+  - https://glottolog.org/resource/languoid/id/sume1241
+notes: |
+  Isolate of southern Mesopotamia and the earliest written language
+  (cuneiform, from ~3100 BCE). Replaced as a spoken language by Akkadian
+  around 2000–1700 BCE but used as a literary and liturgical language until
+  the 1st century CE.

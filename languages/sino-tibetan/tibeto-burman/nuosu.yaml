@@ -1,0 +1,18 @@
+id: nuosu
+name: Nuosu (Sichuan Yi)
+glottocode: sich1238
+iso639_3: iii
+parents: [proto-lolo-burmese]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Nuosu_language
+  - https://glottolog.org/resource/languoid/id/sich1238
+notes: |
+  Loloish (Ngwi) language of the Liangshan region of Sichuan, the prestige Yi
+  variety, written in the standardised Yi syllabary. Classical Yi script
+  attested from ~15th c.

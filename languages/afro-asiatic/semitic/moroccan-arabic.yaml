@@ -1,0 +1,17 @@
+id: moroccan-arabic
+name: Moroccan Arabic (Darija)
+glottocode: moro1292
+iso639_3: ary
+parents: [classical-arabic]
+period:
+  start: 800
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 30000000
+sources:
+  - https://en.wikipedia.org/wiki/Moroccan_Arabic
+  - https://glottolog.org/resource/languoid/id/moro1292
+notes: |
+  Maghrebi Arabic of Morocco, with a strong Berber substrate and French and
+  Spanish loans. Largely unintelligible to speakers of Mashriqi dialects.

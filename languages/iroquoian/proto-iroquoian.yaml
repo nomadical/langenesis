@@ -1,0 +1,14 @@
+id: proto-iroquoian
+name: Proto-Iroquoian
+parents: []
+period:
+  start: -2000
+  end: -1500
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Iroquoian_languages
+notes: |
+  Reconstructed ancestor of Iroquoian. The split between Cherokee and Northern
+  Iroquoian is estimated at 3500-4000 years ago, but the dating is uncertain.

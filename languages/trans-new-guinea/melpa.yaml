@@ -1,0 +1,17 @@
+id: melpa
+name: Melpa
+glottocode: medl1238
+iso639_3: med
+parents: [proto-trans-new-guinea]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 130000
+sources:
+  - https://en.wikipedia.org/wiki/Melpa_language
+  - https://glottolog.org/resource/languoid/id/medl1238
+notes: |
+  Chimbu–Wahgi branch; spoken around Mount Hagen in the Western Highlands.
+  Start date is nominal.

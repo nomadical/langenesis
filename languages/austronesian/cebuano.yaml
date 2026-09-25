@@ -1,0 +1,17 @@
+id: cebuano
+name: Cebuano
+glottocode: cebu1242
+iso639_3: ceb
+parents: [proto-malayo-polynesian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 16000000
+sources:
+  - https://en.wikipedia.org/wiki/Cebuano_language
+  - https://glottolog.org/resource/languoid/id/cebu1242
+notes: |
+  Bisayan language of the central Philippines. Speaker count is L1 only.
+  Philippine subgroup node not tracked (its validity is debated).

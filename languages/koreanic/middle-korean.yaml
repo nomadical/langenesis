@@ -2,7 +2,7 @@ id: middle-korean
 name: Middle Korean
 glottocode: midd1372
 iso639_3: okm
-parents: [proto-koreanic]
+parents: [old-korean]
 period:
   start: 900
   end: 1600

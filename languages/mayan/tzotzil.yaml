@@ -1,0 +1,15 @@
+id: tzotzil
+name: Tzotzil
+glottocode: tzot1259
+iso639_3: tzo
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 550000
+sources:
+  - https://en.wikipedia.org/wiki/Tzotzil_language
+  - https://glottolog.org/resource/languoid/id/tzot1259
+notes: |
+  Tzeltalan branch, spoken in the Chiapas highlands.

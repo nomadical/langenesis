@@ -1,0 +1,14 @@
+id: inupiaq
+name: Iñupiaq
+iso639_3: ipk
+parents: [proto-inuit]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2000
+sources:
+  - https://en.wikipedia.org/wiki/I%C3%B1upiaq_language
+notes: |
+  Alaskan Inuit, spoken on Alaska's North Slope and the Seward Peninsula.

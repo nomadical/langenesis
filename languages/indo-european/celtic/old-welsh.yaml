@@ -1,0 +1,13 @@
+id: old-welsh
+name: Old Welsh
+parents: [proto-brittonic]
+period:
+  start: 800
+  end: 1150
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Welsh
+notes: |
+  Primitive Welsh (c. 550–800) is not tracked separately.

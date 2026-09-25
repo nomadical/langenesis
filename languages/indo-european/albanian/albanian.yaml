@@ -1,0 +1,15 @@
+id: albanian
+name: Albanian
+iso639_3: sqi
+parents: [proto-albanian]
+period:
+  start: 600
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 7500000
+sources:
+  - https://en.wikipedia.org/wiki/Albanian_language
+notes: |
+  First attested 1462; first book 1555. Main dialects Gheg (north) and Tosk
+  (south); the standard is Tosk-based.

@@ -1,0 +1,17 @@
+id: cornish
+name: Cornish
+glottocode: corn1251
+iso639_3: cor
+parents: [proto-brittonic]
+period:
+  start: 800
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Cornish_language
+  - https://glottolog.org/resource/languoid/id/corn1251
+notes: |
+  Southwestern Brittonic. Ceased as a community language in the late 18th
+  century; revived in the 20th century. The 2021 census recorded about 560
+  people with Cornish as main language.

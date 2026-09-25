@@ -1,0 +1,14 @@
+id: cumbric
+name: Cumbric
+parents: [proto-brittonic]
+period:
+  start: 550
+  end: 1100
+  start_uncertainty: 50
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Cumbric
+notes: |
+  Brittonic language of Cumbria and southern Scotland; known only from place
+  names and a few words.

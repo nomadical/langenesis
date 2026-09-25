@@ -1,0 +1,14 @@
+id: klao
+name: Klao
+iso639_3: klu
+parents: [proto-kru]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 200000
+sources:
+  - https://en.wikipedia.org/wiki/Klao_language
+notes: |
+  Western Kru language of the Liberian coast, historically associated with Kru seamen.

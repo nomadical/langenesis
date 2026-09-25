@@ -1,0 +1,16 @@
+id: zarma
+name: Zarma
+glottocode: zarm1239
+iso639_3: dje
+parents: [proto-songhay]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Zarma_language
+  - https://glottolog.org/resource/languoid/id/zarm1239
+notes: |
+  Southern Songhay language of southwestern Niger, the country's second most
+  widely spoken language.

@@ -1,0 +1,16 @@
+id: huastec
+name: Huastec
+glottocode: huas1242
+iso639_3: hus
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 160000
+sources:
+  - https://en.wikipedia.org/wiki/Huastec_language
+  - https://glottolog.org/resource/languoid/id/huas1242
+notes: |
+  The earliest branch to split off from Proto-Mayan. It is geographically
+  isolated in the Huasteca region of Veracruz and San Luis Potosí.

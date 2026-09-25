@@ -1,0 +1,16 @@
+id: bulgarian
+name: Bulgarian
+glottocode: bulg1262
+iso639_3: bul
+parents: [middle-bulgarian]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Bulgarian_language
+  - https://glottolog.org/resource/languoid/id/bulg1262
+notes: |
+  Eastern South Slavic. Modern literary standard formed in the 19th century.

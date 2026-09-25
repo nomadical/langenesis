@@ -1,0 +1,14 @@
+id: proto-romani
+name: Proto-Romani
+parents: [shauraseni-prakrit]
+period:
+  start: 500
+  end: 1000
+  start_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Romani_language
+notes: |
+  Stage of Romani before and during the migration out of the Indian subcontinent.
+  Central Indo-Aryan in origin with later Northwestern features; migration dated
+  variously from the 5th to 11th c.

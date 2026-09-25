@@ -1,0 +1,16 @@
+id: tocharian-a
+name: Tocharian A
+iso639_3: xto
+parents: [proto-tocharian]
+period:
+  start: 400
+  end: 1000
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Tocharian_languages
+notes: |
+  Agnean, of the Turfan area in the Tarim Basin. Attested in Buddhist
+  manuscripts of the 6th–8th centuries; possibly already a liturgical language
+  then.

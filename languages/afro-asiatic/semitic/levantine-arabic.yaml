@@ -1,0 +1,17 @@
+id: levantine-arabic
+name: Levantine Arabic
+glottocode: nort3139
+iso639_3: apc
+parents: [classical-arabic]
+period:
+  start: 700
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 60000000
+sources:
+  - https://en.wikipedia.org/wiki/Levantine_Arabic
+  - https://glottolog.org/resource/languoid/id/nort3139
+notes: |
+  Vernacular Arabic of Syria, Lebanon, Jordan and Palestine, with an Aramaic
+  substrate. Since 2023 ISO 639-3 merges North and South Levantine under apc.

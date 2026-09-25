@@ -1,0 +1,17 @@
+id: tatar
+name: Tatar
+glottocode: tata1255
+iso639_3: tat
+parents: [proto-kipchak]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 5000000
+sources:
+  - https://en.wikipedia.org/wiki/Tatar_language
+  - https://glottolog.org/resource/languoid/id/tata1255
+notes: |
+  Kipchak–Bulgar language of Tatarstan and the Volga–Ural region, with a
+  Bulgar substrate. Literary Old Tatar was used until the early 20th c.

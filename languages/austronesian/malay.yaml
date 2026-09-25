@@ -2,16 +2,16 @@ id: malay
 name: Malay
 glottocode: stan1306
 iso639_3: zsm
-parents: [proto-malayo-polynesian]
+parents: [classical-malay]
 period:
-  start: 700
+  start: 1850
   end: present
 status: living
-speakers: 290000000
+speakers: 80000000
 sources:
   - https://en.wikipedia.org/wiki/Malay_language
   - https://glottolog.org/resource/languoid/id/stan1306
 notes: |
-  Covers Old Malay (earliest inscription ~683 CE), Classical Malay (~1400–1900),
-  and the two modern standards: Bahasa Malaysia and Bahasa Indonesia. Speaker
-  count includes both L1 and L2.
+  Modern Malay, including the Malaysian, Bruneian and Singaporean standards and
+  regional varieties. Indonesian is tracked as a separate node. Speaker count is
+  an approximate L1 figure; estimates vary widely.

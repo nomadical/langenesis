@@ -1,0 +1,14 @@
+id: proto-kwa
+name: Proto-Kwa
+parents: [proto-atlantic-congo]
+period:
+  start: -4000
+  end: -2000
+  start_uncertainty: 1000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Kwa_languages
+notes: |
+  Ancestor of the Kwa languages of southern Ghana, Togo, Benin and Côte d'Ivoire.
+  The composition of Kwa has shifted repeatedly and its unity is debated.

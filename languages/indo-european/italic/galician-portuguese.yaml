@@ -1,0 +1,15 @@
+id: galician-portuguese
+name: Galician-Portuguese
+parents: [vulgar-latin]
+period:
+  start: 900
+  end: 1400
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Galician-Portuguese
+notes: |
+  Medieval Romance of the northwestern Iberian Peninsula, the language of the
+  cantigas lyric (12th–14th c.). Split into Portuguese and Galician from the
+  14th century.

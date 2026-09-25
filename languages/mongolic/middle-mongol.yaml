@@ -1,0 +1,13 @@
+id: middle-mongol
+name: Middle Mongol
+iso639_3: xng
+parents: [proto-mongolic]
+period:
+  start: 1200
+  end: 1600
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Mongol
+notes: |
+  Language of the Mongol Empire, attested in the Secret History of the Mongols
+  (13th c.) and 'Phags-pa inscriptions.

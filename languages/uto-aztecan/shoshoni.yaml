@@ -1,0 +1,15 @@
+id: shoshoni
+name: Shoshoni
+glottocode: shos1248
+iso639_3: shh
+parents: [proto-numic]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 1000
+sources:
+  - https://en.wikipedia.org/wiki/Shoshoni_language
+  - https://glottolog.org/resource/languoid/id/shos1248
+notes: |
+  Central Numic, spoken across Nevada, Idaho, Utah and Wyoming. Endangered.

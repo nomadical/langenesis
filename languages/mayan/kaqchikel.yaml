@@ -1,0 +1,16 @@
+id: kaqchikel
+name: Kaqchikel
+glottocode: kaqc1270
+iso639_3: cak
+parents: [proto-mayan]
+period:
+  start: 1500
+  end: present
+status: living
+speakers: 450000
+sources:
+  - https://en.wikipedia.org/wiki/Kaqchikel_language
+  - https://glottolog.org/resource/languoid/id/kaqc1270
+notes: |
+  K'ichean branch, close to K'iche'. The colonial Annals of the Kaqchikels are
+  written in it.

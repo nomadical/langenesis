@@ -1,0 +1,17 @@
+id: kaurna
+name: Kaurna
+glottocode: kaur1267
+iso639_3: zku
+parents: [proto-pama-nyungan]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Kaurna_language
+  - https://glottolog.org/resource/languoid/id/kaur1267
+notes: |
+  Language of the Adelaide Plains. Its last native speaker died in 1929;
+  revived since the 1990s from 19th-century missionary records. Start date is
+  nominal; intermediate subgroups are not tracked.

@@ -1,0 +1,13 @@
+id: magadhi-apabhramsha
+name: Magadhi Apabhramsha
+parents: [magadhi-prakrit]
+period:
+  start: 600
+  end: 1100
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Apabhra%E1%B9%83%C5%9Ba
+notes: |
+  Eastern Apabhraṃśa (Avahaṭṭha), the late Middle Indo-Aryan stage from which the
+  Bihari and Bengali–Assamese–Odia languages emerged. Dates approximate.

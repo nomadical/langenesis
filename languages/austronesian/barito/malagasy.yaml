@@ -1,0 +1,16 @@
+id: malagasy
+name: Malagasy
+iso639_3: mlg
+parents: [proto-barito]
+period:
+  start: 700
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 25000000
+sources:
+  - https://en.wikipedia.org/wiki/Malagasy_language
+notes: |
+  Southeast Barito language carried from Borneo to Madagascar around the
+  5th–7th centuries CE, closest to Ma'anyan, with Malay, Javanese and Bantu
+  loans.

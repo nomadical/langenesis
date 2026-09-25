@@ -1,0 +1,17 @@
+id: old-nubian
+name: Old Nubian
+glottocode: oldn1245
+iso639_3: onw
+parents: [proto-nubian]
+period:
+  start: 700
+  end: 1500
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Nubian
+  - https://glottolog.org/resource/languoid/id/oldn1245
+notes: |
+  Written language of the Christian Nubian kingdoms (Makuria), attested in
+  Coptic-derived script from the 8th to the 15th century.

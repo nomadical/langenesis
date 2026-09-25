@@ -1,0 +1,16 @@
+id: phoenician
+name: Phoenician
+glottocode: phoe1239
+iso639_3: phn
+parents: [proto-northwest-semitic]
+period:
+  start: -1050
+  end: -200
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Phoenician_language
+  - https://glottolog.org/resource/languoid/id/phoe1239
+notes: |
+  Canaanite language of the Levantine coast (Tyre, Sidon, Byblos). Its
+  alphabet is the ancestor of the Greek, Latin, Aramaic and Hebrew scripts.

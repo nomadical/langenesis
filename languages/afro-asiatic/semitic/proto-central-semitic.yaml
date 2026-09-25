@@ -1,0 +1,14 @@
+id: proto-central-semitic
+name: Proto-Central Semitic
+parents: [proto-west-semitic]
+period:
+  start: -2500
+  end: -1500
+  start_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Central_Semitic_languages
+notes: |
+  Hypothetical node uniting Northwest Semitic and Arabic, defined by shared
+  innovations such as the prefix-conjugation imperfective. Some scholars also
+  place Old South Arabian here.

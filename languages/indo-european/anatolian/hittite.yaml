@@ -1,0 +1,18 @@
+id: hittite
+name: Hittite
+glottocode: hitt1242
+iso639_3: hit
+parents: [proto-anatolian]
+period:
+  start: -1700
+  end: -1180
+  start_uncertainty: 50
+  end_uncertainty: 20
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Hittite_language
+  - https://glottolog.org/resource/languoid/id/hitt1242
+notes: |
+  Earliest attested Indo-European language, written in cuneiform in the Hittite
+  capital Hattusa. Hittite names appear in Old Assyrian texts from the 20th
+  century BCE.

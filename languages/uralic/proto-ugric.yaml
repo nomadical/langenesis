@@ -1,0 +1,14 @@
+id: proto-ugric
+name: Proto-Ugric
+parents: [proto-uralic]
+period:
+  start: -2500
+  end: -1000
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Ugric_languages
+notes: |
+  Hypothesised ancestor of Hungarian and the Ob-Ugric languages (Khanty,
+  Mansi). The validity of Ugric as a genetic node is debated.

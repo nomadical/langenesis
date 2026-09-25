@@ -1,0 +1,18 @@
+id: tigre
+name: Tigre
+glottocode: tigr1270
+iso639_3: tig
+parents: [geez]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 1000000
+sources:
+  - https://en.wikipedia.org/wiki/Tigre_language
+  - https://glottolog.org/resource/languoid/id/tigr1270
+notes: |
+  North Ethio-Semitic language of western and northern Eritrea. As with
+  Tigrinya, descent directly from Ge'ez (rather than from a common North
+  Ethio-Semitic ancestor) is a simplification.

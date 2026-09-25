@@ -1,0 +1,18 @@
+id: tigrinya
+name: Tigrinya
+glottocode: tigr1271
+iso639_3: tir
+parents: [geez]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 9000000
+sources:
+  - https://en.wikipedia.org/wiki/Tigrinya_language
+  - https://glottolog.org/resource/languoid/id/tigr1271
+notes: |
+  North Ethio-Semitic language of Eritrea and Tigray. Often drawn as a
+  descendant of Ge'ez; many scholars treat it as a sister of Ge'ez within
+  North Ethio-Semitic rather than a direct descendant.

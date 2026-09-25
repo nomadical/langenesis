@@ -1,0 +1,15 @@
+id: even
+name: Even
+iso639_3: eve
+parents: [proto-tungusic]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 5000
+sources:
+  - https://en.wikipedia.org/wiki/Even_language
+notes: |
+  Northern Tungusic language of northeastern Siberia (Yakutia, Magadan,
+  Kamchatka), endangered.

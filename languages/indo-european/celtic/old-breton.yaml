@@ -1,0 +1,15 @@
+id: old-breton
+name: Old Breton
+iso639_3: obt
+parents: [proto-brittonic]
+period:
+  start: 800
+  end: 1100
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Breton_language
+notes: |
+  Brought to Armorica by migrants from southwest Britain (5th–7th century).
+  Known mainly from glosses.

@@ -1,0 +1,15 @@
+id: proto-uto-aztecan
+name: Proto-Uto-Aztecan
+parents: []
+period:
+  start: -3000
+  end: -2000
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Uto-Aztecan_languages
+notes: |
+  Reconstructed ancestor of Uto-Aztecan. Homeland is disputed: the Great Basin /
+  US Southwest (traditional view) versus Mesoamerica (Hill's farming-dispersal
+  hypothesis); dates of ~3000-5000 BCE are all proposed.

@@ -1,0 +1,15 @@
+id: proto-hurro-urartian
+name: Proto-Hurro-Urartian
+parents: []
+period:
+  start: -3000
+  end: -2300
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Hurro-Urartian_languages
+notes: |
+  Common ancestor of Hurrian and Urartian. A link with Northeast Caucasian
+  (Diakonoff and Starostin's Alarodian) is proposed but not generally
+  accepted. Dating is approximate.

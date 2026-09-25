@@ -1,0 +1,17 @@
+id: galician
+name: Galician
+glottocode: gali1258
+iso639_3: glg
+parents: [galician-portuguese]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 2400000
+sources:
+  - https://en.wikipedia.org/wiki/Galician_language
+  - https://glottolog.org/resource/languoid/id/gali1258
+notes: |
+  Whether Galician and Portuguese are separate languages or varieties of one
+  language (reintegrationism) is debated.

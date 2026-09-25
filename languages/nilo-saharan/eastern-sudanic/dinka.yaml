@@ -1,0 +1,14 @@
+id: dinka
+name: Dinka
+iso639_3: din
+parents: [proto-western-nilotic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Dinka_language
+notes: |
+  Western Nilotic dialect cluster of South Sudan, closely related to Nuer. A
+  macrolanguage (din) of several mutually intelligible varieties.

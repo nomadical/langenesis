@@ -1,0 +1,16 @@
+id: rapa-nui
+name: Rapa Nui
+glottocode: rapa1244
+iso639_3: rap
+parents: [proto-eastern-polynesian]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Rapa_Nui_language
+  - https://glottolog.org/resource/languoid/id/rapa1244
+notes: |
+  Language of Easter Island, settled ~1200 CE. Endangered; most speakers are
+  bilingual in Spanish.

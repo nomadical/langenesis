@@ -1,0 +1,14 @@
+id: middle-bulgarian
+name: Middle Bulgarian
+parents: [old-church-slavonic]
+period:
+  start: 1100
+  end: 1400
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Bulgarian
+notes: |
+  Language of the Second Bulgarian Empire, showing the loss of case endings and
+  other Balkan Sprachbund features.

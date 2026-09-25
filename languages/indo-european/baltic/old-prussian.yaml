@@ -1,0 +1,17 @@
+id: old-prussian
+name: Old Prussian
+glottocode: prus1238
+iso639_3: prg
+parents: [proto-baltic]
+period:
+  start: 1000
+  end: 1700
+  start_uncertainty: 200
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Prussian
+  - https://glottolog.org/resource/languoid/id/prus1238
+notes: |
+  West Baltic language, attested from the 14th century (Elbing Vocabulary) and
+  in 16th-century catechisms. Extinct by the early 18th century.

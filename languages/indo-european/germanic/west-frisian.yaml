@@ -1,0 +1,15 @@
+id: west-frisian
+name: West Frisian
+glottocode: west2354
+iso639_3: fry
+parents: [old-frisian]
+period:
+  start: 1550
+  end: present
+status: living
+speakers: 470000
+sources:
+  - https://en.wikipedia.org/wiki/West_Frisian_language
+  - https://glottolog.org/resource/languoid/id/west2354
+notes: |
+  Spoken in the Dutch province of Friesland.

@@ -1,0 +1,17 @@
+id: manx
+name: Manx
+glottocode: manx1243
+iso639_3: glv
+parents: [middle-irish]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2000
+sources:
+  - https://en.wikipedia.org/wiki/Manx_language
+  - https://glottolog.org/resource/languoid/id/manx1243
+notes: |
+  Goidelic language of the Isle of Man. Last native speaker died in 1974;
+  revived, with a few thousand mostly L2 speakers.

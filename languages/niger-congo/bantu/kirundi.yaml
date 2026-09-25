@@ -1,0 +1,16 @@
+id: kirundi
+name: Kirundi
+glottocode: rund1242
+iso639_3: run
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 9000000
+sources:
+  - https://en.wikipedia.org/wiki/Kirundi
+  - https://glottolog.org/resource/languoid/id/rund1242
+notes: |
+  Great Lakes Bantu language of Burundi, mutually intelligible with Kinyarwanda.

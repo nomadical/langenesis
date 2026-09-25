@@ -1,0 +1,18 @@
+id: garifuna
+name: Garifuna
+glottocode: gari1256
+iso639_3: cab
+parents: [island-carib]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 100000
+sources:
+  - https://en.wikipedia.org/wiki/Garifuna_language
+  - https://glottolog.org/resource/languoid/id/gari1256
+notes: |
+  Language of the Garifuna, descended from Island Carib speakers on St. Vincent
+  who were deported to Central America in 1797. Spoken in Honduras, Belize,
+  Guatemala and Nicaragua.

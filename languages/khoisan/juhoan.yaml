@@ -1,0 +1,17 @@
+id: juhoan
+name: Juǀʼhoan
+glottocode: juho1239
+iso639_3: ktz
+parents: [proto-kxa]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Ju%C7%80%CA%BChoan_language
+  - https://glottolog.org/resource/languoid/id/juho1239
+notes: |
+  Ju (Northern Khoisan) language of northeastern Namibia and northwestern
+  Botswana, famous for its large click inventory. Intermediate Proto-Ju node
+  not tracked.

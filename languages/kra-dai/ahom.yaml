@@ -1,0 +1,17 @@
+id: ahom
+name: Ahom
+glottocode: ahom1240
+iso639_3: aho
+parents: [proto-tai]
+period:
+  start: 1228
+  end: 1800
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Ahom_language
+  - https://glottolog.org/resource/languoid/id/ahom1240
+notes: |
+  Southwestern Tai language of the Ahom kingdom in Assam (founded 1228).
+  Replaced by Assamese; survives in chronicles (buranjis) and priestly ritual,
+  with modern revival efforts.

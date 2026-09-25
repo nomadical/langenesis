@@ -1,0 +1,17 @@
+id: sundanese
+name: Sundanese
+glottocode: sund1252
+iso639_3: sun
+parents: [proto-malayo-polynesian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 32000000
+sources:
+  - https://en.wikipedia.org/wiki/Sundanese_language
+  - https://glottolog.org/resource/languoid/id/sund1252
+notes: |
+  Spoken in West Java. Old Sundanese inscriptions date from the 14th century;
+  the modern language start is nominal.

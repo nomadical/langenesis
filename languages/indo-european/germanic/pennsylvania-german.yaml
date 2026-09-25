@@ -1,0 +1,15 @@
+id: pennsylvania-german
+name: Pennsylvania Dutch
+iso639_3: pdc
+parents: [german]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 300000
+sources:
+  - https://en.wikipedia.org/wiki/Pennsylvania_Dutch_language
+notes: |
+  Palatine German variety brought to North America in the 18th century; spoken
+  mainly by Amish and Old Order Mennonites.

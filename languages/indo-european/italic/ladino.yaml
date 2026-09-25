@@ -1,0 +1,17 @@
+id: ladino
+name: Ladino
+glottocode: ladi1251
+iso639_3: lad
+parents: [old-spanish]
+period:
+  start: 1492
+  end: present
+status: living
+speakers: 60000
+sources:
+  - https://en.wikipedia.org/wiki/Judaeo-Spanish
+  - https://glottolog.org/resource/languoid/id/ladi1251
+notes: |
+  Judaeo-Spanish, spoken by Sephardic Jews after the 1492 expulsion from Spain;
+  retains many Old Spanish features. Severely endangered; speaker estimates vary
+  widely.

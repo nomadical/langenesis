@@ -1,0 +1,15 @@
+id: proto-quechua-ii
+name: Proto-Quechua II
+parents: [proto-quechua]
+period:
+  start: 600
+  end: 1450
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Quechua_II
+notes: |
+  Ancestor of Quechua II (Wampuy). It spread along the coast and highlands, and
+  later with the Inca Empire, which adopted Quechua as its administrative
+  language.

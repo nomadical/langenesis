@@ -1,0 +1,16 @@
+id: danish
+name: Danish
+glottocode: dani1285
+iso639_3: dan
+parents: [old-danish]
+period:
+  start: 1525
+  end: present
+status: living
+speakers: 6000000
+sources:
+  - https://en.wikipedia.org/wiki/Danish_language
+  - https://glottolog.org/resource/languoid/id/dani1285
+notes: |
+  East Scandinavian. Christian III's Bible (1550) was pivotal for the written
+  standard.

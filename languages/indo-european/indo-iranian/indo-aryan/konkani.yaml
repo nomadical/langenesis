@@ -1,0 +1,15 @@
+id: konkani
+name: Konkani
+iso639_3: kok
+parents: [maharashtri-prakrit]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 2300000
+sources:
+  - https://en.wikipedia.org/wiki/Konkani_language
+notes: |
+  Southern Indo-Aryan of the Konkan coast (Goa); official language of Goa.
+  ISO code is the Konkani macrolanguage.

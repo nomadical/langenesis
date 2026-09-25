@@ -1,0 +1,16 @@
+id: zhuang
+name: Zhuang
+iso639_3: zha
+parents: [proto-tai]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 16000000
+sources:
+  - https://en.wikipedia.org/wiki/Zhuang_languages
+notes: |
+  Northern and Central Tai varieties of Guangxi, China — together the largest
+  minority language of China. Not a single language linguistically; standard
+  Zhuang is based on the Wuming dialect.

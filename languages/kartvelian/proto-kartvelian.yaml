@@ -1,0 +1,15 @@
+id: proto-kartvelian
+name: Proto-Kartvelian
+parents: []
+period:
+  start: -2500
+  end: -1900
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Kartvelian_language
+notes: |
+  Reconstructed ancestor of the South Caucasian (Kartvelian) family. Klimov's
+  glottochronology places the split of Svan around the 19th century BCE;
+  dating is approximate. No accepted external relatives.

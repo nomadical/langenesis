@@ -1,0 +1,17 @@
+id: tunisian-arabic
+name: Tunisian Arabic
+glottocode: tuni1259
+iso639_3: aeb
+parents: [classical-arabic]
+period:
+  start: 800
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 12000000
+sources:
+  - https://en.wikipedia.org/wiki/Tunisian_Arabic
+  - https://glottolog.org/resource/languoid/id/tuni1259
+notes: |
+  Maghrebi Arabic of Tunisia (Ifriqiya), closely related to the extinct
+  Siculo-Arabic and to Maltese.

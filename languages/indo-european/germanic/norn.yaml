@@ -1,0 +1,14 @@
+id: norn
+name: Norn
+parents: [old-west-norse]
+period:
+  start: 1350
+  end: 1850
+  start_uncertainty: 100
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Norn_language
+notes: |
+  West Norse language of Orkney, Shetland and Caithness, replaced by Scots. Date
+  of extinction is uncertain (18th–19th century).

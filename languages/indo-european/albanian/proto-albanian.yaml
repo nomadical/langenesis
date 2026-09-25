@@ -1,0 +1,14 @@
+id: proto-albanian
+name: Proto-Albanian
+parents: [proto-indo-european]
+period:
+  start: -1000
+  end: 600
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Albanian_language
+notes: |
+  Reconstructed ancestor of Albanian. Relation to ancient Illyrian, Thracian or
+  Messapic is debated; dates are rough.

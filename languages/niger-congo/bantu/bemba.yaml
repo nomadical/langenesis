@@ -1,0 +1,14 @@
+id: bemba
+name: Bemba
+iso639_3: bem
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 4000000
+sources:
+  - https://en.wikipedia.org/wiki/Bemba_language
+notes: |
+  Central Bantu (Guthrie M42) language, the most widely spoken language of Zambia.

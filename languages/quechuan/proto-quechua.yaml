@@ -1,0 +1,15 @@
+id: proto-quechua
+name: Proto-Quechua
+parents: []
+period:
+  start: 0
+  end: 600
+  start_uncertainty: 500
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Quechuan_languages
+notes: |
+  Reconstructed ancestor of Quechuan, probably spoken in central Peru. Torero
+  and Cerrón-Palomino place the first split (Quechua I vs. II) in the first
+  millennium CE; the dates are uncertain.

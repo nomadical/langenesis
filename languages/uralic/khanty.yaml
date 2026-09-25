@@ -1,0 +1,15 @@
+id: khanty
+name: Khanty
+iso639_3: kca
+parents: [proto-ugric]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 13000
+sources:
+  - https://en.wikipedia.org/wiki/Khanty_language
+notes: |
+  Ob-Ugric language of the Khanty–Mansi region of western Siberia, with highly
+  divergent dialects.

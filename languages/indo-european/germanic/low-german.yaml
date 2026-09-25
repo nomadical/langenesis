@@ -1,0 +1,14 @@
+id: low-german
+name: Low German
+iso639_3: nds
+parents: [middle-low-german]
+period:
+  start: 1600
+  end: present
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Low_German
+notes: |
+  Also Low Saxon (Plattdeutsch), spoken in northern Germany and the eastern
+  Netherlands. Speaker estimates vary widely.

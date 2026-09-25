@@ -1,0 +1,14 @@
+id: proto-east-baltic
+name: Proto-East-Baltic
+parents: [proto-baltic]
+period:
+  start: 0
+  end: 700
+  start_uncertainty: 300
+  end_uncertainty: 200
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/East_Baltic_languages
+notes: |
+  Ancestor of Lithuanian, Latvian and extinct Curonian, Selonian and
+  Semigallian. Lithuanian and Latvian separated around the 7th century.

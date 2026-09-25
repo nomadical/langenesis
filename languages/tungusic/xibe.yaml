@@ -1,0 +1,16 @@
+id: xibe
+name: Xibe
+glottocode: xibe1242
+iso639_3: sjo
+parents: [jurchen]
+period:
+  start: 1764
+  end: present
+status: living
+speakers: 30000
+sources:
+  - https://en.wikipedia.org/wiki/Xibe_language
+  - https://glottolog.org/resource/languoid/id/xibe1242
+notes: |
+  Close relative of Manchu (sometimes treated as a Manchu dialect), spoken by
+  Xibe garrison descendants relocated to Xinjiang in 1764.

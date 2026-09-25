@@ -1,0 +1,15 @@
+id: venda
+name: Tshivenda
+iso639_3: ven
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1300000
+sources:
+  - https://en.wikipedia.org/wiki/Venda_language
+notes: |
+  Southern Bantu (Guthrie S21) language of Limpopo, South Africa, and Zimbabwe; sometimes
+  linked to Shona.

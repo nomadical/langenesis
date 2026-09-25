@@ -1,0 +1,17 @@
+id: faroese
+name: Faroese
+glottocode: faro1244
+iso639_3: fao
+parents: [old-west-norse]
+period:
+  start: 1350
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 70000
+sources:
+  - https://en.wikipedia.org/wiki/Faroese_language
+  - https://glottolog.org/resource/languoid/id/faro1244
+notes: |
+  Insular West Norse language of the Faroe Islands; written standard established
+  in the 19th century.

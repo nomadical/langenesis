@@ -1,0 +1,15 @@
+id: shughni
+name: Shughni
+iso639_3: sgh
+parents: [proto-iranian]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 100000
+sources:
+  - https://en.wikipedia.org/wiki/Shughni_language
+notes: |
+  Largest Pamir language (Shughni–Rushani group), spoken in Gorno-Badakhshan
+  (Tajikistan) and Badakhshan (Afghanistan).

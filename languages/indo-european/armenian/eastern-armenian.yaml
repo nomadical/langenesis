@@ -1,0 +1,13 @@
+id: eastern-armenian
+name: Eastern Armenian
+iso639_3: hye
+parents: [middle-armenian]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Eastern_Armenian
+notes: |
+  Standard of Armenia and of Armenians in Iran.

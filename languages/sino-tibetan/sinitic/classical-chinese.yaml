@@ -1,0 +1,15 @@
+id: classical-chinese
+name: Classical Chinese
+iso639_3: lzh
+parents: [old-chinese]
+period:
+  start: -500
+  end: 1920
+  start_uncertainty: 100
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Classical_Chinese
+notes: |
+  Written language of the Warring States and Han classics, used as the
+  literary standard (Literary Chinese) across China, Korea, Japan and Vietnam
+  until the early 20th c. May Fourth vernacular movement.

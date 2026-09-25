@@ -1,0 +1,15 @@
+id: mari
+name: Mari
+iso639_3: chm
+parents: [proto-uralic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 400000
+sources:
+  - https://en.wikipedia.org/wiki/Mari_language
+notes: |
+  Uralic language of Mari El, Russia, with Meadow and Hill standards. Its
+  placement (Volga-Finnic or its own branch) is debated.

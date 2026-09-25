@@ -1,0 +1,13 @@
+id: central-quechua
+name: Central Quechua
+parents: [proto-quechua]
+period:
+  start: 600
+  end: present
+  start_uncertainty: 200
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Quechua_I
+notes: |
+  Quechua I (Waywash): a set of divergent varieties in the central Peruvian
+  highlands (Ancash, Huánuco, Junín), shown here as one node.

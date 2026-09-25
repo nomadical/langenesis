@@ -1,0 +1,16 @@
+id: bulgar
+name: Bulgar
+iso639_3: xbo
+parents: [proto-turkic]
+period:
+  start: 400
+  end: 1400
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Bulgar_language
+notes: |
+  Oghur (r-Turkic) language of the Volga Bulgars and Danube Bulgars, known
+  from inscriptions and loanwords. Oghur split from Common Turkic before Old
+  Turkic.

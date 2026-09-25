@@ -1,0 +1,15 @@
+id: proto-atlantic
+name: Proto-Atlantic
+parents: [proto-atlantic-congo]
+period:
+  start: -5000
+  end: -3000
+  start_uncertainty: 1500
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Atlantic_languages
+notes: |
+  Ancestor posited for the Atlantic languages of the West African coast. The unity of
+  Atlantic is contested; many scholars split it into North Atlantic and Bak, or treat
+  it as a geographic grouping.

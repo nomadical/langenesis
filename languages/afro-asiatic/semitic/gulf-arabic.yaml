@@ -1,0 +1,16 @@
+id: gulf-arabic
+name: Gulf Arabic
+glottocode: gulf1241
+iso639_3: afb
+parents: [classical-arabic]
+period:
+  start: 700
+  end: present
+  start_uncertainty: 100
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Gulf_Arabic
+  - https://glottolog.org/resource/languoid/id/gulf1241
+notes: |
+  Peninsular Arabic of the Persian Gulf coasts (Kuwait, Bahrain, Qatar, UAE,
+  eastern Saudi Arabia).

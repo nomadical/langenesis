@@ -1,0 +1,18 @@
+id: urartian
+name: Urartian
+glottocode: urar1245
+iso639_3: xur
+parents: [proto-hurro-urartian]
+period:
+  start: -850
+  end: -600
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Urartian_language
+  - https://glottolog.org/resource/languoid/id/urar1245
+notes: |
+  Language of the kingdom of Urartu around Lake Van, attested in cuneiform
+  inscriptions from the 9th to 7th/6th century BCE. Not a direct descendant of
+  attested Hurrian.

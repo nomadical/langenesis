@@ -1,0 +1,17 @@
+id: tuvan
+name: Tuvan
+glottocode: tuvi1240
+iso639_3: tyv
+parents: [old-turkic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 280000
+sources:
+  - https://en.wikipedia.org/wiki/Tuvan_language
+  - https://glottolog.org/resource/languoid/id/tuvi1240
+notes: |
+  Siberian Turkic language of the Tuva Republic, Russia, with Mongolic
+  influence.

@@ -1,0 +1,15 @@
+id: makhuwa
+name: Makhuwa
+iso639_3: vmw
+parents: [proto-bantu]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 8000000
+sources:
+  - https://en.wikipedia.org/wiki/Makhuwa_language
+notes: |
+  Eastern Bantu (Guthrie P31) language, the most widely spoken indigenous language of
+  northern Mozambique.

@@ -96,7 +96,8 @@ Then in `swedish.yaml`, change `parents: [proto-germanic]` → `parents: [old-sw
 
 1. Create `languages/<new-family>/proto-<family>.yaml` with `parents: []`.
 2. Add daughter languages with that proto as their parent.
-3. The viz will auto-assign a colour from the palette in `src/viz/radial-tree.ts:34`. If you add more than 10 families, extend that palette.
+3. Add the family folder name to `FAMILY_ORDER` in `src/data/loader.ts` so it sits next to its geographic neighbours around the circle (unlisted folders are appended at the end).
+4. The viz auto-assigns a colour. The largest families have hand-picked colours in `FAMILY_COLORS` (`src/viz/radial-tree.ts`); everything else gets a generated hue.
 
 ## What CI checks
 

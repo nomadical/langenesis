@@ -1,0 +1,13 @@
+id: proto-kurdish
+name: Proto-Kurdish
+parents: [proto-iranian]
+period:
+  start: -300
+  end: 1000
+  start_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Kurdish_language
+notes: |
+  Undocumented common ancestor of the Kurdish languages (Northwestern Iranian).
+  Dating is speculative; links to Median are sometimes proposed but unproven.

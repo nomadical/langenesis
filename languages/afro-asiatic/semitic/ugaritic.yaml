@@ -1,0 +1,16 @@
+id: ugaritic
+name: Ugaritic
+glottocode: ugar1238
+iso639_3: uga
+parents: [proto-northwest-semitic]
+period:
+  start: -1400
+  end: -1190
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Ugaritic
+  - https://glottolog.org/resource/languoid/id/ugar1238
+notes: |
+  Language of the city-state of Ugarit (Syria), written in a cuneiform
+  alphabet. Known from texts of c. 1400–1190 BCE; died out with the
+  destruction of Ugarit.

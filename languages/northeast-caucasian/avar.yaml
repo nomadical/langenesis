@@ -1,0 +1,17 @@
+id: avar
+name: Avar
+glottocode: avar1256
+iso639_3: ava
+parents: [proto-northeast-caucasian]
+period:
+  start: 1400
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 800000
+sources:
+  - https://en.wikipedia.org/wiki/Avar_language
+  - https://glottolog.org/resource/languoid/id/avar1256
+notes: |
+  Avar–Andic branch; lingua franca of western Dagestan, with a literary
+  tradition in Arabic script from the 17th century. Start date is nominal.

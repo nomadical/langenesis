@@ -1,0 +1,14 @@
+id: proto-tocharian
+name: Proto-Tocharian
+parents: [proto-indo-european]
+period:
+  start: -2500
+  end: 0
+  start_uncertainty: 500
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Tocharian_languages
+notes: |
+  Reconstructed ancestor of Tocharian A and B, early split from PIE (possibly
+  linked to the Afanasievo culture). Dates are highly uncertain.

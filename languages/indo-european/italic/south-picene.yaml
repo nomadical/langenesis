@@ -1,0 +1,15 @@
+id: south-picene
+name: South Picene
+iso639_3: spx
+parents: [osco-umbrian]
+period:
+  start: -600
+  end: -300
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/South_Picene_language
+notes: |
+  Known from about two dozen inscriptions on the Adriatic coast. Usually classed
+  as Sabellic, though its exact position is uncertain.

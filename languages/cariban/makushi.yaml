@@ -1,0 +1,15 @@
+id: makushi
+name: Makushi
+glottocode: macu1259
+iso639_3: mbc
+parents: [proto-cariban]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Makushi_language
+  - https://glottolog.org/resource/languoid/id/macu1259
+notes: |
+  Pemongan (Venezuelan) Cariban, spoken in Guyana, the Brazilian state of
+  Roraima and Venezuela.

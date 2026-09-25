@@ -1,0 +1,16 @@
+id: koyraboro-senni
+name: Koyraboro Senni
+glottocode: koyr1242
+iso639_3: ses
+parents: [proto-songhay]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Koyraboro_Senni
+  - https://glottolog.org/resource/languoid/id/koyr1242
+notes: |
+  Southern Songhay language of the Niger valley around Gao and Timbuktu in
+  Mali, the historical heartland of the Songhai Empire.

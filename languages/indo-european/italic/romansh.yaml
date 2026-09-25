@@ -1,0 +1,17 @@
+id: romansh
+name: Romansh
+glottocode: roma1326
+iso639_3: roh
+parents: [vulgar-latin]
+period:
+  start: 900
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 40000
+sources:
+  - https://en.wikipedia.org/wiki/Romansh_language
+  - https://glottolog.org/resource/languoid/id/roma1326
+notes: |
+  Official language of Switzerland (Graubünden). Grouping with Ladin and
+  Friulian as 'Rhaeto-Romance' is contested.

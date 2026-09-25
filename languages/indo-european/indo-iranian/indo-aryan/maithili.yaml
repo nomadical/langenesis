@@ -1,0 +1,17 @@
+id: maithili
+name: Maithili
+glottocode: mait1250
+iso639_3: mai
+parents: [magadhi-apabhramsha]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 14000000
+sources:
+  - https://en.wikipedia.org/wiki/Maithili_language
+  - https://glottolog.org/resource/languoid/id/mait1250
+notes: |
+  Bihari language of northern Bihar and Nepal's Terai; Vidyapati (14th–15th c.)
+  is its classic poet. Written in Tirhuta and Devanagari.

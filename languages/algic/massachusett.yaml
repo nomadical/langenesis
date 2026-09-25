@@ -1,0 +1,15 @@
+id: massachusett
+name: Massachusett
+iso639_3: wam
+parents: [proto-eastern-algonquian]
+period:
+  start: 1600
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Massachusett_language
+notes: |
+  Language of John Eliot's 1663 Bible, the first Bible printed in the Americas.
+  It had no speakers from the 19th century until the Wôpanâak Language
+  Reclamation Project revived it from 1993; it again has a few native child
+  speakers.

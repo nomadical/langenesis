@@ -1,0 +1,16 @@
+id: proto-songhay
+name: Proto-Songhay
+parents: []
+period:
+  start: 0
+  end: 1000
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Songhay_languages
+notes: |
+  Ancestor of the Songhay languages of the middle Niger. Greenberg placed
+  Songhay in Nilo-Saharan, but this is widely doubted and it is often treated
+  as an independent family. The family is shallow, so the proto-language is
+  relatively recent.

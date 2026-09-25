@@ -1,0 +1,15 @@
+id: proto-inuit
+name: Proto-Inuit
+parents: [proto-eskimo]
+period:
+  start: 1000
+  end: 1300
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Inuit_languages
+notes: |
+  Ancestor of the Inuit dialect continuum. It is associated with the Thule
+  expansion from northern Alaska across Arctic Canada to Greenland around
+  1000-1300 CE.

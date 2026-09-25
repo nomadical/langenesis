@@ -1,0 +1,14 @@
+id: proto-apachean
+name: Proto-Apachean
+parents: [proto-athabaskan]
+period:
+  start: 1000
+  end: 1400
+  start_uncertainty: 200
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Southern_Athabaskan_languages
+notes: |
+  Ancestor of the Southern Athabaskan (Apachean) languages. Its speakers
+  migrated from the north and reached the Southwest around 1400-1500 CE.

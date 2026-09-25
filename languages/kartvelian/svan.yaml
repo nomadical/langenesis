@@ -1,0 +1,17 @@
+id: svan
+name: Svan
+glottocode: svan1243
+iso639_3: sva
+parents: [proto-kartvelian]
+period:
+  start: -1900
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 14000
+sources:
+  - https://en.wikipedia.org/wiki/Svan_language
+  - https://glottolog.org/resource/languoid/id/svan1243
+notes: |
+  The most divergent Kartvelian language, spoken in the mountains of Svaneti,
+  Georgia. Unwritten; endangered.

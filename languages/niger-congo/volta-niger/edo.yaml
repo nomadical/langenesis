@@ -1,0 +1,14 @@
+id: edo
+name: Edo (Bini)
+iso639_3: bin
+parents: [proto-volta-niger]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1600000
+sources:
+  - https://en.wikipedia.org/wiki/Edo_language
+notes: |
+  Edoid language of Benin City, Nigeria, the language of the Kingdom of Benin.

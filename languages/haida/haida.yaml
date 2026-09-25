@@ -1,0 +1,16 @@
+id: haida
+name: Haida
+glottocode: haid1248
+iso639_3: hai
+parents: []
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Haida_language
+  - https://glottolog.org/resource/languoid/id/haid1248
+notes: |
+  Spoken on Haida Gwaii and in southeast Alaska; critically endangered. Sapir
+  grouped it with Na-Dene, but today it is generally treated as an isolate. The
+  start date marks the contact era.

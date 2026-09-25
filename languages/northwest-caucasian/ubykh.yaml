@@ -1,0 +1,17 @@
+id: ubykh
+name: Ubykh
+glottocode: ubyk1235
+iso639_3: uby
+parents: [proto-northwest-caucasian]
+period:
+  start: 1500
+  end: 1992
+  start_uncertainty: 500
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Ubykh_language
+  - https://glottolog.org/resource/languoid/id/ubyk1235
+notes: |
+  Famous for having 80+ consonants and only two or three vowels. Speakers were
+  expelled to the Ottoman Empire in 1864; the last fluent speaker, Tevfik
+  Esenç, died in 1992.

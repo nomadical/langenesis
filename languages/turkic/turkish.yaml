@@ -2,9 +2,9 @@ id: turkish
 name: Turkish
 glottocode: nucl1301
 iso639_3: tur
-parents: [old-turkic]
+parents: [ottoman-turkish]
 period:
-  start: 1300
+  start: 1928
   end: present
 status: living
 speakers: 88000000
@@ -12,6 +12,5 @@ sources:
   - https://en.wikipedia.org/wiki/Turkish_language
   - https://glottolog.org/resource/languoid/id/nucl1301
 notes: |
-  Member of the Oghuz branch. Covers Old Anatolian Turkish (1300–1500),
-  Ottoman Turkish (1500–1928), and Modern Turkish (1928 alphabet reform
-  onwards) — these stages are not tracked as separate nodes.
+  Member of the Oghuz branch. Modern Turkish dates from the 1928 alphabet
+  reform and the language purism of the Turkish Language Association (1932).

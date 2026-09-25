@@ -1,0 +1,14 @@
+id: proto-lezgic
+name: Proto-Lezgic
+parents: [proto-northeast-caucasian]
+period:
+  start: -2000
+  end: -500
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Lezgic_languages
+notes: |
+  Ancestor of Lezgian, Tabasaran, Udi and other languages of southern Dagestan
+  and northern Azerbaijan. Dating is approximate.

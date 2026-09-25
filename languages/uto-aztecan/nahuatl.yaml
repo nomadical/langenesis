@@ -1,0 +1,15 @@
+id: nahuatl
+name: Nahuatl
+parents: [classical-nahuatl]
+period:
+  start: 1750
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 1700000
+sources:
+  - https://en.wikipedia.org/wiki/Nahuatl
+notes: |
+  Modern Nahuatl varieties of central Mexico. They form a dialect continuum
+  rather than one standard, and not every variety descends directly from the
+  Tenochtitlan standard.

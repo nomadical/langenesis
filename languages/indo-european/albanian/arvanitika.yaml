@@ -1,0 +1,14 @@
+id: arvanitika
+name: Arvanitika
+iso639_3: aat
+parents: [albanian]
+period:
+  start: 1300
+  end: present
+  start_uncertainty: 50
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Arvanitika
+notes: |
+  Tosk-derived Albanian of Greece from late-medieval migrations; severely
+  endangered.

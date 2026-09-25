@@ -1,0 +1,14 @@
+id: lydian
+name: Lydian
+iso639_3: xld
+parents: [proto-anatolian]
+period:
+  start: -700
+  end: -200
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Lydian_language
+notes: |
+  Language of the kingdom of Lydia; its position within Anatolian is unclear.

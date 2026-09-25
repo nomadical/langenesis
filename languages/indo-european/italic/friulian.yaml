@@ -1,0 +1,17 @@
+id: friulian
+name: Friulian
+glottocode: friu1240
+iso639_3: fur
+parents: [vulgar-latin]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 600000
+sources:
+  - https://en.wikipedia.org/wiki/Friulian_language
+  - https://glottolog.org/resource/languoid/id/friu1240
+notes: |
+  Spoken in Friuli, northeastern Italy. Often grouped as Rhaeto-Romance, a
+  contested unit.

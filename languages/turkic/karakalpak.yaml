@@ -1,0 +1,17 @@
+id: karakalpak
+name: Karakalpak
+glottocode: kara1467
+iso639_3: kaa
+parents: [proto-kipchak]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 600000
+sources:
+  - https://en.wikipedia.org/wiki/Karakalpak_language
+  - https://glottolog.org/resource/languoid/id/kara1467
+notes: |
+  Kipchak–Nogai language of Karakalpakstan (Uzbekistan), closely related to
+  Kazakh.

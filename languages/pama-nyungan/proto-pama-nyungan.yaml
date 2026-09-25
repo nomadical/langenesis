@@ -1,0 +1,15 @@
+id: proto-pama-nyungan
+name: Proto-Pama-Nyungan
+parents: []
+period:
+  start: -4000
+  end: -3000
+  start_uncertainty: 1000
+  end_uncertainty: 1000
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Pama%E2%80%93Nyungan_languages
+notes: |
+  Ancestor of the largest Australian family, covering ~90% of the continent.
+  Bouckaert et al. (2018) place its origin in the Gulf Plains ~6000 years ago;
+  its relation to non-Pama-Nyungan families is unresolved.

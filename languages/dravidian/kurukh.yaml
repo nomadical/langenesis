@@ -1,0 +1,17 @@
+id: kurukh
+name: Kurukh
+glottocode: kuru1302
+iso639_3: kru
+parents: [proto-dravidian]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2000000
+sources:
+  - https://en.wikipedia.org/wiki/Kurukh_language
+  - https://glottolog.org/resource/languoid/id/kuru1302
+notes: |
+  North Dravidian language of the Oraon people of eastern India. Start date is
+  nominal; the Proto-North Dravidian stage is not tracked.

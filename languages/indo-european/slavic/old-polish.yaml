@@ -1,0 +1,15 @@
+id: old-polish
+name: Old Polish
+glottocode: oldp1256
+parents: [proto-west-slavic]
+period:
+  start: 1000
+  end: 1500
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Polish_language
+  - https://glottolog.org/resource/languoid/id/oldp1256
+notes: |
+  Lechitic West Slavic; earliest Polish words appear in the Bull of Gniezno
+  (1136) and first full sentence in the Book of Henryków (1270).

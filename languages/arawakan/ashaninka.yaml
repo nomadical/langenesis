@@ -1,0 +1,12 @@
+id: ashaninka
+name: Asháninka
+iso639_3: cni
+parents: [proto-arawakan]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Ash%C3%A1ninka_language
+notes: |
+  Campa (Pre-Andine) branch, spoken in the central Peruvian Amazon.

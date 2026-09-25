@@ -1,0 +1,13 @@
+id: old-anatolian-turkish
+name: Old Anatolian Turkish
+parents: [old-oghuz]
+period:
+  start: 1200
+  end: 1500
+  start_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Old_Anatolian_Turkish
+notes: |
+  Oghuz Turkic of Seljuk and early Ottoman Anatolia, written in Perso-Arabic
+  script.

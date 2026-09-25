@@ -1,0 +1,17 @@
+id: votic
+name: Votic
+glottocode: voti1245
+iso639_3: vot
+parents: [proto-finnic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 20
+sources:
+  - https://en.wikipedia.org/wiki/Votic_language
+  - https://glottolog.org/resource/languoid/id/voti1245
+notes: |
+  Southern Finnic language of Ingria near Saint Petersburg; nearly extinct,
+  with only a handful of speakers.

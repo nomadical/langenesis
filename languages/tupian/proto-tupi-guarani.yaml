@@ -1,0 +1,14 @@
+id: proto-tupi-guarani
+name: Proto-Tupi-Guarani
+parents: [proto-tupian]
+period:
+  start: -500
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Tupi%E2%80%93Guarani_languages
+notes: |
+  Ancestor of the Tupi-Guarani branch. Its later expansion along the Atlantic
+  coast and the Paraná basin is linked to the spread of Tupiguarani ceramics.

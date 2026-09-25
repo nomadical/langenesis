@@ -1,0 +1,15 @@
+id: buryat
+name: Buryat
+iso639_3: bua
+parents: [middle-mongol]
+period:
+  start: 1600
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 300000
+sources:
+  - https://en.wikipedia.org/wiki/Buryat_language
+notes: |
+  Mongolic language of Buryatia (Russia) and neighbouring parts of Mongolia
+  and China.

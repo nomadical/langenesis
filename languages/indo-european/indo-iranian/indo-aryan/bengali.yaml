@@ -1,0 +1,17 @@
+id: bengali
+name: Bengali
+glottocode: beng1280
+iso639_3: ben
+parents: [magadhi-apabhramsha]
+period:
+  start: 1100
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 240000000
+sources:
+  - https://en.wikipedia.org/wiki/Bengali_language
+  - https://glottolog.org/resource/languoid/id/beng1280
+notes: |
+  Eastern Indo-Aryan. The Charyapada (10th–12th c.) are claimed as the earliest
+  literature of Bengali, Assamese and Odia alike. Middle Bengali from c. 1400.

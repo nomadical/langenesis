@@ -1,0 +1,15 @@
+id: middle-breton
+name: Middle Breton
+iso639_3: xbm
+parents: [old-breton]
+period:
+  start: 1100
+  end: 1650
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Breton_language
+notes: |
+  Attested in religious texts and the Catholicon (1499), the first
+  Breton–French–Latin dictionary.

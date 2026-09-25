@@ -1,0 +1,17 @@
+id: tsakonian
+name: Tsakonian
+glottocode: tsak1248
+iso639_3: tsd
+parents: [ancient-greek]
+period:
+  start: -300
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 2000
+sources:
+  - https://en.wikipedia.org/wiki/Tsakonian_language
+  - https://glottolog.org/resource/languoid/id/tsak1248
+notes: |
+  Only living descendant of Doric (Laconian) rather than Koine; critically
+  endangered. Dating of its separation is conventional.

@@ -1,0 +1,14 @@
+id: ottoman-turkish
+name: Ottoman Turkish
+iso639_3: ota
+parents: [old-anatolian-turkish]
+period:
+  start: 1500
+  end: 1928
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Ottoman_Turkish
+notes: |
+  Administrative and literary language of the Ottoman Empire, heavily loaded
+  with Arabic and Persian vocabulary. Ended with the 1928 Latin alphabet
+  reform and subsequent language purism.

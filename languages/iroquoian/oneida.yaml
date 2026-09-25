@@ -1,0 +1,15 @@
+id: oneida
+name: Oneida
+glottocode: onei1249
+iso639_3: one
+parents: [proto-northern-iroquoian]
+period:
+  start: 1500
+  end: present
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Oneida_language
+  - https://glottolog.org/resource/languoid/id/onei1249
+notes: |
+  Five Nations Iroquoian, closely related to Mohawk. Spoken in Ontario,
+  Wisconsin and New York; critically endangered.

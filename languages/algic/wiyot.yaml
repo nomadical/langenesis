@@ -1,0 +1,14 @@
+id: wiyot
+name: Wiyot
+iso639_3: wiy
+parents: [proto-algic]
+period:
+  start: 1500
+  end: 1962
+  end_uncertainty: 0
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Wiyot_language
+notes: |
+  Algic language of Humboldt Bay, California. The last native speaker died in
+  1962.

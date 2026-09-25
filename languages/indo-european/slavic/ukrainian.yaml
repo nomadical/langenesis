@@ -1,0 +1,16 @@
+id: ukrainian
+name: Ukrainian
+glottocode: ukra1253
+iso639_3: ukr
+parents: [ruthenian]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 30000000
+sources:
+  - https://en.wikipedia.org/wiki/Ukrainian_language
+  - https://glottolog.org/resource/languoid/id/ukra1253
+notes: |
+  Modern literary Ukrainian dates from Kotliarevsky's Eneida (1798).

@@ -1,0 +1,14 @@
+id: proto-west-slavic
+name: Proto-West Slavic
+parents: [proto-slavic]
+period:
+  start: 600
+  end: 1000
+  start_uncertainty: 100
+  end_uncertainty: 100
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/West_Slavic_languages
+notes: |
+  Late Proto-Slavic dialects of Central Europe, ancestral to the Czech–Slovak,
+  Sorbian and Lechitic groups.

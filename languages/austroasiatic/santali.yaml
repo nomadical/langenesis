@@ -1,0 +1,18 @@
+id: santali
+name: Santali
+glottocode: sant1410
+iso639_3: sat
+parents: [proto-munda]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 7600000
+sources:
+  - https://en.wikipedia.org/wiki/Santali_language
+  - https://glottolog.org/resource/languoid/id/sant1410
+notes: |
+  Largest Munda language, spoken in Jharkhand, West Bengal, Odisha and
+  neighbouring countries; written in Ol Chiki (1925). Scheduled language of
+  India since 2003.

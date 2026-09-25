@@ -1,7 +1,7 @@
 id: biblical-hebrew
 name: Biblical Hebrew
 iso639_3: hbo
-parents: [proto-semitic]
+parents: [proto-northwest-semitic]
 period:
   start: -1200
   end: 200

@@ -1,0 +1,14 @@
+id: kpelle
+name: Kpelle
+iso639_3: kpe
+parents: [proto-mande]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 1300000
+sources:
+  - https://en.wikipedia.org/wiki/Kpelle_language
+notes: |
+  Southwestern Mande language, the most widely spoken indigenous language of Liberia.

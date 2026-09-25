@@ -1,0 +1,15 @@
+id: proto-benue-congo
+name: Proto-Benue-Congo
+parents: [proto-atlantic-congo]
+period:
+  start: -5000
+  end: -3500
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Benue%E2%80%93Congo_languages
+notes: |
+  Ancestor of the Benue-Congo branch, which includes Bantoid (and thus Bantu) along
+  with Cross River, Plateau, Kainji and Jukunoid languages of Nigeria. Intermediate
+  Bantoid stage not tracked.

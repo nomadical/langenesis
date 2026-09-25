@@ -1,0 +1,14 @@
+id: middle-armenian
+name: Middle Armenian
+iso639_3: axm
+parents: [classical-armenian]
+period:
+  start: 1100
+  end: 1700
+  start_uncertainty: 50
+  end_uncertainty: 50
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Middle_Armenian
+notes: |
+  Literary vernacular of the Cilician Armenian kingdom.

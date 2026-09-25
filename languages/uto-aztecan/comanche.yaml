@@ -1,0 +1,17 @@
+id: comanche
+name: Comanche
+glottocode: coma1245
+iso639_3: com
+parents: [proto-numic]
+period:
+  start: 1700
+  end: present
+  start_uncertainty: 50
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Comanche_language
+  - https://glottolog.org/resource/languoid/id/coma1245
+notes: |
+  Central Numic. Split from Shoshoni around 1700, when the Comanche moved onto
+  the southern Plains. Critically endangered, with very few fluent speakers
+  left.

@@ -1,0 +1,16 @@
+id: sango
+name: Sango
+iso639_3: sag
+parents: [proto-atlantic-congo]
+period:
+  start: 1800
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 450000
+sources:
+  - https://en.wikipedia.org/wiki/Sango_language
+notes: |
+  Ngbandi-based lingua franca of the Central African Republic (Ubangian branch, often
+  grouped with Adamawa in a contested Adamawa-Ubangi unit). About 5 million speak it as
+  L2; intermediate Ubangian nodes not tracked.

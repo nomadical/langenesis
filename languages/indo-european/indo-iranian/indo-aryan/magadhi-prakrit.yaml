@@ -1,0 +1,13 @@
+id: magadhi-prakrit
+name: Magadhi Prakrit
+parents: [vedic-sanskrit]
+period:
+  start: -300
+  end: 600
+  start_uncertainty: 100
+status: extinct
+sources:
+  - https://en.wikipedia.org/wiki/Magadhi_Prakrit
+notes: |
+  Eastern Prakrit of Magadha (modern Bihar), used for lower-class speech in
+  Sanskrit drama. Ancestral to the Eastern Indo-Aryan languages.

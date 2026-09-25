@@ -1,0 +1,15 @@
+id: wolaytta
+name: Wolaytta
+glottocode: wola1242
+iso639_3: wal
+parents: [proto-omotic]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Wolaytta_language
+  - https://glottolog.org/resource/languoid/id/wola1242
+notes: |
+  North Omotic (Ometo) language of the Wolaita Zone in southern Ethiopia.

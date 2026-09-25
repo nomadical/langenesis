@@ -1,0 +1,16 @@
+id: riffian
+name: Riffian (Tarifit)
+glottocode: tari1263
+iso639_3: rif
+parents: [proto-berber]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Riffian_language
+  - https://glottolog.org/resource/languoid/id/tari1263
+notes: |
+  Zenati Berber language of the Rif in northern Morocco, with a large diaspora
+  in the Netherlands, Belgium and Spain.

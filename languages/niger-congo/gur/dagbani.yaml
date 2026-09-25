@@ -1,0 +1,14 @@
+id: dagbani
+name: Dagbani
+iso639_3: dag
+parents: [proto-gur]
+period:
+  start: 1200
+  end: present
+  start_uncertainty: 200
+status: living
+speakers: 1200000
+sources:
+  - https://en.wikipedia.org/wiki/Dagbani_language
+notes: |
+  Oti-Volta language of the Dagomba of northern Ghana, closely related to Mooré.

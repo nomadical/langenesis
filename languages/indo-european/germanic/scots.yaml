@@ -1,0 +1,18 @@
+id: scots
+name: Scots
+glottocode: scot1243
+iso639_3: sco
+parents: [middle-english]
+period:
+  start: 1375
+  end: present
+  start_uncertainty: 50
+status: living
+speakers: 1500000
+sources:
+  - https://en.wikipedia.org/wiki/Scots_language
+  - https://glottolog.org/resource/languoid/id/scot1243
+notes: |
+  From Northumbrian Old English via Early Scots (1375–1450). Whether it is a
+  language or a dialect of English is disputed. Speaker figure is the 2011
+  census self-report.

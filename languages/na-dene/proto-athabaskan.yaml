@@ -1,0 +1,15 @@
+id: proto-athabaskan
+name: Proto-Athabaskan
+parents: [proto-athabaskan-eyak]
+period:
+  start: -500
+  end: 500
+  start_uncertainty: 500
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Proto-Athabaskan_language
+notes: |
+  Ancestor of the Athabaskan languages, probably spoken in interior Alaska or
+  Yukon. Its daughters spread into northern Canada, the Pacific coast and the
+  American Southwest.

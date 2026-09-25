@@ -1,0 +1,18 @@
+id: upper-sorbian
+name: Upper Sorbian
+glottocode: uppe1395
+iso639_3: hsb
+parents: [proto-west-slavic]
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 100
+status: living
+speakers: 13000
+sources:
+  - https://en.wikipedia.org/wiki/Upper_Sorbian_language
+  - https://glottolog.org/resource/languoid/id/uppe1395
+notes: |
+  Spoken in Upper Lusatia (Saxony). First printed texts from the 16th century;
+  whether Upper and Lower Sorbian share an intermediate Sorbian ancestor is not
+  modelled.

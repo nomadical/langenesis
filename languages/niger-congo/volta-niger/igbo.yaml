@@ -1,0 +1,16 @@
+id: igbo
+name: Igbo
+glottocode: igbo1259
+iso639_3: ibo
+parents: [proto-volta-niger]
+period:
+  start: 1000
+  end: present
+  start_uncertainty: 300
+status: living
+speakers: 31000000
+sources:
+  - https://en.wikipedia.org/wiki/Igbo_language
+  - https://glottolog.org/resource/languoid/id/igbo1259
+notes: |
+  Igboid language of southeastern Nigeria. Intermediate Proto-Igboid stage not tracked.

@@ -1,0 +1,14 @@
+id: proto-gur
+name: Proto-Gur
+parents: [proto-atlantic-congo]
+period:
+  start: -3000
+  end: -1000
+  start_uncertainty: 1000
+  end_uncertainty: 500
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Gur_languages
+notes: |
+  Ancestor of the Gur (Voltaic) languages of Burkina Faso, northern Ghana and
+  neighbouring countries. Part of the contested Volta-Congo grouping; dating is rough.

@@ -1,0 +1,18 @@
+id: burushaski
+name: Burushaski
+glottocode: buru1296
+iso639_3: bsk
+parents: []
+period:
+  start: 1500
+  end: present
+  start_uncertainty: 500
+status: living
+speakers: 130000
+sources:
+  - https://en.wikipedia.org/wiki/Burushaski
+  - https://glottolog.org/resource/languoid/id/buru1296
+notes: |
+  Language isolate of Hunza, Nagar and Yasin in Gilgit-Baltistan, Pakistan.
+  Proposed links (Yeniseian, Indo-European) are not accepted. Start date is
+  nominal; unwritten before the 19th century.

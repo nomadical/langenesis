@@ -1,0 +1,17 @@
+id: tashelhit
+name: Tashelhit (Shilha)
+glottocode: tach1250
+iso639_3: shi
+parents: [proto-berber]
+period:
+  start: 500
+  end: present
+  start_uncertainty: 300
+status: living
+sources:
+  - https://en.wikipedia.org/wiki/Shilha_language
+  - https://glottolog.org/resource/languoid/id/tach1250
+notes: |
+  Northern Berber language of the Souss and Anti-Atlas in southern Morocco,
+  the most widely spoken Berber language in Morocco. Has a manuscript
+  tradition in Arabic script from the 16th century.

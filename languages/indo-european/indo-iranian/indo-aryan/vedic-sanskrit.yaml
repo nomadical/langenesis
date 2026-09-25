@@ -1,0 +1,15 @@
+id: vedic-sanskrit
+name: Vedic Sanskrit
+iso639_3: vsn
+parents: [proto-indo-aryan]
+period:
+  start: -1500
+  end: -500
+  start_uncertainty: 200
+status: classical
+sources:
+  - https://en.wikipedia.org/wiki/Vedic_Sanskrit
+notes: |
+  Old Indo-Aryan of the Vedas; the Rigveda is usually dated c. 1500–1200 BCE.
+  The Prakrits descend from Old Indo-Aryan dialects close to, but not identical
+  with, the Vedic literary language.

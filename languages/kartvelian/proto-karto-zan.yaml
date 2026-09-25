@@ -1,0 +1,14 @@
+id: proto-karto-zan
+name: Proto-Karto-Zan
+parents: [proto-kartvelian]
+period:
+  start: -1900
+  end: -800
+  start_uncertainty: 300
+  end_uncertainty: 300
+status: reconstructed
+sources:
+  - https://en.wikipedia.org/wiki/Karto-Zan_languages
+notes: |
+  Common ancestor of Georgian and the Zan languages after the separation of
+  Svan.
