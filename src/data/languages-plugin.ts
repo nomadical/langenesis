@@ -33,10 +33,12 @@ function walkYaml(dir: string): string[] {
   return out;
 }
 
-function loadLanguages(root: string) {
+export function loadLanguages(root: string) {
   const dir = join(root, "languages");
   const core: (CoreNode & { folder: string })[] = [];
   const details: Record<string, NodeDetails> = {};
+  // Path of each node's YAML under languages/, for "suggest a correction" links.
+  const files: Record<string, string> = {};
   const errors: string[] = [];
   for (const path of walkYaml(dir)) {
     const rel = relative(dir, path);
@@ -65,6 +67,7 @@ function loadLanguages(root: string) {
       ...(speakers !== undefined && { speakers }),
       folder: rel.split(sep)[0],
     });
+    files[id] = rel.split(sep).join("/");
     details[id] = {
       sources,
       ...(glottocode && { glottocode }),
@@ -75,7 +78,7 @@ function loadLanguages(root: string) {
   if (errors.length) {
     throw new Error(`Invalid language data:\n${errors.join("\n")}`);
   }
-  return { core, details };
+  return { core, details, files };
 }
 
 const asModule = (value: unknown) =>

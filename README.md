@@ -43,6 +43,7 @@ npm run build    # production bundle in dist/
 - **Data**: `languages/<family>/<slug>.yaml`. One file per language node. The schema is in `src/data/schema.ts`.
 - **Viz**: D3 layout with custom even-leaf angular distribution and a piecewise-linear time scale (so the modern era stays readable even when Proto-Niger-Congo at -10000 BCE is in the data). Arcs, edges, era rings and the family band are drawn on a `<canvas>` in batched strokes; only the labels that fit at the current zoom (level of detail) and are on screen live in an SVG overlay. Hover and click use polar-coordinate hit-testing rather than DOM events. A zoom frame takes ~11 ms (median) even on a 4× throttled CPU.
 - **Build**: Vite. A small plugin (`src/data/languages-plugin.ts`) validates every YAML file with Zod at build time and emits JSON, so the browser ships neither a YAML parser nor Zod. Notes and sources are a separate chunk fetched after first paint.
+- **Static pages**: `src/pages/` renders a crawlable HTML page for every language (`lang/<id>/`), an index of all of them (`lang/`) and `sitemap.xml` at build time, from the same YAML. Each page links into the map at that language via `#<id>`, a deep link the app also keeps in sync as you select languages.
 - **No backend**. The site is fully static and works on GitHub Pages.
 
 ## Project layout
@@ -50,7 +51,8 @@ npm run build    # production bundle in dist/
 ```
 languages/                yaml per language, grouped by family folder
 src/
-  data/                   schema, loader, tests
+  data/                   schema, tree building, loader, formatting
+  pages/                  static per-language pages + sitemap (build time)
   viz/radial-tree.ts      D3 visualization
   main.ts                 UI: sidebar, search, detail panel, keyboard
 src/styles.css            all styling (bundled by Vite)

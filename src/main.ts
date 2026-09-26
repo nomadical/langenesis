@@ -1,5 +1,12 @@
 import "./styles.css";
 import { type FamilyInfo, isVirtualRootId, loadData } from "./data/loader";
+import {
+  escapeAttr,
+  escapeHtml,
+  formatPeriod,
+  prettyUrl,
+  statusLabel,
+} from "./data/format";
 import { type CoreNode, type NodeDetails } from "./data/model";
 import { renderRadialTree, type RadialTreeHandle } from "./viz/radial-tree";
 
@@ -91,6 +98,7 @@ function setSelection(
   selectedId = id;
   handle.select(id);
   handle.setLineage(id);
+  syncHash(id);
   const focus = opts.focus ?? "lineage";
   if (id) {
     const node = data.byId.get(id)?.data;
@@ -102,21 +110,6 @@ function setSelection(
     else if (focus === "family") handle.focusFamily(data.familyOf.get(id) ?? id);
   } else {
     renderDetail(null);
-
-// Fetch the reference material on the first sign of intent: a click, a key,
-// focus, or the pointer moving over the map. Pure viewers never download it.
-let detailsRequested = false;
-async function loadDetails() {
-  if (detailsRequested) return;
-  detailsRequested = true;
-  details = (await import("virtual:language-details")).default;
-  const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
-  if (node) renderDetail(node);
-}
-for (const type of ["pointerdown", "keydown", "focusin"] as const) {
-  document.addEventListener(type, loadDetails, { once: true, passive: true });
-}
-svgEl.addEventListener("pointermove", loadDetails, { once: true, passive: true });
     if (focus !== "none") handle.resetZoom();
   }
   updateFamilyActive();
@@ -479,41 +472,6 @@ function positionTooltip(event: MouseEvent) {
   tooltipEl.style.top = `${y}px`;
 }
 
-// ============ Formatting ============
-function statusLabel(status: CoreNode["status"]): string {
-  return {
-    living: "Living",
-    extinct: "Extinct",
-    reconstructed: "Reconstructed",
-    classical: "Classical",
-  }[status];
-}
-function formatPeriod(node: CoreNode): string {
-  const start = formatYear(node.period.start, node.period.start_uncertainty);
-  const end = node.period.end === "present" ? "today" : formatYear(node.period.end);
-  return `${start} – ${end}`;
-}
-function formatYear(y: number, uncertainty?: number): string {
-  const approx = uncertainty ? "c. " : "";
-  if (y < 0) return `${approx}${(-y).toLocaleString("en-US")} BCE`;
-  return `${approx}${y} CE`;
-}
-function prettyUrl(url: string): string {
-  try {
-    const u = new URL(url);
-    const path = decodeURIComponent(u.pathname).replace(/^\/wiki\//, "").replace(/_/g, " ");
-    return `${u.hostname.replace(/^(www|en)\./, "")} · ${path.replace(/^\//, "")}`;
-  } catch {
-    return url;
-  }
-}
-function escapeHtml(s: string): string {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-}
-function escapeAttr(s: string): string {
-  return escapeHtml(s).replace(/"/g, "&quot;");
-}
-
 renderDetail(null);
 
 // Fetch the reference material on the first sign of intent: a click, a key,
@@ -530,3 +488,26 @@ for (const type of ["pointerdown", "keydown", "focusin"] as const) {
   document.addEventListener(type, loadDetails, { once: true, passive: true });
 }
 svgEl.addEventListener("pointermove", loadDetails, { once: true, passive: true });
+
+// ============ Deep links ============
+// `#english` opens the map on that language. The static pages under lang/
+// link here, and the hash follows the selection so any view can be shared.
+function idFromHash(): string | null {
+  const id = decodeURIComponent(location.hash.slice(1));
+  return data.byId.has(id) && !isVirtualRootId(id) ? id : null;
+}
+function syncHash(id: string | null) {
+  const hash = id ? `#${id}` : "";
+  if (location.hash === hash) return;
+  // replaceState: selecting languages shouldn't flood the back button.
+  history.replaceState(null, "", hash || location.pathname + location.search);
+}
+window.addEventListener("hashchange", () => {
+  const id = idFromHash();
+  if (id !== selectedId) setSelection(id);
+});
+const linkedId = idFromHash();
+if (linkedId) {
+  setSelection(linkedId);
+  loadDetails();
+}
