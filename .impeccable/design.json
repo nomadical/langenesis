@@ -143,6 +143,14 @@
       "line-koreanic": {
         "role": "tertiary",
         "displayName": "Transit line · Koreanic"
+      },
+      "ink-bright": {
+        "role": "neutral",
+        "displayName": "Ink Bright"
+      },
+      "era-ring-today": {
+        "role": "neutral",
+        "displayName": "Era Ring Today"
       }
     },
     "typographyMeta": {
@@ -338,7 +346,7 @@
       "**Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out. Under `prefers-reduced-motion`, keep colour and opacity feedback and drop anything that travels."
     ],
     "donts": [
-      "**Don't** add glows, drop shadows or gradients to the map.",
+      "**Don't** add glows, drop shadows or gradients to the map or the page behind it.",
       "**Don't** use a family line colour for chrome, buttons or headings.",
       "**Don't** put uppercase eyebrow labels above headings; uppercase is for band labels only.",
       "**Don't** scale label text with zoom or show labels that collide.",

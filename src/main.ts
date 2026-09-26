@@ -1,3 +1,4 @@
+import "./styles.css";
 import { type FamilyInfo, isVirtualRootId, loadData } from "./data/loader";
 import { type CoreNode, type NodeDetails } from "./data/model";
 import { renderRadialTree, type RadialTreeHandle } from "./viz/radial-tree";
@@ -83,7 +84,10 @@ const handle: RadialTreeHandle = renderRadialTree(svgEl, data, {
   },
 });
 
-function setSelection(id: string | null, opts: { focus?: "lineage" | "family" | "none" } = {}) {
+function setSelection(
+  id: string | null,
+  opts: { focus?: "lineage" | "family" | "none"; focusDetail?: boolean } = {},
+) {
   selectedId = id;
   handle.select(id);
   handle.setLineage(id);
@@ -91,7 +95,7 @@ function setSelection(id: string | null, opts: { focus?: "lineage" | "family" | 
   if (id) {
     const node = data.byId.get(id)?.data;
     if (node) {
-      renderDetail(node);
+      renderDetail(node, { focus: opts.focusDetail });
       announce(node);
     }
     if (focus === "lineage") handle.focusNode(id);
@@ -170,7 +174,20 @@ function renderFamilies() {
 renderFamilies();
 
 // ============ Detail panel ============
-function renderDetail(node: CoreNode | null) {
+/**
+ * Re-renders the panel. The panel is rebuilt with innerHTML, so if focus was
+ * inside it (a chip, lineage link or family tag), or the caller asks, focus
+ * moves to the new heading instead of falling back to <body>.
+ */
+function renderDetail(node: CoreNode | null, opts: { focus?: boolean } = {}) {
+  const keepFocus = opts.focus || detailBody.contains(document.activeElement);
+  paintDetail(node);
+  if (keepFocus) {
+    detailBody.querySelector<HTMLElement>("h2")?.focus({ preventScroll: true });
+  }
+}
+
+function paintDetail(node: CoreNode | null) {
   if (!node) {
     const starters = STARTERS.map((id) => data.byId.get(id)?.data)
       .filter((n): n is CoreNode => !!n)
@@ -181,7 +198,7 @@ function renderDetail(node: CoreNode | null) {
       .join("");
     detailBody.innerHTML = `
       <div class="intro">
-        <h2>Where did your language come from?</h2>
+        <h2 tabindex="-1">Where did your language come from?</h2>
         <p>Pick any line in the tree, search above, or start with one of these to trace it back to its oldest known ancestor.</p>
         <div class="chips">${starters}</div>
       </div>
@@ -249,7 +266,7 @@ function renderDetail(node: CoreNode | null) {
   detailBody.innerHTML = `
     <header class="detail-head">
       ${fam && fam.id !== node.id ? `<button type="button" class="family-tag" data-family="${escapeAttr(fam.id)}"><span class="dot" style="background:${famColor}"></span>${escapeHtml(fam.label)}</button>` : ""}
-      <h2>${escapeHtml(node.name)}</h2>
+      <h2 tabindex="-1">${escapeHtml(node.name)}</h2>
       <div class="period">${formatPeriod(node)}</div>
       <span class="pill status-${node.status}">${statusLabel(node.status)}</span>
     </header>
@@ -397,10 +414,10 @@ function setAcIndex(i: number) {
 function pickAutocomplete(i: number) {
   const node = acMatches[i];
   if (!node) return;
-  setSelection(node.id);
   searchEl.value = node.name;
   hideAutocomplete();
-  searchEl.blur();
+  // Hand focus to the result so keyboard users land on what they picked.
+  setSelection(node.id, { focusDetail: true });
 }
 
 searchEl.addEventListener("keydown", (e) => {

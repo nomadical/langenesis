@@ -2,16 +2,6 @@
   "detector": {
     "ignoreRules": [],
     "ignoreFiles": [],
-    "ignoreValues": [
-      {
-        "rule": "layout-transition",
-        "value": "*",
-        "files": [
-          "public/style.css"
-        ],
-        "createdAt": "2026-09-25T12:33:09.868Z",
-        "reason": "model decided: only match is 'transition: stroke-width' on SVG .node-arc lines (L364); stroke-width is a paint property and does not trigger layout"
-      }
-    ]
+    "ignoreValues": []
   }
 }

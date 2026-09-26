@@ -5,6 +5,7 @@ colors:
   night: "#0a0d14"
   night-panel: "#131826"
   night-panel-raised: "#1a2030"
+  ink-bright: "#fff"
   ink: "rgba(232, 236, 245, 0.95)"
   ink-dim: "rgba(232, 236, 245, 0.66)"
   ink-faint: "rgba(232, 236, 245, 0.52)"
@@ -12,6 +13,7 @@ colors:
   hairline: "rgba(255, 255, 255, 0.08)"
   hairline-strong: "rgba(255, 255, 255, 0.16)"
   era-ring: "rgba(180, 200, 230, 0.1)"
+  era-ring-today: "rgba(180, 200, 230, 0.16)"
   signal-blue: "#7cc4ff"
   status-living: "#8fd6a3"
   status-extinct: "#c79bff"
@@ -157,12 +159,13 @@ Deep night navy surfaces, translucent ink for text, one signal blue for interact
 - **Status tints** (`status-*`): Living (sage green), Extinct (lavender), Reconstructed (slate), Classical (amber). Used only as the status pill's text colour over a 14% tint of itself.
 
 ### Neutral
-- **Night** (`night`): the page ground, with a soft radial glow (`#141d31`) behind the map.
+- **Night** (`night`): the page ground, flat and unlit. No gradients or glows behind the map; the lines are the only light.
 - **Night Panel** (`night-panel`): inputs, chips, tooltips, zoom controls.
 - **Night Panel Raised** (`night-panel-raised`): hover and active rows, scrollbar thumb.
 - **Ink ramp** (`ink`, `ink-dim`, `ink-faint`, `ink-ghost`): one near-white at four opacities for primary text, secondary text, metadata, and ghost strokes such as root edges. `ink-faint` is the lowest opacity allowed for text: at 0.52 it clears 4.5:1 on every surface, including raised rows (4.7:1). `ink-ghost` is never used for text.
 - **Hairlines** (`hairline`, `hairline-strong`): panel dividers and control borders.
-- **Era Ring** (`era-ring`): the dotted time rings; the "Today" ring is solid at 16%.
+- **Ink Bright** (`ink-bright`): pure white, only for the current item: the selected map label, the active family row, and the current stop on the lineage line.
+- **Era Ring** (`era-ring`, `era-ring-today`): the dotted time rings, and the solid "Today" ring. The canvas reads these, and the ink tokens, from the stylesheet, so the map and the chrome never drift apart.
 
 ### Named Rules
 **The Lines Own Colour Rule.** Saturated colour belongs to the map's family lines and to status. Chrome stays navy and ink; a coloured panel, button or heading is a mistake.
@@ -274,7 +277,7 @@ The detail panel draws the selected language's ancestry as a metro line.
 - **Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out. Under `prefers-reduced-motion`, keep colour and opacity feedback and drop anything that travels.
 
 ### Don't:
-- **Don't** add glows, drop shadows or gradients to the map.
+- **Don't** add glows, drop shadows or gradients to the map or the page behind it.
 - **Don't** use a family line colour for chrome, buttons or headings.
 - **Don't** put uppercase eyebrow labels above headings; uppercase is for band labels only.
 - **Don't** scale label text with zoom or show labels that collide.
