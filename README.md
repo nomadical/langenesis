@@ -1,6 +1,16 @@
 # Langenesis
 
-An interactive radial time-tree of the world's languages, rendered as a metro-map.
+**Where did your language come from?** An interactive radial time-tree of the world's languages, rendered as a metro-map.
+
+### [▶ Try it live — nomadical.github.io/langenesis](https://nomadical.github.io/langenesis/)
+
+[![Langenesis showing the lineage of English, from Proto-Indo-European through Old and Middle English](docs/screenshot.png)](https://nomadical.github.io/langenesis/)
+
+[![Validate](https://github.com/nomadical/langenesis/actions/workflows/validate.yml/badge.svg)](https://github.com/nomadical/langenesis/actions/workflows/validate.yml)
+![Languages](https://img.shields.io/badge/languages-690-4c9aff)
+![Families](https://img.shields.io/badge/families-52-7bc96f)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
+[![Data: CC BY-SA 4.0](https://img.shields.io/badge/data-CC%20BY--SA%204.0-lightgrey)](LICENSE-DATA)
 
 Each color is one language family. Radial distance is time — inner is older, outer is today. Reconstructed proto-languages are drawn dotted. Click a language to see its full lineage from its proto-ancestor down through every historical stage to the modern form.
 
@@ -13,6 +23,8 @@ Almost every diagram of language evolution is either a static poster (beautiful 
 52 families and isolates, 690 nodes (living languages, historical stages, and reconstructed proto-languages) spanning Africa, Eurasia, Oceania, and the Americas. Each node has dates, a status (living / classical / extinct / reconstructed), at least one source, and a Glottolog code where one could be verified.
 
 The dataset is hand-curated. Coverage aims at every family with a million-plus speakers plus notable isolates and attested historical stages. It is not exhaustive (Glottolog lists ~8,000 languoids). Contributions welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+If you find it useful or just fun to explore, a ⭐ helps other people find it.
 
 ## Run it locally
 
