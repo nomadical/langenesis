@@ -97,10 +97,17 @@ const FAMILY_COLORS: Record<string, string> = {
   "proto-turkic": "#9b7bc4",
   "proto-uralic": "#7fcbe0",
 };
-const ROOT_STROKE = "#e1e8f5";
-const RING_STROKE = "rgba(180, 200, 230, 0.1)";
-const TODAY_STROKE = "rgba(180, 200, 230, 0.16)";
-const GHOST_STROKE = "rgba(232, 236, 245, 0.2)";
+// Canvas colours come from the stylesheet's tokens (DESIGN.md), with the
+// same values as fallbacks if the stylesheet has not loaded.
+function cssToken(name: string, fallback: string): string {
+  if (typeof document === "undefined") return fallback;
+  const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  return v || fallback;
+}
+const ROOT_STROKE = cssToken("--fg", "rgba(232, 236, 245, 0.95)");
+const RING_STROKE = cssToken("--ring", "rgba(180, 200, 230, 0.1)");
+const TODAY_STROKE = cssToken("--ring-today", "rgba(180, 200, 230, 0.16)");
+const GHOST_STROKE = cssToken("--fg-ghost", "rgba(232, 236, 245, 0.2)");
 
 const reducedMotion =
   typeof window !== "undefined" &&

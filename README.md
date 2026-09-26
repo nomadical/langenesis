@@ -41,7 +41,7 @@ src/
   data/                   schema, loader, tests
   viz/radial-tree.ts      D3 visualization
   main.ts                 UI: sidebar, search, detail panel, keyboard
-public/style.css          all styling
+src/styles.css            all styling (bundled by Vite)
 tests/                    vitest — runs on every PR via CI
 .github/workflows/        validate.yml (typecheck + tests)
 .github/ISSUE_TEMPLATE/   issue forms (add language, correct date, …)

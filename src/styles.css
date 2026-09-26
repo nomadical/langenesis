@@ -2,6 +2,7 @@
   --bg: #0a0d14;
   --bg-elev: #131826;
   --bg-elev-2: #1a2030;
+  --fg-bright: #fff;
   --fg: rgba(232, 236, 245, 0.95);
   --fg-dim: rgba(232, 236, 245, 0.66);
   --fg-faint: rgba(232, 236, 245, 0.52);
@@ -10,6 +11,7 @@
   --border: rgba(255, 255, 255, 0.08);
   --border-strong: rgba(255, 255, 255, 0.16);
   --ring: rgba(180, 200, 230, 0.1);
+  --ring-today: rgba(180, 200, 230, 0.16);
   --status-living: #8fd6a3;
   --status-extinct: #c79bff;
   --status-reconstructed: #9aa6bd;
@@ -28,7 +30,7 @@
 }
 
 * { box-sizing: border-box; }
-::selection { background: rgba(124, 196, 255, 0.3); color: #fff; }
+::selection { background: rgba(124, 196, 255, 0.3); color: var(--fg-bright); }
 
 html, body {
   margin: 0;
@@ -38,9 +40,7 @@ html, body {
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background:
-    radial-gradient(ellipse 1200px 700px at 50% 45%, #141d31 0%, transparent 70%),
-    var(--bg);
+  background: var(--bg);
 }
 
 button { font: inherit; color: inherit; }
@@ -288,7 +288,7 @@ kbd {
 }
 .family-btn:hover { background: var(--bg-elev); }
 .family-list li.active .family-btn { background: var(--bg-elev-2); }
-.family-list li.active .family-name { color: #fff; font-weight: 600; }
+.family-list li.active .family-name { color: var(--fg-bright); font-weight: 600; }
 .family-swatch {
   width: 10px;
   height: 10px;
@@ -362,7 +362,7 @@ kbd {
 }
 .node-label.hover,
 .node-label.lineage { fill: var(--fg); }
-.node-label.selected { font-weight: 700; fill: #fff; }
+.node-label.selected { font-weight: 700; fill: var(--fg-bright); }
 
 /* Focus mode: a selection fades labels outside its lineage and family. */
 #viz.has-selection .node-label:not(.lineage):not(.same-family) { opacity: 0.1; }
@@ -503,6 +503,11 @@ kbd {
 }
 .chip:hover { border-color: var(--c); background: var(--bg-elev-2); }
 
+.detail-body h2:focus { outline: none; }
+.detail-body h2:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
 .detail-head h2 {
   margin: 0 0 4px;
   font-size: 1.5rem;
@@ -611,7 +616,7 @@ kbd {
 .line li.current::after { background: var(--c); }
 .line li:last-child { padding-bottom: 0; }
 .stop-name { font-size: 0.8438rem; }
-.line li.current .stop-name { font-weight: 650; color: #fff; }
+.line li.current .stop-name { font-weight: 650; color: var(--fg-bright); }
 .stop-period {
   font-size: 0.7188rem;
   color: var(--fg-faint);
