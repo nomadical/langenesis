@@ -16,7 +16,7 @@
       <circle cx="12" cy="12" r="7" fill="none" stroke="currentColor" stroke-width="1" opacity="0.55"/>
       <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1" opacity="0.25"/>
     </svg>
-    <span class="brand-name">Langenesis</span>
+    <h1 class="brand-name">Langenesis</h1>
     <span class="brand-tag">an interactive language family tree</span>
   </div>
   <div class="search-wrap">
@@ -37,9 +37,9 @@
 </header>
 
 <main id="app">
-  <aside class="left-panel">
+  <aside class="left-panel" aria-label="Legend and language families">
     <section class="panel-section legend">
-      <h3 class="panel-title">How to read it</h3>
+      <h2 class="panel-title">How to read it</h2>
       <ul class="legend-list">
         <li>
           <svg viewBox="0 0 40 40" aria-hidden="true">
@@ -63,23 +63,29 @@
       </ul>
     </section>
     <section class="panel-section">
-      <h3 class="panel-title">Families <span id="family-count" class="panel-count"></span></h3>
+      <h2 class="panel-title">Families <span id="family-count" class="panel-count"></span></h2>
       <ul id="families" class="family-list"></ul>
     </section>
   </aside>
 
   <div class="viz-wrap">
-    <svg id="viz" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Radial time-tree of language families"></svg>
+    <svg id="viz" xmlns="http://www.w3.org/2000/svg" tabindex="0" role="application"
+      aria-label="Radial time-tree of language families" aria-describedby="viz-help"></svg>
+    <p id="viz-help" class="visually-hidden">
+      Arrow keys move through the tree: left and right between sibling languages, up to the parent, down to the first descendant.
+      Plus and minus zoom, zero shows the whole tree, Escape clears the selection.
+    </p>
     <div class="zoom-controls" role="group" aria-label="Zoom">
       <button id="zoom-in" type="button" aria-label="Zoom in"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg></button>
       <button id="zoom-out" type="button" aria-label="Zoom out"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10"/></svg></button>
       <button id="zoom-reset" type="button" aria-label="Show whole tree"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 6V2.5H6M10 2.5h3.5V6M13.5 10v3.5H10M6 13.5H2.5V10"/></svg></button>
     </div>
-    <div id="tooltip" class="tooltip" role="tooltip"></div>
+    <div id="tooltip" class="tooltip" aria-hidden="true"></div>
   </div>
 
-  <aside id="detail" class="detail">
-    <div id="detail-body" class="detail-body" aria-live="polite"></div>
+  <aside id="detail" class="detail" aria-label="Language details">
+    <div id="detail-body" class="detail-body"></div>
+    <div id="announcer" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
   </aside>
 </main>
 

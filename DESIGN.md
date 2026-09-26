@@ -7,7 +7,7 @@ colors:
   night-panel-raised: "#1a2030"
   ink: "rgba(232, 236, 245, 0.95)"
   ink-dim: "rgba(232, 236, 245, 0.66)"
-  ink-faint: "rgba(232, 236, 245, 0.46)"
+  ink-faint: "rgba(232, 236, 245, 0.52)"
   ink-ghost: "rgba(232, 236, 245, 0.2)"
   hairline: "rgba(255, 255, 255, 0.08)"
   hairline-strong: "rgba(255, 255, 255, 0.16)"
@@ -28,25 +28,30 @@ colors:
   line-japonic: "#ff8ba0"
   line-koreanic: "#c49a6c"
 typography:
+  brand:
+    fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 650
+    letterSpacing: "0.02em"
   headline:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "24px"
+    fontSize: "1.5rem"
     fontWeight: 650
     lineHeight: 1.2
     letterSpacing: "-0.01em"
   title:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "19px"
+    fontSize: "1.1875rem"
     fontWeight: 650
     lineHeight: 1.3
   body:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "13.5px"
+    fontSize: "0.84375rem"
     fontWeight: 400
     lineHeight: 1.6
   label:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "12px"
+    fontSize: "0.75rem"
     fontWeight: 600
     letterSpacing: "0.02em"
   map-label:
@@ -64,12 +69,12 @@ typography:
     letterSpacing: "0.09em"
   data:
     fontFamily: "ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
-    fontSize: "11.5px"
+    fontSize: "0.71875rem"
     fontWeight: 400
     fontFeature: "tnum"
   code:
     fontFamily: "ui-monospace, SFMono-Regular, Menlo, monospace"
-    fontSize: "12px"
+    fontSize: "0.75rem"
 rounded:
   xs: "3px"
   sm: "4px"
@@ -118,7 +123,7 @@ components:
   tooltip:
     backgroundColor: "{colors.night-panel}"
     textColor: "{colors.ink}"
-    rounded: "7px"
+    rounded: "{rounded.lg}"
     padding: "8px 11px"
 ---
 
@@ -155,7 +160,7 @@ Deep night navy surfaces, translucent ink for text, one signal blue for interact
 - **Night** (`night`): the page ground, with a soft radial glow (`#141d31`) behind the map.
 - **Night Panel** (`night-panel`): inputs, chips, tooltips, zoom controls.
 - **Night Panel Raised** (`night-panel-raised`): hover and active rows, scrollbar thumb.
-- **Ink ramp** (`ink`, `ink-dim`, `ink-faint`, `ink-ghost`): one near-white at four opacities for primary text, secondary text, metadata, and ghost strokes such as root edges.
+- **Ink ramp** (`ink`, `ink-dim`, `ink-faint`, `ink-ghost`): one near-white at four opacities for primary text, secondary text, metadata, and ghost strokes such as root edges. `ink-faint` is the lowest opacity allowed for text: at 0.52 it clears 4.5:1 on every surface, including raised rows (4.7:1). `ink-ghost` is never used for text.
 - **Hairlines** (`hairline`, `hairline-strong`): panel dividers and control borders.
 - **Era Ring** (`era-ring`): the dotted time rings; the "Today" ring is solid at 16%.
 
@@ -169,17 +174,18 @@ Deep night navy surfaces, translucent ink for text, one signal blue for interact
 **Body Font:** system UI sans (`ui-sans-serif`, `system-ui`, with platform fallbacks)
 **Code Font:** system monospace, only for ISO and Glottolog codes
 
-**Character:** one familiar sans at product sizes, weight-driven hierarchy (400 / 500 / 600 / 650 / 700), tabular numerals wherever years or counts align.
+**Character:** one familiar sans at product sizes, weight-driven hierarchy (400 / 500 / 600 / 650 / 700), tabular numerals wherever years or counts align. Chrome type is set in `rem`, so it follows the visitor's browser font size; map type is in `px` because the canvas layout measures it in pixels.
 
 ### Hierarchy
-- **Headline** (650, 24px, 1.2, −0.01em): the selected language's name in the detail panel.
-- **Title** (650, 19px, 1.3): the empty-state question, "Where did your language come from?"
-- **Body** (400, 13.5px, 1.6): notes and intro copy in the detail panel.
-- **Label** (600, 12px, +0.02em, sentence case): section titles such as "Lineage", "Sources", "Families".
+- **Brand** (650, 1rem, +0.02em): the "Langenesis" wordmark in the header, the page's `h1`.
+- **Headline** (650, 1.5rem, 1.2, −0.01em): the selected language's name in the detail panel.
+- **Title** (650, 1.1875rem, 1.3): the empty-state question, "Where did your language come from?"
+- **Body** (400, 0.84375rem, 1.6): notes and intro copy in the detail panel.
+- **Label** (600, 0.75rem, +0.02em, sentence case): section titles such as "Lineage", "Sources", "Families".
 - **Map label** (500, 12.5px, with a 3.5px night-coloured halo): leaf language names on the tree, radial, reading outward.
 - **Map stage** (500 italic, 11px, ink-dim): historical stages and proto-languages beside their arc; they appear from about 1.9× zoom.
 - **Band label** (650, 11px, +0.09em, uppercase): family names set along the outer band in the family colour.
-- **Data** (400, 11.5px, tabular): periods, counts, tooltip metadata.
+- **Data** (400, 0.71875rem, tabular): periods, counts, tooltip metadata.
 
 ### Named Rules
 **The Fixed Pixel Rule.** Map text never scales with zoom. Labels keep their pixel size, and level of detail decides which ones appear.
@@ -194,6 +200,7 @@ A full-viewport app shell: header, a three-column main area, and a footer bar, w
 - **Medium (≤1180px):** columns tighten to 210px / 300px, and the brand tagline hides.
 - **Mobile (≤860px):** the left panel hides, the map fills the width, and the detail panel docks below it at up to 38vh. The header keeps the brand mark and search. Zoom controls stay bottom-right.
 - **Map geometry:** tree radius 440 units, inner radius 56; an 18° empty wedge at 12 o'clock holds the era labels; 1.8 leaf-slots of padding separate families. The scale is solved from the viewport, so the leaf labels and family band always fit at zoom 1.
+- **Touch:** on coarse pointers every control has a 44px tap area. Zoom buttons and search grow to 44px; chips keep their look and extend an invisible hit area.
 - **Rhythm:** tight groups (6–10px), generous separation (24–28px between panel sections), more space above a section title than below.
 
 ## Elevation & Depth
@@ -210,7 +217,7 @@ Flat by default. Depth comes from tonal layering (night → panel → raised) an
 
 ## Shapes
 
-Gently rounded, never soft. Controls use 6–8px corners (`md`, `lg`), small tags 3–4px (`xs`, `sm`), and only chips are fully round (`pill`). Family swatches and stops are perfect circles. On the map, arcs have round caps; reconstructed arcs are round dots (stroke dash 0.1 × 5.5 units), secondary edges for mixed languages are dashes, and root edges are dotted one-pixel hairlines.
+Gently rounded, never soft. Controls use 6–8px corners (`md`, `lg`), small tags 3–4px (`xs`, `sm`), and only chips and the lineage track are fully round (`pill`). No other radii. Family swatches and stops are perfect circles. On the map, arcs have round caps; reconstructed arcs are round dots (stroke dash 0.1 × 5.5 units), secondary edges for mixed languages are dashes, and root edges are dotted one-pixel hairlines.
 
 ## Components
 
@@ -239,7 +246,7 @@ Quiet and central.
 - **Style:** 11.5px semi-bold text in the status colour over a 14% tint of the same colour, `sm` radius. There are four variants: Living, Extinct, Reconstructed, Classical.
 
 ### Tooltip
-- **Style:** night panel at 97%, strong hairline, 7px radius, Tooltip shadow. Name (600), period (tabular, ink-dim), status and speakers (ink-faint), and the family with its dot.
+- **Style:** night panel at 97%, strong hairline, `lg` radius, Tooltip shadow. Mouse-only and hidden from assistive technology; the detail panel carries the same facts. Name (600), period (tabular, ink-dim), status and speakers (ink-faint), and the family with its dot.
 - **Motion:** a 120ms fade with a 4px rise.
 
 ### Lineage Line (signature)
@@ -254,6 +261,7 @@ The detail panel draws the selected language's ancestry as a metro line.
 - **Focus mode:** a selection dims other families to 12% (arcs) and 8% (edges), keeps the same family at 60% / 45%, and draws the lineage at full strength on top. Hovering a family dims the others to 10%.
 - **Family band:** a 3-unit ring outside the leaf labels in each family colour. Hover brings it to full opacity; click zooms to the family.
 - **Intro:** arcs sweep outward, staggered 60ms per depth level (420ms, cubic ease-out). This is the only choreographed moment, and it is skipped under reduced motion.
+- **Keyboard:** the map is focusable (Signal Blue inset ring). Arrow keys walk the tree (left/right siblings in clockwise order, up to the parent, down to the first descendant, Home to the family), `+`/`-` zoom, `0` resets. Each selection is announced as one short sentence through a polite live region, never the whole panel.
 
 ## Do's and Don'ts
 
@@ -263,7 +271,7 @@ The detail panel draws the selected language's ancestry as a metro line.
 - **Do** keep map text at fixed pixel sizes (12.5px leaves, 11px stages, 11px band) and let level of detail decide what shows.
 - **Do** draw reconstructed proto-languages dotted and undemonstrated relationships as ghost hairlines.
 - **Do** use tabular numerals for every year, period and count.
-- **Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out, and honour `prefers-reduced-motion`.
+- **Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out. Under `prefers-reduced-motion`, keep colour and opacity feedback and drop anything that travels.
 
 ### Don't:
 - **Don't** add glows, drop shadows or gradients to the map.

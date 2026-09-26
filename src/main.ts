@@ -16,6 +16,7 @@ const acEl = mustGet<HTMLUListElement>("autocomplete");
 const statusEl = mustGet<HTMLSpanElement>("status");
 const familiesEl = mustGet<HTMLUListElement>("families");
 const familyCountEl = mustGet<HTMLSpanElement>("family-count");
+const announcerEl = mustGet<HTMLDivElement>("announcer");
 
 const data = loadData();
 const allNodes = [...data.byId.values()]
@@ -89,23 +90,42 @@ function setSelection(id: string | null, opts: { focus?: "lineage" | "family" | 
   const focus = opts.focus ?? "lineage";
   if (id) {
     const node = data.byId.get(id)?.data;
-    if (node) renderDetail(node);
+    if (node) {
+      renderDetail(node);
+      announce(node);
+    }
     if (focus === "lineage") handle.focusNode(id);
     else if (focus === "family") handle.focusFamily(data.familyOf.get(id) ?? id);
   } else {
     renderDetail(null);
 
-// Fetch the reference material once the tree is on screen.
-requestAnimationFrame(() =>
-  setTimeout(async () => {
-    details = (await import("virtual:language-details")).default;
-    const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
-    if (node) renderDetail(node);
-  }, 0),
-);
+// Fetch the reference material on the first sign of intent: a click, a key,
+// focus, or the pointer moving over the map. Pure viewers never download it.
+let detailsRequested = false;
+async function loadDetails() {
+  if (detailsRequested) return;
+  detailsRequested = true;
+  details = (await import("virtual:language-details")).default;
+  const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
+  if (node) renderDetail(node);
+}
+for (const type of ["pointerdown", "keydown", "focusin"] as const) {
+  document.addEventListener(type, loadDetails, { once: true, passive: true });
+}
+svgEl.addEventListener("pointermove", loadDetails, { once: true, passive: true });
     if (focus !== "none") handle.resetZoom();
   }
   updateFamilyActive();
+}
+
+/** One short sentence for screen readers instead of the whole panel. */
+function announce(node: CoreNode) {
+  const fam = familyOfNode(node.id);
+  const stages = handle.lineageOf(node.id).length;
+  const parts = [node.name, formatPeriod(node), statusLabel(node.status)];
+  if (fam && fam.id !== node.id) parts.push(`${fam.label} family`);
+  if (stages > 1) parts.push(`${stages} stages in its lineage`);
+  announcerEl.textContent = `${parts.join(". ")}.`;
 }
 
 function selectFamily(familyId: string) {
@@ -268,6 +288,55 @@ mustGet<HTMLButtonElement>("zoom-reset").addEventListener("click", () =>
   setSelection(null),
 );
 
+// ============ Keyboard navigation on the map ============
+// Arrow keys walk the tree: left/right between siblings (clockwise order),
+// up to the parent, down to the first descendant; Home jumps to the family.
+function neighbour(id: string | null, key: string): string | null {
+  if (!id) return data.families[0]?.id ?? null;
+  const node = data.byId.get(id);
+  if (!node) return null;
+  const parentId = node.data.parents[0];
+  if (key === "ArrowUp") return parentId ?? null;
+  if (key === "ArrowDown") return node.children[0]?.data.id ?? null;
+  if (key === "Home") return data.familyOf.get(id) ?? null;
+  const siblings = parentId
+    ? data.byId.get(parentId)!.children.map((c) => c.data.id)
+    : data.families.map((f) => f.id);
+  const i = siblings.indexOf(id);
+  if (i === -1 || siblings.length < 2) return null;
+  const step = key === "ArrowRight" ? 1 : -1;
+  return siblings[(i + step + siblings.length) % siblings.length];
+}
+
+svgEl.addEventListener("keydown", (e) => {
+  if (e.altKey || e.metaKey || e.ctrlKey) return;
+  switch (e.key) {
+    case "+":
+    case "=":
+      handle.zoomBy(1.6);
+      break;
+    case "-":
+    case "_":
+      handle.zoomBy(1 / 1.6);
+      break;
+    case "0":
+      setSelection(null);
+      break;
+    case "ArrowLeft":
+    case "ArrowRight":
+    case "ArrowUp":
+    case "ArrowDown":
+    case "Home": {
+      const next = neighbour(selectedId, e.key);
+      if (next) setSelection(next);
+      break;
+    }
+    default:
+      return;
+  }
+  e.preventDefault();
+});
+
 // ============ Autocomplete ============
 let searchDebounce: number | undefined;
 searchEl.addEventListener("input", () => {
@@ -290,6 +359,7 @@ function updateAutocomplete() {
     const li = document.createElement("li");
     li.id = `ac-${i}`;
     li.setAttribute("role", "option");
+    li.setAttribute("aria-selected", String(i === acIndex));
     if (i === acIndex) li.classList.add("active");
     const fam = familyOfNode(node.id);
     li.innerHTML = `
@@ -320,6 +390,7 @@ function setAcIndex(i: number) {
   acIndex = i;
   acEl.querySelectorAll("li").forEach((li, idx) => {
     li.classList.toggle("active", idx === i);
+    li.setAttribute("aria-selected", String(idx === i));
   });
   searchEl.setAttribute("aria-activedescendant", `ac-${i}`);
 }
@@ -428,11 +499,17 @@ function escapeAttr(s: string): string {
 
 renderDetail(null);
 
-// Fetch the reference material once the tree is on screen.
-requestAnimationFrame(() =>
-  setTimeout(async () => {
-    details = (await import("virtual:language-details")).default;
-    const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
-    if (node) renderDetail(node);
-  }, 0),
-);
+// Fetch the reference material on the first sign of intent: a click, a key,
+// focus, or the pointer moving over the map. Pure viewers never download it.
+let detailsRequested = false;
+async function loadDetails() {
+  if (detailsRequested) return;
+  detailsRequested = true;
+  details = (await import("virtual:language-details")).default;
+  const node = selectedId ? data.byId.get(selectedId)?.data : undefined;
+  if (node) renderDetail(node);
+}
+for (const type of ["pointerdown", "keydown", "focusin"] as const) {
+  document.addEventListener(type, loadDetails, { once: true, passive: true });
+}
+svgEl.addEventListener("pointermove", loadDetails, { once: true, passive: true });

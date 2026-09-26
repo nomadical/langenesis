@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-25T13:28:04.727149+00:00",
+  "generatedAt": "2026-09-25T14:03:34.377024+00:00",
   "title": "Design System: Langenesis",
   "extensions": {
     "colorMeta": {
@@ -181,6 +181,10 @@
       "code": {
         "displayName": "Code",
         "purpose": "ISO 639-3 and Glottolog codes only."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "The Langenesis wordmark, the page h1."
       }
     },
     "shadows": [
@@ -239,7 +243,7 @@
       "refersTo": "search-input",
       "description": "Central search with key hint; Signal Blue focus ring.",
       "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"m10.5 10.5 3 3\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg><input placeholder=\"Search nearly 700 languages\"/></label>",
-      "css": ".ds-search{position:relative;display:block;width:320px}.ds-search svg{position:absolute;left:12px;top:50%;width:15px;height:15px;transform:translateY(-50%);color:rgba(232,236,245,.46)}.ds-search input{width:100%;background:#131826;border:1px solid rgba(255,255,255,.16);color:rgba(232,236,245,.95);padding:9px 14px 9px 34px;border-radius:8px;font:14px system-ui,sans-serif;transition:border-color 150ms,box-shadow 150ms}.ds-search input:hover{border-color:rgba(255,255,255,.24)}.ds-search input:focus{outline:none;border-color:#7cc4ff;box-shadow:0 0 0 3px rgba(124,196,255,.15)}"
+      "css": ".ds-search{position:relative;display:block;width:320px}.ds-search svg{position:absolute;left:12px;top:50%;width:15px;height:15px;transform:translateY(-50%);color:rgba(232,236,245,.52)}.ds-search input{width:100%;background:#131826;border:1px solid rgba(255,255,255,.16);color:rgba(232,236,245,.95);padding:9px 14px 9px 34px;border-radius:8px;font:14px system-ui,sans-serif;transition:border-color 150ms,box-shadow 150ms}.ds-search input:hover{border-color:rgba(255,255,255,.24)}.ds-search input:focus{outline:none;border-color:#7cc4ff;box-shadow:0 0 0 3px rgba(124,196,255,.15)}"
     },
     {
       "name": "Chip",
@@ -247,7 +251,7 @@
       "refersTo": "chip",
       "description": "Language chip with family-colour dot.",
       "html": "<button class=\"ds-chip\" style=\"--c:#5b9bd5\">English</button>",
-      "css": ".ds-chip{--c:rgba(232,236,245,.46);display:inline-flex;align-items:center;gap:7px;padding:5px 10px 5px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.16);background:#131826;color:rgba(232,236,245,.95);font:12.5px system-ui,sans-serif;cursor:pointer;transition:border-color 120ms,background 120ms}.ds-chip::before{content:\"\";width:7px;height:7px;border-radius:50%;background:var(--c)}.ds-chip:hover{border-color:var(--c);background:#1a2030}.ds-chip:focus-visible{outline:2px solid #7cc4ff;outline-offset:2px}"
+      "css": ".ds-chip{--c:rgba(232,236,245,.52);display:inline-flex;align-items:center;gap:7px;padding:5px 10px 5px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.16);background:#131826;color:rgba(232,236,245,.95);font:12.5px system-ui,sans-serif;cursor:pointer;transition:border-color 120ms,background 120ms}.ds-chip::before{content:\"\";width:7px;height:7px;border-radius:50%;background:var(--c)}.ds-chip:hover{border-color:var(--c);background:#1a2030}.ds-chip:focus-visible{outline:2px solid #7cc4ff;outline-offset:2px}"
     },
     {
       "name": "Family Row",
@@ -255,7 +259,7 @@
       "refersTo": "family-row",
       "description": "Sidebar family button with swatch and leaf count.",
       "html": "<button class=\"ds-fam\"><span class=\"ds-sw\" style=\"background:#5b9bd5\"></span><span class=\"ds-n\">Indo-European</span><span class=\"ds-c\">138</span></button>",
-      "css": ".ds-fam{width:240px;display:flex;align-items:center;gap:9px;padding:5px 8px;border:0;background:none;border-radius:6px;color:rgba(232,236,245,.95);font:13px system-ui,sans-serif;text-align:left;cursor:pointer;transition:background 120ms}.ds-fam:hover{background:#131826}.ds-fam:focus-visible{outline:2px solid #7cc4ff;outline-offset:2px}.ds-sw{width:10px;height:10px;border-radius:50%}.ds-n{flex:1}.ds-c{color:rgba(232,236,245,.46);font-size:12px;font-variant-numeric:tabular-nums}"
+      "css": ".ds-fam{width:240px;display:flex;align-items:center;gap:9px;padding:5px 8px;border:0;background:none;border-radius:6px;color:rgba(232,236,245,.95);font:13px system-ui,sans-serif;text-align:left;cursor:pointer;transition:background 120ms}.ds-fam:hover{background:#131826}.ds-fam:focus-visible{outline:2px solid #7cc4ff;outline-offset:2px}.ds-sw{width:10px;height:10px;border-radius:50%}.ds-n{flex:1}.ds-c{color:rgba(232,236,245,.52);font-size:12px;font-variant-numeric:tabular-nums}"
     },
     {
       "name": "Zoom Controls",
@@ -278,7 +282,7 @@
       "kind": "custom",
       "description": "Ancestry drawn as a metro line in the family colour.",
       "html": "<ol class=\"ds-line\" style=\"--c:#5b9bd5\"><li class=\"r\"><a>Proto-Germanic</a><span>c. 500 BCE – 500 CE</span></li><li><a>Old English</a><span>450 CE – 1150 CE</span></li><li class=\"cur\"><b>English</b><span>1500 CE – today</span></li></ol>",
-      "css": ".ds-line{list-style:none;margin:0;padding:0;font:13.5px system-ui,sans-serif;color:rgba(232,236,245,.95)}.ds-line li{position:relative;padding:0 0 12px 22px;display:grid;gap:1px}.ds-line li::before{content:\"\";position:absolute;left:4px;top:8px;bottom:-6px;width:3px;border-radius:2px;background:var(--c);opacity:.55}.ds-line li:last-child::before{display:none}.ds-line li::after{content:\"\";position:absolute;left:0;top:4px;width:11px;height:11px;border-radius:50%;background:#0a0d14;border:2.5px solid var(--c);box-sizing:border-box}.ds-line li.r::after{border-style:dotted}.ds-line li.cur::after{background:var(--c)}.ds-line a{color:#7cc4ff;cursor:pointer}.ds-line a:hover{text-decoration:underline}.ds-line b{color:#fff;font-weight:650}.ds-line span{font-size:11.5px;color:rgba(232,236,245,.46);font-variant-numeric:tabular-nums}"
+      "css": ".ds-line{list-style:none;margin:0;padding:0;font:13.5px system-ui,sans-serif;color:rgba(232,236,245,.95)}.ds-line li{position:relative;padding:0 0 12px 22px;display:grid;gap:1px}.ds-line li::before{content:\"\";position:absolute;left:4px;top:8px;bottom:-6px;width:3px;border-radius:999px;background:var(--c);opacity:.55}.ds-line li:last-child::before{display:none}.ds-line li::after{content:\"\";position:absolute;left:0;top:4px;width:11px;height:11px;border-radius:50%;background:#0a0d14;border:2.5px solid var(--c);box-sizing:border-box}.ds-line li.r::after{border-style:dotted}.ds-line li.cur::after{background:var(--c)}.ds-line a{color:#7cc4ff;cursor:pointer}.ds-line a:hover{text-decoration:underline}.ds-line b{color:#fff;font-weight:650}.ds-line span{font-size:11.5px;color:rgba(232,236,245,.52);font-variant-numeric:tabular-nums}"
     },
     {
       "name": "Tooltip",
@@ -286,7 +290,7 @@
       "refersTo": "tooltip",
       "description": "Map hover tooltip.",
       "html": "<div class=\"ds-tip\"><div class=\"n\">English</div><div class=\"p\">1500 CE – today</div><div class=\"m\">Living · 1.5B speakers</div></div>",
-      "css": ".ds-tip{display:inline-block;background:rgba(20,25,36,.97);border:1px solid rgba(255,255,255,.16);padding:8px 11px;border-radius:7px;box-shadow:0 6px 18px rgba(0,0,0,.5);font:12px system-ui,sans-serif;color:rgba(232,236,245,.95)}.ds-tip .n{font-weight:600;font-size:13px}.ds-tip .p{color:rgba(232,236,245,.66);font-size:11.5px;font-variant-numeric:tabular-nums;margin-top:2px}.ds-tip .m{color:rgba(232,236,245,.46);font-size:11.5px;margin-top:2px}"
+      "css": ".ds-tip{display:inline-block;background:rgba(20,25,36,.97);border:1px solid rgba(255,255,255,.16);padding:8px 11px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.5);font:12px system-ui,sans-serif;color:rgba(232,236,245,.95)}.ds-tip .n{font-weight:600;font-size:13px}.ds-tip .p{color:rgba(232,236,245,.66);font-size:11.5px;font-variant-numeric:tabular-nums;margin-top:2px}.ds-tip .m{color:rgba(232,236,245,.52);font-size:11.5px;margin-top:2px}"
     }
   ],
   "narrative": {
@@ -331,7 +335,7 @@
       "**Do** keep map text at fixed pixel sizes (12.5px leaves, 11px stages, 11px band) and let level of detail decide what shows.",
       "**Do** draw reconstructed proto-languages dotted and undemonstrated relationships as ghost hairlines.",
       "**Do** use tabular numerals for every year, period and count.",
-      "**Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out, and honour `prefers-reduced-motion`."
+      "**Do** keep state transitions at 120–180ms ease-out and camera moves at 550–750ms cubic in-out. Under `prefers-reduced-motion`, keep colour and opacity feedback and drop anything that travels."
     ],
     "donts": [
       "**Don't** add glows, drop shadows or gradients to the map.",

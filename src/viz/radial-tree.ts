@@ -407,6 +407,8 @@ export function renderRadialTree(
   // ---------- View state ----------
   let W = 1;
   let H = 1;
+  let svgLeft = 0;
+  let svgTop = 0;
   let dpr = 1;
   let basePx = 1;
   let bandR = OUTER_R + 150;
@@ -753,6 +755,8 @@ export function renderRadialTree(
 
   function layoutFrame() {
     const rect = svgEl.getBoundingClientRect();
+    svgLeft = rect.left;
+    svgTop = rect.top;
     W = Math.max(rect.width, 1);
     H = Math.max(rect.height, 1);
     dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -794,9 +798,10 @@ export function renderRadialTree(
 
   // ---------- Hit testing ----------
   function hitTest(event: PointerEvent | MouseEvent): { arc?: Arc; family?: FamilyInfo } {
-    const rect = svgEl.getBoundingClientRect();
-    const bx = (event.clientX - rect.left - t.x) / t.k;
-    const by = (event.clientY - rect.top - t.y) / t.k;
+    // The map's page position is cached in layoutFrame, so hover never
+    // forces a layout read.
+    const bx = (event.clientX - svgLeft - t.x) / t.k;
+    const by = (event.clientY - svgTop - t.y) / t.k;
     const ux = (bx - W / 2) / basePx;
     const uy = (by - H / 2) / basePx;
     const r = Math.hypot(ux, uy);
@@ -909,6 +914,12 @@ export function renderRadialTree(
   rebuildStyles();
   layoutFrame();
   new ResizeObserver(() => layoutFrame()).observe(svgEl);
+  // The map can move without resizing (e.g. the header wraps).
+  window.addEventListener("resize", () => {
+    const rect = svgEl.getBoundingClientRect();
+    svgLeft = rect.left;
+    svgTop = rect.top;
+  });
 
   function transitionTo(target: d3.ZoomTransform, duration = 700) {
     svg
