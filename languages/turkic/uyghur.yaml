@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 10000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 3851
+  wiktionary_language: Uyghur
 sources:
   - https://en.wikipedia.org/wiki/Uyghur_language
   - https://glottolog.org/resource/languoid/id/uigh1240

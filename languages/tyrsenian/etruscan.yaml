@@ -9,6 +9,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 263
+  wiktionary_language: Etruscan
 sources:
   - https://en.wikipedia.org/wiki/Etruscan_language
   - https://glottolog.org/resource/languoid/id/etru1241

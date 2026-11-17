@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 800000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 81
+  wiktionary_language: Q'eqchi
 sources:
   - https://en.wikipedia.org/wiki/Q%27eqchi%27_language
   - https://glottolog.org/resource/languoid/id/kekc1242

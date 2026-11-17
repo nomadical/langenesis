@@ -7,8 +7,13 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 1987
+  wiktionary_language: Ainu
 sources:
   - https://en.wikipedia.org/wiki/Ainu_language
+  - https://glottolog.org/resource/languoid/id/ainu1240
 notes: |
   Isolate of Hokkaido (formerly also Sakhalin and the Kurils). Nearly extinct
   as a first language — only a handful of elderly speakers — with active

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 7200000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 6299
+  wiktionary_language: Afrikaans
 sources:
   - https://en.wikipedia.org/wiki/Afrikaans
   - https://glottolog.org/resource/languoid/id/afri1274

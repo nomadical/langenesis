@@ -8,7 +8,12 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 2000
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 910
+  wiktionary_language: Inupiaq
 sources:
   - https://en.wikipedia.org/wiki/I%C3%B1upiaq_language
+  - https://glottolog.org/resource/languoid/id/inup1234
 notes: |
   Alaskan Inuit, spoken on Alaska's North Slope and the Seward Peninsula.

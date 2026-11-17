@@ -7,6 +7,9 @@ period:
   end: 1500
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 3145
+  wiktionary_language: Old Polish
 sources:
   - https://en.wikipedia.org/wiki/Old_Polish_language
   - https://glottolog.org/resource/languoid/id/oldp1256

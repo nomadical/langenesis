@@ -8,6 +8,9 @@ period:
   end: -200
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 170
+  wiktionary_language: Phoenician
 sources:
   - https://en.wikipedia.org/wiki/Phoenician_language
   - https://glottolog.org/resource/languoid/id/phoe1239

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 600000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 2561
+  wiktionary_language: Walloon
 sources:
   - https://en.wikipedia.org/wiki/Walloon_language
   - https://glottolog.org/resource/languoid/id/wall1255

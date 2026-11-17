@@ -9,9 +9,17 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 15000000
+endangerment: vulnerable
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 3314
+  wiktionary_language: Northern Kurdish
 sources:
   - https://en.wikipedia.org/wiki/Kurmanji
   - https://glottolog.org/resource/languoid/id/nort2641
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Northern Kurdish, spoken in Turkey, Syria, northern Iraq, Iran and the diaspora;
   usually written in Latin script.

@@ -8,7 +8,9 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1000000
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Fang_language
+  - https://glottolog.org/resource/languoid/id/fang1246
 notes: |
   Northwest Bantu (Guthrie A75) language of Equatorial Guinea, Gabon and southern Cameroon.

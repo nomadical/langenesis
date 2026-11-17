@@ -6,6 +6,9 @@ period:
   start: -300
   end: 700
 status: classical
+vocabulary:
+  wiktionary_lemmas: 130
+  wiktionary_language: Old Tamil
 sources:
   - https://en.wikipedia.org/wiki/Old_Tamil_language
 notes: |

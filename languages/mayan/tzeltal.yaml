@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 32
+  wiktionary_language: Tzeltal
 sources:
   - https://en.wikipedia.org/wiki/Tzeltal_language
   - https://glottolog.org/resource/languoid/id/tzel1254

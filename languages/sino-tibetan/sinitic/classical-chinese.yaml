@@ -7,6 +7,9 @@ period:
   end: 1920
   start_uncertainty: 100
 status: classical
+vocabulary:
+  wiktionary_lemmas: 448
+  wiktionary_language: Classical Chinese
 sources:
   - https://en.wikipedia.org/wiki/Classical_Chinese
 notes: |

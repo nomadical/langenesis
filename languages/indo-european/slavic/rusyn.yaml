@@ -9,6 +9,7 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 600000
+endangerment: vulnerable
 sources:
   - https://en.wikipedia.org/wiki/Rusyn_language
   - https://glottolog.org/resource/languoid/id/rusy1239

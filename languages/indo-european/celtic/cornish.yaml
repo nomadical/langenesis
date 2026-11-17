@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 100
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 6421
+  wiktionary_language: Cornish
 sources:
   - https://en.wikipedia.org/wiki/Cornish_language
   - https://glottolog.org/resource/languoid/id/corn1251

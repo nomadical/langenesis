@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 70000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 7313
+  wiktionary_language: Faroese
 sources:
   - https://en.wikipedia.org/wiki/Faroese_language
   - https://glottolog.org/resource/languoid/id/faro1244

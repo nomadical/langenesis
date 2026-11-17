@@ -7,6 +7,9 @@ period:
   start: 900
   end: 1600
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 970
+  wiktionary_language: Middle Korean
 sources:
   - https://en.wikipedia.org/wiki/Middle_Korean
   - https://glottolog.org/resource/languoid/id/midd1372

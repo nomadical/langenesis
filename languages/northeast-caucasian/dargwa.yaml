@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 500000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 105
+  wiktionary_language: Dargwa
 sources:
   - https://en.wikipedia.org/wiki/Dargwa_language
+  - https://glottolog.org/resource/languoid/id/darg1241
 notes: |
   Dargwa is a cluster of often mutually unintelligible varieties in central
   Dagestan, arguably several languages. Start date is nominal.

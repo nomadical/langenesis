@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 20000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 340
+  wiktionary_language: Nheengatu
 sources:
   - https://en.wikipedia.org/wiki/Nheengatu_language
   - https://glottolog.org/resource/languoid/id/nhen1239

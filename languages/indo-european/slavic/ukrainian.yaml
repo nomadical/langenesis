@@ -9,8 +9,16 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 30000000
+endangerment: vulnerable
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 30867
+  wiktionary_language: Ukrainian
 sources:
   - https://en.wikipedia.org/wiki/Ukrainian_language
   - https://glottolog.org/resource/languoid/id/ukra1253
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Modern literary Ukrainian dates from Kotliarevsky's Eneida (1798).

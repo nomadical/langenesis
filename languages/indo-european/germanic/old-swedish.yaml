@@ -5,6 +5,9 @@ period:
   start: 1225
   end: 1526
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 1168
+  wiktionary_language: Old Swedish
 sources:
   - https://en.wikipedia.org/wiki/Old_Swedish
 notes: |

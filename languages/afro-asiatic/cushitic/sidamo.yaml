@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 4000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 291
+  wiktionary_language: Sidamo
 sources:
   - https://en.wikipedia.org/wiki/Sidama_language
   - https://glottolog.org/resource/languoid/id/sida1246

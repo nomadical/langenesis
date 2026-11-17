@@ -6,8 +6,13 @@ period:
   start: 1600
   end: present
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 18
+  wiktionary_language: Massachusett
 sources:
   - https://en.wikipedia.org/wiki/Massachusett_language
+  - https://glottolog.org/resource/languoid/id/wamp1249
 notes: |
   Language of John Eliot's 1663 Bible, the first Bible printed in the Americas.
   It had no speakers from the 19th century until the Wôpanâak Language

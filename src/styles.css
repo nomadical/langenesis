@@ -705,3 +705,91 @@ kbd {
   .band-label,
   .era-label { animation: none; }
 }
+
+/* ============ Status filter, endangerment, learning ============ */
+:root {
+  /* Endangerment, safe → critically endangered: one hue, rising lightness
+     (validated as an ordinal ramp against the panel surface). */
+  --risk-0: #6b4a42;
+  --risk-1: #94574a;
+  --risk-2: #bd6450;
+  --risk-3: #e27455;
+  --risk-4: #ff9a73;
+}
+
+.insights-link {
+  color: var(--fg-dim);
+  font-size: 0.8125rem;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  transition: color 120ms, border-color 120ms;
+}
+.insights-link:hover { color: var(--fg); border-color: var(--accent); }
+
+.map-filter {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  background: rgba(19, 24, 38, 0.92);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+.map-filter button {
+  border: 0;
+  background: none;
+  color: var(--fg-dim);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 120ms, color 120ms;
+}
+.map-filter button:hover { color: var(--fg); }
+.map-filter button[aria-pressed="true"] { background: var(--bg-elev-2); color: var(--fg-bright); }
+.filter-count { color: var(--fg-faint); font-weight: 400; font-variant-numeric: tabular-nums; }
+#viz .node-label.filtered-out { opacity: 0.12; }
+
+.risk {
+  display: inline-flex;
+  gap: 2px;
+  margin-right: 8px;
+  vertical-align: 1px;
+}
+.risk-step {
+  width: 10px;
+  height: 6px;
+  border-radius: 2px;
+  background: var(--bg-elev-2);
+}
+.risk-step.on { background: var(--c); }
+
+.learn {
+  display: block;
+  height: 4px;
+  margin: 6px 0 6px;
+  border-radius: 2px;
+  background: var(--bg-elev-2);
+}
+.learn-bar {
+  display: block;
+  height: 100%;
+  width: var(--w);
+  border-radius: 2px;
+  background: var(--accent);
+}
+.detail-body dd a { color: inherit; text-underline-offset: 2px; }
+
+@media (max-width: 860px) {
+  .map-filter { left: 12px; top: 10px; right: 12px; overflow-x: auto; width: max-content; max-width: calc(100% - 24px); }
+}
+@media (pointer: coarse) {
+  .map-filter button { min-height: 36px; }
+}

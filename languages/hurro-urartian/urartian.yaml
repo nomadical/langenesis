@@ -9,6 +9,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 5
+  wiktionary_language: Urartian
 sources:
   - https://en.wikipedia.org/wiki/Urartian_language
   - https://glottolog.org/resource/languoid/id/urar1245

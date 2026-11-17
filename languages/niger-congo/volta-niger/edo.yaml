@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 66
+  wiktionary_language: Edo
 sources:
   - https://en.wikipedia.org/wiki/Edo_language
+  - https://glottolog.org/resource/languoid/id/bini1246
 notes: |
   Edoid language of Benin City, Nigeria, the language of the Kingdom of Benin.

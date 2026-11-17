@@ -7,6 +7,7 @@ period:
   start: 1600
   end: present
 status: living
+endangerment: vulnerable
 sources:
   - https://en.wikipedia.org/wiki/Cusco_Quechua
   - https://glottolog.org/resource/languoid/id/cusc1236

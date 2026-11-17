@@ -7,6 +7,9 @@ period:
   start_uncertainty: 25
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 72
+  wiktionary_language: Old Telugu
 sources:
   - https://en.wikipedia.org/wiki/Telugu_language
 notes: |

@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 84
+  wiktionary_language: Oneida
 sources:
   - https://en.wikipedia.org/wiki/Oneida_language
   - https://glottolog.org/resource/languoid/id/onei1249

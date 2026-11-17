@@ -8,8 +8,15 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 24000000
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 12230
+  wiktionary_language: Azerbaijani
 sources:
   - https://en.wikipedia.org/wiki/Azerbaijani_language
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Oghuz language of Azerbaijan and northwestern Iran (North and South
   Azerbaijani). Literary tradition from the 13th–14th c.

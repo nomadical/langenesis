@@ -9,9 +9,17 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 3700000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 22962
+  wiktionary_language: Georgian
 sources:
   - https://en.wikipedia.org/wiki/Georgian_language
   - https://glottolog.org/resource/languoid/id/nucl1302
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Covers Middle Georgian (~1100–1800) and Modern Georgian. Written in the
   Mkhedruli script.

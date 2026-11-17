@@ -8,6 +8,9 @@ period:
   end: 2008
   end_uncertainty: 0
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 10
+  wiktionary_language: Eyak
 sources:
   - https://en.wikipedia.org/wiki/Eyak_language
   - https://glottolog.org/resource/languoid/id/eyak1241

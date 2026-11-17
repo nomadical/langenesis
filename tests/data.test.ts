@@ -4,6 +4,7 @@ import { join } from "node:path";
 import yaml from "js-yaml";
 import { languageNodeSchema, periodEnd } from "../src/data/schema";
 import { buildTree } from "../src/data/loader";
+import { FSI_URL } from "../src/data/format";
 import type { LanguageNode } from "../src/data/schema";
 
 const LANG_DIR = join(__dirname, "..", "languages");
@@ -77,6 +78,43 @@ describe("language YAML files", () => {
       expect(n.period.start, `${n.id}.period.start`).toBeGreaterThan(-16000);
       expect(periodEnd(n), `${n.id}.period.end`).toBeLessThanOrEqual(2030);
     }
+  });
+
+  it("FSI learning time matches its category and cites FSI", () => {
+    // Weeks per category, from https://www.state.gov/foreign-language-training/
+    const weeks: Record<number, number[]> = { 1: [24, 30], 2: [36], 3: [44], 4: [88] };
+    for (const n of nodes.filter((n) => n.learning)) {
+      const { fsi_category, weeks: w } = n.learning!;
+      expect(weeks[fsi_category], `${n.id}.learning`).toContain(w);
+      expect(n.status, `${n.id}.learning on a non-living language`).toBe("living");
+      expect(n.sources, `${n.id} cites FSI`).toContain(FSI_URL);
+    }
+  });
+
+  it("each Wiktionary language is counted on one node only", () => {
+    const seen = new Map<string, string>();
+    for (const n of nodes.filter((n) => n.vocabulary)) {
+      const lang = n.vocabulary!.wiktionary_language;
+      expect(seen.get(lang), `${n.id} and ${seen.get(lang)} share ${lang}`).toBeUndefined();
+      seen.set(lang, n.id);
+    }
+  });
+
+  it("schema rejects endangerment on a dead language", () => {
+    const dead = {
+      id: "x",
+      name: "X",
+      parents: [],
+      period: { start: 0, end: 100 },
+      status: "extinct",
+      endangerment: "vulnerable",
+      sources: ["https://example.org"],
+    };
+    expect(languageNodeSchema.safeParse(dead).success).toBe(false);
+    expect(
+      languageNodeSchema.safeParse({ ...dead, status: "living", period: { start: 0, end: "present" } })
+        .success,
+    ).toBe(true);
   });
 
   it("buildTree succeeds (no cycles, builds tree)", () => {

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 50000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1989
+  wiktionary_language: Hausa
 sources:
   - https://en.wikipedia.org/wiki/Hausa_language
   - https://glottolog.org/resource/languoid/id/haus1257

@@ -9,6 +9,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 10
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 584
+  wiktionary_language: Polabian
 sources:
   - https://en.wikipedia.org/wiki/Polabian_language
   - https://glottolog.org/resource/languoid/id/pola1255

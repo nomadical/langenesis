@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 5000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 362
+  wiktionary_language: Megleno-Romanian
 sources:
   - https://en.wikipedia.org/wiki/Megleno-Romanian_language
   - https://glottolog.org/resource/languoid/id/megl1237

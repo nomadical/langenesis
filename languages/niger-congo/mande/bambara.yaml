@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 4000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 692
+  wiktionary_language: Bambara
 sources:
   - https://en.wikipedia.org/wiki/Bambara_language
   - https://glottolog.org/resource/languoid/id/bamb1269

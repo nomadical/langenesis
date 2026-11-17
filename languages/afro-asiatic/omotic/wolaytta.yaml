@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 627
+  wiktionary_language: Wolaytta
 sources:
   - https://en.wikipedia.org/wiki/Wolaytta_language
   - https://glottolog.org/resource/languoid/id/wola1242

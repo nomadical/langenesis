@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 30000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1824
+  wiktionary_language: Moroccan Arabic
 sources:
   - https://en.wikipedia.org/wiki/Moroccan_Arabic
   - https://glottolog.org/resource/languoid/id/moro1292

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 14000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 227
+  wiktionary_language: Maithili
 sources:
   - https://en.wikipedia.org/wiki/Maithili_language
   - https://glottolog.org/resource/languoid/id/mait1250

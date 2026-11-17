@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 17000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 9583
+  wiktionary_language: Khmer
 sources:
   - https://en.wikipedia.org/wiki/Khmer_language
   - https://glottolog.org/resource/languoid/id/cent1989
+  - https://www.state.gov/foreign-language-training/
 notes: |
   National language of Cambodia. Covers Middle Khmer (15th–18th c.) and Modern
   Khmer.

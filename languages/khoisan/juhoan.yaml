@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 143
+  wiktionary_language: Juǀ'hoan
 sources:
   - https://en.wikipedia.org/wiki/Ju%C7%80%CA%BChoan_language
   - https://glottolog.org/resource/languoid/id/juho1239

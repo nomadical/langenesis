@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 3500
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 817
+  wiktionary_language: Mohawk
 sources:
   - https://en.wikipedia.org/wiki/Mohawk_language
   - https://glottolog.org/resource/languoid/id/moha1258

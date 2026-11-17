@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 1800000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 750
+  wiktionary_language: Manipuri
 sources:
   - https://en.wikipedia.org/wiki/Meitei_language
   - https://glottolog.org/resource/languoid/id/mani1292

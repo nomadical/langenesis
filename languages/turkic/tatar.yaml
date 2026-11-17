@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 5000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1932
+  wiktionary_language: Tatar
 sources:
   - https://en.wikipedia.org/wiki/Tatar_language
   - https://glottolog.org/resource/languoid/id/tata1255

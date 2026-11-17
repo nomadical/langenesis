@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 7000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1779
+  wiktionary_language: Lower Sorbian
 sources:
   - https://en.wikipedia.org/wiki/Lower_Sorbian_language
   - https://glottolog.org/resource/languoid/id/lowe1385

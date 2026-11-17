@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 100000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 89
+  wiktionary_language: Garifuna
 sources:
   - https://en.wikipedia.org/wiki/Garifuna_language
   - https://glottolog.org/resource/languoid/id/gari1256

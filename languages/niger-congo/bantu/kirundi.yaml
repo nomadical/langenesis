@@ -9,6 +9,7 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 9000000
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Kirundi
   - https://glottolog.org/resource/languoid/id/rund1242

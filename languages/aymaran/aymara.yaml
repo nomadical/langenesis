@@ -8,6 +8,9 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1700000
+vocabulary:
+  wiktionary_lemmas: 112
+  wiktionary_language: Aymara
 sources:
   - https://en.wikipedia.org/wiki/Aymara_language
 notes: |

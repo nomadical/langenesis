@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 800000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 5321
+  wiktionary_language: Basque
 sources:
   - https://en.wikipedia.org/wiki/Basque_language
   - https://glottolog.org/resource/languoid/id/basq1248

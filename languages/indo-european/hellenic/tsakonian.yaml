@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2000
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 37
+  wiktionary_language: Tsakonian
 sources:
   - https://en.wikipedia.org/wiki/Tsakonian_language
   - https://glottolog.org/resource/languoid/id/tsak1248

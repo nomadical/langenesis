@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 200000000
+endangerment: safe
+learning:
+  fsi_category: 2
+  weeks: 36
+vocabulary:
+  wiktionary_lemmas: 34340
+  wiktionary_language: Indonesian
 sources:
   - https://en.wikipedia.org/wiki/Indonesian_language
   - https://glottolog.org/resource/languoid/id/indo1316
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Standardised variety of Malay adopted as the language of national unity at
   the 1928 Youth Pledge and made official in 1945. Speaker count includes L2

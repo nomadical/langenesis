@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 83000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 5240
+  wiktionary_language: Marathi
 sources:
   - https://en.wikipedia.org/wiki/Marathi_language
   - https://glottolog.org/resource/languoid/id/mara1378

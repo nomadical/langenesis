@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 100
 status: living
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 265
+  wiktionary_language: Itelmen
 sources:
   - https://en.wikipedia.org/wiki/Itelmen_language
   - https://glottolog.org/resource/languoid/id/itel1242

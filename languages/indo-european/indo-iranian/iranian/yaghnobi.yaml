@@ -8,8 +8,13 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 12000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 304
+  wiktionary_language: Yaghnobi
 sources:
   - https://en.wikipedia.org/wiki/Yaghnobi_language
+  - https://glottolog.org/resource/languoid/id/yagn1238
 notes: |
   Spoken in the Yaghnob valley of Tajikistan; the only surviving descendant of a
   Sogdian dialect. Endangered.

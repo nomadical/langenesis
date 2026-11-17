@@ -9,9 +9,14 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 63000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 11061
+  wiktionary_language: Jin
 sources:
   - https://en.wikipedia.org/wiki/Jin_Chinese
   - https://glottolog.org/resource/languoid/id/jinc1253
+  - https://glottolog.org/resource/languoid/id/jiny1235
 notes: |
   Spoken mainly in Shanxi and Inner Mongolia; distinguished by retention of
   the Middle Chinese entering tone. Many scholars classify it as a Mandarin

@@ -6,6 +6,9 @@ period:
   end: -100
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 120
+  wiktionary_language: Old Latin
 sources:
   - https://en.wikipedia.org/wiki/Old_Latin
 notes: |

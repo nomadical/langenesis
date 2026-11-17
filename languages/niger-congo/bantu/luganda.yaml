@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 5600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 165
+  wiktionary_language: Luganda
 sources:
   - https://en.wikipedia.org/wiki/Luganda
   - https://glottolog.org/resource/languoid/id/gand1255

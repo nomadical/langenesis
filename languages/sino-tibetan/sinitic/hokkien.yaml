@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 28000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 101941
+  wiktionary_language: Hokkien
 sources:
   - https://en.wikipedia.org/wiki/Hokkien
   - https://en.wikipedia.org/wiki/Taiwanese_Hokkien

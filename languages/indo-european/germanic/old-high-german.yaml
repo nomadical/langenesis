@@ -6,6 +6,9 @@ period:
   start: 750
   end: 1050
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 2414
+  wiktionary_language: Old High German
 sources:
   - https://en.wikipedia.org/wiki/Old_High_German
 notes: |

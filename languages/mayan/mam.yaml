@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 500000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 104
+  wiktionary_language: Mam
 sources:
   - https://en.wikipedia.org/wiki/Mam_language
   - https://glottolog.org/resource/languoid/id/mamm1241

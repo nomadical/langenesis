@@ -8,6 +8,9 @@ period:
   end: 1000
   start_uncertainty: 100
 status: classical
+vocabulary:
+  wiktionary_lemmas: 10554
+  wiktionary_language: Sanskrit
 sources:
   - https://en.wikipedia.org/wiki/Sanskrit
   - https://glottolog.org/resource/languoid/id/sans1269

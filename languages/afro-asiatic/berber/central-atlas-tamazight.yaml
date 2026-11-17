@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 3000000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 620
+  wiktionary_language: Central Atlas Tamazight
 sources:
   - https://en.wikipedia.org/wiki/Central_Atlas_Tamazight
   - https://glottolog.org/resource/languoid/id/cent2194

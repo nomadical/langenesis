@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 5700000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1353
+  wiktionary_language: Neapolitan
 sources:
   - https://en.wikipedia.org/wiki/Neapolitan_language
   - https://glottolog.org/resource/languoid/id/neap1235

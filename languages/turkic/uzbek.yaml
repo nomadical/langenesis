@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 34000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 3736
+  wiktionary_language: Uzbek
 sources:
   - https://en.wikipedia.org/wiki/Uzbek_language
   - https://glottolog.org/resource/languoid/id/nort2690
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Member of the Karluk (southeastern) branch. Descended from Chagatai, the
   literary Turkic language of Central Asia.

@@ -8,8 +8,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 100000
+endangerment: vulnerable
 sources:
   - https://en.wikipedia.org/wiki/Arb%C3%ABresh_language
+  - https://glottolog.org/resource/languoid/id/arbe1236
 notes: |
   Tosk-derived Albanian of southern Italy and Sicily, from 15th–18th-century
   migrations; endangered.

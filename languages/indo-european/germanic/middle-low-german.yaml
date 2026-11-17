@@ -7,6 +7,9 @@ period:
   end: 1600
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 333
+  wiktionary_language: Middle Low German
 sources:
   - https://en.wikipedia.org/wiki/Middle_Low_German
 notes: |

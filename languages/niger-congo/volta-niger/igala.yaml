@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 113
+  wiktionary_language: Igala
 sources:
   - https://en.wikipedia.org/wiki/Igala_language
+  - https://glottolog.org/resource/languoid/id/igal1242
 notes: |
   Yoruboid language of Kogi State, Nigeria; the closest relative of Yoruba outside
   the Yoruba-Itsekiri cluster.

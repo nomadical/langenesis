@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 57000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 6934
+  wiktionary_language: Gujarati
 sources:
   - https://en.wikipedia.org/wiki/Gujarati_language
   - https://glottolog.org/resource/languoid/id/guja1252

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 4000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 287
+  wiktionary_language: Udi
 sources:
   - https://en.wikipedia.org/wiki/Udi_language
   - https://glottolog.org/resource/languoid/id/udii1243

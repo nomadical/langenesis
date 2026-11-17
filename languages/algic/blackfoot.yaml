@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 265
+  wiktionary_language: Blackfoot
 sources:
   - https://en.wikipedia.org/wiki/Blackfoot_language
   - https://glottolog.org/resource/languoid/id/siks1238

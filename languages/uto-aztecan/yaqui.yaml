@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 17000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 34
+  wiktionary_language: Yaqui
 sources:
   - https://en.wikipedia.org/wiki/Yaqui_language
   - https://glottolog.org/resource/languoid/id/yaqu1251

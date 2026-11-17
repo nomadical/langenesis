@@ -7,8 +7,13 @@ period:
   end: present
 status: living
 speakers: 2000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1752
+  wiktionary_language: Saterland Frisian
 sources:
   - https://en.wikipedia.org/wiki/Saterland_Frisian
+  - https://glottolog.org/resource/languoid/id/sate1242
 notes: |
   Last surviving form of East Frisian; spoken in Saterland, Lower Saxony.
   Severely endangered.

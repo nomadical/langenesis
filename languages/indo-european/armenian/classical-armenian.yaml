@@ -7,6 +7,9 @@ period:
   end: 1100
   end_uncertainty: 50
 status: classical
+vocabulary:
+  wiktionary_lemmas: 6298
+  wiktionary_language: Old Armenian
 sources:
   - https://en.wikipedia.org/wiki/Classical_Armenian
 notes: |

@@ -23,6 +23,8 @@ export interface RadialTreeHandle {
   select: (id: string | null) => void;
   setLineage: (id: string | null) => void;
   highlightFamily: (familyId: string | null) => void;
+  /** Dim every node outside `ids`; null shows all. Layout never changes. */
+  setFilter: (ids: ReadonlySet<string> | null) => void;
   search: (query: string) => CoreNode[];
   familyColor: (familyId: string) => string;
   lineageOf: (id: string) => string[];
@@ -54,6 +56,8 @@ const OUTER_R = 440;
 const INNER_R = 56;
 // Empty wedge at 12 o'clock that holds the era-ring labels.
 const GAP = (18 * Math.PI) / 180;
+// Opacity of arcs that a status filter excludes.
+const FILTERED_ALPHA = 0.1;
 // Leaf slots of empty space between adjacent families.
 const FAMILY_PAD = 1.8;
 
@@ -414,6 +418,7 @@ export function renderRadialTree(
   let lineage = new Set<string>();
   let selFamily: string | null = null;
   let focusFamilyId: string | null = null;
+  let filter: ReadonlySet<string> | null = null;
 
   let introStart = reducedMotion ? -Infinity : performance.now();
   const introDuration =
@@ -436,6 +441,7 @@ export function renderRadialTree(
       else if (lineage.has(a.id)) width = ARC_W_LINEAGE;
       else alpha = a.famId === selFamily ? 0.6 : 0.12;
     }
+    if (filter && !filter.has(a.id)) alpha = Math.min(alpha, FILTERED_ALPHA);
     if (a.id === hoverId) {
       alpha = 1;
       width = Math.max(width, ARC_W_HOVER);
@@ -455,6 +461,7 @@ export function renderRadialTree(
         width = EDGE_W_LINEAGE;
       } else alpha = e.famId === selFamily ? 0.45 : 0.08;
     }
+    if (filter && !filter.has(e.childId)) alpha = Math.min(alpha, FILTERED_ALPHA * 0.6);
     return {
       color: e.color,
       alpha,
@@ -778,6 +785,7 @@ export function renderRadialTree(
       cl.toggle("same-family", selFamily !== null && l.famId === selFamily);
       cl.toggle("family-hit", focusFamilyId !== null && l.famId === focusFamilyId);
       cl.toggle("hover", l.id === hoverId);
+      cl.toggle("filtered-out", filter !== null && !filter.has(l.id));
     }
     for (const b of bandLabels) {
       b.el.classList.toggle("family-hit", b.fam.id === focusFamilyId);
@@ -1008,6 +1016,10 @@ export function renderRadialTree(
       stateChanged();
     },
     highlightFamily,
+    setFilter(ids: ReadonlySet<string> | null) {
+      filter = ids;
+      stateChanged();
+    },
     search(query: string) {
       const q = query.trim().toLowerCase();
       if (!q) return [];

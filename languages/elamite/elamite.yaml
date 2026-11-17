@@ -9,6 +9,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 14
+  wiktionary_language: Elamite
 sources:
   - https://en.wikipedia.org/wiki/Elamite_language
   - https://glottolog.org/resource/languoid/id/elam1244

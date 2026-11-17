@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 5000000
+endangerment: vulnerable
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 12564
+  wiktionary_language: Slovak
 sources:
   - https://en.wikipedia.org/wiki/Slovak_language
   - https://glottolog.org/resource/languoid/id/slov1269
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Emerged from the Czech–Slovak dialect continuum; the literary standard was
   codified by Bernolák (1787) and Štúr (1843).

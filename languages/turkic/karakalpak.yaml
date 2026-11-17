@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 146
+  wiktionary_language: Karakalpak
 sources:
   - https://en.wikipedia.org/wiki/Karakalpak_language
   - https://glottolog.org/resource/languoid/id/kara1467

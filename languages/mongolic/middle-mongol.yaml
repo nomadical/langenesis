@@ -6,6 +6,9 @@ period:
   start: 1200
   end: 1600
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 379
+  wiktionary_language: Middle Mongol
 sources:
   - https://en.wikipedia.org/wiki/Middle_Mongol
 notes: |

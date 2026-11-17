@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1700000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1063
+  wiktionary_language: Chechen
 sources:
   - https://en.wikipedia.org/wiki/Chechen_language
   - https://glottolog.org/resource/languoid/id/chec1245

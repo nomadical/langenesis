@@ -7,6 +7,9 @@ period:
   end: 500
   start_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 59
+  wiktionary_language: Parthian
 sources:
   - https://en.wikipedia.org/wiki/Parthian_language
 notes: |

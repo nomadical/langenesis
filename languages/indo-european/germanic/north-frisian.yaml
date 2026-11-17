@@ -7,8 +7,13 @@ period:
   end: present
 status: living
 speakers: 10000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1419
+  wiktionary_language: North Frisian
 sources:
   - https://en.wikipedia.org/wiki/North_Frisian_language
+  - https://glottolog.org/resource/languoid/id/nort2626
 notes: |
   Highly fragmented dialects on the North Frisian coast and islands of
   Schleswig-Holstein; endangered.

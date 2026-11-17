@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 16
+  wiktionary_language: Old Mon
 sources:
   - https://en.wikipedia.org/wiki/Mon_language#History
 notes: |

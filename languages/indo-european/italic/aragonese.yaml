@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 10000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1547
+  wiktionary_language: Aragonese
 sources:
   - https://en.wikipedia.org/wiki/Aragonese_language
   - https://glottolog.org/resource/languoid/id/arag1245

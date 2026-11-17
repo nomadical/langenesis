@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 3700000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 2394
+  wiktionary_language: Lao
 sources:
   - https://en.wikipedia.org/wiki/Lao_language
   - https://glottolog.org/resource/languoid/id/laoo1244
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Southwestern Tai language of Laos, continuous with the Isan varieties of
   northeastern Thailand. Lan Xang kingdom founded 1353.

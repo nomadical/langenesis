@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1583
+  wiktionary_language: Afar
 sources:
   - https://en.wikipedia.org/wiki/Afar_language
   - https://glottolog.org/resource/languoid/id/afar1241

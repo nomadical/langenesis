@@ -7,6 +7,9 @@ period:
   start: -1400
   end: -1190
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 941
+  wiktionary_language: Ugaritic
 sources:
   - https://en.wikipedia.org/wiki/Ugaritic
   - https://glottolog.org/resource/languoid/id/ugar1238

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 22000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1084
+  wiktionary_language: Somali
 sources:
   - https://en.wikipedia.org/wiki/Somali_language
   - https://glottolog.org/resource/languoid/id/soma1255

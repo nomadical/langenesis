@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 5000000
+endangerment: safe
+learning:
+  fsi_category: 1
+  weeks: 24
+vocabulary:
+  wiktionary_lemmas: 1374
+  wiktionary_language: Norwegian
 sources:
   - https://en.wikipedia.org/wiki/Norwegian_language
   - https://glottolog.org/resource/languoid/id/norw1258
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Middle Norwegian (1350–1525) is not tracked separately. Bokmål reflects heavy
   Danish influence from four centuries of Danish rule; Nynorsk is built on rural

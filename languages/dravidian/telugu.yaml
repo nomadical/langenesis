@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 83000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 18782
+  wiktionary_language: Telugu
 sources:
   - https://en.wikipedia.org/wiki/Telugu_language
   - https://glottolog.org/resource/languoid/id/telu1262

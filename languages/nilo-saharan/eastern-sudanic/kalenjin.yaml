@@ -7,6 +7,9 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+vocabulary:
+  wiktionary_lemmas: 5
+  wiktionary_language: Kalenjin
 sources:
   - https://en.wikipedia.org/wiki/Nandi%E2%80%93Markweta_languages
 notes: |

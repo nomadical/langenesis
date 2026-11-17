@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 56000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 2402
+  wiktionary_language: Greenlandic
 sources:
   - https://en.wikipedia.org/wiki/Greenlandic_language
   - https://glottolog.org/resource/languoid/id/kala1399

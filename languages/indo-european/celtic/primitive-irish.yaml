@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 59
+  wiktionary_language: Primitive Irish
 sources:
   - https://en.wikipedia.org/wiki/Primitive_Irish
 notes: |

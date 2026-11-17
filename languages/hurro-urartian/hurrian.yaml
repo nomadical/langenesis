@@ -9,6 +9,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 17
+  wiktionary_language: Hurrian
 sources:
   - https://en.wikipedia.org/wiki/Hurrian_language
   - https://glottolog.org/resource/languoid/id/hurr1240

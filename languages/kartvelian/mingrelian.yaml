@@ -9,6 +9,10 @@ period:
   start_uncertainty: 500
 status: living
 speakers: 340000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 857
+  wiktionary_language: Mingrelian
 sources:
   - https://en.wikipedia.org/wiki/Mingrelian_language
   - https://glottolog.org/resource/languoid/id/ming1252

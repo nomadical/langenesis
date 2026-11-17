@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 345000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 23798
+  wiktionary_language: Hindi
 sources:
   - https://en.wikipedia.org/wiki/Hindi
   - https://glottolog.org/resource/languoid/id/hind1269
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Modern Standard Hindi, the Sanskritised register of Hindustani (Khariboli),
   standardised in the 19th c.; the start date marks the Hindustani/Khariboli

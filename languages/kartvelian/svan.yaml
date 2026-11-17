@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 14000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 444
+  wiktionary_language: Svan
 sources:
   - https://en.wikipedia.org/wiki/Svan_language
   - https://glottolog.org/resource/languoid/id/svan1243

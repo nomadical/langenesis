@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 15000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 208
+  wiktionary_language: O'odham
 sources:
   - https://en.wikipedia.org/wiki/O%27odham_language
   - https://glottolog.org/resource/languoid/id/toho1245

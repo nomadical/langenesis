@@ -9,6 +9,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 284
+  wiktionary_language: Old Prussian
 sources:
   - https://en.wikipedia.org/wiki/Old_Prussian
   - https://glottolog.org/resource/languoid/id/prus1238

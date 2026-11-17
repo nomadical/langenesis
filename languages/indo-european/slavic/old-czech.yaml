@@ -6,6 +6,9 @@ period:
   end: 1500
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 3890
+  wiktionary_language: Old Czech
 sources:
   - https://en.wikipedia.org/wiki/Old_Czech
 notes: |

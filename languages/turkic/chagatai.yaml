@@ -8,6 +8,9 @@ period:
   end: 1921
   start_uncertainty: 100
 status: classical
+vocabulary:
+  wiktionary_lemmas: 505
+  wiktionary_language: Chagatai
 sources:
   - https://en.wikipedia.org/wiki/Chagatai_language
   - https://glottolog.org/resource/languoid/id/chag1247

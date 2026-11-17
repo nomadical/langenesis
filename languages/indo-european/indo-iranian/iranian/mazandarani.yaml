@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2300000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 479
+  wiktionary_language: Mazanderani
 sources:
   - https://en.wikipedia.org/wiki/Mazanderani_language
+  - https://glottolog.org/resource/languoid/id/maza1291
 notes: |
   Caspian (Northwestern Iranian) language of Mazandaran, Iran; literary texts from
   the 10th–15th c. Closely related to Gilaki.

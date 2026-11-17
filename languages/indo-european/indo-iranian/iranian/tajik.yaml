@@ -9,9 +9,17 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 8000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 3846
+  wiktionary_language: Tajik
 sources:
   - https://en.wikipedia.org/wiki/Tajik_language
   - https://glottolog.org/resource/languoid/id/taji1245
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Persian of Central Asia, written in Cyrillic since 1939; diverged from Iranian
   Persian under Uzbek/Russian influence and political separation.

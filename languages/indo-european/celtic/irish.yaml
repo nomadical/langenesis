@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 1700000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 22325
+  wiktionary_language: Irish
 sources:
   - https://en.wikipedia.org/wiki/Irish_language
   - https://glottolog.org/resource/languoid/id/iris1253

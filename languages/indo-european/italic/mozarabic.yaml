@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 74
+  wiktionary_language: Mozarabic
 sources:
   - https://en.wikipedia.org/wiki/Mozarabic_language
 notes: |

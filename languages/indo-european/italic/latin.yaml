@@ -7,6 +7,9 @@ period:
   start: -100
   end: 300
 status: classical
+vocabulary:
+  wiktionary_lemmas: 46208
+  wiktionary_language: Latin
 sources:
   - https://en.wikipedia.org/wiki/Latin
   - https://glottolog.org/resource/languoid/id/lati1261

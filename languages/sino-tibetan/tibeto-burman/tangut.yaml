@@ -7,6 +7,9 @@ period:
   end: 1500
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 1899
+  wiktionary_language: Tangut
 sources:
   - https://en.wikipedia.org/wiki/Tangut_language
 notes: |

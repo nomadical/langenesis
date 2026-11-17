@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 340000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1880
+  wiktionary_language: Dhivehi
 sources:
   - https://en.wikipedia.org/wiki/Maldivian_language
   - https://glottolog.org/resource/languoid/id/dhiv1236

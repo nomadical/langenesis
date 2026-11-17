@@ -6,6 +6,9 @@ period:
   start: 1050
   end: 1350
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 711
+  wiktionary_language: Middle High German
 sources:
   - https://en.wikipedia.org/wiki/Middle_High_German
 notes: |

@@ -9,6 +9,7 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 12000000
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Kinyarwanda
   - https://glottolog.org/resource/languoid/id/kiny1244

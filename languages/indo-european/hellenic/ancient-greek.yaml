@@ -7,6 +7,9 @@ period:
   start: -1100
   end: -300
 status: classical
+vocabulary:
+  wiktionary_lemmas: 22173
+  wiktionary_language: Ancient Greek
 sources:
   - https://en.wikipedia.org/wiki/Ancient_Greek
   - https://glottolog.org/resource/languoid/id/anci1242

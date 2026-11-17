@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 170000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 8636
+  wiktionary_language: Navajo
 sources:
   - https://en.wikipedia.org/wiki/Navajo_language
   - https://glottolog.org/resource/languoid/id/nava1243

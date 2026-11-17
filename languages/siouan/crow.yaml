@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 83
+  wiktionary_language: Crow
 sources:
   - https://en.wikipedia.org/wiki/Crow_language
   - https://glottolog.org/resource/languoid/id/crow1244

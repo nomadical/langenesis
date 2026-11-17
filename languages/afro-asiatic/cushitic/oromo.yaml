@@ -8,6 +8,9 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 37000000
+vocabulary:
+  wiktionary_lemmas: 1241
+  wiktionary_language: Oromo
 sources:
   - https://en.wikipedia.org/wiki/Oromo_language
 notes: |

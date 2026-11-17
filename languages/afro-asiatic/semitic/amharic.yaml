@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 35000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 2365
+  wiktionary_language: Amharic
 sources:
   - https://en.wikipedia.org/wiki/Amharic
   - https://glottolog.org/resource/languoid/id/amha1245
+  - https://www.state.gov/foreign-language-training/
 notes: |
   South Ethio-Semitic; the working language of Ethiopia and the second most
   spoken Semitic language after Arabic. Earliest texts are 14th-century royal

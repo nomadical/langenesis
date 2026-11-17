@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 40000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 495
+  wiktionary_language: Inuktitut
 sources:
   - https://en.wikipedia.org/wiki/Inuktitut
   - https://glottolog.org/resource/languoid/id/east2534

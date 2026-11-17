@@ -7,6 +7,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 186
+  wiktionary_language: Gaulish
 sources:
   - https://en.wikipedia.org/wiki/Gaulish_language
 notes: |

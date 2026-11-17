@@ -6,8 +6,13 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 616
+  wiktionary_language: Yurok
 sources:
   - https://en.wikipedia.org/wiki/Yurok_language
+  - https://glottolog.org/resource/languoid/id/yuro1248
 notes: |
   Algic language of the lower Klamath River, California. The last native
   speakers died in the 2010s, but active revitalization has produced new second-

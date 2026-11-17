@@ -7,7 +7,13 @@ period:
   end: present
   start_uncertainty: 100
 status: living
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
 sources:
   - https://en.wikipedia.org/wiki/Eastern_Armenian
+  - https://glottolog.org/resource/languoid/id/nucl1235
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Standard of Armenia and of Armenians in Iran.

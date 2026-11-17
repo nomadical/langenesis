@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 107
+  wiktionary_language: Beja
 sources:
   - https://en.wikipedia.org/wiki/Beja_language
   - https://glottolog.org/resource/languoid/id/beja1238

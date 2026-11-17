@@ -8,8 +8,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 13000
+endangerment: definitely-endangered
 sources:
   - https://en.wikipedia.org/wiki/Khanty_language
+  - https://glottolog.org/resource/languoid/id/khan1273
 notes: |
   Ob-Ugric language of the Khanty–Mansi region of western Siberia, with highly
   divergent dialects.

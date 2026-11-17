@@ -1,11 +1,17 @@
 import "./styles.css";
 import { type FamilyInfo, isVirtualRootId, loadData } from "./data/loader";
 import {
+  ENDANGERMENT_LEVELS,
+  endangermentLabel,
   escapeAttr,
   escapeHtml,
   formatPeriod,
+  fsiLabel,
+  FSI_URL,
+  isEndangered,
   prettyUrl,
   statusLabel,
+  wiktionaryUrl,
 } from "./data/format";
 import { type CoreNode, type NodeDetails } from "./data/model";
 import { renderRadialTree, type RadialTreeHandle } from "./viz/radial-tree";
@@ -63,6 +69,7 @@ const handle: RadialTreeHandle = renderRadialTree(svgEl, data, {
     const fam = familyOfNode(node.id);
     const meta = [statusLabel(node.status)];
     if (node.speakers) meta.push(`${compact.format(node.speakers)} speakers`);
+    if (node.endangerment && isEndangered(node)) meta.push(endangermentLabel(node.endangerment));
     showTooltip(
       event,
       `
@@ -207,6 +214,17 @@ function paintDetail(node: CoreNode | null) {
   const facts: string[] = [];
   if (node.speakers !== undefined)
     facts.push(`<dt>Speakers</dt><dd>${compact.format(node.speakers)} <span class="faint">(${node.speakers.toLocaleString("en-US")})</span></dd>`);
+  if (node.endangerment) facts.push(`<dt>Outlook</dt><dd>${endangermentMeter(node.endangerment)}</dd>`);
+  if (node.learning) {
+    const { fsi_category: cat, weeks } = node.learning;
+    facts.push(
+      `<dt>Learning</dt><dd><span class="learn"><span class="learn-bar" style="--w:${(weeks / 88) * 100}%"></span></span>${weeks} weeks <span class="faint">· ${fsiLabel(cat)} for English speakers (<a href="${FSI_URL}" target="_blank" rel="noopener">FSI</a> cat. ${["I", "II", "III", "IV"][cat - 1]})</span></dd>`,
+    );
+  }
+  if (node.vocabulary)
+    facts.push(
+      `<dt>Words</dt><dd>${compact.format(node.vocabulary.wiktionary_lemmas)} <span class="faint">entries on <a href="${escapeAttr(wiktionaryUrl(node.vocabulary.wiktionary_language))}" target="_blank" rel="noopener">Wiktionary</a></span></dd>`,
+    );
   if (info?.iso639_3) facts.push(`<dt>ISO 639-3</dt><dd class="mono">${info.iso639_3}</dd>`);
   if (info?.glottocode) facts.push(`<dt>Glottocode</dt><dd class="mono">${info.glottocode}</dd>`);
   if (node.parents.length > 1) {
@@ -271,6 +289,15 @@ function paintDetail(node: CoreNode | null) {
   `;
   wireJumps();
   detailBody.scrollTop = 0;
+}
+
+/** Five steps on UNESCO's scale, filled up to this language's level. */
+function endangermentMeter(level: NonNullable<CoreNode["endangerment"]>): string {
+  const n = ENDANGERMENT_LEVELS.indexOf(level);
+  const steps = ENDANGERMENT_LEVELS.map(
+    (_, i) => `<span class="risk-step${i <= n ? " on" : ""}" style="--c:var(--risk-${i})"></span>`,
+  ).join("");
+  return `<span class="risk" aria-hidden="true">${steps}</span>${endangermentLabel(level)}`;
 }
 
 function jumpLink(id: string): string {
@@ -474,6 +501,51 @@ function positionTooltip(event: MouseEvent) {
 
 renderDetail(null);
 
+// ============ Status filter ============
+// Dims everything outside the chosen group; the layout (and time axis) never moves.
+type FilterKey = "all" | "living" | "endangered" | "dead";
+const FILTERS: Record<Exclude<FilterKey, "all">, (n: CoreNode) => boolean> = {
+  living: (n) => n.status === "living",
+  endangered: isEndangered,
+  dead: (n) => n.status === "extinct" || n.status === "classical",
+};
+const filterButtons = [...document.querySelectorAll<HTMLButtonElement>(".map-filter button")];
+for (const btn of filterButtons) {
+  const key = btn.dataset.filter as FilterKey;
+  const count = btn.querySelector(".filter-count");
+  if (count && key !== "all") count.textContent = String(allNodes.filter(FILTERS[key]).length);
+  btn.addEventListener("click", () => setFilter(key));
+}
+function setFilter(key: FilterKey) {
+  for (const b of filterButtons) b.setAttribute("aria-pressed", String(b.dataset.filter === key));
+  handle.setFilter(
+    key === "all" ? null : new Set(allNodes.filter(FILTERS[key]).map((n) => n.id)),
+  );
+}
+
+// ============ Insights ============
+// Charts live in their own chunk; the map never pays for them.
+const INSIGHTS_HASH = "#insights";
+let insights: { open: () => void; close: () => void } | null = null;
+async function openInsights() {
+  if (!insights) {
+    const { createInsights } = await import("./insights/insights");
+    insights = createInsights({
+      nodes: allNodes,
+      data,
+      familyColor: (id) => handle.familyColor(id),
+      onPick(id) {
+        insights?.close();
+        setSelection(id);
+      },
+      onClose() {
+        if (location.hash === INSIGHTS_HASH) syncHash(selectedId);
+      },
+    });
+  }
+  insights.open();
+}
+
 // Fetch the reference material on the first sign of intent: a click, a key,
 // focus, or the pointer moving over the map. Pure viewers never download it.
 let detailsRequested = false;
@@ -503,11 +575,13 @@ function syncHash(id: string | null) {
   history.replaceState(null, "", hash || location.pathname + location.search);
 }
 window.addEventListener("hashchange", () => {
+  if (location.hash === INSIGHTS_HASH) return void openInsights();
   const id = idFromHash();
   if (id !== selectedId) setSelection(id);
 });
 const linkedId = idFromHash();
-if (linkedId) {
+if (location.hash === INSIGHTS_HASH) openInsights();
+else if (linkedId) {
   setSelection(linkedId);
   loadDetails();
 }

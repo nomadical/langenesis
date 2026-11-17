@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 5400000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 178108
+  wiktionary_language: Finnish
 sources:
   - https://en.wikipedia.org/wiki/Finnish_language
   - https://glottolog.org/resource/languoid/id/finn1318
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Member of the Finnic branch (with Estonian, Karelian, etc.). Standardisation
   began with Mikael Agricola's 1548 New Testament translation.

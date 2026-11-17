@@ -8,6 +8,14 @@ period:
   end: present
 status: living
 speakers: 13500000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 32904
+  wiktionary_language: Greek
 sources:
   - https://en.wikipedia.org/wiki/Modern_Greek
   - https://glottolog.org/resource/languoid/id/mode1248
+  - https://www.state.gov/foreign-language-training/

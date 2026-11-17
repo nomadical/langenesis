@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 2000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 2029
+  wiktionary_language: Cherokee
 sources:
   - https://en.wikipedia.org/wiki/Cherokee_language
   - https://glottolog.org/resource/languoid/id/cher1273

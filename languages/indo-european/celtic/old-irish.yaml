@@ -7,6 +7,9 @@ period:
   start: 600
   end: 900
 status: classical
+vocabulary:
+  wiktionary_lemmas: 3415
+  wiktionary_language: Old Irish
 sources:
   - https://en.wikipedia.org/wiki/Old_Irish
   - https://glottolog.org/resource/languoid/id/oldi1245

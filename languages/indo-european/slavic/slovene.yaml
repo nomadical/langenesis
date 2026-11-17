@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 2500000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 5883
+  wiktionary_language: Slovene
 sources:
   - https://en.wikipedia.org/wiki/Slovene_language
   - https://glottolog.org/resource/languoid/id/slov1268
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Western South Slavic. The Freising manuscripts (c. 1000) are the oldest Latin-
   script Slavic texts.

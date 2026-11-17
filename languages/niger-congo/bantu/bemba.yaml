@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 4000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 61
+  wiktionary_language: Bemba
 sources:
   - https://en.wikipedia.org/wiki/Bemba_language
+  - https://glottolog.org/resource/languoid/id/bemb1257
 notes: |
   Central Bantu (Guthrie M42) language, the most widely spoken language of Zambia.

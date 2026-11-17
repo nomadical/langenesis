@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 4700000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 2761
+  wiktionary_language: Sicilian
 sources:
   - https://en.wikipedia.org/wiki/Sicilian_language
   - https://glottolog.org/resource/languoid/id/sici1248

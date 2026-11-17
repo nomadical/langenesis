@@ -8,6 +8,9 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 2000000
+vocabulary:
+  wiktionary_lemmas: 913
+  wiktionary_language: Romani
 sources:
   - https://en.wikipedia.org/wiki/Romani_language
 notes: |

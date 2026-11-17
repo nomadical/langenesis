@@ -9,6 +9,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 124
+  wiktionary_language: Sabaean
 sources:
   - https://en.wikipedia.org/wiki/Sabaic
   - https://glottolog.org/resource/languoid/id/saba1279

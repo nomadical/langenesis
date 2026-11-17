@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 800000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1059
+  wiktionary_language: Mon
 sources:
   - https://en.wikipedia.org/wiki/Mon_language
   - https://glottolog.org/resource/languoid/id/monn1252

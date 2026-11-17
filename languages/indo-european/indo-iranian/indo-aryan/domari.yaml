@@ -7,8 +7,13 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 32
+  wiktionary_language: Domari
 sources:
   - https://en.wikipedia.org/wiki/Domari_language
+  - https://glottolog.org/resource/languoid/id/doma1258
 notes: |
   Language of the Dom of the Middle East and North Africa. Once thought a sister of
   Romani; now usually considered an independent Central Indo-Aryan migration.

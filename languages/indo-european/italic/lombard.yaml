@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 3500000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 825
+  wiktionary_language: Lombard
 sources:
   - https://en.wikipedia.org/wiki/Lombard_language
   - https://glottolog.org/resource/languoid/id/lomb1257

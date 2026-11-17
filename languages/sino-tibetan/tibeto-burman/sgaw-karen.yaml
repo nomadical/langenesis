@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1040
+  wiktionary_language: S'gaw Karen
 sources:
   - https://en.wikipedia.org/wiki/S%27gaw_Karen_language
   - https://glottolog.org/resource/languoid/id/sgaw1245

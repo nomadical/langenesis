@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 10000000
+endangerment: safe
+learning:
+  fsi_category: 1
+  weeks: 24
+vocabulary:
+  wiktionary_lemmas: 61159
+  wiktionary_language: Swedish
 sources:
   - https://en.wikipedia.org/wiki/Swedish_language
   - https://glottolog.org/resource/languoid/id/swed1254
+  - https://www.state.gov/foreign-language-training/
 notes: |
   East Scandinavian. Modern standard traces back to the Gustav Vasa Bible
   (1541).

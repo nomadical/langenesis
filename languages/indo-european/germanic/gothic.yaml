@@ -9,6 +9,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 3664
+  wiktionary_language: Gothic
 sources:
   - https://en.wikipedia.org/wiki/Gothic_language
   - https://glottolog.org/resource/languoid/id/goth1244

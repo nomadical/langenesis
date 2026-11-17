@@ -8,6 +8,7 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Tamasheq_language
   - https://glottolog.org/resource/languoid/id/tama1365

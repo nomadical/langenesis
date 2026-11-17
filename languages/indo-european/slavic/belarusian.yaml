@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 5000000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 12092
+  wiktionary_language: Belarusian
 sources:
   - https://en.wikipedia.org/wiki/Belarusian_language
   - https://glottolog.org/resource/languoid/id/bela1254

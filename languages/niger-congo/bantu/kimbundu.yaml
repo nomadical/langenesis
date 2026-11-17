@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1700000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 143
+  wiktionary_language: Kimbundu
 sources:
   - https://en.wikipedia.org/wiki/Kimbundu_language
+  - https://glottolog.org/resource/languoid/id/kimb1241
 notes: |
   Western Bantu (Guthrie H21) language of northern Angola around Luanda, a major source
   of Bantu loanwords in Brazilian Portuguese.

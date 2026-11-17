@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 185000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 2527
+  wiktionary_language: Māori
 sources:
   - https://en.wikipedia.org/wiki/M%C4%81ori_language
   - https://glottolog.org/resource/languoid/id/maor1246

@@ -8,8 +8,13 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 30000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 625
+  wiktionary_language: Evenki
 sources:
   - https://en.wikipedia.org/wiki/Evenki_language
+  - https://glottolog.org/resource/languoid/id/even1259
 notes: |
   Northern Tungusic language spread across Siberia, Mongolia and Inner
   Mongolia; the most widely dispersed Tungusic language.

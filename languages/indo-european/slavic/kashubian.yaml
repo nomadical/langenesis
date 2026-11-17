@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 88000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 2745
+  wiktionary_language: Kashubian
 sources:
   - https://en.wikipedia.org/wiki/Kashubian_language
   - https://glottolog.org/resource/languoid/id/kash1274

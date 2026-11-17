@@ -7,6 +7,10 @@ period:
   start: 1600
   end: present
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 137
+  wiktionary_language: Munsee
 sources:
   - https://en.wikipedia.org/wiki/Munsee_language
   - https://glottolog.org/resource/languoid/id/muns1251

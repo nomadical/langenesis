@@ -7,6 +7,9 @@ period:
   end: 1400
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 398
+  wiktionary_language: Old Khmer
 sources:
   - https://en.wikipedia.org/wiki/Old_Khmer
 notes: |

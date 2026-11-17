@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 51
+  wiktionary_language: Nuer
 sources:
   - https://en.wikipedia.org/wiki/Nuer_language
   - https://glottolog.org/resource/languoid/id/nuer1246

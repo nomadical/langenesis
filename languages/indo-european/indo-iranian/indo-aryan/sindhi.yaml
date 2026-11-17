@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 32000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1737
+  wiktionary_language: Sindhi
 sources:
   - https://en.wikipedia.org/wiki/Sindhi_language
   - https://glottolog.org/resource/languoid/id/sind1272

@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 79000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 10815
+  wiktionary_language: Tamil
 sources:
   - https://en.wikipedia.org/wiki/Tamil_language
   - https://glottolog.org/resource/languoid/id/tami1289

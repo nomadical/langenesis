@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 8000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 350
+  wiktionary_language: Tswana
 sources:
   - https://en.wikipedia.org/wiki/Tswana_language
   - https://glottolog.org/resource/languoid/id/tswa1253

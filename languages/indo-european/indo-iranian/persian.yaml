@@ -8,9 +8,18 @@ period:
   end: present
 status: living
 speakers: 80000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 15688
+  wiktionary_language: Persian
 sources:
   - https://en.wikipedia.org/wiki/Persian_language
   - https://glottolog.org/resource/languoid/id/fars1254
+  - https://glottolog.org/resource/languoid/id/west2369
+  - https://www.state.gov/foreign-language-training/
 notes: |
   New Persian (Fārsi). Covers Early New Persian (9th–13th c., language of
   Ferdowsi's Shahnameh and Rumi) and Modern Persian. Three modern standards:

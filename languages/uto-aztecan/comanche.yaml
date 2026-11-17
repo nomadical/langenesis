@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 50
 status: living
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 77
+  wiktionary_language: Comanche
 sources:
   - https://en.wikipedia.org/wiki/Comanche_language
   - https://glottolog.org/resource/languoid/id/coma1245

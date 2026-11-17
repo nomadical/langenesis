@@ -9,6 +9,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 388
+  wiktionary_language: Umbrian
 sources:
   - https://en.wikipedia.org/wiki/Umbrian_language
   - https://glottolog.org/resource/languoid/id/umbr1253

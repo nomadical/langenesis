@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 80000000
+endangerment: safe
+learning:
+  fsi_category: 2
+  weeks: 36
+vocabulary:
+  wiktionary_lemmas: 11059
+  wiktionary_language: Malay
 sources:
   - https://en.wikipedia.org/wiki/Malay_language
   - https://glottolog.org/resource/languoid/id/stan1306
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Modern Malay, including the Malaysian, Bruneian and Singaporean standards and
   regional varieties. Indonesian is tracked as a separate node. Speaker count is

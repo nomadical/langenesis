@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 60000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 10588
+  wiktionary_language: Scottish Gaelic
 sources:
   - https://en.wikipedia.org/wiki/Scottish_Gaelic
   - https://glottolog.org/resource/languoid/id/scot1245

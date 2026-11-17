@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 2000
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 2352
+  wiktionary_language: Manx
 sources:
   - https://en.wikipedia.org/wiki/Manx_language
   - https://glottolog.org/resource/languoid/id/manx1243

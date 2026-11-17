@@ -8,6 +8,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 460
+  wiktionary_language: Middle Armenian
 sources:
   - https://en.wikipedia.org/wiki/Middle_Armenian
 notes: |

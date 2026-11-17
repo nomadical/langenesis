@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 47
+  wiktionary_language: Ktunaxa
 sources:
   - https://en.wikipedia.org/wiki/Kutenai_language
   - https://glottolog.org/resource/languoid/id/kute1249

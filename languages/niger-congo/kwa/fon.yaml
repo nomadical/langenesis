@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2200000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 34
+  wiktionary_language: Fon
 sources:
   - https://en.wikipedia.org/wiki/Fon_language
+  - https://glottolog.org/resource/languoid/id/fonn1241
 notes: |
   Gbe language of southern Benin, the language of the Kingdom of Dahomey.

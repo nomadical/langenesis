@@ -8,8 +8,13 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 300000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1684
+  wiktionary_language: Pennsylvania German
 sources:
   - https://en.wikipedia.org/wiki/Pennsylvania_Dutch_language
+  - https://glottolog.org/resource/languoid/id/penn1240
 notes: |
   Palatine German variety brought to North America in the 18th century; spoken
   mainly by Amish and Old Order Mennonites.

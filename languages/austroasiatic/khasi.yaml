@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1000000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 202
+  wiktionary_language: Khasi
 sources:
   - https://en.wikipedia.org/wiki/Khasi_language
+  - https://glottolog.org/resource/languoid/id/khas1269
 notes: |
   Khasic language of Meghalaya, India, written in Latin script since the 19th
   c. Associate official language of Meghalaya.

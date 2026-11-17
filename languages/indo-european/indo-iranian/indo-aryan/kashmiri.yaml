@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 7000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 2065
+  wiktionary_language: Kashmiri
 sources:
   - https://en.wikipedia.org/wiki/Kashmiri_language
   - https://glottolog.org/resource/languoid/id/kash1277

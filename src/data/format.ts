@@ -40,3 +40,43 @@ export function escapeHtml(s: string): string {
 export function escapeAttr(s: string): string {
   return escapeHtml(s).replace(/"/g, "&quot;");
 }
+
+type Endangerment = NonNullable<CoreNode["endangerment"]>;
+
+/** Least to most endangered (UNESCO's scale). */
+export const ENDANGERMENT_LEVELS: readonly Endangerment[] = [
+  "safe",
+  "vulnerable",
+  "definitely-endangered",
+  "severely-endangered",
+  "critically-endangered",
+];
+
+export function endangermentLabel(level: Endangerment): string {
+  return {
+    safe: "Safe",
+    vulnerable: "Vulnerable",
+    "definitely-endangered": "Definitely endangered",
+    "severely-endangered": "Severely endangered",
+    "critically-endangered": "Critically endangered",
+  }[level];
+}
+
+/** Vulnerable or worse. */
+export function isEndangered(node: CoreNode): boolean {
+  return node.endangerment !== undefined && node.endangerment !== "safe";
+}
+
+export const FSI_URL = "https://www.state.gov/foreign-language-training/";
+
+/** FSI's own names for its four categories. */
+export function fsiLabel(category: number): string {
+  return (
+    ["Close to English", "Moderately hard", "Hard", "Super-hard"][category - 1] ??
+    `Category ${category}`
+  );
+}
+
+export function wiktionaryUrl(language: string): string {
+  return `https://en.wiktionary.org/wiki/Category:${encodeURIComponent(language.replace(/ /g, "_"))}_lemmas`;
+}

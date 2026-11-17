@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1500000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 71
+  wiktionary_language: Bodo (India)
 sources:
   - https://en.wikipedia.org/wiki/Boro_language_(India)
   - https://glottolog.org/resource/languoid/id/bodo1269

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 860000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 428
+  wiktionary_language: Newar
 sources:
   - https://en.wikipedia.org/wiki/Newar_language
   - https://glottolog.org/resource/languoid/id/newa1246

@@ -7,6 +7,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 143
+  wiktionary_language: Norn
 sources:
   - https://en.wikipedia.org/wiki/Norn_language
 notes: |

@@ -9,9 +9,17 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 21000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 17391
+  wiktionary_language: Thai
 sources:
   - https://en.wikipedia.org/wiki/Thai_language
   - https://glottolog.org/resource/languoid/id/thai1261
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Southwestern Tai language and national language of Thailand; speaker figure
   is Central Thai L1. The Ramkhamhaeng inscription (1292) is traditionally the

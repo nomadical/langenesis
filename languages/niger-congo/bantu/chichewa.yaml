@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 12000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1561
+  wiktionary_language: Chichewa
 sources:
   - https://en.wikipedia.org/wiki/Chewa_language
   - https://glottolog.org/resource/languoid/id/nyan1308

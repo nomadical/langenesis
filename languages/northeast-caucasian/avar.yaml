@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 800000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 553
+  wiktionary_language: Avar
 sources:
   - https://en.wikipedia.org/wiki/Avar_language
   - https://glottolog.org/resource/languoid/id/avar1256

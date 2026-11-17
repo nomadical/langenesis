@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 600000
+vocabulary:
+  wiktionary_lemmas: 10297
+  wiktionary_language: Yiddish
 sources:
   - https://en.wikipedia.org/wiki/Yiddish
 notes: |

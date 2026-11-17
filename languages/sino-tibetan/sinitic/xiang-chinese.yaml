@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 38000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 12620
+  wiktionary_language: Xiang
 sources:
   - https://en.wikipedia.org/wiki/Xiang_Chinese
   - https://glottolog.org/resource/languoid/id/xian1251

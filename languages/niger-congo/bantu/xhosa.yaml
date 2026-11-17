@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 8200000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 3131
+  wiktionary_language: Xhosa
 sources:
   - https://en.wikipedia.org/wiki/Xhosa_language
   - https://glottolog.org/resource/languoid/id/xhos1239

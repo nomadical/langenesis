@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 250000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 4023
+  wiktionary_language: Aromanian
 sources:
   - https://en.wikipedia.org/wiki/Aromanian_language
   - https://glottolog.org/resource/languoid/id/arom1237

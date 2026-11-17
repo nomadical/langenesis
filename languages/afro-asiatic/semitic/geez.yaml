@@ -9,6 +9,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 200
 status: classical
+vocabulary:
+  wiktionary_lemmas: 531
+  wiktionary_language: Ge'ez
 sources:
   - https://en.wikipedia.org/wiki/Ge%CA%BDez
   - https://glottolog.org/resource/languoid/id/geez1241

@@ -7,8 +7,10 @@ period:
   end: present
   start_uncertainty: 500
 status: living
+endangerment: definitely-endangered
 sources:
   - https://en.wikipedia.org/wiki/Kat%C3%AB_language
+  - https://glottolog.org/resource/languoid/id/kati1270
 notes: |
   Largest Nuristani language (Kati), spoken in Nuristan, Afghanistan and in
   Chitral, Pakistan.

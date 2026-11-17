@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 16000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 15681
+  wiktionary_language: Cebuano
 sources:
   - https://en.wikipedia.org/wiki/Cebuano_language
   - https://glottolog.org/resource/languoid/id/cebu1242

@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 250000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 876
+  wiktionary_language: Mapudungun
 sources:
   - https://en.wikipedia.org/wiki/Mapuche_language
   - https://glottolog.org/resource/languoid/id/mapu1245

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 1200000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 3057
+  wiktionary_language: Bashkir
 sources:
   - https://en.wikipedia.org/wiki/Bashkir_language
   - https://glottolog.org/resource/languoid/id/bash1264

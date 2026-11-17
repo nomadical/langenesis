@@ -6,8 +6,13 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 248
+  wiktionary_language: Kari'na
 sources:
   - https://en.wikipedia.org/wiki/Kari%27na_language
+  - https://glottolog.org/resource/languoid/id/gali1262
 notes: |
   Also called Galibi Carib. Spoken along the coast of the Guianas and Venezuela;
   the source of the family's name.

@@ -35,12 +35,27 @@ period:
   end_uncertainty: 0              # optional, ± years
 status: living                    # living | classical | extinct | reconstructed
 speakers: 1500000000              # optional — used for sorting and tooltips
+endangerment: safe                # optional, living only — safe | vulnerable |
+                                  #   definitely-endangered | severely-endangered |
+                                  #   critically-endangered (see below)
+learning:                         # optional — only languages FSI lists
+  fsi_category: 1                 #   1–4
+  weeks: 24                       #   FSI's classroom weeks (cat. I 24/30, II 36, III 44, IV 88)
+vocabulary:                       # optional
+  wiktionary_lemmas: 887330       #   page count of Category:<language> lemmas
+  wiktionary_language: English    #   Wiktionary's name for the language
 sources:                          # at least one URL is required
   - https://en.wikipedia.org/wiki/English_language
   - https://glottolog.org/resource/languoid/id/stan1293
 notes: |                          # optional free-form prose
   Covers Early Modern English (1500–1700) and Modern English (1700–present).
 ```
+
+### Endangerment, learning time and vocabulary
+
+- **`endangerment`** follows UNESCO's scale, mapped from Glottolog's Agglomerated Endangerment Status (AES): not endangered → `safe`, threatened → `vulnerable`, shifting → `definitely-endangered`, moribund → `severely-endangered`, nearly extinct → `critically-endangered`. Cite the Glottolog languoid in `sources`. Languages Glottolog lists as extinct but which are being revived (Manx, Cornish, Kaurna, Massachusett, Yurok, Ainu) are marked `critically-endangered`.
+- **`learning`** comes only from the [FSI list](https://www.state.gov/foreign-language-training/); add that URL to `sources`. Don't estimate it for languages FSI doesn't list.
+- **`vocabulary`** is the page count of `Category:<language> lemmas` on the English Wiktionary. It measures documentation, not the size of a language. Each Wiktionary language may be counted on one node only (CI checks this), so where Wiktionary merges varieties (Egyptian stages, Kinyarwanda/Kirundi) leave it out.
 
 ## What makes a good entry
 

@@ -9,9 +9,17 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 85000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 46029
+  wiktionary_language: Vietnamese
 sources:
   - https://en.wikipedia.org/wiki/Vietnamese_language
   - https://glottolog.org/resource/languoid/id/viet1252
+  - https://www.state.gov/foreign-language-training/
 notes: |
   National language of Vietnam, heavily influenced by Chinese vocabulary;
   tonal, unlike most Austroasiatic languages.

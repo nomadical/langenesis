@@ -9,6 +9,10 @@ period:
   start_uncertainty: 500
 status: living
 speakers: 58000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 253
+  wiktionary_language: Chamorro
 sources:
   - https://en.wikipedia.org/wiki/Chamorro_language
   - https://glottolog.org/resource/languoid/id/cham1312

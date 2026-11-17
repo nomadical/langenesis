@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 280000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 805
+  wiktionary_language: Tuvan
 sources:
   - https://en.wikipedia.org/wiki/Tuvan_language
   - https://glottolog.org/resource/languoid/id/tuvi1240

@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 43
+  wiktionary_language: Soninke
 sources:
   - https://en.wikipedia.org/wiki/Soninke_language
+  - https://glottolog.org/resource/languoid/id/soni1259
 notes: |
   Western Mande language associated with the Ghana Empire (Wagadu). The start date
   is a conventional anchor, not an attested stage boundary.

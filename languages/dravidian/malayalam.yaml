@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 38000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 11337
+  wiktionary_language: Malayalam
 sources:
   - https://en.wikipedia.org/wiki/Malayalam
   - https://glottolog.org/resource/languoid/id/mala1464

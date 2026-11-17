@@ -7,6 +7,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 40
+  wiktionary_language: Old Welsh
 sources:
   - https://en.wikipedia.org/wiki/Old_Welsh
 notes: |

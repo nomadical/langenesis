@@ -6,6 +6,9 @@ period:
   end: 1500
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 429
+  wiktionary_language: Old Gujarati
 sources:
   - https://en.wikipedia.org/wiki/Old_Western_R%C4%81jasth%C4%81ni
 notes: |

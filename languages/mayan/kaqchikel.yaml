@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 450000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 212
+  wiktionary_language: Kaqchikel
 sources:
   - https://en.wikipedia.org/wiki/Kaqchikel_language
   - https://glottolog.org/resource/languoid/id/kaqc1270

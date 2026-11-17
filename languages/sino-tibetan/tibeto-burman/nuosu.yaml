@@ -9,6 +9,7 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 2000000
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Nuosu_language
   - https://glottolog.org/resource/languoid/id/sich1238

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 150000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 231
+  wiktionary_language: Lak
 sources:
   - https://en.wikipedia.org/wiki/Lak_language
   - https://glottolog.org/resource/languoid/id/lakk1252

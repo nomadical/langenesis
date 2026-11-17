@@ -9,6 +9,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 100
 status: classical
+vocabulary:
+  wiktionary_lemmas: 887
+  wiktionary_language: Sumerian
 sources:
   - https://en.wikipedia.org/wiki/Sumerian_language
   - https://glottolog.org/resource/languoid/id/sume1241

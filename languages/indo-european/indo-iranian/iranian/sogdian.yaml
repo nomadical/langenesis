@@ -8,6 +8,9 @@ period:
   end: 1000
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 35
+  wiktionary_language: Sogdian
 sources:
   - https://en.wikipedia.org/wiki/Sogdian_language
   - https://glottolog.org/resource/languoid/id/sogd1245
