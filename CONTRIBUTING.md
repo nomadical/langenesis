@@ -60,7 +60,7 @@ notes: |                          # optional free-form prose
 ## What makes a good entry
 
 - **At least one source URL.** CI requires this; PRs with no sources are rejected.
-- **Glottolog ID when available.** Look it up at [glottolog.org](https://glottolog.org/) — it's the canonical identifier.
+- **Glottolog ID when available.** Look it up at [glottolog.org](https://glottolog.org/) — it's the canonical identifier. CI checks that every `glottocode` exists in Glottolog (`npm run test:glottolog`, needs network).
 - **Realistic dates.** For modern languages, use the conventional "Early Modern X" start (often around 1500). For proto-languages, cite scholarly estimates and note uncertainty in `start_uncertainty`.
 - **Notes about controversies.** If dating is disputed (Proto-Afro-Asiatic, Proto-Niger-Congo, the Anatolian-vs-Kurgan PIE debate), put that in `notes:`.
 - **Separate historical stages.** "Old English → Middle English → English" should be three nodes, not one node with a wide period. This is what makes the radial-time-tree look like a real evolution chart.
