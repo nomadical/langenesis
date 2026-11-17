@@ -1,6 +1,6 @@
 id: daur
 name: Daur
-glottocode: daga1270
+glottocode: daur1238
 iso639_3: dta
 parents: [proto-mongolic]
 period:
@@ -15,7 +15,6 @@ vocabulary:
   wiktionary_language: Daur
 sources:
   - https://en.wikipedia.org/wiki/Daur_language
-  - https://glottolog.org/resource/languoid/id/daga1270
   - https://glottolog.org/resource/languoid/id/daur1238
 notes: |
   Mongolic language of Inner Mongolia and Heilongjiang. It split from the rest
