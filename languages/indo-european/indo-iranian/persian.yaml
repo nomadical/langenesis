@@ -1,6 +1,6 @@
 id: persian
 name: Persian
-glottocode: fars1254
+glottocode: west2369
 iso639_3: pes
 parents: [middle-persian]
 period:
@@ -17,7 +17,6 @@ vocabulary:
   wiktionary_language: Persian
 sources:
   - https://en.wikipedia.org/wiki/Persian_language
-  - https://glottolog.org/resource/languoid/id/fars1254
   - https://glottolog.org/resource/languoid/id/west2369
   - https://www.state.gov/foreign-language-training/
 notes: |
