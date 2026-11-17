@@ -7,6 +7,9 @@ period:
   end: present
 status: living
 speakers: 100000
+vocabulary:
+  wiktionary_lemmas: 12
+  wiktionary_language: Cree
 sources:
   - https://en.wikipedia.org/wiki/Cree_language
 notes: |

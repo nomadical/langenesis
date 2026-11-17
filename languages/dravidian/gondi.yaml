@@ -8,6 +8,9 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 3000000
+vocabulary:
+  wiktionary_lemmas: 32
+  wiktionary_language: Gondi
 sources:
   - https://en.wikipedia.org/wiki/Gondi_language
 notes: |

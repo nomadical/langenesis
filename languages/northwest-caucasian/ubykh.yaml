@@ -8,6 +8,9 @@ period:
   end: 1992
   start_uncertainty: 500
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 1361
+  wiktionary_language: Ubykh
 sources:
   - https://en.wikipedia.org/wiki/Ubykh_language
   - https://glottolog.org/resource/languoid/id/ubyk1235

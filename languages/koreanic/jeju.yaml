@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 5000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1231
+  wiktionary_language: Jeju
 sources:
   - https://en.wikipedia.org/wiki/Jeju_language
   - https://glottolog.org/resource/languoid/id/jeju1234

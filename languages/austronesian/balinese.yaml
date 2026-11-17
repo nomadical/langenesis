@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 3300000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 693
+  wiktionary_language: Balinese
 sources:
   - https://en.wikipedia.org/wiki/Balinese_language
   - https://glottolog.org/resource/languoid/id/bali1278

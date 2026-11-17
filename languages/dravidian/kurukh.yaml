@@ -9,6 +9,7 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2000000
+endangerment: vulnerable
 sources:
   - https://en.wikipedia.org/wiki/Kurukh_language
   - https://glottolog.org/resource/languoid/id/kuru1302

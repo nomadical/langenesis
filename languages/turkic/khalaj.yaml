@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 40000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1951
+  wiktionary_language: Khalaj
 sources:
   - https://en.wikipedia.org/wiki/Khalaj_language
+  - https://glottolog.org/resource/languoid/id/turk1303
 notes: |
   Arghu Turkic language of central Iran, retaining archaic features (e.g.
   initial h-). Thought to have split from Common Turkic very early.

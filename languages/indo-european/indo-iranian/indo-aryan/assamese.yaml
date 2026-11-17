@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 15000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 3964
+  wiktionary_language: Assamese
 sources:
   - https://en.wikipedia.org/wiki/Assamese_language
   - https://glottolog.org/resource/languoid/id/assa1263

@@ -9,9 +9,17 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 13000000
+endangerment: safe
+learning:
+  fsi_category: 2
+  weeks: 36
+vocabulary:
+  wiktionary_lemmas: 2070
+  wiktionary_language: Haitian Creole
 sources:
   - https://en.wikipedia.org/wiki/Haitian_Creole
   - https://glottolog.org/resource/languoid/id/hait1244
+  - https://www.state.gov/foreign-language-training/
 notes: |
   French-based creole formed in colonial Saint-Domingue with substantial West
   African (notably Fon and Kikongo) input, which is not modelled here as a

@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 4100000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 33716
+  wiktionary_language: Catalan
 sources:
   - https://en.wikipedia.org/wiki/Catalan_language
   - https://glottolog.org/resource/languoid/id/stan1289

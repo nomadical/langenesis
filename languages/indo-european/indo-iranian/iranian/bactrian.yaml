@@ -8,6 +8,9 @@ period:
   end: 900
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 158
+  wiktionary_language: Bactrian
 sources:
   - https://en.wikipedia.org/wiki/Bactrian_language
   - https://glottolog.org/resource/languoid/id/bact1239

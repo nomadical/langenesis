@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 500000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 11537
+  wiktionary_language: Maltese
 sources:
   - https://en.wikipedia.org/wiki/Maltese_language
   - https://glottolog.org/resource/languoid/id/malt1254

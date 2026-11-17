@@ -6,6 +6,9 @@ period:
   end: 1500
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 78
+  wiktionary_language: Old Catalan
 sources:
   - https://en.wikipedia.org/wiki/History_of_the_Catalan_language
 notes: |

@@ -9,6 +9,9 @@ period:
   start_uncertainty: 300
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 35
+  wiktionary_language: Taíno
 sources:
   - https://en.wikipedia.org/wiki/Ta%C3%ADno_language
   - https://glottolog.org/resource/languoid/id/tain1254

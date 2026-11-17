@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 20
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 2110
+  wiktionary_language: Manchu
 sources:
   - https://en.wikipedia.org/wiki/Manchu_language
   - https://glottolog.org/resource/languoid/id/manc1252

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 8000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1584
+  wiktionary_language: Ilocano
 sources:
   - https://en.wikipedia.org/wiki/Ilocano_language
   - https://glottolog.org/resource/languoid/id/ilok1237

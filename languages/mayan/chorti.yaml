@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 30000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 54
+  wiktionary_language: Ch'orti'
 sources:
   - https://en.wikipedia.org/wiki/Ch%27orti%27_language
   - https://glottolog.org/resource/languoid/id/chor1273

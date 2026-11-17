@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1873
+  wiktionary_language: Tarifit
 sources:
   - https://en.wikipedia.org/wiki/Riffian_language
   - https://glottolog.org/resource/languoid/id/tari1263

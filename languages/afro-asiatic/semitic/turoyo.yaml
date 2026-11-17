@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 200
 status: living
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 232
+  wiktionary_language: Turoyo
 sources:
   - https://en.wikipedia.org/wiki/Turoyo_language
   - https://glottolog.org/resource/languoid/id/turo1239

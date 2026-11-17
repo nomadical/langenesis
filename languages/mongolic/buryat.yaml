@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 300000
+vocabulary:
+  wiktionary_lemmas: 537
+  wiktionary_language: Buryat
 sources:
   - https://en.wikipedia.org/wiki/Buryat_language
 notes: |

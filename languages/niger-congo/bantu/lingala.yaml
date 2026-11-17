@@ -9,6 +9,10 @@ period:
   start_uncertainty: 20
 status: living
 speakers: 40000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1451
+  wiktionary_language: Lingala
 sources:
   - https://en.wikipedia.org/wiki/Lingala
   - https://glottolog.org/resource/languoid/id/ling1263

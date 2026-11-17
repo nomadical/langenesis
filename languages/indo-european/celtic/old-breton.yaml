@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 6
+  wiktionary_language: Old Breton
 sources:
   - https://en.wikipedia.org/wiki/Breton_language
 notes: |

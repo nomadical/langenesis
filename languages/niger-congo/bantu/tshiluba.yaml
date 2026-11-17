@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 6300000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 120
+  wiktionary_language: Luba-Kasai
 sources:
   - https://en.wikipedia.org/wiki/Luba-Kasai_language
+  - https://glottolog.org/resource/languoid/id/luba1249
 notes: |
   Central Bantu (Guthrie L31) language of the Kasai region, DR Congo; a national language.

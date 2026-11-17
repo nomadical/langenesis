@@ -9,6 +9,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: classical
+vocabulary:
+  wiktionary_lemmas: 3877
+  wiktionary_language: Classical Nahuatl
 sources:
   - https://en.wikipedia.org/wiki/Classical_Nahuatl
   - https://glottolog.org/resource/languoid/id/clas1250

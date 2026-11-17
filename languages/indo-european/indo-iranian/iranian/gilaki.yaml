@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2400000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 37
+  wiktionary_language: Gilaki
 sources:
   - https://en.wikipedia.org/wiki/Gilaki_language
+  - https://glottolog.org/resource/languoid/id/gila1241
 notes: |
   Caspian (Northwestern Iranian) language of Gilan province, Iran.

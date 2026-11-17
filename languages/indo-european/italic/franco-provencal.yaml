@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 140000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 918
+  wiktionary_language: Franco-Provençal
 sources:
   - https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al
   - https://glottolog.org/resource/languoid/id/fran1260

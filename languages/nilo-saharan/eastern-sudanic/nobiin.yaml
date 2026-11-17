@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 100
 status: living
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 75
+  wiktionary_language: Nobiin
 sources:
   - https://en.wikipedia.org/wiki/Nobiin
   - https://glottolog.org/resource/languoid/id/nobi1240

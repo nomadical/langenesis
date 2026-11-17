@@ -9,9 +9,14 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 22000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 457
+  wiktionary_language: Tundra Nenets
 sources:
   - https://en.wikipedia.org/wiki/Nenets_languages
   - https://glottolog.org/resource/languoid/id/tund1255
+  - https://glottolog.org/resource/languoid/id/nene1249
 notes: |
   Northern Samoyedic language (mainly Tundra Nenets) of the Russian Arctic
   tundra.

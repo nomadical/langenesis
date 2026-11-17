@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 229
+  wiktionary_language: Aleut
 sources:
   - https://en.wikipedia.org/wiki/Aleut_language
   - https://glottolog.org/resource/languoid/id/aleu1260

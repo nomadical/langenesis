@@ -9,6 +9,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 20
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 421
+  wiktionary_language: Hittite
 sources:
   - https://en.wikipedia.org/wiki/Hittite_language
   - https://glottolog.org/resource/languoid/id/hitt1242

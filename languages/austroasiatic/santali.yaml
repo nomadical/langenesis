@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 7600000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 924
+  wiktionary_language: Santali
 sources:
   - https://en.wikipedia.org/wiki/Santali_language
   - https://glottolog.org/resource/languoid/id/sant1410

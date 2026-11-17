@@ -8,6 +8,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 490
+  wiktionary_language: Tocharian A
 sources:
   - https://en.wikipedia.org/wiki/Tocharian_languages
 notes: |

@@ -8,6 +8,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 1551
+  wiktionary_language: Middle Dutch
 sources:
   - https://en.wikipedia.org/wiki/Middle_Dutch
 notes: |

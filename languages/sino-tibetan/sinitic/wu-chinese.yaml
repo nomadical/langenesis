@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 82000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 29030
+  wiktionary_language: Wu
 sources:
   - https://en.wikipedia.org/wiki/Wu_Chinese
   - https://glottolog.org/resource/languoid/id/wuch1236

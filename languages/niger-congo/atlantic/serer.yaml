@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1500000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 29
+  wiktionary_language: Serer
 sources:
   - https://en.wikipedia.org/wiki/Serer_language
+  - https://glottolog.org/resource/languoid/id/sere1260
 notes: |
   North Atlantic language of Senegal and the Gambia, closely related to Fula.

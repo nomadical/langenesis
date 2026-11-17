@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 40000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 2211
+  wiktionary_language: Romansh
 sources:
   - https://en.wikipedia.org/wiki/Romansh_language
   - https://glottolog.org/resource/languoid/id/roma1326

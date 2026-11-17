@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 10000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 226
+  wiktionary_language: Yup'ik
 sources:
   - https://en.wikipedia.org/wiki/Central_Alaskan_Yup%27ik_language
   - https://glottolog.org/resource/languoid/id/cent2127

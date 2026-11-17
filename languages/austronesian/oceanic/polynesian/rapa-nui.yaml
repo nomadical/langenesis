@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 100
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 366
+  wiktionary_language: Rapa Nui
 sources:
   - https://en.wikipedia.org/wiki/Rapa_Nui_language
   - https://glottolog.org/resource/languoid/id/rapa1244

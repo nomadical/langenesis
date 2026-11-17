@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 8000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 8
+  wiktionary_language: Makhuwa
 sources:
   - https://en.wikipedia.org/wiki/Makhuwa_language
+  - https://glottolog.org/resource/languoid/id/makh1264
 notes: |
   Eastern Bantu (Guthrie P31) language, the most widely spoken indigenous language of
   northern Mozambique.

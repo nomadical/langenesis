@@ -9,6 +9,10 @@ period:
   start_uncertainty: 500
 status: living
 speakers: 2500
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 119
+  wiktionary_language: Warlpiri
 sources:
   - https://en.wikipedia.org/wiki/Warlpiri_language
   - https://glottolog.org/resource/languoid/id/warl1254

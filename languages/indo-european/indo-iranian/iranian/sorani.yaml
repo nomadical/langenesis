@@ -9,9 +9,17 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 6000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 1433
+  wiktionary_language: Central Kurdish
 sources:
   - https://en.wikipedia.org/wiki/Central_Kurdish
   - https://glottolog.org/resource/languoid/id/cent1972
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Central Kurdish of Iraqi and Iranian Kurdistan, written in Arabic script;
   co-official in Iraq. Grammatically more innovative than Kurmanji.

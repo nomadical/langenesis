@@ -9,6 +9,9 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 45000000
+vocabulary:
+  wiktionary_lemmas: 2364
+  wiktionary_language: Pashto
 sources:
   - https://en.wikipedia.org/wiki/Pashto
   - https://glottolog.org/resource/languoid/id/pash1269

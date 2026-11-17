@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 1875
+  wiktionary_language: Old Dutch
 sources:
   - https://en.wikipedia.org/wiki/Old_Dutch
 notes: |

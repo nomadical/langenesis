@@ -7,8 +7,13 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 61
+  wiktionary_language: Naro
 sources:
   - https://en.wikipedia.org/wiki/Naro_language
+  - https://glottolog.org/resource/languoid/id/naro1249
 notes: |
   Kalahari Khoe language of the Ghanzi District of Botswana and eastern
   Namibia.

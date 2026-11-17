@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1100000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 7
+  wiktionary_language: Mundari
 sources:
   - https://en.wikipedia.org/wiki/Mundari_language
   - https://glottolog.org/resource/languoid/id/mund1320

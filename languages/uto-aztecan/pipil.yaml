@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 200
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 349
+  wiktionary_language: Pipil
 sources:
   - https://en.wikipedia.org/wiki/Pipil_language
   - https://glottolog.org/resource/languoid/id/pipi1250

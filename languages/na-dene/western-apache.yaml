@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 13000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 490
+  wiktionary_language: Western Apache
 sources:
   - https://en.wikipedia.org/wiki/Western_Apache_language
   - https://glottolog.org/resource/languoid/id/west2615

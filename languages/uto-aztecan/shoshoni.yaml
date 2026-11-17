@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 1000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 20
+  wiktionary_language: Shoshone
 sources:
   - https://en.wikipedia.org/wiki/Shoshoni_language
   - https://glottolog.org/resource/languoid/id/shos1248

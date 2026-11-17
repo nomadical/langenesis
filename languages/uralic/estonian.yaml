@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 1100000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 8271
+  wiktionary_language: Estonian
 sources:
   - https://en.wikipedia.org/wiki/Estonian_language
   - https://glottolog.org/resource/languoid/id/esto1258
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Finnic branch. Closely related to Finnish but mutually only partially
   intelligible. Standardised through religious texts from the 16th c. onwards.

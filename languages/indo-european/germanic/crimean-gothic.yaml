@@ -7,6 +7,9 @@ period:
   start_uncertainty: 200
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 93
+  wiktionary_language: Crimean Gothic
 sources:
   - https://en.wikipedia.org/wiki/Crimean_Gothic
 notes: |

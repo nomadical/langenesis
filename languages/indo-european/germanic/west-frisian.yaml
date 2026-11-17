@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 470000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 2083
+  wiktionary_language: West Frisian
 sources:
   - https://en.wikipedia.org/wiki/West_Frisian_language
   - https://glottolog.org/resource/languoid/id/west2354

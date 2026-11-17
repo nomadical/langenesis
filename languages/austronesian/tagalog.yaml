@@ -8,9 +8,14 @@ period:
   end: present
 status: living
 speakers: 82000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 33896
+  wiktionary_language: Tagalog
 sources:
   - https://en.wikipedia.org/wiki/Tagalog_language
   - https://glottolog.org/resource/languoid/id/taga1280
+  - https://glottolog.org/resource/languoid/id/taga1270
 notes: |
   The basis of Filipino, the national language of the Philippines. Earliest
   attestation is the Laguna Copperplate Inscription (~900 CE). Speaker count

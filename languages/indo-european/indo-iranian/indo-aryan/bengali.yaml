@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 240000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 10168
+  wiktionary_language: Bengali
 sources:
   - https://en.wikipedia.org/wiki/Bengali_language
   - https://glottolog.org/resource/languoid/id/beng1280
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Eastern Indo-Aryan. The Charyapada (10th–12th c.) are claimed as the earliest
   literature of Bengali, Assamese and Odia alike. Middle Bengali from c. 1400.

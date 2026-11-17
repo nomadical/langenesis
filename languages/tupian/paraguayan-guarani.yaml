@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 6500000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 858
+  wiktionary_language: Paraguayan Guarani
 sources:
   - https://en.wikipedia.org/wiki/Paraguayan_Guarani
   - https://glottolog.org/resource/languoid/id/para1311

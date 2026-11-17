@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 186
+  wiktionary_language: Arapaho
 sources:
   - https://en.wikipedia.org/wiki/Arapaho_language
   - https://glottolog.org/resource/languoid/id/arap1274

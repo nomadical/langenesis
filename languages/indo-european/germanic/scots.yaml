@@ -9,6 +9,10 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 1500000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 4309
+  wiktionary_language: Scots
 sources:
   - https://en.wikipedia.org/wiki/Scots_language
   - https://glottolog.org/resource/languoid/id/scot1243

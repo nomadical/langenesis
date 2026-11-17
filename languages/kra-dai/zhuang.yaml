@@ -8,6 +8,9 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 16000000
+vocabulary:
+  wiktionary_lemmas: 2320
+  wiktionary_language: Zhuang
 sources:
   - https://en.wikipedia.org/wiki/Zhuang_languages
 notes: |

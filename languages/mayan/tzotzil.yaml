@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 550000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 147
+  wiktionary_language: Tzotzil
 sources:
   - https://en.wikipedia.org/wiki/Tzotzil_language
   - https://glottolog.org/resource/languoid/id/tzot1259

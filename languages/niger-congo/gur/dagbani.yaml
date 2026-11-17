@@ -8,7 +8,12 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 1200000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 51
+  wiktionary_language: Dagbani
 sources:
   - https://en.wikipedia.org/wiki/Dagbani_language
+  - https://glottolog.org/resource/languoid/id/dagb1246
 notes: |
   Oti-Volta language of the Dagomba of northern Ghana, closely related to Mooré.

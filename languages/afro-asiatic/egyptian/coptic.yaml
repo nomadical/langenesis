@@ -9,6 +9,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: classical
+vocabulary:
+  wiktionary_lemmas: 2804
+  wiktionary_language: Coptic
 sources:
   - https://en.wikipedia.org/wiki/Coptic_language
   - https://glottolog.org/resource/languoid/id/copt1239

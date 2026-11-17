@@ -8,8 +8,13 @@ period:
   start_uncertainty: 50
 status: living
 speakers: 450000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 132
+  wiktionary_language: Sango
 sources:
   - https://en.wikipedia.org/wiki/Sango_language
+  - https://glottolog.org/resource/languoid/id/sang1328
 notes: |
   Ngbandi-based lingua franca of the Central African Republic (Ubangian branch, often
   grouped with Adamawa in a contested Adamawa-Ubangi unit). About 5 million speak it as

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 500
 status: living
 speakers: 3000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 328
+  wiktionary_language: Pitjantjatjara
 sources:
   - https://en.wikipedia.org/wiki/Pitjantjatjara_dialect
   - https://glottolog.org/resource/languoid/id/pitj1243

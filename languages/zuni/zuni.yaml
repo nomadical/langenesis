@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 9500
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 23
+  wiktionary_language: Zuni
 sources:
   - https://en.wikipedia.org/wiki/Zuni_language
   - https://glottolog.org/resource/languoid/id/zuni1245

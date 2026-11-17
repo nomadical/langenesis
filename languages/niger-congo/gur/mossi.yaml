@@ -8,7 +8,12 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 8000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 264
+  wiktionary_language: Moore
 sources:
   - https://en.wikipedia.org/wiki/Mossi_language
+  - https://glottolog.org/resource/languoid/id/moss1236
 notes: |
   Oti-Volta language of the Mossi people, main language of Burkina Faso.

@@ -9,9 +9,14 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 100000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 64
+  wiktionary_language: Daur
 sources:
   - https://en.wikipedia.org/wiki/Daur_language
   - https://glottolog.org/resource/languoid/id/daga1270
+  - https://glottolog.org/resource/languoid/id/daur1238
 notes: |
   Mongolic language of Inner Mongolia and Heilongjiang. It split from the rest
   of Mongolic early and may have a Khitan substrate.

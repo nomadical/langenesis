@@ -8,6 +8,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 47
+  wiktionary_language: Lycian
 sources:
   - https://en.wikipedia.org/wiki/Lycian_language
 notes: |

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 200000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 165
+  wiktionary_language: Khoekhoe
 sources:
   - https://en.wikipedia.org/wiki/Khoekhoe_language
   - https://glottolog.org/resource/languoid/id/nama1264

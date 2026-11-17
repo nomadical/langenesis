@@ -9,6 +9,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 105
+  wiktionary_language: Punic
 sources:
   - https://en.wikipedia.org/wiki/Punic_language
   - https://glottolog.org/resource/languoid/id/puni1241

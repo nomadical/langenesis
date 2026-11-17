@@ -7,6 +7,9 @@ period:
   start: -300
   end: 900
 status: classical
+vocabulary:
+  wiktionary_lemmas: 254
+  wiktionary_language: Middle Persian
 sources:
   - https://en.wikipedia.org/wiki/Middle_Persian
   - https://glottolog.org/resource/languoid/id/pahl1241

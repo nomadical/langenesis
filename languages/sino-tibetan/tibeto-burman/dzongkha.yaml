@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 170000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 384
+  wiktionary_language: Dzongkha
 sources:
   - https://en.wikipedia.org/wiki/Dzongkha
   - https://glottolog.org/resource/languoid/id/dzon1239

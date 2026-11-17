@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 52000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 421
+  wiktionary_language: Bhojpuri
 sources:
   - https://en.wikipedia.org/wiki/Bhojpuri_language
   - https://glottolog.org/resource/languoid/id/bhoj1244

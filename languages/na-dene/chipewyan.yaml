@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 11000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 263
+  wiktionary_language: Chipewyan
 sources:
   - https://en.wikipedia.org/wiki/Chipewyan_language
   - https://glottolog.org/resource/languoid/id/chip1261

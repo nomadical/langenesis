@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 22000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 9074
+  wiktionary_language: Gan
 sources:
   - https://en.wikipedia.org/wiki/Gan_Chinese
   - https://glottolog.org/resource/languoid/id/ganc1239

@@ -6,6 +6,9 @@ period:
   start: 450
   end: 1150
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 21476
+  wiktionary_language: Old English
 sources:
   - https://en.wikipedia.org/wiki/Old_English
 notes: |

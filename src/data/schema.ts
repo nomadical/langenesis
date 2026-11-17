@@ -21,7 +21,28 @@ export const statusEnum = z.enum([
   "classical",
 ]);
 
-export const languageNodeSchema = z.object({
+/** UNESCO's scale, mapped from Glottolog's Agglomerated Endangerment Status. */
+export const endangermentEnum = z.enum([
+  "safe",
+  "vulnerable",
+  "definitely-endangered",
+  "severely-endangered",
+  "critically-endangered",
+]);
+
+/** Foreign Service Institute estimate of classroom time for an English speaker. */
+const learningSchema = z.object({
+  fsi_category: z.number().int().min(1).max(4),
+  weeks: z.number().int().positive(),
+});
+
+/** Lemma count of the language's category on the English Wiktionary. */
+const vocabularySchema = z.object({
+  wiktionary_lemmas: z.number().int().positive(),
+  wiktionary_language: z.string().min(1),
+});
+
+const nodeObject = z.object({
   id: z
     .string()
     .min(1)
@@ -39,9 +60,17 @@ export const languageNodeSchema = z.object({
   period: periodSchema,
   status: statusEnum,
   speakers: z.number().int().nonnegative().optional(),
+  endangerment: endangermentEnum.optional(),
+  learning: learningSchema.optional(),
+  vocabulary: vocabularySchema.optional(),
   sources: z.array(z.string().url()).default([]),
   notes: z.string().optional(),
 });
+
+export const languageNodeSchema = nodeObject.refine(
+  (n) => n.endangerment === undefined || n.status === "living",
+  { message: "endangerment applies to living languages only", path: ["endangerment"] },
+);
 
 export type LanguageNode = z.infer<typeof languageNodeSchema>;
 

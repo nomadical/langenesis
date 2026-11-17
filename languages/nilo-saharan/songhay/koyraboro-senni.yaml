@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 44
+  wiktionary_language: Koyraboro Senni
 sources:
   - https://en.wikipedia.org/wiki/Koyraboro_Senni
   - https://glottolog.org/resource/languoid/id/koyr1242

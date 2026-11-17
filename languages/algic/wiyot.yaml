@@ -7,6 +7,9 @@ period:
   end: 1962
   end_uncertainty: 0
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 146
+  wiktionary_language: Wiyot
 sources:
   - https://en.wikipedia.org/wiki/Wiyot_language
 notes: |

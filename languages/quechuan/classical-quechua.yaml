@@ -7,6 +7,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: classical
+vocabulary:
+  wiktionary_lemmas: 10
+  wiktionary_language: Classical Quechua
 sources:
   - https://en.wikipedia.org/wiki/Classical_Quechua
 notes: |

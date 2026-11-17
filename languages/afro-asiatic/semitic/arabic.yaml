@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 400000000
+endangerment: safe
+learning:
+  fsi_category: 4
+  weeks: 88
+vocabulary:
+  wiktionary_lemmas: 23695
+  wiktionary_language: Arabic
 sources:
   - https://en.wikipedia.org/wiki/Arabic
   - https://glottolog.org/resource/languoid/id/stan1318
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Modern Standard Arabic (MSA), the literary and formal register. Spoken
   varieties (Egyptian, Levantine, Maghrebi, Gulf, etc.) are mutually divergent;

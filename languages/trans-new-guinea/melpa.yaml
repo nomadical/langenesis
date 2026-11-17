@@ -9,9 +9,14 @@ period:
   start_uncertainty: 500
 status: living
 speakers: 130000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 3
+  wiktionary_language: Melpa
 sources:
   - https://en.wikipedia.org/wiki/Melpa_language
   - https://glottolog.org/resource/languoid/id/medl1238
+  - https://glottolog.org/resource/languoid/id/melp1238
 notes: |
   Chimbu–Wahgi branch; spoken around Mount Hagen in the Western Highlands.
   Start date is nominal.

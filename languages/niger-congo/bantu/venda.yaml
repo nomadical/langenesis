@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1300000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 403
+  wiktionary_language: Venda
 sources:
   - https://en.wikipedia.org/wiki/Venda_language
+  - https://glottolog.org/resource/languoid/id/vend1245
 notes: |
   Southern Bantu (Guthrie S21) language of Limpopo, South Africa, and Zimbabwe; sometimes
   linked to Shona.

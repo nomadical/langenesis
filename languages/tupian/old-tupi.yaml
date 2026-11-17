@@ -8,6 +8,9 @@ period:
   start_uncertainty: 300
   end_uncertainty: 50
 status: classical
+vocabulary:
+  wiktionary_lemmas: 1270
+  wiktionary_language: Old Tupi
 sources:
   - https://en.wikipedia.org/wiki/Old_Tupi
 notes: |

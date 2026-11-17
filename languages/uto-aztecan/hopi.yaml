@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 6800
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 320
+  wiktionary_language: Hopi
 sources:
   - https://en.wikipedia.org/wiki/Hopi_language
   - https://glottolog.org/resource/languoid/id/hopi1249

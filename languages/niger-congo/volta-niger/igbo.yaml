@@ -9,8 +9,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 31000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 273
+  wiktionary_language: Igbo
 sources:
   - https://en.wikipedia.org/wiki/Igbo_language
   - https://glottolog.org/resource/languoid/id/igbo1259
+  - https://glottolog.org/resource/languoid/id/nucl1417
 notes: |
   Igboid language of southeastern Nigeria. Intermediate Proto-Igboid stage not tracked.

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 70000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 360
+  wiktionary_language: Tahitian
 sources:
   - https://en.wikipedia.org/wiki/Tahitian_language
   - https://glottolog.org/resource/languoid/id/tahi1242

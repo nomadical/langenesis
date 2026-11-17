@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 200
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 109
+  wiktionary_language: Istro-Romanian
 sources:
   - https://en.wikipedia.org/wiki/Istro-Romanian_language
   - https://glottolog.org/resource/languoid/id/istr1245

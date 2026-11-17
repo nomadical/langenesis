@@ -57,6 +57,7 @@ export function loadLanguages(root: string) {
       continue;
     }
     const { id, name, parents, period, status, speakers } = result.data;
+    const { endangerment, learning, vocabulary } = result.data;
     const { glottocode, iso639_3, sources, notes } = result.data;
     core.push({
       id,
@@ -65,6 +66,9 @@ export function loadLanguages(root: string) {
       period,
       status,
       ...(speakers !== undefined && { speakers }),
+      ...(endangerment && { endangerment }),
+      ...(learning && { learning }),
+      ...(vocabulary && { vocabulary }),
       folder: rel.split(sep)[0],
     });
     files[id] = rel.split(sep).join("/");

@@ -5,6 +5,9 @@ period:
   start: 1100
   end: present
 status: classical
+vocabulary:
+  wiktionary_lemmas: 144
+  wiktionary_language: Church Slavonic
 sources:
   - https://en.wikipedia.org/wiki/Church_Slavonic
 notes: |

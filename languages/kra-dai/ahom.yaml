@@ -8,6 +8,9 @@ period:
   end: 1800
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 252
+  wiktionary_language: Ahom
 sources:
   - https://en.wikipedia.org/wiki/Ahom_language
   - https://glottolog.org/resource/languoid/id/ahom1240

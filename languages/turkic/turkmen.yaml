@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 7000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 1839
+  wiktionary_language: Turkmen
 sources:
   - https://en.wikipedia.org/wiki/Turkmen_language
   - https://glottolog.org/resource/languoid/id/turk1304
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Eastern Oghuz language of Turkmenistan. Literary Turkmen developed from
   Chagatai-influenced traditions (Magtymguly, 18th c.).

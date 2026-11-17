@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 626
+  wiktionary_language: Tlingit
 sources:
   - https://en.wikipedia.org/wiki/Tlingit_language
   - https://glottolog.org/resource/languoid/id/tlin1245

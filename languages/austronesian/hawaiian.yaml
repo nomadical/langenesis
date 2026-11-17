@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 24000
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 3103
+  wiktionary_language: Hawaiian
 sources:
   - https://en.wikipedia.org/wiki/Hawaiian_language
   - https://glottolog.org/resource/languoid/id/hawa1245

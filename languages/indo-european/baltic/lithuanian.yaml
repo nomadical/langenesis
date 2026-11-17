@@ -9,9 +9,17 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 3000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 9029
+  wiktionary_language: Lithuanian
 sources:
   - https://en.wikipedia.org/wiki/Lithuanian_language
   - https://glottolog.org/resource/languoid/id/lith1251
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Among the most conservative living Indo-European languages. First printed book
   1547.

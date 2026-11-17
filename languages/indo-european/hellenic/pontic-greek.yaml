@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 200000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 116
+  wiktionary_language: Pontic Greek
 sources:
   - https://en.wikipedia.org/wiki/Pontic_Greek
   - https://glottolog.org/resource/languoid/id/pont1253

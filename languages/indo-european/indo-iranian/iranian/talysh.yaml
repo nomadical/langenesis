@@ -7,8 +7,13 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1938
+  wiktionary_language: Talysh
 sources:
   - https://en.wikipedia.org/wiki/Talysh_language
+  - https://glottolog.org/resource/languoid/id/taly1247
 notes: |
   Northwestern Iranian of the southwestern Caspian coast, straddling Azerbaijan and
   Iran; related to the extinct Old Azari.

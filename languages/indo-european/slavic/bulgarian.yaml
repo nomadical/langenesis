@@ -9,8 +9,16 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 8000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 21178
+  wiktionary_language: Bulgarian
 sources:
   - https://en.wikipedia.org/wiki/Bulgarian_language
   - https://glottolog.org/resource/languoid/id/bulg1262
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Eastern South Slavic. Modern literary standard formed in the 19th century.

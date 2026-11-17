@@ -6,6 +6,9 @@ period:
   start: -300
   end: 400
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 150
+  wiktionary_language: Gandhari
 sources:
   - https://en.wikipedia.org/wiki/Gandhari_language
 notes: |

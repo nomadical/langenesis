@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 6000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 76
+  wiktionary_language: Umbundu
 sources:
   - https://en.wikipedia.org/wiki/Umbundu
+  - https://glottolog.org/resource/languoid/id/umbu1257
 notes: |
   Western Bantu (Guthrie R11) language of Angola's central highlands, the country's most
   widely spoken indigenous language.

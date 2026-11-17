@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 38
+  wiktionary_language: Zarma
 sources:
   - https://en.wikipedia.org/wiki/Zarma_language
   - https://glottolog.org/resource/languoid/id/zarm1239

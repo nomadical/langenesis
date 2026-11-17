@@ -9,9 +9,17 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 5000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 2740
+  wiktionary_language: Kyrgyz
 sources:
   - https://en.wikipedia.org/wiki/Kyrgyz_language
   - https://glottolog.org/resource/languoid/id/kirg1245
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Kipchak language of Kyrgyzstan. Some classifications place it with Southern
   Altai in a Kyrgyz–Kipchak subgroup, reflecting an older Siberian origin.

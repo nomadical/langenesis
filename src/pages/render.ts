@@ -3,11 +3,15 @@
 // engines can't read; these pages give each language a URL with real text
 // and link back into the map at that language (`#<id>`).
 import {
+  endangermentLabel,
   escapeAttr,
   escapeHtml,
   formatPeriod,
+  fsiLabel,
+  FSI_URL,
   prettyUrl,
   statusLabel,
+  wiktionaryUrl,
 } from "../data/format";
 import type { CoreNode, NodeDetails } from "../data/model";
 import { isVirtualRootId, type LoadedData, type TreeNode } from "../data/tree";
@@ -174,6 +178,15 @@ export function renderLanguagePage(site: SiteData, id: string): string {
   const facts: string[] = [];
   if (node.speakers !== undefined)
     facts.push(`<dt>Speakers</dt><dd>${compact.format(node.speakers)} <span class="faint">(${node.speakers.toLocaleString("en-US")})</span></dd>`);
+  if (node.endangerment) facts.push(`<dt>Endangerment</dt><dd>${endangermentLabel(node.endangerment)}</dd>`);
+  if (node.learning)
+    facts.push(
+      `<dt>Learning time</dt><dd>${node.learning.weeks} weeks <span class="faint">for English speakers · ${fsiLabel(node.learning.fsi_category)} (<a href="${FSI_URL}">FSI</a>)</span></dd>`,
+    );
+  if (node.vocabulary)
+    facts.push(
+      `<dt>Words</dt><dd>${compact.format(node.vocabulary.wiktionary_lemmas)} <span class="faint">entries on <a href="${escapeAttr(wiktionaryUrl(node.vocabulary.wiktionary_language))}">Wiktionary</a></span></dd>`,
+    );
   if (info.iso639_3) facts.push(`<dt>ISO 639-3</dt><dd class="mono">${info.iso639_3}</dd>`);
   if (info.glottocode)
     facts.push(`<dt>Glottocode</dt><dd class="mono"><a href="https://glottolog.org/resource/languoid/id/${info.glottocode}">${info.glottocode}</a></dd>`);

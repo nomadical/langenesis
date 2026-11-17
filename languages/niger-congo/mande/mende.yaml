@@ -8,8 +8,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 2000000
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Mende_language
+  - https://glottolog.org/resource/languoid/id/mend1266
 notes: |
   Southwestern Mande language of Sierra Leone, written in its own Kikakui script
   in the 20th century.

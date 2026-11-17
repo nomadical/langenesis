@@ -8,8 +8,13 @@ period:
   start_uncertainty: 10
 status: living
 speakers: 1600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 447
+  wiktionary_language: Northern Ndebele
 sources:
   - https://en.wikipedia.org/wiki/Northern_Ndebele_language
+  - https://glottolog.org/resource/languoid/id/nort2795
 notes: |
   Nguni language of Zimbabwe, brought from Zululand by Mzilikazi's followers in the
   1820s-30s; very close to Zulu. Distinct from Southern Ndebele of South Africa.

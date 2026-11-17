@@ -8,6 +8,9 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 1000000
+vocabulary:
+  wiktionary_lemmas: 1148
+  wiktionary_language: Sardinian
 sources:
   - https://en.wikipedia.org/wiki/Sardinian_language
 notes: |

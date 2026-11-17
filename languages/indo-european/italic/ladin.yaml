@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 41000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1587
+  wiktionary_language: Ladin
 sources:
   - https://en.wikipedia.org/wiki/Ladin_language
   - https://glottolog.org/resource/languoid/id/ladi1250

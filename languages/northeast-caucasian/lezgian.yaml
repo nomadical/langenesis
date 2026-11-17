@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 600000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 362
+  wiktionary_language: Lezgi
 sources:
   - https://en.wikipedia.org/wiki/Lezgian_language
   - https://glottolog.org/resource/languoid/id/lezg1247

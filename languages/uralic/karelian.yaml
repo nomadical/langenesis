@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 36000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1081
+  wiktionary_language: Karelian
 sources:
   - https://en.wikipedia.org/wiki/Karelian_language
   - https://glottolog.org/resource/languoid/id/kare1335

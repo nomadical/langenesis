@@ -7,6 +7,9 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 10000000
+vocabulary:
+  wiktionary_lemmas: 32857
+  wiktionary_language: Teochew
 sources:
   - https://en.wikipedia.org/wiki/Teochew_dialect
 notes: |

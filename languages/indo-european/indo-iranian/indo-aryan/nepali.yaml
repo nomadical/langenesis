@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 19000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 2054
+  wiktionary_language: Nepali
 sources:
   - https://en.wikipedia.org/wiki/Nepali_language
   - https://glottolog.org/resource/languoid/id/nepa1254
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Eastern Pahari (Northern Indo-Aryan), from the Khas language of western Nepal;
   earliest inscriptions c. 13th c. Its Middle Indo-Aryan ancestry is debated;

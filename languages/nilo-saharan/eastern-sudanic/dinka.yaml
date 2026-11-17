@@ -7,6 +7,9 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+vocabulary:
+  wiktionary_lemmas: 91
+  wiktionary_language: Dinka
 sources:
   - https://en.wikipedia.org/wiki/Dinka_language
 notes: |

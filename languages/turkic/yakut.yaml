@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 450000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 3074
+  wiktionary_language: Yakut
 sources:
   - https://en.wikipedia.org/wiki/Yakut_language
   - https://glottolog.org/resource/languoid/id/yaku1245

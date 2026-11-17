@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 106
+  wiktionary_language: Seneca
 sources:
   - https://en.wikipedia.org/wiki/Seneca_language
   - https://glottolog.org/resource/languoid/id/sene1264

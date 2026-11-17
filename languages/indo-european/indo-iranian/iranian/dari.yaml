@@ -7,8 +7,14 @@ period:
   end: present
   start_uncertainty: 200
 status: living
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
 sources:
   - https://en.wikipedia.org/wiki/Dari
+  - https://glottolog.org/resource/languoid/id/dari1249
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Afghan standard of Persian and co-official language of Afghanistan. Split from
   the Iranian standard is conventional (roughly Safavid era), not a sharp break.

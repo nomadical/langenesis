@@ -9,6 +9,7 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 60000000
+endangerment: safe
 sources:
   - https://en.wikipedia.org/wiki/Levantine_Arabic
   - https://glottolog.org/resource/languoid/id/nort3139

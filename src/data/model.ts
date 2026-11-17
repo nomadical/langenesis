@@ -5,7 +5,15 @@ import type { LanguageNode } from "./schema";
 /** Fields the tree needs to draw and search. Shipped in the main bundle. */
 export type CoreNode = Pick<
   LanguageNode,
-  "id" | "name" | "parents" | "period" | "status" | "speakers"
+  | "id"
+  | "name"
+  | "parents"
+  | "period"
+  | "status"
+  | "speakers"
+  | "endangerment"
+  | "learning"
+  | "vocabulary"
 >;
 
 /** Reference material for the detail panel. Loaded lazily after first paint. */

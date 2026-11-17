@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 350000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 578
+  wiktionary_language: Kalmyk
 sources:
   - https://en.wikipedia.org/wiki/Kalmyk_Oirat
   - https://glottolog.org/resource/languoid/id/kalm1243

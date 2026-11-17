@@ -8,6 +8,9 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 7000000
+vocabulary:
+  wiktionary_lemmas: 356
+  wiktionary_language: Kongo
 sources:
   - https://en.wikipedia.org/wiki/Kongo_language
 notes: |

@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 25000000
+endangerment: safe
+learning:
+  fsi_category: 1
+  weeks: 24
+vocabulary:
+  wiktionary_lemmas: 67419
+  wiktionary_language: Dutch
 sources:
   - https://en.wikipedia.org/wiki/Dutch_language
   - https://glottolog.org/resource/languoid/id/dutc1256
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Modern Dutch, standardized from the 16th–17th centuries (States Bible, 1637).
   Includes Flemish varieties in Belgium.

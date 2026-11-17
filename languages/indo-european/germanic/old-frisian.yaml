@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 589
+  wiktionary_language: Old Frisian
 sources:
   - https://en.wikipedia.org/wiki/Old_Frisian
 notes: |

@@ -9,6 +9,7 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1000
+endangerment: definitely-endangered
 sources:
   - https://en.wikipedia.org/wiki/Selkup_language
   - https://glottolog.org/resource/languoid/id/selk1253

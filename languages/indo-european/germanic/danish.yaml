@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 6000000
+endangerment: safe
+learning:
+  fsi_category: 1
+  weeks: 24
+vocabulary:
+  wiktionary_lemmas: 25724
+  wiktionary_language: Danish
 sources:
   - https://en.wikipedia.org/wiki/Danish_language
   - https://glottolog.org/resource/languoid/id/dani1285
+  - https://www.state.gov/foreign-language-training/
 notes: |
   East Scandinavian. Christian III's Bible (1550) was pivotal for the written
   standard.

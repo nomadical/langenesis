@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 260000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1304
+  wiktionary_language: Udmurt
 sources:
   - https://en.wikipedia.org/wiki/Udmurt_language
   - https://glottolog.org/resource/languoid/id/udmu1245

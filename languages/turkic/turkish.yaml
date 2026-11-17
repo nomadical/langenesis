@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 88000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 28028
+  wiktionary_language: Turkish
 sources:
   - https://en.wikipedia.org/wiki/Turkish_language
   - https://glottolog.org/resource/languoid/id/nucl1301
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Member of the Oghuz branch. Modern Turkish dates from the 1928 alphabet
   reform and the language purism of the Turkish Language Association (1932).

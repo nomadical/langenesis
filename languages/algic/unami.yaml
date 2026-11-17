@@ -8,6 +8,9 @@ period:
   end: 2002
   end_uncertainty: 0
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 2059
+  wiktionary_language: Unami
 sources:
   - https://en.wikipedia.org/wiki/Unami_language
   - https://glottolog.org/resource/languoid/id/unam1242

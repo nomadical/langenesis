@@ -9,6 +9,7 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 1600000
+endangerment: vulnerable
 sources:
   - https://en.wikipedia.org/wiki/Kabardian_language
   - https://glottolog.org/resource/languoid/id/kaba1278

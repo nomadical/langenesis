@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 20
+endangerment: critically-endangered
+vocabulary:
+  wiktionary_lemmas: 3082
+  wiktionary_language: Votic
 sources:
   - https://en.wikipedia.org/wiki/Votic_language
   - https://glottolog.org/resource/languoid/id/voti1245

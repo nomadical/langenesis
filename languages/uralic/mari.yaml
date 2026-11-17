@@ -8,6 +8,9 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 400000
+vocabulary:
+  wiktionary_lemmas: 841
+  wiktionary_language: Eastern Mari
 sources:
   - https://en.wikipedia.org/wiki/Mari_language
 notes: |

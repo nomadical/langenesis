@@ -6,6 +6,9 @@ period:
   end: present
 status: living
 speakers: 113000000
+vocabulary:
+  wiktionary_lemmas: 7375
+  wiktionary_language: Punjabi
 sources:
   - https://en.wikipedia.org/wiki/Punjabi_language
 notes: |

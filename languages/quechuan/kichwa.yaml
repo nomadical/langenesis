@@ -5,6 +5,9 @@ period:
   start: 1500
   end: present
 status: living
+vocabulary:
+  wiktionary_lemmas: 10
+  wiktionary_language: Kichwa
 sources:
   - https://en.wikipedia.org/wiki/Kichwa_language
 notes: |

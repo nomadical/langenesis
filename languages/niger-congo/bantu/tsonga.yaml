@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 3700000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 383
+  wiktionary_language: Tsonga
 sources:
   - https://en.wikipedia.org/wiki/Tsonga_language
+  - https://glottolog.org/resource/languoid/id/tson1249
 notes: |
   Southern Bantu (Guthrie S53) language of South Africa and southern Mozambique.

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 1000
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 581
+  wiktionary_language: Nanai
 sources:
   - https://en.wikipedia.org/wiki/Nanai_language
   - https://glottolog.org/resource/languoid/id/nana1257

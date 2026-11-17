@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 500000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 623
+  wiktionary_language: Ingush
 sources:
   - https://en.wikipedia.org/wiki/Ingush_language
   - https://glottolog.org/resource/languoid/id/ingu1240

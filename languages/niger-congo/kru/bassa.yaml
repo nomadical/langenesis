@@ -8,8 +8,13 @@ period:
   start_uncertainty: 500
 status: living
 speakers: 600000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 78
+  wiktionary_language: Bassa
 sources:
   - https://en.wikipedia.org/wiki/Bassa_language_(Liberia)
+  - https://glottolog.org/resource/languoid/id/nucl1418
 notes: |
   Western Kru language of Liberia with its own Vah script. Not to be confused with
   Basaa of Cameroon (Bantu).

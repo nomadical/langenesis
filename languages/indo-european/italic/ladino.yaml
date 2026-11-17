@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 60000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 2422
+  wiktionary_language: Ladino
 sources:
   - https://en.wikipedia.org/wiki/Judaeo-Spanish
   - https://glottolog.org/resource/languoid/id/ladi1251

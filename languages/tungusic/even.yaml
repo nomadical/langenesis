@@ -8,8 +8,13 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 5000
+endangerment: severely-endangered
+vocabulary:
+  wiktionary_lemmas: 729
+  wiktionary_language: Even
 sources:
   - https://en.wikipedia.org/wiki/Even_language
+  - https://glottolog.org/resource/languoid/id/even1260
 notes: |
   Northern Tungusic language of northeastern Siberia (Yakutia, Magadan,
   Kamchatka), endangered.

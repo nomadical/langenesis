@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 150000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 872
+  wiktionary_language: Corsican
 sources:
   - https://en.wikipedia.org/wiki/Corsican_language
   - https://glottolog.org/resource/languoid/id/cors1241

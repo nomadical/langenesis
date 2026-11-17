@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 9
+  wiktionary_language: Maasai
 sources:
   - https://en.wikipedia.org/wiki/Maasai_language
   - https://glottolog.org/resource/languoid/id/masa1300

@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 200
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 5884
+  wiktionary_language: Assyrian Neo-Aramaic
 sources:
   - https://en.wikipedia.org/wiki/Assyrian_Neo-Aramaic
   - https://glottolog.org/resource/languoid/id/assy1241

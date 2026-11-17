@@ -7,6 +7,9 @@ period:
   start: 25
   end: 1000
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 35629
+  wiktionary_language: Middle Chinese
 sources:
   - https://en.wikipedia.org/wiki/Middle_Chinese
   - https://glottolog.org/resource/languoid/id/midd1344

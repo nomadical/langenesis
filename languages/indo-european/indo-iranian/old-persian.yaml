@@ -7,6 +7,9 @@ period:
   start: -550
   end: -330
 status: classical
+vocabulary:
+  wiktionary_lemmas: 589
+  wiktionary_language: Old Persian
 sources:
   - https://en.wikipedia.org/wiki/Old_Persian
   - https://glottolog.org/resource/languoid/id/oldp1254

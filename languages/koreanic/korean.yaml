@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 81000000
+endangerment: safe
+learning:
+  fsi_category: 4
+  weeks: 88
+vocabulary:
+  wiktionary_lemmas: 58622
+  wiktionary_language: Korean
 sources:
   - https://en.wikipedia.org/wiki/Korean_language
   - https://glottolog.org/resource/languoid/id/kore1280
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Covers Early Modern Korean (1600–1900) and Modern Korean (1900–present).
   North and South Korean standards have diverged somewhat in vocabulary and

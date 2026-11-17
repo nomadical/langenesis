@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 150000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 957
+  wiktionary_language: Gagauz
 sources:
   - https://en.wikipedia.org/wiki/Gagauz_language
   - https://glottolog.org/resource/languoid/id/gaga1249

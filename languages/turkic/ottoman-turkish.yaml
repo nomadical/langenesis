@@ -6,6 +6,9 @@ period:
   start: 1500
   end: 1928
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 8661
+  wiktionary_language: Ottoman Turkish
 sources:
   - https://en.wikipedia.org/wiki/Ottoman_Turkish
 notes: |

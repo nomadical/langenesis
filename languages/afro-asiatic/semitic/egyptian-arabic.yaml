@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 75000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1367
+  wiktionary_language: Egyptian Arabic
 sources:
   - https://en.wikipedia.org/wiki/Egyptian_Arabic
   - https://glottolog.org/resource/languoid/id/egyp1253

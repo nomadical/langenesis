@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 11000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 506
+  wiktionary_language: Shona
 sources:
   - https://en.wikipedia.org/wiki/Shona_language
   - https://glottolog.org/resource/languoid/id/shon1251

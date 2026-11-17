@@ -8,6 +8,10 @@ period:
   end: present
   start_uncertainty: 300
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 32
+  wiktionary_language: Western Neo-Aramaic
 sources:
   - https://en.wikipedia.org/wiki/Western_Neo-Aramaic
   - https://glottolog.org/resource/languoid/id/west2763

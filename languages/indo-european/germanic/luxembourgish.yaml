@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 400000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 6945
+  wiktionary_language: Luxembourgish
 sources:
   - https://en.wikipedia.org/wiki/Luxembourgish
   - https://glottolog.org/resource/languoid/id/luxe1241

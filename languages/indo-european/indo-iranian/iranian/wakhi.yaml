@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 60000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 122
+  wiktionary_language: Wakhi
 sources:
   - https://en.wikipedia.org/wiki/Wakhi_language
+  - https://glottolog.org/resource/languoid/id/wakh1245
 notes: |
   Pamir (Eastern Iranian) language of the Wakhan corridor and neighbouring areas of
   Tajikistan, Pakistan and China. The unity of 'Pamir languages' is areal, not

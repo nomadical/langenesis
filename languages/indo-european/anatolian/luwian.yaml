@@ -8,6 +8,9 @@ period:
   start_uncertainty: 100
   end_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 98
+  wiktionary_language: Luwian
 sources:
   - https://en.wikipedia.org/wiki/Luwian_language
 notes: |

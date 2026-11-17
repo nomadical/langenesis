@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 32000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 2391
+  wiktionary_language: Sundanese
 sources:
   - https://en.wikipedia.org/wiki/Sundanese_language
   - https://glottolog.org/resource/languoid/id/sund1252

@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 330000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 18901
+  wiktionary_language: Icelandic
 sources:
   - https://en.wikipedia.org/wiki/Icelandic_language
   - https://glottolog.org/resource/languoid/id/icel1247

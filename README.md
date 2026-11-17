@@ -20,7 +20,9 @@ Almost every diagram of language evolution is either a static poster (beautiful 
 
 ## Status
 
-52 families and isolates, 690 nodes (living languages, historical stages, and reconstructed proto-languages) spanning Africa, Eurasia, Oceania, and the Americas. Each node has dates, a status (living / classical / extinct / reconstructed), at least one source, and a Glottolog code where one could be verified.
+52 families and isolates, 690 nodes (living languages, historical stages, and reconstructed proto-languages) spanning Africa, Eurasia, Oceania, and the Americas. Each node has dates, a status (living / classical / extinct / reconstructed), at least one source, and a Glottolog code where one could be verified. Living languages also carry an endangerment level where Glottolog rates one, an FSI learning time for the ~60 languages the US Foreign Service Institute lists, and a Wiktionary entry count where Wiktionary has a matching language.
+
+The map can be filtered to living, endangered or dead languages, and an **Insights** view (`#insights`) charts the whole dataset: status, endangerment, learning curve, vocabulary, speakers, and languages in use over time.
 
 The dataset is hand-curated. Coverage aims at every family with a million-plus speakers plus notable isolates and attested historical stages. It is not exhaustive (Glottolog lists ~8,000 languoids). Contributions welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -54,7 +56,8 @@ src/
   data/                   schema, tree building, loader, formatting
   pages/                  static per-language pages + sitemap (build time)
   viz/radial-tree.ts      D3 visualization
-  main.ts                 UI: sidebar, search, detail panel, keyboard
+  insights/               Insights view (charts), loaded on demand
+  main.ts                 UI: sidebar, search, filter, detail panel, keyboard
 src/styles.css            all styling (bundled by Vite)
 tests/                    vitest — runs on every PR via CI
 .github/workflows/        validate.yml (typecheck + tests)
@@ -70,4 +73,4 @@ When you contribute data, you agree to license it under CC-BY-SA 4.0.
 
 ## Acknowledgements
 
-Seed data drawn from [Glottolog](https://glottolog.org/) (CC-BY 4.0), Wikipedia, and the scholarly references cited in each language's `sources` field.
+Seed data drawn from [Glottolog](https://glottolog.org/) (CC-BY 4.0, including its endangerment ratings), the [Foreign Service Institute](https://www.state.gov/foreign-language-training/), [Wiktionary](https://en.wiktionary.org/) lemma counts, Wikipedia, and the scholarly references cited in each language's `sources` field.

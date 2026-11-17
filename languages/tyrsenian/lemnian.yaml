@@ -8,6 +8,9 @@ period:
   start_uncertainty: 50
   end_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 3
+  wiktionary_language: Lemnian
 sources:
   - https://en.wikipedia.org/wiki/Lemnian_language
 notes: |

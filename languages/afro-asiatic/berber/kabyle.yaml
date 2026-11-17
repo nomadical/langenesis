@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 5000000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 333
+  wiktionary_language: Kabyle
 sources:
   - https://en.wikipedia.org/wiki/Kabyle_language
   - https://glottolog.org/resource/languoid/id/kaby1243

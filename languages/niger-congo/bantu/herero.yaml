@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 250000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 116
+  wiktionary_language: Herero
 sources:
   - https://en.wikipedia.org/wiki/Herero_language
+  - https://glottolog.org/resource/languoid/id/here1253
 notes: |
   Southwest Bantu (Guthrie R31) language of Namibia and Botswana.

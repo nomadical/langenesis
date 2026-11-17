@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 4700000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 112
+  wiktionary_language: Kamba
 sources:
   - https://en.wikipedia.org/wiki/Kamba_language
+  - https://glottolog.org/resource/languoid/id/kamb1297
 notes: |
   Northeast Bantu (Guthrie E55) language of Kenya's Eastern Province.

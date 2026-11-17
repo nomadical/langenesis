@@ -7,8 +7,13 @@ period:
   end: present
   start_uncertainty: 200
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 39
+  wiktionary_language: Cappadocian Greek
 sources:
   - https://en.wikipedia.org/wiki/Cappadocian_Greek
+  - https://glottolog.org/resource/languoid/id/capp1239
 notes: |
   Heavily Turkish-influenced Greek of central Anatolia. Thought extinct after
   1923 until speakers were found in Greece in 2005; critically endangered.

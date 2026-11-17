@@ -9,9 +9,17 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 1500000
+endangerment: vulnerable
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 12041
+  wiktionary_language: Latvian
 sources:
   - https://en.wikipedia.org/wiki/Latvian_language
   - https://glottolog.org/resource/languoid/id/latv1249
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Absorbed Curonian, Selonian and Semigallian elements; strong Livonian (Finnic)
   substrate. Written from the 16th century.

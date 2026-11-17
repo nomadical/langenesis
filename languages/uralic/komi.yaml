@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 160000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 990
+  wiktionary_language: Komi-Zyrian
 sources:
   - https://en.wikipedia.org/wiki/Komi_language
   - https://glottolog.org/resource/languoid/id/komi1268

@@ -8,8 +8,16 @@ period:
   end: present
 status: living
 speakers: 33000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 8612
+  wiktionary_language: Burmese
 sources:
   - https://en.wikipedia.org/wiki/Burmese_language
   - https://glottolog.org/resource/languoid/id/nucl1310
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Covers Middle Burmese (16th–18th c.) and Modern Burmese.

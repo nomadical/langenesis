@@ -9,9 +9,17 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 1600000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 46155
+  wiktionary_language: Macedonian
 sources:
   - https://en.wikipedia.org/wiki/Macedonian_language
   - https://glottolog.org/resource/languoid/id/mace1250
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Eastern South Slavic, forming a dialect continuum with Bulgarian; standard
   codified in 1945. Its relationship to Bulgarian is politically contested; the

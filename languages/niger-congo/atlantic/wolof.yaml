@@ -9,9 +9,14 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 5500000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 711
+  wiktionary_language: Wolof
 sources:
   - https://en.wikipedia.org/wiki/Wolof_language
   - https://glottolog.org/resource/languoid/id/wolo1247
+  - https://glottolog.org/resource/languoid/id/nucl1347
 notes: |
   North Atlantic (Senegambian) language and main lingua franca of Senegal; roughly
   22 million speakers including L2.

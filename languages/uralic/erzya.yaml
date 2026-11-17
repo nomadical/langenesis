@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 300000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 1012
+  wiktionary_language: Erzya
 sources:
   - https://en.wikipedia.org/wiki/Erzya_language
   - https://glottolog.org/resource/languoid/id/erzy1239

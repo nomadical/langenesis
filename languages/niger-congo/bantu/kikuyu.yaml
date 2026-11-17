@@ -9,6 +9,10 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 8000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1515
+  wiktionary_language: Kikuyu
 sources:
   - https://en.wikipedia.org/wiki/Kikuyu_language
   - https://glottolog.org/resource/languoid/id/kiku1240

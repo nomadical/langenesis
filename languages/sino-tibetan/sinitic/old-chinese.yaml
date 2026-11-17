@@ -7,6 +7,9 @@ period:
   start: -1250
   end: 25
 status: classical
+vocabulary:
+  wiktionary_lemmas: 29721
+  wiktionary_language: Old Chinese
 sources:
   - https://en.wikipedia.org/wiki/Old_Chinese
   - https://glottolog.org/resource/languoid/id/oldc1244

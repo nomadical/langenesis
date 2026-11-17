@@ -7,8 +7,10 @@ period:
   end: present
   start_uncertainty: 50
 status: living
+endangerment: vulnerable
 sources:
   - https://en.wikipedia.org/wiki/Arvanitika
+  - https://glottolog.org/resource/languoid/id/arva1236
 notes: |
   Tosk-derived Albanian of Greece from late-medieval migrations; severely
   endangered.

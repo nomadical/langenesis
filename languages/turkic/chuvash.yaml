@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 700000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1155
+  wiktionary_language: Chuvash
 sources:
   - https://en.wikipedia.org/wiki/Chuvash_language
   - https://glottolog.org/resource/languoid/id/chuv1255

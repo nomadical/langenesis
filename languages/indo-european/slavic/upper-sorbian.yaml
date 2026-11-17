@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 13000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 978
+  wiktionary_language: Upper Sorbian
 sources:
   - https://en.wikipedia.org/wiki/Upper_Sorbian_language
   - https://glottolog.org/resource/languoid/id/uppe1395

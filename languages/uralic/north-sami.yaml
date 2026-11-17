@@ -9,6 +9,10 @@ period:
   start_uncertainty: 200
 status: living
 speakers: 25000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 4142
+  wiktionary_language: Northern Sami
 sources:
   - https://en.wikipedia.org/wiki/Northern_Sami
   - https://glottolog.org/resource/languoid/id/nort2671

@@ -7,6 +7,9 @@ period:
   start: 1500
   end: present
 status: living
+vocabulary:
+  wiktionary_lemmas: 199
+  wiktionary_language: Haida
 sources:
   - https://en.wikipedia.org/wiki/Haida_language
   - https://glottolog.org/resource/languoid/id/haid1248

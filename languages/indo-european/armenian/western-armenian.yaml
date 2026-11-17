@@ -7,8 +7,14 @@ period:
   end: present
   start_uncertainty: 100
 status: living
+endangerment: vulnerable
+learning:
+  fsi_category: 3
+  weeks: 44
 sources:
   - https://en.wikipedia.org/wiki/Western_Armenian
+  - https://glottolog.org/resource/languoid/id/homs1234
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Language of the Armenian diaspora descended from Ottoman Armenians; classified
   as endangered by UNESCO.

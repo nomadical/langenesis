@@ -8,9 +8,17 @@ period:
   end: present
 status: living
 speakers: 14000000
+endangerment: safe
+learning:
+  fsi_category: 3
+  weeks: 44
+vocabulary:
+  wiktionary_lemmas: 32775
+  wiktionary_language: Hungarian
 sources:
   - https://en.wikipedia.org/wiki/Hungarian_language
   - https://glottolog.org/resource/languoid/id/hung1274
+  - https://www.state.gov/foreign-language-training/
 notes: |
   Ugric branch — distantly related to Khanty and Mansi in western Siberia.
   Covers Middle Hungarian (1526–1772) and Modern Hungarian; earlier stages

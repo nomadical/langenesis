@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 2000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 862
+  wiktionary_language: Lakota
 sources:
   - https://en.wikipedia.org/wiki/Lakota_language
   - https://glottolog.org/resource/languoid/id/lako1247

@@ -8,6 +8,9 @@ period:
   start_uncertainty: 30
   end_uncertainty: 50
 status: classical
+vocabulary:
+  wiktionary_lemmas: 705
+  wiktionary_language: Old Georgian
 sources:
   - https://en.wikipedia.org/wiki/Old_Georgian_language
 notes: |

@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 2300000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 1546
+  wiktionary_language: Swazi
 sources:
   - https://en.wikipedia.org/wiki/Swazi_language
   - https://glottolog.org/resource/languoid/id/swat1243

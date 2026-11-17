@@ -9,6 +9,10 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 4000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 72
+  wiktionary_language: Luo
 sources:
   - https://en.wikipedia.org/wiki/Dholuo
   - https://glottolog.org/resource/languoid/id/luok1236

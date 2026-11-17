@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 200000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 5174
+  wiktionary_language: Occitan
 sources:
   - https://en.wikipedia.org/wiki/Occitan_language
   - https://glottolog.org/resource/languoid/id/occi1239

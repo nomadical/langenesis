@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 140000
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 191
+  wiktionary_language: Purepecha
 sources:
   - https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language
   - https://glottolog.org/resource/languoid/id/pure1242

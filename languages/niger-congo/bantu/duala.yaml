@@ -8,8 +8,13 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 90000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 46
+  wiktionary_language: Duala
 sources:
   - https://en.wikipedia.org/wiki/Duala_language
+  - https://glottolog.org/resource/languoid/id/dual1243
 notes: |
   Northwest Bantu (Guthrie A24) language of coastal Cameroon, close to the Bantu homeland;
   historically a regional trade language.

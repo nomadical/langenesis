@@ -6,6 +6,9 @@ period:
   end: 1600
   start_uncertainty: 100
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 102
+  wiktionary_language: Old Hindi
 sources:
   - https://en.wikipedia.org/wiki/Hindustani_language
 notes: |

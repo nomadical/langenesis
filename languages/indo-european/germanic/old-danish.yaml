@@ -6,6 +6,9 @@ period:
   end: 1525
   start_uncertainty: 50
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 152
+  wiktionary_language: Old Danish
 sources:
   - https://en.wikipedia.org/wiki/Old_Danish
 notes: |

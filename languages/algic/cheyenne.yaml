@@ -7,6 +7,10 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: definitely-endangered
+vocabulary:
+  wiktionary_lemmas: 103
+  wiktionary_language: Cheyenne
 sources:
   - https://en.wikipedia.org/wiki/Cheyenne_language
   - https://glottolog.org/resource/languoid/id/chey1247

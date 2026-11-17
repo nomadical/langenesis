@@ -7,8 +7,13 @@ period:
   end: present
 status: living
 speakers: 2000000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1744
+  wiktionary_language: Low German
 sources:
   - https://en.wikipedia.org/wiki/Low_German
+  - https://glottolog.org/resource/languoid/id/nort2627
 notes: |
   Also Low Saxon (Plattdeutsch), spoken in northern Germany and the eastern
   Netherlands. Speaker estimates vary widely.

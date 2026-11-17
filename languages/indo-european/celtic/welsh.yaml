@@ -8,6 +8,10 @@ period:
   end: present
 status: living
 speakers: 540000
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 18541
+  wiktionary_language: Welsh
 sources:
   - https://en.wikipedia.org/wiki/Welsh_language
   - https://glottolog.org/resource/languoid/id/wels1247

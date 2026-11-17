@@ -6,6 +6,9 @@ period:
   start: 1150
   end: 1500
 status: extinct
+vocabulary:
+  wiktionary_lemmas: 14627
+  wiktionary_language: Middle English
 sources:
   - https://en.wikipedia.org/wiki/Middle_English
 notes: |

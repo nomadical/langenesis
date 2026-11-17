@@ -8,6 +8,9 @@ period:
   end: 1100
   end_uncertainty: 50
 status: classical
+vocabulary:
+  wiktionary_lemmas: 4113
+  wiktionary_language: Old Church Slavonic
 sources:
   - https://en.wikipedia.org/wiki/Old_Church_Slavonic
   - https://glottolog.org/resource/languoid/id/chur1257

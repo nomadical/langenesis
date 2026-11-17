@@ -6,7 +6,12 @@ period:
   start: 1500
   end: present
 status: living
+endangerment: vulnerable
+vocabulary:
+  wiktionary_lemmas: 1
+  wiktionary_language: Asháninka
 sources:
   - https://en.wikipedia.org/wiki/Ash%C3%A1ninka_language
+  - https://glottolog.org/resource/languoid/id/asha1243
 notes: |
   Campa (Pre-Andine) branch, spoken in the central Peruvian Amazon.

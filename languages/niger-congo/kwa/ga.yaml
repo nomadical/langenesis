@@ -8,7 +8,12 @@ period:
   start_uncertainty: 300
 status: living
 speakers: 750000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 55
+  wiktionary_language: Ga
 sources:
   - https://en.wikipedia.org/wiki/Ga_language
+  - https://glottolog.org/resource/languoid/id/gaaa1244
 notes: |
   Ga-Dangme language spoken around Accra, Ghana.

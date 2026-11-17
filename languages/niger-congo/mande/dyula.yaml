@@ -8,8 +8,13 @@ period:
   start_uncertainty: 100
 status: living
 speakers: 2000000
+endangerment: safe
+vocabulary:
+  wiktionary_lemmas: 69
+  wiktionary_language: Dyula
 sources:
   - https://en.wikipedia.org/wiki/Dyula_language
+  - https://glottolog.org/resource/languoid/id/dyul1238
 notes: |
   Manding trade language of Burkina Faso, Côte d'Ivoire and Mali, highly mutually
   intelligible with Bambara; widely spoken as L2.
