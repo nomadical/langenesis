@@ -1,6 +1,6 @@
 id: jin-chinese
 name: Jin Chinese
-glottocode: jinc1253
+glottocode: jiny1235
 iso639_3: cjy
 parents: [middle-chinese]
 period:
@@ -15,7 +15,6 @@ vocabulary:
   wiktionary_language: Jin
 sources:
   - https://en.wikipedia.org/wiki/Jin_Chinese
-  - https://glottolog.org/resource/languoid/id/jinc1253
   - https://glottolog.org/resource/languoid/id/jiny1235
 notes: |
   Spoken mainly in Shanxi and Inner Mongolia; distinguished by retention of
