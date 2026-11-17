@@ -30,5 +30,8 @@ jobs:
       - name: Data + schema tests
         run: npm test
 
+      - name: Glottocodes exist in Glottolog
+        run: npm run test:glottolog
+
       - name: Production build
         run: npm run build

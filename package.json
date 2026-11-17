@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest run",
+    "test:glottolog": "GLOTTOLOG_CHECK=1 vitest run tests/glottolog.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
