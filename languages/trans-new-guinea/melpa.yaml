@@ -1,6 +1,6 @@
 id: melpa
 name: Melpa
-glottocode: medl1238
+glottocode: melp1238
 iso639_3: med
 parents: [proto-trans-new-guinea]
 period:
@@ -15,7 +15,6 @@ vocabulary:
   wiktionary_language: Melpa
 sources:
   - https://en.wikipedia.org/wiki/Melpa_language
-  - https://glottolog.org/resource/languoid/id/medl1238
   - https://glottolog.org/resource/languoid/id/melp1238
 notes: |
   Chimbu–Wahgi branch; spoken around Mount Hagen in the Western Highlands.

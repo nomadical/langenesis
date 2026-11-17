@@ -1,6 +1,6 @@
 id: tagalog
 name: Tagalog
-glottocode: taga1280
+glottocode: taga1270
 iso639_3: tgl
 parents: [proto-malayo-polynesian]
 period:
@@ -14,7 +14,6 @@ vocabulary:
   wiktionary_language: Tagalog
 sources:
   - https://en.wikipedia.org/wiki/Tagalog_language
-  - https://glottolog.org/resource/languoid/id/taga1280
   - https://glottolog.org/resource/languoid/id/taga1270
 notes: |
   The basis of Filipino, the national language of the Philippines. Earliest
