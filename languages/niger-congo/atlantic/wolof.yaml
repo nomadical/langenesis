@@ -1,6 +1,6 @@
 id: wolof
 name: Wolof
-glottocode: wolo1247
+glottocode: nucl1347
 iso639_3: wol
 parents: [proto-atlantic]
 period:
@@ -15,7 +15,6 @@ vocabulary:
   wiktionary_language: Wolof
 sources:
   - https://en.wikipedia.org/wiki/Wolof_language
-  - https://glottolog.org/resource/languoid/id/wolo1247
   - https://glottolog.org/resource/languoid/id/nucl1347
 notes: |
   North Atlantic (Senegambian) language and main lingua franca of Senegal; roughly

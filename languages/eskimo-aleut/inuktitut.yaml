@@ -1,7 +1,7 @@
 id: inuktitut
 name: Inuktitut
 glottocode: east2534
-iso639_3: iku
+iso639_3: ike
 parents: [proto-inuit]
 period:
   start: 1300

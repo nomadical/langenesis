@@ -1,6 +1,6 @@
 id: igbo
 name: Igbo
-glottocode: igbo1259
+glottocode: nucl1417
 iso639_3: ibo
 parents: [proto-volta-niger]
 period:
@@ -15,7 +15,6 @@ vocabulary:
   wiktionary_language: Igbo
 sources:
   - https://en.wikipedia.org/wiki/Igbo_language
-  - https://glottolog.org/resource/languoid/id/igbo1259
   - https://glottolog.org/resource/languoid/id/nucl1417
 notes: |
   Igboid language of southeastern Nigeria. Intermediate Proto-Igboid stage not tracked.
