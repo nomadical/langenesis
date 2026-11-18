@@ -1,6 +1,6 @@
 id: old-javanese
 name: Old Javanese (Kawi)
-glottocode: oldj1239
+glottocode: kawi1241
 iso639_3: kaw
 parents: [proto-malayo-polynesian]
 period:
@@ -13,7 +13,7 @@ vocabulary:
   wiktionary_language: Old Javanese
 sources:
   - https://en.wikipedia.org/wiki/Old_Javanese
-  - https://glottolog.org/resource/languoid/id/oldj1239
+  - https://glottolog.org/resource/languoid/id/kawi1241
 notes: |
   Earliest dated text is the Sukabumi inscription (804 CE). Heavily Sanskrit-
   influenced literary language of the Kakawin poems; still used in Balinese
