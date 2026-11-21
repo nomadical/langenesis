@@ -2,9 +2,9 @@
 
 **Where did your language come from?** An interactive radial time-tree of the world's languages, rendered as a metro-map.
 
-### [▶ Try it live — nomadical.github.io/langenesis](https://nomadical.github.io/langenesis/)
+### [▶ Try it live — langenesis.nomadic.al](https://langenesis.nomadic.al/)
 
-[![Langenesis showing the lineage of English, from Proto-Indo-European through Old and Middle English](docs/screenshot.png)](https://nomadical.github.io/langenesis/)
+[![Langenesis showing the lineage of English, from Proto-Indo-European through Old and Middle English](docs/screenshot.png)](https://langenesis.nomadic.al/)
 
 [![Validate](https://github.com/nomadical/langenesis/actions/workflows/validate.yml/badge.svg)](https://github.com/nomadical/langenesis/actions/workflows/validate.yml)
 ![Languages](https://img.shields.io/badge/languages-690-4c9aff)

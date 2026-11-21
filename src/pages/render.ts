@@ -16,7 +16,7 @@ import {
 import type { CoreNode, NodeDetails } from "../data/model";
 import { isVirtualRootId, type LoadedData, type TreeNode } from "../data/tree";
 
-export const SITE_URL = "https://nomadical.github.io/langenesis/";
+export const SITE_URL = "https://langenesis.nomadic.al/";
 export const REPO_URL = "https://github.com/nomadical/langenesis";
 
 export interface SiteData {

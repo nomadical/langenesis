@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nomadical.github.io/langenesis/sitemap.xml
+Sitemap: https://langenesis.nomadic.al/sitemap.xml

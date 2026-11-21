@@ -26,7 +26,7 @@ It is also meant as a showcase of rendering a large, dense dataset smoothly in t
 
 ## Operating Context
 
-- Live at https://nomadical.github.io/langenesis/, deployed from `main` to GitHub Pages.
+- Live at https://langenesis.nomadic.al/, deployed from `main` to GitHub Pages.
 - Featured as a project on the author's site, nomadic.al (`src/content/projects/langenesis.md` in the `nomadic-al` repo).
 - Contributions arrive through GitHub pull requests and issue forms (`.github/ISSUE_TEMPLATE/`: add language, correct date, report controversy). CI checks the schema, parent references, cycles and sources.
 
